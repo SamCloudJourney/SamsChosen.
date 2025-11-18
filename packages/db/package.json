@@ -1,0 +1,23 @@
+{
+  "name": "@samchosen/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
+    "seed": "ts-node src/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.12.1"
+  },
+  "devDependencies": {
+    "prisma": "5.12.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5"
+  }
+}
