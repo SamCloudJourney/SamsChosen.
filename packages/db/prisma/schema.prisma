@@ -1,0 +1,131 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  username     String   @unique
+  name         String
+  passwordHash String
+  bio          String?  @db.Text
+  avatarUrl    String?
+  areaCode     String
+  role         Role     @default(USER)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  threads      Thread[]
+  posts        Post[]
+  notifications Notification[]
+  reports      Report[] @relation("ReportReporter")
+  bans         Ban[]
+  refreshTokens RefreshToken[]
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String
+  createdAt   DateTime @default(now())
+  threads     Thread[]
+}
+
+model Thread {
+  id          String   @id @default(cuid())
+  title       String
+  content     String   @db.Text
+  category    Category @relation(fields: [categoryId], references: [id])
+  categoryId  String
+  author      User     @relation(fields: [authorId], references: [id])
+  authorId    String
+  price       Int?
+  location    String?
+  pinned      Boolean  @default(false)
+  locked      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  posts       Post[]
+  reports     Report[] @relation("ReportThread")
+}
+
+model Post {
+  id          String   @id @default(cuid())
+  thread      Thread   @relation(fields: [threadId], references: [id])
+  threadId    String
+  author      User     @relation(fields: [authorId], references: [id])
+  authorId    String
+  content     String   @db.Text
+  parent      Post?    @relation("PostReplies", fields: [parentId], references: [id])
+  parentId    String?
+  replies     Post[]   @relation("PostReplies")
+  mentions    String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  reports     Report[] @relation("ReportPost")
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  type      NotificationType
+  payload   Json
+  readAt    DateTime?
+  createdAt DateTime @default(now())
+}
+
+enum NotificationType {
+  THREAD_REPLY
+  MENTION
+  SYSTEM
+}
+
+model Report {
+  id         String   @id @default(cuid())
+  reporter   User     @relation("ReportReporter", fields: [reporterId], references: [id])
+  reporterId String
+  reason     String
+  status     ReportStatus @default(PENDING)
+  thread     Thread?  @relation("ReportThread", fields: [threadId], references: [id])
+  threadId   String?
+  post       Post?    @relation("ReportPost", fields: [postId], references: [id])
+  postId     String?
+  createdAt  DateTime @default(now())
+  resolvedAt DateTime?
+}
+
+enum ReportStatus {
+  PENDING
+  DISMISSED
+  ACTIONED
+}
+
+model Ban {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  reason    String
+  expiresAt DateTime?
+  createdAt DateTime @default(now())
+}
+
+model RefreshToken {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  revoked   Boolean  @default(false)
+}
