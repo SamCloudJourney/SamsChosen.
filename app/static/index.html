@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamsChosen Bookkeeper</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #232733;
+            --border: #2e3347;
+            --text: #e4e6f0;
+            --text-dim: #8b8fa3;
+            --accent: #6c5ce7;
+            --accent-light: #a29bfe;
+            --green: #00b894;
+            --green-bg: rgba(0,184,148,0.12);
+            --red: #fd7272;
+            --red-bg: rgba(253,114,114,0.12);
+            --yellow: #fdcb6e;
+            --yellow-bg: rgba(253,203,110,0.12);
+            --blue: #74b9ff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* ── Layout ──────────────────────────────── */
+
+        .app {
+            display: grid;
+            grid-template-columns: 240px 1fr;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            padding: 24px 0;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+        }
+
+        .sidebar-logo {
+            padding: 0 24px 24px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 16px;
+        }
+
+        .sidebar-logo h1 {
+            font-size: 18px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sidebar-logo span {
+            font-size: 11px;
+            color: var(--text-dim);
+            display: block;
+            margin-top: 2px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 24px;
+            color: var(--text-dim);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-size: 14px;
+        }
+
+        .nav-item:hover { color: var(--text); background: var(--surface2); }
+        .nav-item.active {
+            color: var(--accent-light);
+            background: rgba(108,92,231,0.1);
+            border-right: 2px solid var(--accent);
+        }
+
+        .nav-icon { font-size: 18px; width: 24px; text-align: center; }
+
+        .main {
+            padding: 32px 40px;
+            max-width: 1200px;
+        }
+
+        .page-header {
+            margin-bottom: 32px;
+        }
+
+        .page-header h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .page-header p { color: var(--text-dim); font-size: 14px; }
+
+        /* ── Cards ───────────────────────────────── */
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .stat-sub {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-top: 4px;
+        }
+
+        .stat-value.income { color: var(--green); }
+        .stat-value.expense { color: var(--red); }
+        .stat-value.tax { color: var(--yellow); }
+        .stat-value.profit { color: var(--blue); }
+
+        /* ── Two-column layout ───────────────────── */
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 24px;
+        }
+
+        .panel {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .panel-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .panel-header h3 { font-size: 15px; font-weight: 600; }
+
+        .panel-body { padding: 0; }
+
+        /* ── Transaction List ────────────────────── */
+
+        .txn-row {
+            display: grid;
+            grid-template-columns: 100px 1fr 140px 120px;
+            align-items: center;
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border);
+            font-size: 13px;
+            transition: background 0.1s;
+        }
+
+        .txn-row:hover { background: var(--surface2); }
+        .txn-row:last-child { border-bottom: none; }
+
+        .txn-date { color: var(--text-dim); }
+        .txn-desc { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        .txn-category {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .cat-travel { background: rgba(116,185,255,0.15); color: var(--blue); }
+        .cat-office_costs { background: rgba(162,155,254,0.15); color: var(--accent-light); }
+        .cat-advertising { background: rgba(253,203,110,0.15); color: var(--yellow); }
+        .cat-premises { background: rgba(0,184,148,0.15); color: var(--green); }
+        .cat-financial_charges { background: rgba(253,114,114,0.15); color: var(--red); }
+        .cat-other_expenses { background: rgba(139,143,163,0.15); color: var(--text-dim); }
+        .cat-turnover { background: var(--green-bg); color: var(--green); }
+        .cat-uncategorised { background: rgba(253,114,114,0.1); color: var(--red); border: 1px dashed var(--red); }
+        .cat-staff_costs { background: rgba(253,203,110,0.15); color: var(--yellow); }
+        .cat-cost_of_goods { background: rgba(116,185,255,0.15); color: var(--blue); }
+        .cat-repairs { background: rgba(162,155,254,0.15); color: var(--accent-light); }
+
+        .txn-amount {
+            text-align: right;
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .txn-amount.positive { color: var(--green); }
+        .txn-amount.negative { color: var(--text); }
+
+        /* ── Tax Breakdown ───────────────────────── */
+
+        .tax-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tax-row:last-child { border-bottom: none; }
+        .tax-row.total {
+            font-weight: 700;
+            font-size: 15px;
+            background: var(--surface2);
+            padding: 14px 20px;
+        }
+
+        .tax-row .label { color: var(--text-dim); }
+        .tax-row .value { font-variant-numeric: tabular-nums; }
+        .tax-row.total .value { color: var(--yellow); }
+
+        /* ── Category Breakdown ──────────────────── */
+
+        .cat-bar-row {
+            padding: 10px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .cat-bar-row:last-child { border-bottom: none; }
+
+        .cat-bar-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+
+        .cat-bar-header .cat-name { text-transform: capitalize; }
+        .cat-bar-header .cat-amount { font-variant-numeric: tabular-nums; color: var(--text-dim); }
+
+        .cat-bar {
+            height: 6px;
+            background: var(--surface2);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .cat-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: var(--accent);
+            transition: width 0.5s ease;
+        }
+
+        /* ── Alerts ──────────────────────────────── */
+
+        .alert {
+            padding: 14px 20px;
+            border-radius: 10px;
+            font-size: 13px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .alert-info { background: rgba(108,92,231,0.1); border: 1px solid rgba(108,92,231,0.3); }
+        .alert-warn { background: var(--yellow-bg); border: 1px solid rgba(253,203,110,0.3); }
+        .alert-success { background: var(--green-bg); border: 1px solid rgba(0,184,148,0.3); }
+
+        .alert-icon { font-size: 18px; }
+
+        /* ── Obligation Timeline ─────────────────── */
+
+        .obligation {
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .obligation:last-child { border-bottom: none; }
+
+        .obl-period { font-size: 13px; font-weight: 500; }
+        .obl-due { font-size: 12px; color: var(--text-dim); }
+
+        .obl-status {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .obl-status.open { background: var(--yellow-bg); color: var(--yellow); }
+        .obl-status.fulfilled { background: var(--green-bg); color: var(--green); }
+
+        /* ── Set Aside ───────────────────────────── */
+
+        .set-aside-box {
+            text-align: center;
+            padding: 24px 20px;
+        }
+
+        .set-aside-amount {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--accent-light);
+            margin: 8px 0;
+        }
+
+        .set-aside-label {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        /* ── Connection Status ───────────────────── */
+
+        .connection {
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .connection:last-child { border-bottom: none; }
+
+        .conn-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .conn-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+        }
+
+        .conn-dot.connected { background: var(--green); }
+        .conn-dot.disconnected { background: var(--red); }
+
+        .conn-btn {
+            padding: 6px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--surface2);
+            color: var(--text);
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .conn-btn:hover { border-color: var(--accent); color: var(--accent-light); }
+
+        /* ── Responsive ──────────────────────────── */
+
+        @media (max-width: 1100px) {
+            .content-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .app { grid-template-columns: 1fr; }
+            .sidebar { display: none; }
+            .main { padding: 20px; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+            .txn-row { grid-template-columns: 80px 1fr 100px; }
+            .txn-category { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <h1>SamsChosen</h1>
+                <span>Bookkeeper &middot; MTD Ready</span>
+            </div>
+            <div class="nav-item active" data-page="dashboard">
+                <span class="nav-icon">&#9632;</span> Dashboard
+            </div>
+            <div class="nav-item" data-page="transactions">
+                <span class="nav-icon">&#8644;</span> Transactions
+            </div>
+            <div class="nav-item" data-page="tax">
+                <span class="nav-icon">&#163;</span> Tax
+            </div>
+            <div class="nav-item" data-page="settings">
+                <span class="nav-icon">&#9881;</span> Settings
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main" id="main-content">
+            <div class="page-header">
+                <h2>Dashboard</h2>
+                <p>Tax year 2025-26 &middot; Overview</p>
+            </div>
+
+            <!-- Loading state -->
+            <div id="loading" style="text-align:center; padding:60px; color:var(--text-dim);">
+                Loading...
+            </div>
+
+            <!-- Dashboard content (hidden until loaded) -->
+            <div id="dashboard" style="display:none;">
+
+                <!-- Alerts -->
+                <div id="alerts"></div>
+
+                <!-- Stats -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Total Income</div>
+                        <div class="stat-value income" id="stat-income">--</div>
+                        <div class="stat-sub" id="stat-income-sub"></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Total Expenses</div>
+                        <div class="stat-value expense" id="stat-expenses">--</div>
+                        <div class="stat-sub" id="stat-expense-sub"></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Net Profit</div>
+                        <div class="stat-value profit" id="stat-profit">--</div>
+                        <div class="stat-sub" id="stat-profit-sub"></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Estimated Tax</div>
+                        <div class="stat-value tax" id="stat-tax">--</div>
+                        <div class="stat-sub" id="stat-tax-sub"></div>
+                    </div>
+                </div>
+
+                <!-- Two columns -->
+                <div class="content-grid">
+                    <!-- Left: Transactions -->
+                    <div class="panel">
+                        <div class="panel-header">
+                            <h3>Recent Transactions</h3>
+                            <span style="color:var(--text-dim);font-size:12px;" id="txn-count"></span>
+                        </div>
+                        <div class="panel-body" id="txn-list"></div>
+                    </div>
+
+                    <!-- Right: Sidebar panels -->
+                    <div>
+                        <!-- Set Aside -->
+                        <div class="panel" style="margin-bottom:16px;">
+                            <div class="panel-header"><h3>Monthly Set Aside</h3></div>
+                            <div class="set-aside-box">
+                                <div class="set-aside-label">Put this aside each month for tax</div>
+                                <div class="set-aside-amount" id="set-aside">--</div>
+                                <div class="set-aside-label">to cover your January bill</div>
+                            </div>
+                        </div>
+
+                        <!-- Tax Breakdown -->
+                        <div class="panel" style="margin-bottom:16px;">
+                            <div class="panel-header"><h3>Tax Breakdown</h3></div>
+                            <div class="panel-body" id="tax-breakdown"></div>
+                        </div>
+
+                        <!-- Expense Categories -->
+                        <div class="panel" style="margin-bottom:16px;">
+                            <div class="panel-header"><h3>Expenses by Category</h3></div>
+                            <div class="panel-body" id="cat-breakdown"></div>
+                        </div>
+
+                        <!-- MTD Obligations -->
+                        <div class="panel" style="margin-bottom:16px;">
+                            <div class="panel-header"><h3>MTD Obligations</h3></div>
+                            <div class="panel-body" id="obligations"></div>
+                        </div>
+
+                        <!-- Connections -->
+                        <div class="panel">
+                            <div class="panel-header"><h3>Connections</h3></div>
+                            <div class="panel-body" id="connections"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const API = '';
+        let USER_ID = null;
+
+        // ── Formatters ──────────────────────────────
+        const fmt = (n) => {
+            const num = parseFloat(n) || 0;
+            return '£' + num.toLocaleString('en-GB', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        };
+
+        const fmtDate = (d) => {
+            const dt = new Date(d);
+            return dt.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
+        };
+
+        const catClass = (cat) => 'cat-' + (cat || 'uncategorised').replace(/ /g, '_');
+
+        const catLabel = (cat) => (cat || 'uncategorised').replace(/_/g, ' ');
+
+        // ── API calls ───────────────────────────────
+        async function api(path) {
+            const r = await fetch(API + path);
+            if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+            return r.json();
+        }
+
+        // ── Render ──────────────────────────────────
+        async function loadDashboard() {
+            try {
+                // Get or create demo user
+                let user;
+                try {
+                    const res = await fetch(API + '/api/users', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            email: 'demo@samschosen.co.uk',
+                            password: 'demo',
+                            full_name: 'Demo User'
+                        })
+                    });
+                    user = await res.json();
+                    if (!user.id) throw new Error('no id');
+                } catch {
+                    // User might already exist, try to seed
+                    const seedRes = await fetch(API + '/api/demo/seed', { method: 'POST' });
+                    const seedData = await seedRes.json();
+                    USER_ID = seedData.user_id;
+                    user = await api('/api/users/' + USER_ID);
+                }
+                USER_ID = user.id;
+
+                // Seed if fresh user
+                try {
+                    await fetch(API + '/api/demo/seed', { method: 'POST' });
+                } catch {}
+
+                // Load data
+                const [txns, summary, tax] = await Promise.all([
+                    api(`/api/transactions/${USER_ID}`),
+                    api(`/api/transactions/${USER_ID}/summary`),
+                    api(`/api/tax/estimate/${USER_ID}`),
+                ]);
+
+                // Stats
+                document.getElementById('stat-income').textContent = fmt(summary.total_income);
+                document.getElementById('stat-income-sub').textContent = `${txns.filter(t => parseFloat(t.amount) > 0).length} payments received`;
+                document.getElementById('stat-expenses').textContent = fmt(summary.total_expenses);
+                document.getElementById('stat-expense-sub').textContent = `across ${Object.keys(summary.expenses_by_category).length} categories`;
+                document.getElementById('stat-profit').textContent = fmt(summary.net_profit);
+                document.getElementById('stat-profit-sub').textContent = `${parseFloat(tax.effective_rate).toFixed(1)}% effective tax rate`;
+                document.getElementById('stat-tax').textContent = fmt(tax.total_tax_due);
+                document.getElementById('stat-tax-sub').textContent = `Income tax + NICs`;
+
+                // Set aside
+                document.getElementById('set-aside').textContent = fmt(tax.suggested_monthly_set_aside);
+
+                // Alerts
+                const alertsHtml = [];
+                if (summary.uncategorised_count > 0) {
+                    alertsHtml.push(`<div class="alert alert-warn"><span class="alert-icon">!</span> ${summary.uncategorised_count} transaction${summary.uncategorised_count > 1 ? 's' : ''} need${summary.uncategorised_count === 1 ? 's' : ''} categorising</div>`);
+                }
+                if (tax.approaching_vat_threshold) {
+                    alertsHtml.push(`<div class="alert alert-warn"><span class="alert-icon">!</span> You're approaching the VAT registration threshold (£90,000)</div>`);
+                }
+                if (!user.hmrc_connected) {
+                    alertsHtml.push(`<div class="alert alert-info"><span class="alert-icon">i</span> Connect HMRC to submit quarterly updates &mdash; MTD for Income Tax is mandatory from April 2026</div>`);
+                }
+                document.getElementById('alerts').innerHTML = alertsHtml.join('');
+
+                // Transactions
+                document.getElementById('txn-count').textContent = `${txns.length} transactions`;
+                const txnHtml = txns.slice(0, 20).map(t => {
+                    const amt = parseFloat(t.amount);
+                    const isPositive = amt > 0;
+                    return `<div class="txn-row">
+                        <span class="txn-date">${fmtDate(t.transaction_date)}</span>
+                        <span class="txn-desc">${t.description}</span>
+                        <span class="txn-category ${catClass(t.category)}">${catLabel(t.category)}</span>
+                        <span class="txn-amount ${isPositive ? 'positive' : 'negative'}">${isPositive ? '+' : '-'}${fmt(Math.abs(amt))}</span>
+                    </div>`;
+                }).join('');
+                document.getElementById('txn-list').innerHTML = txnHtml || '<div style="padding:20px;color:var(--text-dim);text-align:center;">No transactions yet</div>';
+
+                // Tax breakdown
+                const taxRows = [
+                    ['Gross Income', fmt(tax.gross_income)],
+                    ['Expenses', '-' + fmt(tax.total_expenses)],
+                    ['Net Profit', fmt(tax.net_profit)],
+                    ['Personal Allowance', '-' + fmt(tax.personal_allowance)],
+                    ['Taxable Income', fmt(tax.taxable_income)],
+                    ['Basic Rate (20%)', fmt(tax.basic_rate_tax)],
+                    ['Higher Rate (40%)', fmt(tax.higher_rate_tax)],
+                    ['Class 2 NIC', fmt(tax.class_2_nic)],
+                    ['Class 4 NIC', fmt(tax.class_4_nic)],
+                ];
+                let taxHtml = taxRows.map(([l, v]) =>
+                    `<div class="tax-row"><span class="label">${l}</span><span class="value">${v}</span></div>`
+                ).join('');
+                taxHtml += `<div class="tax-row total"><span class="label">Total Tax Due</span><span class="value">${fmt(tax.total_tax_due)}</span></div>`;
+                document.getElementById('tax-breakdown').innerHTML = taxHtml;
+
+                // Category breakdown
+                const cats = Object.entries(summary.expenses_by_category).sort((a, b) => parseFloat(b[1]) - parseFloat(a[1]));
+                const maxCat = cats.length > 0 ? parseFloat(cats[0][1]) : 1;
+                const catHtml = cats.map(([cat, amount]) => {
+                    const pct = (parseFloat(amount) / maxCat * 100).toFixed(0);
+                    return `<div class="cat-bar-row">
+                        <div class="cat-bar-header">
+                            <span class="cat-name">${catLabel(cat)}</span>
+                            <span class="cat-amount">${fmt(amount)}</span>
+                        </div>
+                        <div class="cat-bar"><div class="cat-bar-fill" style="width:${pct}%"></div></div>
+                    </div>`;
+                }).join('');
+                document.getElementById('cat-breakdown').innerHTML = catHtml || '<div style="padding:20px;color:var(--text-dim);text-align:center;">No expenses yet</div>';
+
+                // Obligations (demo)
+                const oblHtml = [
+                    { period: 'Q1: 6 Apr - 5 Jul', due: 'Due: 5 Aug 2026', status: 'open' },
+                    { period: 'Q2: 6 Jul - 5 Oct', due: 'Due: 5 Nov 2026', status: 'open' },
+                    { period: 'Q3: 6 Oct - 5 Jan', due: 'Due: 5 Feb 2027', status: 'open' },
+                    { period: 'Q4: 6 Jan - 5 Apr', due: 'Due: 5 May 2027', status: 'open' },
+                ].map(o => `<div class="obligation">
+                    <div>
+                        <div class="obl-period">${o.period}</div>
+                        <div class="obl-due">${o.due}</div>
+                    </div>
+                    <span class="obl-status ${o.status}">${o.status}</span>
+                </div>`).join('');
+                document.getElementById('obligations').innerHTML = oblHtml;
+
+                // Connections
+                const connHtml = `
+                    <div class="connection">
+                        <div class="conn-name"><span class="conn-dot ${user.bank_connected ? 'connected' : 'disconnected'}"></span> Bank Account</div>
+                        <button class="conn-btn">${user.bank_connected ? 'Connected' : 'Connect'}</button>
+                    </div>
+                    <div class="connection">
+                        <div class="conn-name"><span class="conn-dot ${user.hmrc_connected ? 'connected' : 'disconnected'}"></span> HMRC MTD</div>
+                        <button class="conn-btn">${user.hmrc_connected ? 'Connected' : 'Connect'}</button>
+                    </div>
+                `;
+                document.getElementById('connections').innerHTML = connHtml;
+
+                // Show dashboard
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('dashboard').style.display = 'block';
+
+            } catch (e) {
+                console.error(e);
+                document.getElementById('loading').innerHTML = `<div style="color:var(--red);">Error loading dashboard: ${e.message}</div>`;
+            }
+        }
+
+        // Nav
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+
+        loadDashboard();
+    </script>
+</body>
+</html>
