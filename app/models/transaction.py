@@ -57,7 +57,7 @@ SA103_BOX_MAP: dict[SA103Category, int | None] = {
 }
 
 
-class Transaction(Base, TimestampMixin):
+class BankTransaction(Base, TimestampMixin):
     __tablename__ = "transactions"
 
     id: Mapped[str] = mapped_column(String(32), primary_key=True, default=new_id)

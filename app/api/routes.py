@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import get_db
 from app.integrations.hmrc import hmrc_client
 from app.integrations.truelayer import truelayer_client
-from app.models.transaction import SA103Category, Transaction, TransactionType
+from app.models.transaction import SA103Category, BankTransaction as Transaction, TransactionType
 from app.models.user import User
 from app.services.categoriser import categorise_transaction
 from app.services.tax_calculator import compute_tax
@@ -64,7 +64,7 @@ def _tax_quarter_for_date(d: date) -> int:
 @router.post("/users", response_model=UserResponse)
 async def create_user(body: UserCreate, db: AsyncSession = Depends(get_db)):
     """Register a new sole trader / freelancer."""
-    from passlib.hash import bcrypt
+    import hashlib
 
     existing = await db.execute(select(User).where(User.email == body.email))
     if existing.scalar_one_or_none():
@@ -72,7 +72,7 @@ async def create_user(body: UserCreate, db: AsyncSession = Depends(get_db)):
 
     user = User(
         email=body.email,
-        hashed_password=bcrypt.hash(body.password),
+        hashed_password=hashlib.sha256(body.password.encode()).hexdigest(),
         full_name=body.full_name,
     )
     db.add(user)

@@ -31,7 +31,7 @@ class User(Base, TimestampMixin):
     vat_registered: Mapped[bool] = mapped_column(Boolean, default=False)
     home_office_hours_per_month: Mapped[int | None] = mapped_column()
 
-    transactions: Mapped[list["Transaction"]] = relationship(back_populates="user")  # noqa: F821
+    transactions: Mapped[list["BankTransaction"]] = relationship(back_populates="user")  # noqa: F821
 
     def __repr__(self) -> str:
         return f"<User {self.email}>"
