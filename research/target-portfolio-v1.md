@@ -7,7 +7,7 @@ _Informational, not advice. Reflects the owner's decisions after: 90 finder-lane
 - ✅ **Sofina → Eurofins (ERF)** — drop the most-redundant 3rd holdco (behind EXOR + Investor AB) for a founder-controlled (Martin ~66% votes) TIC/testing compounder in a sector the book lacked; ~9x EV/EBITDA, 2027–28 FCF inflection, Muddy Waters overhang defused by the Sept-2025 €443m related-party buy-in. Euronext Paris. Strongest swap in adversarial validation.
 
 ## Confirmed KEEPS (challenged and survived)
-- ✅ **Keep iShares MSCI India UCITS ETF** (now 7%) — the book's ONLY genuine diversifier. Adjudicated VS dLocal: swapping it would destroy diversification AND not even deliver India (dLocal ~7% Asia/Africa, mostly LatAm). Nudged +1% (from the Vitec cut) to reinforce the uncorrelated sleeve. (IBN/Kaspi = view-only ADRs, un-buyable; OTCM abandons EM — both off.)
+- ✅ **Keep iShares MSCI India UCITS ETF** (6%) — the book's ONLY genuine diversifier. Adjudicated VS dLocal: swapping it would destroy diversification AND not even deliver India (dLocal ~7% Asia/Africa, mostly LatAm). (IBN/Kaspi = view-only ADRs, un-buyable; OTCM abandons EM — both off.) _(Owner's final sizing: dLocal 6% / India 6% — the clean 1-for-1 of the Vitec slot.)_
 - ✅ **Keep Bioventix** — adjudicated 1st vs CellaVision & Tristel: highest quality (~78% op margin, ~67% ROE), ~19x + 5%+ yield (paid to wait), free Alzheimer's/Tau option. CellaVision = best business but CFD-only on T212 (un-investable in an ISA); Tristel = quality/alignment downgrade (US still ~0.2% of revenue after 2 FDA clearances).
 - ✅ **Keep Sartorius** (don't sell at the bioprocessing-cycle trough), **VinaCapital Vietnam** (wait past the Sept-2026 FTSE EM upgrade), and the untouchable compounder core.
 
@@ -21,9 +21,9 @@ _Informational, not advice. Reflects the owner's decisions after: 90 finder-lane
 | 5 | Veralto | VLTO | 8% | keep |
 | 6 | EXOR | EXO | 8% | keep |
 | 7 | Investor AB | INVE-B | 7% | keep |
-| 8 | **dLocal** | **DLO** | 5% | **NEW** (← Vitec Software) |
+| 8 | **dLocal** | **DLO** | 6% | **NEW** (← Vitec Software) |
 | 9 | Sartorius Stedim | DIM | 6% | keep |
-| 10 | iShares MSCI India UCITS ETF | NDIA | 7% | keep (+1% from Vitec) |
+| 10 | iShares MSCI India UCITS ETF | NDIA | 6% | keep |
 | 11 | Eckert & Ziegler | EUZ | 5% | keep |
 | 12 | Secunet | YSN | 4% | keep |
 | 13 | Bioventix | BVXP | 4% | keep |

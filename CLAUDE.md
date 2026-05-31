@@ -20,8 +20,8 @@ Every recommendable name MUST be buyable in the owner's **UK Trading 212 Stocks 
 - Still excluded: NSE/BSE India, most Tokyo-only, Korea-only, Taiwan-only, TSX/TSXV-only, OTC/pink.
 - Consequence: the India slot stays the **iShares MSCI India UCITS ETF** (buyable) — the IBN "upgrade" is blocked by view-only status. Polycab/CDSL (NSE) also unavailable.
 
-## Current portfolio (the 15)
-Constellation Software 12%, ATOSS Software 9%, Topicus 9%, Bachem 9%, Veralto 8%, EXOR 8%, Investor AB 7%, Vitec 6%, Sartorius Stedim 6%, iShares MSCI India 6%, Eckert & Ziegler 5%, Secunet 4%, Bioventix 4%, VinaCapital Vietnam 4%, Sofina 3%. (Keep exactly 15; any new pick must be good enough to replace one — but that's a *later* decision.)
+## Current portfolio (the 15) — Future Fund (Final Intentional Version), 2026-05-31
+Constellation Software 12%, ATOSS Software 9%, Bachem 9%, Topicus 9%, EXOR 8%, Veralto 8%, Investor AB 7%, **dLocal 6%**, iShares MSCI India UCITS ETF 6%, Sartorius Stedim 6%, Eckert & Ziegler 5%, Bioventix 4%, Secunet 4%, VinaCapital Vietnam 4%, **Eurofins 3%**. (Exactly 15.) _Two changes from the original book after the full research pipeline: **Vitec → dLocal** and **Sofina → Eurofins**. Canonical: `portfolio.md`._
 
 ## Repo structure
 - `portfolio.md` — the holdings.
