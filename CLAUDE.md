@@ -10,6 +10,15 @@ Build the deepest possible research base of **under-the-radar "hidden gem" stock
 - **"Behind-the-scenes, indispensable, Micron/AMD-years-early"** — businesses that are picks-and-shovels into structural/future waves, before the crowd knows.
 - Real moats, real economics, founder/family alignment preferred. No geographic limits.
 - **This is a research-accumulation mission, not a decision mission yet.** Keep ADDING — more picks, more gems, more finder-lanes, more rankings. Pick decisions come *later*.
+- **"Next Vista" sub-theme:** alongside quality compounders, hunt the *early-stage asymmetric* pattern — Vista Energy (VIST) is up ~3000% because it was a real, low-cost, cash-generating, founder-led operator bought small before the crowd. We want that **at the $10/5-years-early stage**: real business + structural wave + genuine 10x with a real downside floor (NOT pre-revenue lottery tickets).
+
+## HARD CONSTRAINT — UK Stocks & Shares ISA buyability (Trading 212)
+Every recommendable name MUST be buyable in the owner's **UK Trading 212 Stocks & Shares ISA**. Confirmed empirically:
+- **US-listed ADRs are often "VIEW ONLY"** (UK PRIIPs/KID rule) — e.g. **ICICI Bank (IBN)** and **Kaspi (KSPI)** are view-only / NOT buyable. Treat ADR-only EM names as likely unavailable; flag, don't recommend.
+- **US-domiciled ETFs are "view only"** in a UK ISA (no KID). Use UCITS versions (LSE) instead.
+- **Individual common stocks are generally fine** on NYSE/Nasdaq, LSE, Euronext, Xetra, Borsa Italiana, Oslo, Nasdaq Nordic, SIX (where T212 supports). Vista (VIST, NYSE common) IS buyable.
+- Still excluded: NSE/BSE India, most Tokyo-only, Korea-only, Taiwan-only, TSX/TSXV-only, OTC/pink.
+- Consequence: the India slot stays the **iShares MSCI India UCITS ETF** (buyable) — the IBN "upgrade" is blocked by view-only status. Polycab/CDSL (NSE) also unavailable.
 
 ## Current portfolio (the 15)
 Constellation Software 12%, ATOSS Software 9%, Topicus 9%, Bachem 9%, Veralto 8%, EXOR 8%, Investor AB 7%, Vitec 6%, Sartorius Stedim 6%, iShares MSCI India 6%, Eckert & Ziegler 5%, Secunet 4%, Bioventix 4%, VinaCapital Vietnam 4%, Sofina 3%. (Keep exactly 15; any new pick must be good enough to replace one — but that's a *later* decision.)

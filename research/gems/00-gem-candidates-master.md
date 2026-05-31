@@ -200,3 +200,29 @@ The data points to a clean way to **upgrade the book to "best-15" while fixing t
 3. **Optional quality upgrades within clusters** (only if conviction is deliberate): **DISCO** or **Hansol** in place of **Sartorius**; **LeMaitre** or **Hamamatsu** in place of **Bioventix**; **Advenica** alongside/﻿in place of **Secunet**; **Eurofins/Aurubis** in place of a **holdco** (Sofina/EXOR/Investor AB).
 
 The recurring theme: the gems that score highest *also* happen to fix the EUR-heavy, no-ballast, no-financials, no-US problems — DISCO/Lasertec/Hamamatsu (Japan), OTC Markets/Vicor/Kinsale/IBP (US), Topaz/PrairieSky (energy), Aurubis (copper), Quálitas (LatAm financials).
+
+---
+
+## WAVE 4 — "NEXT VISTA" early-stage asymmetric (lanes 81–90, UK-ISA-buyable only) [2026-05-31]
+_Full reports: PART 8 of `research/00-UNIFIED-RESEARCH-DOSSIER.md`. Filter: real business + structural wave + founder/insider alignment + real downside floor + buyable in a UK Trading 212 S&S ISA (no view-only ADRs/US-ETFs)._
+
+| Lane | Name | Ticker/venue | ~Mktcap | Conv | Note |
+|---|---|---|---|---|---|
+| Defense | Frequentis | FQT (Xetra/Vienna) | ~€0.9B | 4/5 | Family ~68%; air-defense/ATC/C-UAS comms backbone; cheap; standout |
+| Grid | Volex | VLX (LSE/AIM) | ~£1.2B | 4/5 | Rothschild ~25%; datacenter-power cabling +80%; ~8x EV/EBITDA |
+| Fintech | Lion Finance (Bank of Georgia) | BGEO (LSE) | ~£4B | 4/5 | 27% ROE super-app duopoly at ~3.3x P/E; buyable "Kaspi pattern" |
+| Fintech | dLocal | DLO (Nasdaq common) | ~$3.9B | 4/5 | Founders >45%; EM payments tollbooth; +60% TPV; on T212 |
+| Crit. minerals | Almonty | ALM (Nasdaq common) | ~$5B | 4/5 | Largest Western tungsten producer; cash-positive; defense offtake floor |
+| Nuclear | Centrus | LEU (NYSE common) | ~$3.7B | 4/5 | Only US enrichment + HALEU; ~$2B cash floor; $3.8B backlog |
+| Shipping | StealthGas | GASS (Nasdaq common) | ~$0.36B | 4/5 | Net-cash, ~0.4x book, Vafias ~32%; pressurized-LPG niche |
+| Medtech | Tristel | TSTL (AIM) | ~£0.18B | 4/5 | 98%-consumable, 81% GM, net cash, divi; US catalyst |
+| Medtech | CellaVision | CEVI (Stockholm) | ~SEK3.5B | 4/5 | >80% digital-morphology share; Sysmex lock-in to 2038 |
+| Robotics | Basler | BSL (Xetra) | ~€0.5B | 4/5 | Founder ~53%, near-net-cash, machine-vision, cyclical-trough entry |
+| AI infra | Camtek | CAMT (Nasdaq common) | ~$5-6B | 3.5/5 | HBM4/advanced-packaging metrology reference tool; 51% GM, net cash |
+| Energy | Panoro Energy | PEN (Oslo) | ~£0.34B | 4/5 | <$10/bbl W.Africa offshore; FCF+; closest analogue to Vista |
+| Energy | Arrow Exploration | AXL (AIM) | ~£46m | 3.5/5 | Truest "$10/5-yrs-early" micro-cap; serial-builder CEO; →10k boe/d |
+| Crit. minerals | Larvotto | LRV (ASX—verify T212) | ~A$0.5B | 3.5/5 | Near-production antimony+gold; offtake; highest raw asymmetry |
+| Nuclear | Energy Fuels | UUUU (NYSE Amer.) | ~$4.5B | 3.5/5 | Only US monazite/heavy-REE mill + uranium FCF floor |
+| Defense | Cohort | CHRT (AIM) | ~£0.58B | 4/5 | UK defense-electronics roll-up; record backlog; founder-chaired |
+
+**View-only / rejected by the ISA filter (record):** Kaspi (KSPI), ICICI/HDFC ADRs, DroneShield (ASX/OTC), Neo Performance (TSX), Hammond Power (TSX), the Tokyo precision-reducer complex (Harmonic Drive/Nabtesco/Keyence/THK), Helsing/Tekever/Quantum-Systems (private).
