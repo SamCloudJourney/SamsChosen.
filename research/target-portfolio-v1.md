@@ -1,24 +1,15 @@
-# Target Portfolio v1 — confirmed swaps (2026-05-31)
+# Target Portfolio v2 — FINAL (2026-05-31)
 
-_Informational, not advice. Reflects the owner's decisions after adversarial validation + the aggressive-growth expert wave + Trading-212 availability. The book stays at exactly 15._
+_Informational, not advice. Reflects the owner's decisions after: 90 finder-lanes → 38 bull/bear validators → 2 head-to-head adjudications (PART 9 & 10 of the dossier) + Trading-212 UK-ISA availability. The book stays at exactly 15._
 
-## The decisive finding that reshaped the India slot
-The aggressive-growth expert wave (7 independent Opus experts + a dedicated risk-manager) reached a clear verdict, corroborated by the book's own `concentration-correlation-stress-test.md`:
+## Confirmed changes (2 swaps)
+- ✅ **Vitec Software → dLocal (DLO)** — fund the new EM-payments-rails name from the **over-crowded VMS cluster, NOT from India** (exactly as the India-vs-dLocal deep-dive prescribed). Vitec is the smallest, most-redundant VMS name (Constellation + Topicus already give deep serial-acquirer exposure; ~21% is one CSU ecosystem). Cutting it takes the VMS cluster **36% → 30%** and *raises* effective-bets. dLocal: Nasdaq **common** (not ADR), founders >45%, FY25 net income $197m (+63%), adj FCF $191m (97% conversion), net cash, cheap (~17x EV/FCF); the 2022 Muddy Waters case was **dismissed and upheld on appeal (Apr 2026)**. Fills the fintech/payments-rails blind spot. **Live monitoring item: net take-rate decline** (2026 guide TPV +50-60% vs gross profit +22.5-27.5%) — watch quarterly for convergence. Sized 5% (single volatile EM name → below a full 6%).
+- ✅ **Sofina → Eurofins (ERF)** — drop the most-redundant 3rd holdco (behind EXOR + Investor AB) for a founder-controlled (Martin ~66% votes) TIC/testing compounder in a sector the book lacked; ~9x EV/EBITDA, 2027–28 FCF inflection, Muddy Waters overhang defused by the Sept-2025 €443m related-party buy-in. Euronext Paris. Strongest swap in adversarial validation.
 
-> **The India/EM-Asia sleeve is the portfolio's ONLY genuine diversifier** — uncorrelated to the ~75%-one-factor European-quality-growth core. Spending it on a single aggressive name = selling the only insurance to buy more of the factor you already own three-quarters of. Most aggressive candidates (Tempus, AEHR, Hesai) load onto the *same* growth/AI factor, so they *reduce* diversification while adding single-point-of-failure risk.
-
-**So the originally-pencilled India → OTCM swap is reversed.** OTCM would zero out the EM/India diversifier entirely — exactly the wrong trade for the one uncorrelated sleeve. The owner's own lean ("emerging markets from INDIA comes from that over OTC") agrees. Keep India; upgrade *how* it's held.
-
-## ⚠️ AVAILABILITY UPDATE (2026-05-31, post-decision) — IBN is BLOCKED
-The owner confirmed **ICICI Bank (IBN) and Kaspi (KSPI) are "VIEW ONLY"** in his UK Trading 212 Stocks & Shares ISA (UK PRIIPs/KID rule blocks most US-listed ADRs + US ETFs). So the "upgrade India to a single name" path is **not executable**: IBN out, and Polycab/CDSL (NSE) were already unavailable.
-**→ India slot stays the iShares MSCI India UCITS ETF (LSE, buyable).** It keeps the only genuine diversifier; we simply can't upgrade the *instrument* within ISA rules. Eurofins (Euronext common stock) remains buyable and confirmed. See `CLAUDE.md` "HARD CONSTRAINT — UK ISA buyability".
-
-## Decisions
-- ✅ **Keep iShares MSCI India UCITS ETF** — keeps the EM/India diversifier (the book's only uncorrelated sleeve). The intended IBN upgrade is **blocked (view-only ADR)**; no T212-ISA-buyable India single-name clearly beats the ETF, so the passive sleeve is retained. _(Superseded: the earlier India→OTCM and India→IBN ideas are both off — OTCM abandons the diversifier; IBN isn't buyable.)_
-- ✅ **Sofina → Eurofins (ERF)** — drop the most-redundant 3rd holdco (behind EXOR + Investor AB) for a founder-controlled (Martin ~66% votes) TIC/testing compounder in a sector the book lacked; ~9x EV/EBITDA (~20% discount to peers), 2027–28 FCF inflection, governance overhang defused by the Sept-2025 €443m related-party real-estate buy-in (95.6% minority approval). On Trading 212 (Euronext Paris). Strongest swap in validation.
-- ❌ **Bioventix → LeMaitre** — rejected: LMAT too expensive (~39x / ~47% above DCF). Keep Bioventix (hold for the Alzheimer's/Tau optionality + ~9% yield).
-- ❌ **Sartorius → DISCO** — rejected: DISCO not available on Trading 212 (Tokyo-listed). Keep Sartorius (validation: don't sell at the bioprocessing-cycle trough — recovering, +9.6% cc 2025).
-- ❌ **VinaCapital Vietnam → Topaz** — rejected (owner pass; also TSX/not T212). Keep VOF (validation: wait past the confirmed Sept-2026 FTSE EM upgrade, ~$6bn passive inflows).
+## Confirmed KEEPS (challenged and survived)
+- ✅ **Keep iShares MSCI India UCITS ETF** (now 7%) — the book's ONLY genuine diversifier. Adjudicated VS dLocal: swapping it would destroy diversification AND not even deliver India (dLocal ~7% Asia/Africa, mostly LatAm). Nudged +1% (from the Vitec cut) to reinforce the uncorrelated sleeve. (IBN/Kaspi = view-only ADRs, un-buyable; OTCM abandons EM — both off.)
+- ✅ **Keep Bioventix** — adjudicated 1st vs CellaVision & Tristel: highest quality (~78% op margin, ~67% ROE), ~19x + 5%+ yield (paid to wait), free Alzheimer's/Tau option. CellaVision = best business but CFD-only on T212 (un-investable in an ISA); Tristel = quality/alignment downgrade (US still ~0.2% of revenue after 2 FDA clearances).
+- ✅ **Keep Sartorius** (don't sell at the bioprocessing-cycle trough), **VinaCapital Vietnam** (wait past the Sept-2026 FTSE EM upgrade), and the untouchable compounder core.
 
 ## The resulting 15
 | # | Holding | Ticker | Wt | Change |
@@ -30,9 +21,9 @@ The owner confirmed **ICICI Bank (IBN) and Kaspi (KSPI) are "VIEW ONLY"** in his
 | 5 | Veralto | VLTO | 8% | keep |
 | 6 | EXOR | EXO | 8% | keep |
 | 7 | Investor AB | INVE-B | 7% | keep |
-| 8 | Vitec Software | VIT-B | 6% | keep |
+| 8 | **dLocal** | **DLO** | 5% | **NEW** (← Vitec Software) |
 | 9 | Sartorius Stedim | DIM | 6% | keep |
-| 10 | **ICICI Bank** | **IBN** | 6% | **NEW** (← iShares MSCI India — keeps EM/India, upgrades to active compounder) |
+| 10 | iShares MSCI India UCITS ETF | NDIA | 7% | keep (+1% from Vitec) |
 | 11 | Eckert & Ziegler | EUZ | 5% | keep |
 | 12 | Secunet | YSN | 4% | keep |
 | 13 | Bioventix | BVXP | 4% | keep |
@@ -42,23 +33,14 @@ The owner confirmed **ICICI Bank (IBN) and Kaspi (KSPI) are "VIEW ONLY"** in his
 **Total 100% — 15 holdings.**
 
 ## What changed structurally
-- **Kept the only genuine diversifier** (India/EM) — but upgraded the passive ETF to an active, moaty, faster-compounding bank (IBN). Adds *direct financials* exposure too — a previously-empty asset class — without sacrificing the uncorrelated EM sleeve.
-- **Removed** the most-duplicative holdco (Sofina, which overlapped Investor AB's private-market/EQT exposure) → Eurofins fills the missing TIC/testing sector.
-- **Both new names are founder/owner-aligned or moat-anchored**, consistent with the book's DNA.
-- **Still-open blind spot:** energy/real assets remain 0%. The expert wave flagged **Vista Energy (VIST, 4/5)** as the right answer to *that* separate question (lowest-cost operator in Vaca Muerta, aligned founder, 3–5x bull) — held as a small deliberate energy sleeve, *not* as an India replacement. Revisit if/when you want to add that asset class.
-- The AI-vs-VMS question (~36%, Constellation/ATOSS/Topicus/Vitec) remains the dominant monitoring item — tripwires currently green.
+- **VMS cluster 36% → 30%** (Vitec out) — directly reduces the book's dominant single factor.
+- **Two blind spots filled:** EM-payments-rails/fintech (dLocal) and TIC/testing (Eurofins) — both founder-aligned, consistent with the book's DNA.
+- **Diversifier protected and reinforced:** India ETF kept and lifted to 7% — effective-bets rise rather than fall.
+- **Still-open blind spot:** energy/real-assets remain 0%. The buyable "next-Vista-shaped" option there is a small **Arrow (AXL)** satellite (debt-free, self-funding) — a *future* decision, not done here. (Vista/Panoro/Larvotto = better assets but not T212-buyable.)
+- **Dominant monitoring items:** (1) the AI-vs-VMS question (~30% now — CSU/ATOSS/Topicus) per `ai-vs-vertical-software-moat-tripwires.md`; (2) **dLocal's take-rate** each quarter.
 
-## Optional aggressive satellite (NOT done unless requested)
-If the owner explicitly wants a multi-bag "Micron/AMD-pattern" swing, the **only risk-adjusted survivor** from the aggressive-growth wave was **Kaspi.kz (KSPI, 4/5)** — a 38%-ROE founder super-app at ~7x P/E + ~8% yield, with Turkey expansion + re-rate optionality (multi-bag with an income cushion). Size it **small (~2–3%)** and fund it by **trimming the over-weight VMS cluster (Topicus/Vitec) — NOT by deleting India.** Accepts a Russia-adjacency/sanctions + tenge-FX tail. Left out of the base-case 15 for now.
+## Watchlist — great businesses, already re-rated (revisit on a pullback)
+Frequentis (FQT), Cohort (CHRT), Camtek (CAMT), Basler (BSL), Friedrich Vorwerk (VH2), Volex (VLX) — all validated as real, founder/owner-aligned, blind-spot-filling businesses, but bought today the entry is rich (~2-4x decade, not 10x). Buy triggers, not chases.
 
-## Aggressive-growth wave scorecard (for the record)
-| Candidate | Ticker | Conv. (this slot) | Verdict |
-|---|---|---|---|
-| Kaspi.kz | KSPI | 4/5 | Only risk-adjusted "aggressive" survivor → optional small satellite, funded from VMS |
-| ICICI Bank | IBN | 4/5 | **Chosen India upgrade** — keeps the diversifier, beats the basket |
-| Vista Energy | VIST | 4/5 | Answer to the *energy-ballast* question, not this slot |
-| Tempus AI | TEM | 3/5 | High-variance shot; pre-profit, dual-class, ~8x sales |
-| MakeMyTrip | MMYT | 3/5 | Lottery ticket; ~90x earnings, weak alignment |
-| HDFC Bank | HDB | 3/5 | Highest sleep-quality India bank but slowest near-term |
-| AEHR | AEHR | 2/5 | Single-whale-customer AI burn-in; intensifies AI-capex concentration |
-| Hesai | HSAI | 2/5 | On Pentagon "Chinese military company" list — wrong to swap a diversifier for a blacklisted China ADR |
+## Rejected as core holdings (quality-compounder test failed in adversarial validation)
+Almonty, Centrus, Energy Fuels, StealthGas, Navigator, Bank of Georgia — commodity/shipping/miner/bank price-takers; trades, not compounders. **Struck (un-buyable/dead):** Avance Gas (liquidated), Larvotto (no ASX on T212), Panoro (no Oslo on T212).
