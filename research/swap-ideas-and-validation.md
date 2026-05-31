@@ -51,9 +51,10 @@ The red-team materially re-ordered the swaps. Net verdicts:
 ## FULL VALIDATION REPORTS (bull then bear, per swap)
 
 
-## FINAL DECISIONS (2026-05-31)
-- CONFIRMED: iShares MSCI India ETF → **OTC Markets (OTCM)** (on Trading 212; retail-scale liquidity fine).
+## FINAL DECISIONS (2026-05-31, updated after the aggressive-growth expert wave)
+- CONFIRMED: iShares MSCI India ETF → **ICICI Bank (IBN)** — keep the India/EM diversifier, upgrade the passive basket to an active moaty compounder. (**Reverses** the earlier India→OTCM pencil: the aggressive-growth wave + the stress-test established that the India/EM sleeve is the book's ONLY genuine diversifier; OTCM would zero it out. Owner's own lean agreed — "EM from INDIA comes from that over OTC.") IBN on T212; Polycab/CDSL not on T212.
 - CONFIRMED: Sofina → **Eurofins (ERF)**.
-- REJECTED: Bioventix→LeMaitre (LMAT too high); Sartorius→DISCO (DISCO not on Trading 212); VinaCapital Vietnam→Topaz (owner pass).
+- REJECTED: Bioventix→LeMaitre (LMAT too high); Sartorius→DISCO (DISCO not on Trading 212); VinaCapital Vietnam→Topaz (owner pass); India→OTCM (abandons the only diversifier).
 - HELD: Sartorius, Bioventix, VinaCapital Vietnam (validation agrees).
-- Resulting book: see `research/target-portfolio-v1.md`.
+- OPTIONAL (not in base case): small ~2–3% **Kaspi (KSPI)** aggressive satellite, funded by trimming the over-weight VMS cluster (Topicus/Vitec), NOT from India. **Vista (VIST)** = the answer to the separate energy-ballast question.
+- Resulting book: see `research/target-portfolio-v1.md`. Full expert wave: PART 7 of `research/00-UNIFIED-RESEARCH-DOSSIER.md`.

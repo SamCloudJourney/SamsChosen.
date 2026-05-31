@@ -9856,3 +9856,539 @@ The thesis holds up: neurotech is roughly where genomics was ~15 years ago, with
 - The strongest *listed* risk-adjusted picks are **BrainsWay** (profitable, founder-aligned, recurring revenue) and **NeuroPace** (only closed-loop, data moat); **ONWARD** is the highest-beta pure 10x bet with a strategic anchor; **electroCore** is the cheap micro-cap lottery ticket; **Integer** is the durable arms-dealer.
 
 *Informational research synthesis, not financial advice. Several figures (insider %, electroCore profitability/cash) flagged unverified above and should be confirmed against primary filings before any decision.*
+
+
+=====================================================================
+# PART 7 — AGGRESSIVE-GROWTH EXPERT WAVE (for the India/OTCM slot)
+=====================================================================
+
+_2026-05-31. Seven independent Opus experts assessed Trading-212-available aggressive-growth candidates for the freed ~6% slot, each measured against the opportunity cost of holding OTC Markets or the MSCI India ETF, plus a dedicated risk-manager/skeptic. Informational, not advice. Full reports follow this synthesis._
+
+## SYNTHESIS — scores & the decisive finding
+
+| Candidate | Ticker | Conviction (this slot) | One-line |
+|---|---|---|---|
+| Kaspi.kz | KSPI | **4/5** | 38%-ROE founder super-app, ~7x P/E + ~8% yield, multi-bag (Turkey + re-rate) with income cushion; Russia-adjacency/sanctions + tenge tail. Only risk-adjusted "aggressive" survivor. |
+| ICICI Bank | IBN | **4/5** | Best-in-class India financialization compounder (~2.9x P/B, ~16% ROE, ~24% 5-yr EPS CAGR); reliably beats the India basket, keeps the EM diversifier, low blow-up risk — but a $110B compounder, not a 10x. |
+| Vista Energy | VIST | **4/5** | Lowest-cost operator in the highest-growth oil basin (Vaca Muerta), aligned founder, dated pipeline catalyst, 3–5x bull — but leveraged single-country commodity bet; right answer for the *energy-ballast* question, not this slot. |
+| Tempus AI | TEM | 3/5 | Real moat-forming oncology-data flywheel, genuine multi-bag — but pre-profit, convertible-levered, dual-class, ~8x sales. A designated high-variance "shot," not a core. |
+| MakeMyTrip | MMYT | 3/5 | Dominant India OTA, multi-bag optionality from a −60% base — but ~90x earnings + post-buyback dilution + weak founder alignment. Lottery ticket. |
+| HDFC Bank | HDB | 3/5 | Highest sleep-quality India bank, but slowest near-term (merger digestion); least aggressive. |
+| AEHR | AEHR | 2/5 | AI-chip-burn-in story, but single whale customer, shrinking revenue, diluting, ~55x sales; intensifies AI-capex concentration. |
+| Hesai | HSAI | 2/5 | #1 profitable LiDAR, but on the Pentagon "Chinese military company" list with active delisting pressure — wrong to swap the EM diversifier for a blacklisted China ADR. |
+
+## The decisive risk-manager finding (this changes the recommendation)
+The skeptic's verdict — corroborated by the book's own `concentration-correlation-stress-test.md` — is the key insight:
+
+> **The India/EM-Asia sleeve is the portfolio's ONLY genuine diversifier** (uncorrelated to the ~75%-one-factor European-quality-growth core). Spending it on a single aggressive-growth name = *selling your only insurance to buy more of the factor you already own three-quarters of.* Most aggressive candidates (Tempus, AEHR, Hesai) load onto the **same growth/AI factor**, so they *reduce* diversification while adding single-point-of-failure risk.
+
+**Therefore: do NOT delete the India/EM sleeve for a 6% single aggressive name.** Instead:
+1. **Keep the EM diversifier.** On Trading 212, the "upgrade India but keep the uncorrelated EM exposure" path = **ICICI Bank (IBN)** (the India single-names Polycab/CDSL aren't on T212). IBN keeps India, adds moat + (relative) alignment, and reliably beats the passive basket — the sensible, low-regret upgrade. (Note: OTC Markets, the originally-pencilled India replacement, *abandons* EM diversification entirely — so if India is wanted, OTCM comes off this slot.)
+2. **If the aggressive itch is real:** carve out a **small 2–3% satellite (Kaspi is the only risk-adjusted survivor)** — funded by **trimming the over-weight VMS cluster (Topicus/Vitec), NOT by deleting India.** Keep India ~3–4% alongside.
+3. **Vista** is the right answer to a *different* question — the book's total absence of energy/real-asset ballast — held as a small, deliberate energy sleeve, not as the "India replacement."
+
+## Net recommendation
+- **Sofina → Eurofins: still confirmed.**
+- **India slot: keep India — upgrade the passive ETF to ICICI Bank (IBN)** (low-regret), preserving the only diversifier. **OTCM drops** (it would zero out India/EM).
+- **Optional swing:** ~2–3% **Kaspi**, funded from the over-weight VMS cluster, not from India — if the owner explicitly wants a multi-bag bet and accepts the sanctions/FX tail.
+
+---
+
+## FULL EXPERT REPORTS
+
+
+<<<<< EXPERT REPORT: Kaspi_KSPI (agent a5cbf5d89224c8633) >>>>>
+
+I have sufficient verified data. The dismissal detail (with/without prejudice) is the one item I couldn't fully nail down — I'll flag it as such rather than guess. I have everything needed for the assessment.
+
+---
+
+# Kaspi.kz (KSPI) — Aggressive-Growth Assessment for the ~6% Slot
+
+*Informational research synthesis, not financial advice. Data as of 2026-05-31. Verified figures flagged; gaps noted.*
+
+## What it is
+Kaspi.kz is Kazakhstan's dominant consumer super-app — a genuine three-engine flywheel: **Payments** (the rails), **Marketplace** (e-commerce + advertising), and **Fintech** (consumer lending/BNPL/deposits). It is the daily financial and shopping operating system for the country, with deep penetration of Kazakhstan's ~20M population. In Jan 2025 it took control (65.4%) of Turkey's **Hepsiburada** for ~$1.13B, opening an ~85M-population second market. This is a real, cash-generative, profitable business — not a pre-profit story stock.
+
+## Verified financials (primary sources)
+
+**FY2025:** Revenue +19% YoY (≈KZT 4.05T / ~$8B), net income +10% (~$2.1B). Underlying revenue +21%, underlying net income +18% (ex-smartphone-GMV and regulatory noise). Segments: Payments rev +12%/NI +13%; Marketplace rev +23%/NI +6% (advertising rev +64%); Fintech rev +20%/NI +9%. **ROE ~38%** — exceptional. Net margin ~25%.
+
+**Q1 2026:** Revenue +31% YoY (~KZT 1.08–1.1T), but **net income flat/-1%** (~KZT 252B) — adj. EBITDA +9%. E-commerce GMV +41%, marketplace rev +49%, fintech rev +25%. Bottom line pinched by higher effective tax rate and elevated Kazakh interest rates (management says these annualize into the base by end-2026). **2026 guidance: consolidated adj. EBITDA growth only ~5%** — a notable deceleration signal.
+
+**Hepsiburada/Turkey:** Turned adj. EBITDA-positive FY2025 (TRY 1.1B); order growth re-accelerated from -11% (Q1'25, hit by political consumption boycotts) to +19% (Q4'25). Consolidated net loss from Türkiye was ~KZT 6B — immaterial to group, but early-stage lending investment is a drag.
+
+**Ownership:** Founders aligned — Vyacheslav Kim ~20.4%, Mikheil Lomtadze ~21.5% (combined **~42%**, de facto control); Baring funds ~23.3%. The "~44% founder" figure in your brief is close but slightly high — verified combined founder stake is ~42%.
+
+**Valuation:** Price ~$90 ADS (29 May 2026), market cap **~$17B** (NOT the "$200B" some aggregators erroneously show — that conflates KZT local-share figures). **P/E ~6.4–7.7x**, **dividend yield ~7.8–8.3%** (KZT 850/ADS quarterly proposed). This is a deep-value multiple on a 38%-ROE compounder.
+
+**Legal/sanctions:** The Culper-driven **Krivenok securities class action was DISMISSED** in C.D. California (~May 2025). I could **not verify with/without prejudice** from primary court docs (SEC filing 403'd) — flag as unverified; treat residual litigation tail as low-but-nonzero. Critically, **Kaspi has NOT been OFAC-designated** and is not on the SDN list; Kazakhstan's regulator publicly affirmed sanctions compliance. The thesis here: the headline sanctions risk peaked in 2024, the legal overhang has largely cleared, and the multiple still carries the discount.
+
+## Realistic 3–10yr return range (USD)
+
+- **Bull (multi-bag):** ~12–18% rev/NI CAGR (Turkey scales to a real second engine, fintech reprices up as Kazakh rates fall, multiple re-rates from ~7x toward 12–14x as sanctions discount fully unwinds). **~3–4x over 7–10yr (~18–22%/yr) plus the ~8% dividend** = total return potentially 20%+/yr. This is the genuine multi-bagger case.
+- **Base:** ~10–13% earnings growth, multiple flat at ~7–8x, ~8% dividend funded. **~12–15%/yr total return** — the dividend does heavy lifting; you're paid to wait.
+- **Bear:** Tenge devaluation (forecast ~600–610 KZT/USD by end-2026 vs ~525 today) erodes USD earnings 10–15%; Kazakh consumer-lending cycle turns; Turkey stays a money-pit; a renewed sanctions scare or actual secondary-sanctions action. **-30% to -60% drawdown, potentially permanent if a sanctions/geopolitical tail fires.** Frontier single-name risk is real and binary in the worst case.
+
+## Opportunity cost vs the alternatives
+
+**vs OTC Markets (OTCM):** OTCM is the opposite profile — US-domiciled, regulated-monopoly-ish quality anchor, +13% rev/+14% NI (FY25), Q1'26 NI +17%, ~31% margins, P/E ~23x, yield only ~1.6%. Expect a steady ~9–12%/yr with very low blow-up risk. **OTCM is the safer compounder; Kaspi offers ~2x the upside with materially higher tail risk.** For an *aggressive-growth* slot, Kaspi wins on expected return; for capital preservation, OTCM wins. They serve different mandates — Kaspi is the right tool if this slot is explicitly the risk-budget slot.
+
+**vs iShares MSCI India ETF (the incumbent):** The India ETF gives ~8–11% USD EM-beta, diversified, FX-dragged, no single-name risk — but also **no alpha, no moat, no founder alignment, structurally a passive beta sleeve.** Kaspi at ~7x P/E + ~8% yield + 38% ROE is a far more *attractive risk/reward per unit of capital* than buying the Indian market at ~22–24x aggregate. **Swapping passive India beta for a 7x, 38%-ROE founder-led compounder is a defensible aggressive-growth upgrade** — you concentrate the bet, raise expected return, and the dividend cushions the downside. The cost is converting diversified EM beta into concentrated frontier single-name risk.
+
+## Honest top 3 risks
+1. **Geopolitical / sanctions tail (binary).** Kazakhstan's deep economic entanglement with Russia means renewed secondary-sanctions pressure or a fresh short-seller/regulatory episode could re-rate the stock down 40%+ overnight. The dismissed lawsuit reduces — but does not eliminate — this; it's the reason the multiple is 7x not 15x.
+2. **FX / macro.** Tenge depreciation (~600+/USD by end-2026) is a direct, near-certain headwind to USD returns and dividends; Kazakhstan is oil-levered into a soft 2026 oil-price environment (~$64/bbl).
+3. **Growth deceleration + Turkey execution.** Q1'26 net income was flat and FY26 EBITDA guidance is only ~5%; the easy Kazakh growth is maturing, and the multi-bag case now leans heavily on Turkey, a market where Kaspi just absorbed boycott-driven volatility and early lending losses. If Turkey disappoints, the bull case collapses to the base case.
+
+## VERDICT
+
+**Conviction as the aggressive-growth pick for this slot: 4/5.**
+
+One-liner: *A genuinely exceptional 38%-ROE, founder-led super-app trading at ~7x earnings with an ~8% dividend — the rare "real business" with multi-bagger optionality (Turkey + re-rating) and a built-in income cushion; the cleared lawsuit removes much of the 2024 overhang, but the irreducible Russia-adjacency/sanctions tail and tenge FX drag are why it's a 4 not a 5, and why it belongs only in an explicitly risk-budgeted slot — a clear upgrade over passive India beta, but riskier than OTCM's quiet 9–12%.*
+
+**Sources:**
+- [Kaspi 4Q & FY2025 Results — GlobeNewswire](https://www.globenewswire.com/news-release/2026/03/02/3247211/0/en/Kaspi-kz-4Q-FY-2025-Financial-Results.html)
+- [Kaspi Q1 2026 results — StockTitan](https://www.stocktitan.net/news/KSPI/kaspi-kz-1q-2026-financial-1mi5o3rpvr7a.html)
+- [Hepsiburada acquisition close — Kursiv](https://kz.kursiv.media/en/2025-01-30/engk-nknk-kaspi-kz-finalizes-turkish-hepsiburada-marketplace-acquisition/)
+- [KSPI valuation/market cap — StockAnalysis](https://stockanalysis.com/stocks/kspi/)
+- [Ownership — DCFmodeling](https://www.dcfmodeling.com/blogs/history/kspi-history-mission-ownership)
+- [Class action dismissed — AIM Group](https://aimgroup.com/2025/05/16/investors-vs-kaspi-kz-class-action-lawsuit-dismissed-in-c-d-california/) / [Rosen Law](https://rosenlegal.com/case/joint-stock-company-kaspi-kz/)
+- [Kazakhstan regulator sanctions compliance — RFE/RL](https://www.rferl.org/a/kaspi-bank-kazakhstan-toqaev-lomtadze-kim-nasdaq-culper/33131206.html)
+- [Kazakhstan 2026 macro/tenge — Allianz Trade](https://www.allianz-trade.com/en_global/economic-research/country-reports/Kazakhstan.html)
+- [OTC Markets FY2025/Q1 2026 — StockTitan](https://www.stocktitan.net/news/OTCM/otc-markets-group-reports-fourth-quarter-and-full-year-2025-results-877exhfn5f5e.html)
+
+*Unverified flag: the with/without-prejudice terms of the dismissed class action could not be confirmed from primary court documents (SEC filing returned 403); residual litigation tail assumed low. ROE (~38%) and the "$8B revenue / $2.1B NI" USD figures are from secondary aggregators cross-referenced to the company release growth rates, not lifted from an audited USD statement.*
+
+
+<<<<< EXPERT REPORT: India_ADR_IBN_HDB_MMYT (agent a2c4209d1b594e075) >>>>>
+
+I now have everything I need to write a rigorous verdict. The picture is clear: MMYT is a genuine high-growth platform but expensive and currently in a 60% drawdown post a controversial $3B Trip.com buyback; ICICI is the highest-quality compounder; HDFC is the steadier but slower digestion play. Let me compile the report.
+
+---
+
+# India ADR Upgrade — Aggressive-Growth Single Name vs the MSCI India Basket
+
+**Date: 2026-05-31. All figures from cited primary/secondary sources; FY = Indian fiscal year ending March. Flagged where unverified.**
+
+## Bottom line up front
+
+The strongest aggressive-growth, Trading-212-available India ADR is a close call between **MakeMyTrip (MMYT)** for raw upside and **ICICI Bank (IBN)** for quality-adjusted compounding. For an *aggressive* mandate that still wants to beat the basket on a risk-adjusted basis, my top pick is **ICICI Bank (IBN)**, with **MakeMyTrip (MMYT)** as the higher-variance "swing" alternative for someone who explicitly wants multi-bag optionality and can stomach a 60%-type drawdown (which just happened).
+
+---
+
+## The candidate field (and who's eliminated)
+
+- **WNS — DEAD.** Acquired by Capgemini, cash-out at $76.50/share, delisted from NYSE Oct 17 2025. Not investable.
+- **Yatra (YTRA) — reject.** Sub-scale #3 OTA, structurally losing to MMYT; micro-cap, no moat.
+- **Azure Power — reject.** Delisting/governance troubles, going-concern history; not a clean growth name.
+- **Dr Reddy's (RDY) — keep on bench, not top.** Real business but generics pricing pressure caps it to mid-single-digit growth; not "aggressive."
+- **Infosys (INFY)/Wipro (WIT) — reject for this slot.** Mature IT services, low-single-digit growth, this is a "quality value" not "aggressive growth" profile.
+
+That leaves the three the owner flagged: **MMYT, IBN, HDB.**
+
+---
+
+## Verified fundamentals
+
+### MakeMyTrip (MMYT, Nasdaq) — India's dominant online-travel platform
+- **Growth (FY26):** Gross bookings $10.4B, +10.4% YoY constant-currency (record). Revenue +10.7% cc. Adjusted margin by segment: Air +13.4%, Hotels & Packages +15.7%, Bus +29.3%, Other +37.1%. Operating profit +30.1% to $156M (1.82% of gross bookings) — strong operating leverage. AI assistant "Myra" now does search-to-booking, 54k daily conversations, 45%+ from Tier-2 cities. (SEC 6-K FY26)
+- **Moat:** #1 India OTA by far; two-sided network + supply relationships + brand. Real but not unassailable (Cleartrip/Flipkart, Ixigo, direct airline/hotel apps).
+- **Valuation:** Market cap ~$4.8B, P/E ~90x trailing / ~96x forward (stockanalysis.com). **Expensive even after the crash.**
+- **Balance sheet / the big event:** In 2025 MMYT executed a **~$3B buyback of Trip.com's (Chinese) stake**, cutting TCOM voting from 45.3% to 19.99% — funded by **$1.25B convertible notes (2028)** + a 14–16M-share equity raise priced **$92–100**. This is why the "net cash" screen reads **net debt ~$0.6B** and why dilution + leverage hit the stock.
+- **Price action:** Trading ~$46–48 (May 2026) vs a 52-week high of **$113.85** — roughly **−60% drawdown**; market cap down ~43% over 12 months. (Yahoo/Investing)
+- **Founder alignment:** Founder/Chairman Deep Kalra holds a relatively small direct stake (~297k shares + RSUs/options) — this is a professionally-managed company, **not a high-insider-ownership founder compounder**. Weakest on the CLAUDE.md "founder/family alignment" criterion.
+
+### ICICI Bank (IBN, NYSE) — India financialization compounder
+- **Growth:** **5-yr net-profit CAGR ~24%** (cited). FY26 advances **+15.8%**, deposits +11.4%. FY26 PAT +6.2% (a deceleration year — note this). (SEC 6-K; ICICI performance review)
+- **Profitability:** **NIM 4.32%, ROA 2.33%, ROE ~16%, GNPA 1.40%, NNPA 0.33%** — best-in-class asset quality and returns among large India banks.
+- **Valuation:** Market cap ~$110B; **P/B ~2.9x** — reasonable for a ~16% ROE franchise; not a bubble. ₹12 dividend declared.
+- **Alignment:** Widely-held institution, no founder; governance has been clean since the 2018 leadership reset.
+
+### HDFC Bank (HDB, NYSE) — the steadier financialization play
+- Still digesting the HDFC Ltd merger; loan/deposit normalization ongoing. NIMs guided "mostly flat." Q2 FY26 profit +11%. High quality but **slower near-term growth** than ICICI right now. Best "sleep-at-night" of the three, least "aggressive."
+
+### Macro tailwind (both banks): India bank credit growth ~13.8% YoY (Mar 2026), FY27 ~11–13.5%, real GDP ~7%, nominal GDP low-double-digits — a long financialization runway.
+
+---
+
+## The decisive comparison: do these beat the basket?
+
+**MSCI India ETF (INDA) reality check:** 10-yr return only **~8%/yr in USD** — and that already absorbs the **~3.4%/yr rupee depreciation** (rupee fell ~38% over a decade; USD/INR ~94.9 as of May 2026). So the basket's *local* return (~11–12%) is real, but **FX has eaten 3–4 points/yr**. This FX drag hits **every** India ADR equally — MMYT, IBN, HDB all earn in rupees, so none escape it. The single name must out-compound the basket by enough to clear that same headwind.
+
+**Verdict on beating the basket:**
+- **IBN:** Yes, plausibly. A ~16% ROE bank growing book ~15% with ~24% historical EPS CAGR, bought at ~2.9x P/B, should compound mid-teens in rupees → **~10–13%/yr USD** after FX — comfortably ahead of INDA's ~8%, with far less single-stock blow-up risk than an OTA. It's also less concentrated-redundant: INDA is already ~25%+ financials, so IBN doubles down on a sector you'd own anyway, but as the best operator rather than the average.
+- **MMYT:** Higher ceiling, much wider distribution. At 90x earnings, the return depends on growth *and* multiple — it can multi-bag OR re-rate down hard (as it just did).
+
+**Vs a US quality anchor (OTC, ~9–12%/yr):** A US compounder offers ~9–12% with **no FX drag and no EM/political risk**. IBN's edge over that anchor is modest (~1–3 pts) and comes bundled with rupee + India sovereign risk — so IBN only makes sense **if you specifically want to keep India exposure** (which the owner does). MMYT is the only candidate whose *bull case* clearly dominates a US anchor, but its base/bear case is worse.
+
+---
+
+## Quantified 3–10yr return scenarios
+
+**ICICI Bank (IBN)** — base case ~14% rupee EPS/book CAGR, modest P/B compression, less ~3% FX:
+- Bear: ~5%/yr USD (NIM compression + FX). Base: **~11–13%/yr USD** → ~2.5–3x over 10yr. Bull: ~16%/yr → ~4x. **No realistic 10-bagger** — it's a quality compounder, not a moonshot.
+
+**MakeMyTrip (MMYT)** — the multi-bag candidate, from a depressed ~$48 base:
+- Bear: travel slows / margins disappoint / dilution overhang → flat-to-down, conceivably another −40% (you just saw −60%).
+- Base: gross bookings compound ~12–15%, operating leverage drives profit ~25–30%/yr, multiple stays rich but normalizes → **~10–14%/yr USD**.
+- **Bull (multi-bag):** India travel penetration is early; if gross bookings sustain mid-teens and operating margin scales toward 3–4% of bookings while the multiple holds, EPS could 4–6x in 7–10yr → **3–5x ($150–250)** with a tail toward more if it re-rates as a "platform." This is the genuine multi-bag the owner is asking for — but it requires the rich multiple to hold, which is a real bet.
+
+---
+
+## Honest risks
+- **FX (all three):** rupee structurally depreciating ~3–4%/yr; permanent USD-return drag.
+- **MMYT-specific:** 90x P/E (de-rating risk), $1.25B convert + dilution overhang from the buyback, competition (Flipkart/Cleartrip, Ixigo, direct apps), discretionary-travel cyclicality, low founder ownership, residual 20% Trip.com (China) stake/geopolitics.
+- **IBN/HDB:** credit cycle, NIM compression (funding-cost pressure flagged for FY26-27), RBI regulatory risk, slower growth years (FY26 PAT +6.2% shows it).
+- **Redundancy:** INDA is already heavy financials — adding IBN concentrates that; adding MMYT adds a *new* exposure (consumer internet) the basket under-weights, which is a point in MMYT's favor for diversification within the slot.
+
+---
+
+## VERDICT
+
+**Best aggressive-growth way to keep India in the slot: ICICI Bank (IBN) as the core pick; MakeMyTrip (MMYT) as the high-variance multi-bag alternative for true risk-appetite.**
+
+- **ICICI Bank (IBN) — conviction 4/5.** *Best-in-class India financialization compounder at a fair price (~2.9x P/B, ~16% ROE, ~24% 5-yr EPS CAGR); reliably beats the INDA basket with far less blow-up risk than the OTA — the sensible "upgrade the passive ETF" choice.*
+
+- **MakeMyTrip (MMYT) — conviction 3/5.** *Genuine dominant-platform multi-bag optionality from a −60% base, but 90x earnings, post-buyback leverage/dilution, and weak founder alignment make it a swing-for-the-fences bet, not a core hold.*
+
+- **HDFC Bank (HDB) — conviction 3/5, not selected.** *Higher quality-of-sleep but the least "aggressive" — slower near-term growth while it digests the merger; pick it only if you'd rather de-risk than maximize growth.*
+
+If the owner wants ONE name to replace the ETF and the word "aggressive" is binding but blow-up risk matters: **IBN**. If "aggressive" means "I want the lottery ticket with a real platform behind it and accept high variance": **MMYT**.
+
+*Informational research synthesis, not financial advice.*
+
+Sources: [MMYT SEC 6-K FY26](https://www.sec.gov/Archives/edgar/data/0001495153/000119312526229605/mmyt-ex99_1.htm) · [MMYT statistics (stockanalysis)](https://stockanalysis.com/stocks/mmyt/statistics/) · [MMYT/Trip.com buyback](https://www.outlookbusiness.com/news/makemytrip-to-spend-3-billion-to-buy-back-shares-from-chinese-investor-tripcom) · [ICICI performance review Q4 FY26](https://www.icici.bank.in/about-us/news-room/2026/performance-review-quarter-ended-march-31-2026) · [ICICI 5-yr CAGR](https://upstox.com/news/market-news/stocks/consistent-compounders-shriram-finance-axis-bank-and-icici-bank-and-others-delivered-over-15-cagr-net-profit-growth-for-5-years/article-192851/) · [HDB FY26 (StockTitan)](https://www.stocktitan.net/sec-filings/HDB/6-k-hdfc-bank-ltd-current-report-foreign-issuer-ede53917d090.html) · [INDA fund page](https://www.ishares.com/us/products/239659/ishares-msci-india-etf) · [Rupee depreciation](https://vestedfinance.com/historical-rupee-depreciation-trend) · [WNS/Capgemini close](https://www.capgemini.com/news/press-releases/capgemini-completes-the-acquisition-of-wns-and-creates-a-global-leader-in-agentic-ai-powered-intelligent-operations/) · [India credit growth FY27](https://www.theweek.in/news/biz-tech/2026/03/27/indian-banks-to-experience-credit-growth-in-fiscal-2026-27-but-deposits-set-to-lag-behind.html)
+
+**Unverified flags:** MMYT 90x/96x P/E and INDA ~8% 10-yr return are from secondary aggregators (stockanalysis/Morningstar), not primary filings — directionally reliable but confirm exact figures before acting. ICICI ROE 16% is a Q2 FY26 standalone figure; full-year consolidated may differ slightly. Trading 212 availability of each ticker should be confirmed in-app (MMYT, IBN, HDB are all standard US-listed lines and routinely available, but verify).
+
+
+<<<<< EXPERT REPORT: Vista_VIST (agent a206f5f39e88df14f) >>>>>
+
+I now have a comprehensive, well-sourced picture. The lifting cost of ~$4.4/boe and ~$55/bbl breakeven, plus the export infrastructure timeline, founder ~6% ownership, leverage, and valuation are all confirmed. Let me compile the verdict.
+
+---
+
+# Vista Energy (VIST) — Aggressive-Growth Assessment for the ~6% Slot
+
+**As of 2026-05-31. All figures sourced; unverified items flagged. Informational research synthesis, not financial advice.**
+
+## What it is
+Vista Energy is the largest pure-play independent oil producer in Argentina's Vaca Muerta shale — the only public "pure-play" on the basin. NYSE-listed (ADS), Mexican-domiciled SAB de CV, founded 2017 via a Mexican SPAC by Miguel Galuccio. Short-cycle, high-return horizontal shale in the Neuquén oil window. This is **not** a quality-compounder in the Constellation/ATOSS mold — it is a leveraged, single-basin, single-country commodity growth story. Judge it on that basis.
+
+## Verification of the core claims
+
+**Production ramp — CONFIRMED and arguably ahead of plan.**
+- Q1 2026 production: **134,741 boe/d, +67% YoY** (driven by the April 2025 La Amarga Chica 50% WI acquisition + organic). 2026 guidance raised to **143 Mboe/d**.
+- Investor-day targets: **180 Mboe/d by 2028, >200 Mboe/d by 2030** — roughly a double off the ~114 Mboe/d 2025 base. Plan stated as resilient down to **$60 Brent**.
+- Recent M&A accelerates this: Bandurria Sur (25.1% non-op WI) and Bajo del Toro (35% non-op WI) consolidate from May 1, 2026 (the ~$712m Equinor-related deal), adding ~22.6 Mboe/d net at Q1 rates. Post-close 2026 adj. EBITDA guidance steps up toward **~$3.0bn** (from ~$2.6bn) at $85 Brent.
+
+**Galuccio track record + alignment — CONFIRMED, strong.** Ex-CEO of YPF (2012–16), where he kick-started Vaca Muerta ("the architect of Vaca Muerta"); prior senior Schlumberger exec (President of Schlumberger Production Management); Schlumberger board member. Owns **~6% of shares outstanding** (third-largest holder per Simply Wall St — treat the exact % as approximate; I could not open the 20-F directly, SEC returned 403). Genuinely skin-in-the-game and the single best-credentialed operator in the basin.
+
+**Economics — CONFIRMED, genuinely top-tier for shale.** Lifting cost **~$4.4/boe (2025)**, down from $5.1 (2023). D&C ~$12.8m/well. Stated **~$55/bbl breakeven**. Q1 2026: revenue $694m (+58%), adj. EBITDA $450.8m (+64%), ~65% EBITDA margin. This is a low-cost producer by global standards.
+
+**Leverage / FCF — the soft spot.** Net leverage **1.7x EBITDA at Q1 2026** (up due to acquisition spend); target back to **~1.0x by year-end 2026**. Capex **$1.5–1.6bn for 2026**; FCF was **negative in Q1 2026** (outspending during the build). At $85 Brent the company guides ~$700m FCF for 2026 — i.e., FCF is heavily price- and execution-dependent. EV ~$9.5bn vs market cap ~$6.8bn confirms meaningful net debt (~$2.7bn).
+
+**Macro / Milei / infrastructure — CONFIRMED and currently a tailwind.**
+- Milei's LLA won the **Oct 2025 midterms decisively** (40.8%, +64 deputies); country risk fell from ~1,000bp to ~600bp. RIGI incentive regime (tax/FX stability for >$200m projects) is live and being used.
+- **The export-infrastructure bottleneck is being solved on a hard timeline:** VMOS pipeline starts ~180kb/d in late 2026, scaling to ~380–390kb/d by Q1 2027 (full ~550kb/d by mid-2027); Oldelval Duplicar Norte adds ~220kb/d end-2026 to ~500kb/d in 2027. This takeaway is exactly what makes the production-doubling plan physically credible and unlocks export (Brent-linked) pricing vs domestic discount.
+
+**Valuation — cheap on commodity metrics, but rerated hard.** ~$6.8bn cap; EV/EBITDA **~5x trailing**, forward P/E ~12.5. Stock ~**$75** (May 2026), up ~60% YTD, near all-time high ($81 52-wk high; $31.63 low). Consensus targets cluster $62–92 (Street recently chasing it up: UBS $86, GS $75, BofA $90). The valuation discount vs US shale peers is the Argentina risk premium — narrowing, not gone.
+
+## Realistic 3–10yr return range (illustrative, not a forecast)
+
+- **Bull / multi-bag (~3–4x+ over 5–7yr):** 200 Mboe/d by 2030 hit on schedule, Brent holds $70–85, country risk keeps compressing, export pipelines de-risk Brent-linked pricing, leverage falls and FCF inflects to multi-hundred-million/yr → EBITDA roughly doubles AND the multiple rerates toward developed-market shale. That combination (volume × price × rerate) is the textbook setup for a 3–5x. This is a real, not fanciful, path — but it requires three things to go right simultaneously.
+- **Base (~1.5–2.5x over 5–7yr):** plan mostly delivered, Brent $65–80, multiple flat-to-modestly-higher. Return is essentially volume growth + modest FCF return, partly offset by no further rerate. ~8–14%/yr.
+- **Downside (-40% to -70%, with tail risk worse):** a Brent slide to $50–55 compresses FCF toward zero against a 1.7x balance sheet AND a populist/Peronist return in 2027 (Milei is mid-term; the 2027 presidential cycle is the key event) reintroduces FX controls, export taxes (retenciones), or price caps. Commodity + sovereign + FX + leverage stack multiplicatively on the downside. A genuine permanent-impairment scenario exists here in a way it does not for the rest of the book.
+
+## Opportunity cost vs the alternatives
+
+- **vs OTC quality anchor (~9–12%/yr):** Different risk universe entirely. VIST offers higher expected return *with* a fat left tail and near-zero moat durability (it's a price-taker on a depleting resource). A quality anchor compounds with low drawdown risk and no sovereign/FX overlay. For a *concentrated 15-stock book already full of quality compounders*, VIST is the deliberate "swing for the fences" sleeve — it is NOT a substitute for a compounder and shouldn't be judged as one.
+- **vs MSCI India ETF (~8–11% USD EM beta):** This is the relevant comparison since VIST would replace it. The India ETF is diversified, structurally-growing EM beta with no single-name/sovereign-default/commodity risk. Swapping it for VIST is a large step UP in concentration and tail risk and a step DOWN in diversification — but the India ETF is also a passive, low-conviction beta placeholder, and the brief explicitly wants conviction + a multi-bagger + energy/real-asset exposure (a genuine blind spot). VIST fills the blind spot and offers asymmetric upside the ETF cannot. The honest trade-off: you give up "diversified, sleep-at-night EM compounding" for "concentrated, oil+Argentina, potential 3x." For an aggressive-growth slot, that trade is defensible; for a risk-parity slot it is not.
+
+## Honest top 3 risks
+1. **Oil price.** Below ~$55–60 Brent for a sustained period, FCF evaporates against 1.7x leverage and the multi-bag thesis breaks — this is the single most likely way to lose money. Vista is a leveraged bet on Brent first, execution second.
+2. **Argentine political/FX reversal (2027 cycle).** Milei's reforms are not irreversible. A Peronist comeback or policy backslide (retenciones, FX controls, price caps, RIGI rollback) could re-impose the very discount that's currently compressing. Sovereign risk is the reason it's cheap — and the reason it could stay cheap or fall.
+3. **Single-basin / execution / depletion concentration.** Everything is Vaca Muerta. Shale decline curves demand relentless capex (negative Q1 FCF is the live evidence); a drilling/cost stumble, pipeline-commissioning slip, or reserve disappointment hits hard with no diversification cushion.
+
+## Verdict
+
+**Conviction as the aggressive-growth pick for this slot: 4/5.**
+
+One line: *Vista is the best-run, lowest-cost operator in the highest-growth oil basin on earth, fronted by a genuinely aligned world-class founder with a hard-dated infrastructure catalyst and a credible 3–5x bull case — but it is a leveraged, single-country commodity bet whose left tail (Brent <$55 + Argentine reversal) is real, so it earns a 4 as the deliberate "swing" sleeve replacing a passive India ETF, not a 5, and never as a substitute for a quality compounder.*
+
+Sources: [SEC 6-K (guidance/2030 vision)](https://www.sec.gov/Archives/edgar/data/0001762506/000119312526215656/d125391d6k.htm) · [StockTitan — guidance update](https://www.stocktitan.net/sec-filings/VIST/6-k-vista-energy-s-a-b-de-c-v-current-report-foreign-issuer-ea8e39d7cfe9.html) · [Infobae — Vaca Muerta investment](https://www.infobae.com/economia/2026/05/11/vista-energy-incrementara-su-produccion-petrolera-en-vaca-muerta-para-alcanzar-los-160000-barriles-diarios/) · [TipRanks — Q1 2026](https://www.tipranks.com/news/company-announcements/vista-energy-delivers-strong-q1-2026-growth-on-la-amarga-chica-expansion-despite-negative-free-cash-flow) · [Wikipedia — Miguel Galuccio](https://en.wikipedia.org/wiki/Miguel_Galuccio) · [Simply Wall St — ownership](https://simplywall.st/stocks/us/energy/nyse-vist/vista-energy-de/ownership) · [S&P Global — Vaca Muerta takeaway](https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091825-argentina-builds-more-oil-takeaway-capacity-for-vaca-muerta-as-output-surges) · [Shale24 — export routes](https://www.shale24.com/en/oil-gas/oldelval-vmos-and-tgs-commit-more-than-4-billion-to-build-three-vaca-muerta-export-routes-before-2027-n848) · [NaturalGasIntel — Milei midterm](https://naturalgasintel.com/news/mileis-midterm-victory-reflects-renewed-mandate-for-reform-as-argentina-eyes-natural-gas-growth/) · [Bloomberg — Vista/Milei doubling output](https://www.bloomberg.com/news/articles/2025-11-12/vista-eyes-milei-reforms-in-bid-to-double-argentina-shale-output) · [ADNSUR — costs/exports 2025](https://www.adnsur.com.ar/pulso-energetico/vista-energy-en-vaca-muerta--produccion-record--menor-costo-y-exportaciones-por-mas-de-us-1-400-millones-en-2025_a69a075fc7aa0df2a6348cb1b) · [Benzinga — analyst targets](https://www.benzinga.com/quote/VIST/analyst-ratings)
+
+**Notes/caveats:** Could not open the SEC 20-F or several primary 6-Ks directly (HTTP 403); Galuccio's exact ~6% stake and the precise appendix-level 2030 EBITDA/FCF figures are from secondary aggregators and should be confirmed against Vista's investor presentation before sizing. Brent assumptions in guidance ($85 '26 / $80 '27 / $75 '28) are management's, not market — the downside case assumes lower.
+
+
+<<<<< EXPERT REPORT: Tempus_TEM (agent a1dae0beaf8c6cd91) >>>>>
+
+I have everything needed. Let me compile the assessment.
+
+---
+
+# Tempus AI (TEM) — Aggressive-Growth Assessment for the ~6% Slot
+
+*Informational research synthesis, not financial advice. Data as of 2026-05-31; key figures verified to SEC filings / company releases / Q1-2026 transcript and flagged where unverified.*
+
+## What the business actually is
+Tempus runs a two-engine model: (1) a **clinical diagnostics lab** (oncology NGS sequencing, hereditary/germline via Ambry, MRD, cardiology/Pixel) that generates de-identified multimodal patient data, and (2) a **Data & Applications** arm that licenses that data + builds AI/foundation models for pharma. The thesis is a genuine **flywheel**: every diagnostic test enriches a proprietary, multimodal (genomic + clinical notes + imaging + transcriptomic) dataset reportedly spanning **8M+ de-identified patient records** — which is what pharma pays for. This is a real "behind-the-scenes / picks-and-shovels into oncology AI" structure, not vaporware.
+
+## Primary-source verification of the claims
+
+**Multimodal data flywheel — CONFIRMED.** Diagnostics ($261.1M, +34.7% in Q1-26) feeds the Data & Applications segment ($87.0M, +40.5%). The licensing/modeling sub-line ("Insights") grew 44% in Q1-26 and ~38% in FY25. The flywheel is operationally real.
+
+**70+ pharma customers — CONFIRMED.** Signed data agreements with 70+ customers in 2025 (AstraZeneca, GSK, BMS, Pfizer, Novartis, Merck, AbbVie, Lilly, Daiichi Sankyo, Boehringer, plus biotechs). **Net revenue retention ~126%** in 2025 and **TCV >$1.1B** — strong land-and-expand evidence. Three straight quarters of D&A bookings >$100M; a "very large" Merck deal and Gilead expansion closed in Q1-26.
+
+**AstraZeneca/Pathos foundation-model deal — CONFIRMED.** Announced ~May 2025: **$200M** in data-licensing + model-development fees to Tempus to build "the largest multimodal foundation model in oncology." Each party gets a model copy; Tempus retains its data. Real cash, real validation — but note it's a finite project fee, not recurring SaaS.
+
+**Lefkofsky ownership / dual-class control — CONFIRMED & important.** Class B = **30 votes/share**, all held by Lefkofsky. Economic ownership ~24% (Dec-2025) but **~60% voting power** (10-K cited ~62.4% at Feb-2025). Founder is deeply aligned economically and has near-absolute control — a double edge (alignment vs. zero governance check; he founded Groupon, a mixed legacy).
+
+**Revenue growth ~30%+ organic — CONFIRMED, with a caveat.** FY25 revenue $1.27B (+83%) was **inflated by the Ambry acquisition** (~$600M deal, closed Feb-2025). **Organic growth was ~33.5%** (Q4-25). Q1-26 total +36%; oncology testing units +28%; MRD volume ~6,500 tests (+~500% YoY off a tiny base). So the "30%+ organic" claim holds.
+
+**Path to profitability — PARTIALLY. Still loss-making.** Q1-26 **Adjusted EBITDA loss of only $2.8M** (improving 5-8 quarters running per Lefkofsky); FY26 guide **~$65M positive adj. EBITDA** on $1.59–1.60B revenue (~25% growth). BUT **GAAP net loss was $125.9M in Q1-26 alone** ($(0.71)/sh) — the gap is non-cash (stock-comp, warrant remeasurement, D&A) but real for shareholders via dilution. **Operating cash flow ~ -$218M LTM; FCF ~ -$239M LTM.** "Adjusted EBITDA positive" is a long way from GAAP-profitable or FCF-positive.
+
+**Balance sheet / convertible leverage — CONFIRMED, the key risk.** ~$1B of converts issued in <12 months: $650M (0.75%, 2025) + $350M (0% due 2032, May-2026). Proceeds repaid the secured Ares term loan (~$308M) — so they swapped expensive secured debt for cheap converts. Cash/marketable securities **$643.8M** (Mar-31-26). Low cash coupon, but converts are **latent dilution** on top of heavy stock-comp; share count ~179M and rising.
+
+**Valuation — CONFIRMED rich.** ~$9.1B market cap at ~$50.45 (May-30-26); **P/S ~8.4x** on ~$1.3B trailing (vs ~4.9x peer avg), de-rated from ~12.7x in late 2025. On FY26 guide (~$1.6B) it's ~5.5–6x forward sales — expensive for a still-cash-burning company.
+
+## Realistic 3–10yr return range (illustrative, not a forecast)
+Anchored to ~$9B EV today, ~$1.6B FY26 revenue.
+- **Bull / multi-bag (~20-25% probability):** Organic growth holds ~25-30%, D&A/AI licensing compounds into recurring high-margin revenue, real GAAP profitability by ~2028-29. Revenue ~$4-5B by 2031-33 at a 40-50%+ data mix. Could plausibly be a **3-5x (≈15-20%+ CAGR)** if it becomes the "oncology data utility" and the multiple holds. Upper-tail (re-rates to premium data-platform multiple on $5B+ rev) a **5-7x.**
+- **Base (~40%):** ~20-25% growth decelerating, reaches modest GAAP profit, multiple compresses toward ~4x sales. ~**1.5-2.5x over 5-7yr (≈8-14% CAGR)** — but with severe volatility.
+- **Bear / downside (~35-40%):** Growth decelerates faster, data bookings prove lumpy/project-based (not recurring), profitability slips, converts dilute, sentiment on unprofitable AI-healthcare names sours. **-40% to -70%** drawdowns are entirely realistic (the stock has already round-tripped big moves). Permanent impairment is a live scenario.
+
+This is a **fat-tailed, high-variance** position — the realistic dispersion is roughly -70% to +500% over the horizon.
+
+## Opportunity cost vs. the alternatives
+
+**vs. MSCI India ETF (the slot being replaced, ~8-11% USD EM beta):** Completely different risk objects. India ETF is diversified, profitable-underlying, structurally-growing beta with no single-name/leverage/dilution risk. TEM offers far higher upside but introduces concentrated business risk, governance risk, dilution, and a cash-burn clock. Swapping a diversified beta sleeve for a single pre-profit name **materially raises portfolio fragility** — defensible only if the owner explicitly wants a designated high-variance "shot."
+
+**vs. OTC Markets (OTCM, ~9-12%/yr quality anchor):** OTCM is the opposite archetype — profitable, cash-generative, capital-light, wide-moat compounder at a reasonable price. As a *risk-adjusted* compounder OTCM is clearly superior. TEM only wins on **raw upside ceiling**. For a "quality-compounder" book, TEM is the outlier; for a deliberately-aggressive sleeve, it's the higher-octane choice.
+
+The honest read: TEM is **not a quality-compounder** by this portfolio's stated standard (no profits, no FCF, dual-class, convert leverage, hype multiple). It is a credible **aggressive-growth speculation on a real, moat-forming asset.** Whether it deserves the slot depends entirely on whether this is meant to be the book's one designated multi-bagger gamble.
+
+## Honest top 3 risks
+1. **Profitability/dilution clock.** GAAP loss $125.9M/quarter, ~ -$239M FCF LTM, funded by ~$1B converts + heavy stock-comp. If growth decelerates before sustained GAAP/FCF profitability, dilution and/or further raises destroy per-share value. "We don't need more cash" is a claim, not a guarantee.
+2. **Data revenue may be lumpier and less recurring than the SaaS framing implies.** Big deals (AZ/Pathos $200M, Merck) are partly **finite project fees**. If the recurring-licensing flywheel doesn't fully materialize, the premium multiple is unjustified. NRR 126% is encouraging but young.
+3. **Valuation + governance + sentiment.** ~8.4x sales on an unprofitable name is hostage to AI-healthcare sentiment (already de-rated from ~12.7x). Lefkofsky's ~60% voting control means minority holders have **no governance recourse**; Groupon history is a yellow flag. Reimbursement/regulatory risk on the diagnostics base adds a fourth.
+
+## VERDICT
+**Conviction as the aggressive-growth pick for this slot: 3/5.**
+
+One-line: *A genuinely differentiated, moat-forming oncology data/AI flywheel with real multi-bag potential — but it's a pre-profit, convert-levered, founder-controlled, ~8x-sales speculation, so it earns a slot only as the book's explicit high-variance "shot," not as a quality-compounder; on risk-adjusted terms a profitable anchor like OTCM is the sounder swap.*
+
+**Sources:** [Q1-2026 8-K/press release (SEC)](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526206317/tem-ex99_1.htm) · [Q1-2026 10-Q (SEC)](https://www.sec.gov/Archives/edgar/data/0001717115/000119312526206356/tem-20260331.htm) · [Q1-2026 earnings transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/05/05/tempus-ai-tem-q1-2026-earnings-transcript/) · [AstraZeneca/Pathos $200M deal (Tempus)](https://www.tempus.com/news/tempus-signs-expanded-strategic-agreements-with-astrazeneca-and-pathos-to-develop-the-largest-multimodal-foundation-model-in-oncology/) · [FY2025 results (Tempus/BusinessWire)](https://www.businesswire.com/news/home/20260224126737/en/Tempus-Reports-Fourth-Quarter-and-Full-Year-2025-Results) · [Lefkofsky ownership/voting 13G & 10-K (StockTitan/SEC)](https://www.stocktitan.net/sec-filings/TEM/schedule-13g-a-tempus-ai-inc-amended-passive-investment-disclosure-03a466f837c2.html) · [$350M 2032 convertible notes 8-K (StockTitan)](https://www.stocktitan.net/sec-filings/TEM/8-k-tempus-ai-inc-reports-material-event-82bcdd2713c0.html) · [Ambry acquisition (MedTech Dive)](https://www.medtechdive.com/news/tempus-ai-buy-ambry-genetics-600m/732167/) · [Valuation/market cap (stockanalysis.com)](https://stockanalysis.com/stocks/tem/statistics/)
+
+*Two figures to treat as approximate/unverified to filing: the "8M+ patient records" (company marketing figure) and the precise organic-growth split (derived from management's Q4-25 commentary, not a GAAP line item).*
+
+
+<<<<< EXPERT REPORT: AEHR (agent af6975c536bc8d7f6) >>>>>
+
+I have everything verified. Here is my assessment.
+
+---
+
+# Aehr Test Systems (AEHR) — Aggressive-Growth Assessment for the ~6% Slot
+
+*Informational research synthesis, not financial advice. Date: 2026-05-31. All figures flagged where unverified.*
+
+## What it is
+Aehr makes test and burn-in equipment for semiconductors. Its differentiator is **full-wafer-level burn-in (FOX systems) and the proprietary WaferPak contactor** — a consumable that touches every die on a 300mm wafer at once, plus the newer **Sonoma package-level burn-in** systems (acquired via Incal Technology) for finished AI processors. Burn-in stresses chips at high voltage/temperature to weed out early-life failures — increasingly mandatory for expensive AI ASICs going into data centers.
+
+## The pivot — VERIFIED, and it's real
+- **Old story (FY23–24):** Silicon-carbide power semis for EVs. FY23 revenue $65.0M record, FY24 guided "over $100M." Then EV demand cratered; SiC customers pushed out orders. FY24 actually came in at $66.2M, **FY25 fell to $59.0M** with a **GAAP net loss of $(3.9)M** (non-GAAP net income only $4.6M, vs $35.8M in FY24). The EV-SiC thesis broke.
+- **New story (FY25–26):** Diversification into **AI processor burn-in (wafer + package level), GaN power, data storage (HDD), and silicon photonics**. The crown jewel is a **major hyperscaler as its first production package-level AI customer** (via the Incal/Sonoma acquisition) — "one of the premier large-scale data center hyperscalers developing its own AI processors." This is the Micron/AMD-early "picks-and-shovels into AI" angle the mission targets.
+
+## The headline order — VERIFIED
+- **April 16, 2026: record $41M follow-on production order** from the lead hyperscale customer for Sonoma systems + turnkey burn-in modules + custom sockets for AI ASICs. Deliveries begin **fiscal 2027 (starts June 27, 2026)**.
+- **H2 FY26 bookings exceed $92M** — six weeks into Q4 — versus the prior $60–80M H2 guide. Q3 alone booked $37.2M with a **book-to-bill >3.5x**, backlog $38.7M (effective $50.9M).
+
+## Financials — VERIFIED, and the disconnect is stark
+- **Q3 FY26 (ended Feb 27, 2026): revenue just $10.3M, down 43.7% YoY**, GAAP net loss $3.2M, non-GAAP EPS −$0.05 (missed). Trailing revenue is collapsing even as bookings explode — classic lumpy capital-equipment whipsaw.
+- **FY26 full-year guide: high side of $45–50M** (i.e. another down year vs FY25's $59M), with return to non-GAAP profitability in Q4.
+- **Balance sheet: $37.1M cash, no debt** — but they raised **$19.6M via at-the-market equity (ATM)** during the nine months. So they are **diluting shareholders** to fund the ramp. That is a real flag for a "compounder."
+
+## Ownership — WEAK alignment
+- **CEO Gayn Erickson is hired-gun era (joined 2012), NOT a founder.** Direct + indirect holdings ~**0.55M shares, roughly 1.0–1.3% of the company** (per recent Form 4 / ownership trackers). He has been a **net seller** (e.g., sold 152,824 shares). Institutions own ~53–76%. This fails the mission's "founder/family alignment preferred" test outright.
+
+## Valuation — VERIFIED, extreme
+- **Stock ~$92–102, market cap ~$2.6–2.9B** at end-May 2026 (near all-time high ~$109).
+- On FY26 sales of ~$45–50M that's **~55–60x trailing/forward sales** (your "~25x" premise is too low — it's worse). Even on a hoped-for FY27 with the $92M+ backlog converting, you're paying ~30x sales for a company that is **currently loss-making and shrinking on the income statement.** Industry semi P/S average ~6x; estimated "fair" P/S ~10x.
+
+## Realistic 3–10yr return range
+The whole bull case rests on the bookings inflection being real and durable. Rough scenarios (my modeling, unverified):
+- **Bull / multi-bag (~25–30% prob):** Hyperscaler AI-ASIC burn-in becomes a recurring, multi-customer franchise; revenue compounds to $250–400M+ by ~2030–32 at 40%+ operating margins on the high-margin WaferPak/socket consumable razor-blade model. Stock could **3–6x** (CAGR ~15–25% over 5–7yr), with optionality to more if it becomes the de-facto burn-in standard for custom silicon.
+- **Base (~40%):** Lumpy but real growth to ~$120–180M; multiple compresses from 55x to a still-rich 8–12x sales as it matures. Stock roughly **flat to +50% over 5yr** — most of the future is already in the price. **~0–8% CAGR.**
+- **Bear (~30–35%):** AI-ASIC capex digestion / hyperscaler insources or qualifies a competitor / single-customer order air-pocket repeats the SiC bust. Given 55x sales and one whale customer, a derating to 10–15x sales on a revenue stumble is **a –50% to –70% drawdown.** This is not hypothetical — it is exactly what happened in the SiC cycle, and the stock has had 60%+ drawdowns before.
+
+## Opportunity cost — the core question
+- **vs OTC Markets (OTCM):** OTCM is a genuine quality compounder — ROIC 42–104% (5yr avg ~58%), ~13% TTM revenue CAGR, recurring subscription/transaction economics, no single-customer risk, pays a dividend. A ~9–12%/yr steady anchor with low drawdown. For a 15-stock book that is already 36% AI/VMS, OTCM **reduces** correlation and fragility. AEHR **adds** to the AI-capex factor you're already heavy in.
+- **vs MSCI India ETF (INDA):** INDA is passive EM beta (~8–11% USD est., but recently −5% 1yr / +35% 5yr — and it's the *passive* slot you're explicitly trying to upgrade). AEHR clears the "do something with conviction" bar far more easily than INDA does — but at the cost of swapping diversified-EM beta for single-name binary AI-cyclical risk.
+
+The honest read: **AEHR is a more exciting business than INDA, but it is not a "quality compounder."** It is a high-beta, single-customer, loss-making, equity-diluting, capital-equipment cyclical priced at 55x sales near all-time highs. It belongs in a *trading sleeve or a basket of asymmetric bets*, not as a 6% concentrated long-term anchor. Replacing a passive ETF with it doesn't reduce the portfolio's problem (AI-capex concentration) — it intensifies it.
+
+## Honest top 3 risks
+1. **Single-customer binary risk.** One hyperscaler drives the entire AI thesis and >40% of revenue in key periods. If that program slips, gets dual-sourced, or is insourced, the stock halves. The SiC/EV bust is the template — same company, two years ago.
+2. **Valuation + dilution.** ~55x sales with negative EPS and an active ATM means you pay a nosebleed multiple *and* get diluted. Any growth disappointment compresses the multiple violently.
+3. **Cyclicality / lumpiness.** Capital equipment booked-to-shipped swings are huge (Q3 revenue −44% while book-to-bill >3.5x). Quarter-to-quarter unpredictability makes this a white-knuckle "compounder."
+
+## VERDICT
+**Conviction as the aggressive-growth pick for this specific 6% long-term slot: 2 / 5.**
+
+One-line: *A genuinely exciting AI-burn-in picks-and-shovels story with real multi-bag optionality, but a non-founder CEO with ~1% stake, one whale customer, shrinking revenue, equity dilution, and a 55x-sales price near all-time highs make it a speculative trade — not a concentrated quality-compounder anchor; if the owner wants to upgrade the passive India slot, OTC Markets is the far better risk-adjusted use of it.*
+
+---
+
+**Sources:**
+- [Aehr official: Record $41M order / H2 bookings >$92M (Apr 2026)](https://www.aehr.com/2026/04/aehr-receives-record-41-million-production-order-from-lead-hyperscale-ai-customer-second-half-bookings-exceed-92-million/)
+- [Aehr Q3 FY26 results — revenue $10.3M, −44% YoY (StockTitan 10-Q)](https://www.stocktitan.net/sec-filings/AEHR/10-q-aehr-test-systems-quarterly-earnings-report-79ce67587b2a.html)
+- [Aehr FY2025 full-year results — rev $59.0M, GAAP loss $(3.9)M, customer diversification](https://www.aehr.com/2025/07/aehr-test-systems-reports-fiscal-2025-fourth-quarter-and-full-year-financial-results-expands-total-addressable-market-and-diversifies-customer-base/)
+- [Aehr FY2023 record revenue $65.0M / FY24 SiC-EV context](https://www.aehr.com/2023/07/aehr-reports-record-revenue-and-profit-for-fiscal-2023-and-guides-for-over-50-increase-in-revenue-for-fiscal-2024-on-strength-from-semiconductor-wafer-level-test-and-burn-in-demand/)
+- [AEHR valuation / P/S (Simply Wall St)](https://simplywall.st/stocks/us/semiconductors/nasdaq-aehr/aehr-test-systems/news/a-look-at-aehr-test-systems-aehr-valuation-after-record-ai-d)
+- [AEHR statistics & market cap (StockAnalysis)](https://stockanalysis.com/stocks/aehr/statistics/)
+- [Gayn Erickson insider holdings/sales (StockTitan Form 4)](https://www.stocktitan.net/sec-filings/AEHR/form-4-aehr-test-systems-insider-trading-activity-4edea64bc686.html)
+- [OTC Markets Group quality-compounder profile](https://specialsituationinvesting.substack.com/p/otc-markets-group-a-quality-compounder)
+- [iShares MSCI India ETF (INDA) fact sheet](https://www.ishares.com/us/products/239659/ishares-msci-india-etf)
+
+Note: I could not load the SEC 8-K (HTTP 403); Q3 cash ($37.1M), bookings ($37.2M), backlog, and the $19.6M ATM raise are sourced from the StockTitan 10-Q summary and search aggregation rather than the primary filing directly — directionally reliable but worth a direct 10-Q check before acting. CEO ownership % (~1.0–1.3%) is from third-party trackers, not a direct proxy-statement read.
+
+
+<<<<< EXPERT REPORT: Hesai_HSAI (agent adfab458b5c6e4159) >>>>>
+
+I now have everything needed for a verdict. Hesai is the world's first profitable LiDAR pure-play, dual-listed in Hong Kong (a delisting escape hatch), with a 2026 guidance of 3-3.5M units. The decisive risk is the Section 1260H Pentagon "Chinese military company" designation. I have enough to write the assessment.
+
+---
+
+# Hesai Group (HSAI) — Aggressive-Growth Assessment for the ~6% India-ETF Slot
+
+*Informational research synthesis, not financial advice. Today: 2026-05-31. All figures sourced; estimates flagged.*
+
+## Verified facts (primary / company sources)
+
+**Profitability — CONFIRMED, and it's the real headline.** FY2025 was Hesai's first full-year GAAP profit as a LiDAR company: net revenue RMB 3,027.6M (US$432.9M, **+45.8% YoY**), net income **RMB 435.9M (US$62.3M)** vs. a RMB 102.4M loss in 2024; gross margin **41.8%**. Q4 2025 net income RMB 153.2M. Q1 2026: revenue RMB 680.6M (+29.6% YoY), net income RMB 18.3M — **fourth consecutive GAAP-profitable quarter, sixth consecutive non-GAAP**. (SEC 6-K filings; GlobeNewswire 2026-05-19.)
+
+**Market leadership — CONFIRMED.** Yole Group "Lidar for Automotive 2025": Hesai **#1 globally for the 4th straight year with ~33% of the automotive LiDAR market by 2024 revenue**. ~40%+ of the long-range automotive LiDAR market in 2025 (Gasgoo); ~55% of China long-range in March 2026; **~61% robotaxi LiDAR share**. First company ever to ship >100k LiDAR units in a month (Dec 2024).
+
+**Volume & guidance — CONFIRMED and accelerating.** FY2025 shipments 1,620,406 units (ADAS 1.38M, Robotics 239k). Q1 2026 shipments 471,723 (+~140% YoY in both ADAS and Robotics). Capacity scaling to 4M+ units; **2026 shipment guidance raised to 3–3.5M units** (roughly doubling). Q1 2026 revenue guidance was +24–33% YoY.
+
+**Design wins — CONFIRMED including Toyota.** Toyota design win announced Aug 2025 (ATX long-range on a China-JV NEV, mass production 2026). Mercedes-Benz confirmed supplier for L3-enabling models (2026). 20 models / 9 OEMs of new wins through 2026; cumulative ~22 OEMs / 120+ models. Robotaxi/robotruck deals: Pony.ai, Hello Inc., JD Logistics.
+
+**Founder ownership — PARTIALLY VERIFIED.** Three co-founders (Dr. Yifan "David" Li / CEO-Chairman, Dr. Kai Sun, Shaoqing Xiang) hold founder super-voting (dual-class) control. **The exact current equity % I could not verify from a primary filing** — flag as unverified; needs the latest 20-F/proxy. Founder-led, alignment is real but precise stake unconfirmed.
+
+**Valuation — ~6–7x sales, ~40x earnings.** Price ~US$18.90 (close 2026-05-29), market cap **~US$2.96B**, TTM revenue **~US$461M → ~6.4x sales**, P/E ~43x, ~156M shares (stockanalysis.com). The "$2.98 EPS / 6.7x P/E" floating in some feeds is an erroneous data artifact — ignore it. So: ~6–7x sales matches the prompt's framing; this is a profitable-but-still-growth multiple, not a cheap one.
+
+**Delisting escape hatch — CONFIRMED.** Dual-primary listing on HKEX (2525.HK) since 2025-09-16; ADSs and HK shares are **fully fungible, convertible both ways in ~2 business days**. This materially softens (does not eliminate) US delisting risk.
+
+## The China / geopolitical risk — addressed explicitly (this is the crux)
+
+This is **not** generic China-ADR risk. Hesai carries a **specific, severe, named designation**: the Pentagon placed it on the **Section 1260H "Chinese military company" list** (Jan 2024, relisted Oct 2024 after a court challenge). In Sept 2025, **US Senators (Rick Scott, Blackburn, Moreno) formally wrote to Treasury and the SEC demanding immediate delisting**. Hesai denies military ties and is litigating. Layered on top: standard HFCAA audit-inspection delisting risk and broad US-China tension.
+
+What this means concretely:
+- 1260H is currently a reputational/capital-markets-access stigma and bars DoD procurement, but does **not** by itself force a Nasdaq delisting. The active political pressure to make it do so is real and rising.
+- If forced off Nasdaq, the HK fungible listing means the business survives and shares remain tradable — **but the owner holds via Trading 212, which may not offer 2525.HK**, so a US delisting could mean a forced, possibly disorderly conversion or liquidation at the broker level. That is a genuine, slot-specific hazard for this owner.
+- A worst-case (sanctions/investment ban à la the executive-order China-military-securities lists) could force US persons to divest near-zero — a tail risk, not base case, but non-trivial given the 1260H label.
+
+## Realistic 3–10yr return range
+
+Anchored to ~US$2.96B cap, ~US$461M TTM revenue, ~$62M net income, 2026 guide ~doubling units.
+
+- **Bull (multi-bag, ~30% probability if no forced delisting):** LiDAR goes mass-market on ADAS + robotaxi/robotics inflection; revenue compounds ~30–40%/yr to ~US$2–3B by 2030–2033 at low-teens net margin → ~US$250–400M+ earnings. Even at a de-rated 25–30x and a partial China discount, that's a **~3–6x (≈15–22%/yr over 5–7yr), with a credible >5x tail** if margins and robotics mix hold. This is the genuine "Micron-years-early" picks-and-shovels case.
+- **Base (~40%):** Stays #1 but ASP/price-war compression (see RoboSense's ASP −52% YoY, GM to ~22%) caps margins; revenue grows ~20–25%/yr, multiple stays ~5–7x sales. **~1.5–2.5x over 5yr (~10–20%/yr)** — but with high volatility and a persistent geopolitical overhang capping the multiple.
+- **Downside (~30%, and these are correlated):** Forced US delisting + broker-level forced conversion/liquidation, and/or escalating price war crushing margins. Realistic outcomes range from **−40% to −80%**, with a low-probability near-total-loss tail if an investment ban hits a US-broker holder.
+
+## Opportunity cost vs. the alternatives
+
+- **vs. quality compounders (~9–12%/yr anchor, e.g. the OTC/Constellation-type names already in the book):** Completely different risk profile. HSAI offers a higher *expected* return ceiling but with a fat left tail those anchors don't have. For a **concentrated 15-stock quality-compounder** mandate, HSAI is a stylistic outlier — it's a high-beta, binary-tail bet, not a compounder.
+- **vs. iShares MSCI India ETF (~8–11% USD, the thing it would replace):** This is the sharpest contrast. The India ETF is **diversified, structurally growing EM beta with no single-name or delisting risk** — it's the portfolio's lone passive ballast. Replacing it with a single Pentagon-blacklisted China ADR **swaps diversified beta for concentrated single-name geopolitical tail risk**. That is a large step up the risk curve and removes the book's only non-idiosyncratic holding.
+
+**Is HSAI worth the China risk for *this* slot?** As a business: yes, it's a genuine #1, the first profitable pure-play, real moat (scale, design wins, vertical integration), accelerating volume — a legitimate aggressive-growth gem. As a *replacement for the India ETF specifically*: the fit is poor. You'd be deleting the portfolio's only diversifier to add its single highest-tail-risk name. If the owner wants HSAI, it more logically replaces a *lower-conviction single stock*, not the passive ballast — and ideally sized smaller than 6% given the binary delisting tail.
+
+## Honest top 3 risks
+
+1. **Forced US delisting / investment ban from the Section 1260H "Chinese military company" designation** — active Senate pressure; for a Trading-212 holder the HK fungibility may not fully protect against a disorderly broker-level conversion or forced sale.
+2. **LiDAR price war / ASP collapse** — RoboSense's blended ASP fell 52% YoY and GM to ~22%; Hesai's GM (41.8%) is best-in-class but already drifting down on ADAS mix. Volume doubling can mask, then unmask, margin erosion.
+3. **Profit fragility** — net income is thin (Q1 2026 only RMB 18M on RMB 681M revenue); profitability depends on scale and NRE/mix and could swing back to losses in a downturn or aggressive land-grab quarter.
+
+## VERDICT
+
+**Conviction as the aggressive-growth pick for *this specific slot*: 2 / 5.**
+
+One-line: A genuine, profitable, #1-in-the-world LiDAR pick-and-shovel with real multi-bag potential — but its Pentagon "Chinese military company" / delisting tail makes it a poor swap for the portfolio's only diversified India-ETF ballast; rate it ~3.5/5 as a business, ~2/5 as a fit for this slot, and if bought at all it belongs in place of a weak single stock and sized below 6%.
+
+Sources: [SEC 6-K FY2025 results](https://www.sec.gov/Archives/edgar/data/0001861737/000110465925109629/tm2530871d1_ex99-1.htm) · [FY2025 results (GlobeNewswire)](https://www.globenewswire.com/news-release/2026/03/24/3260989/0/en/Hesai-Group-Reports-Fourth-Quarter-and-Full-Year-2025-Unaudited-Financial-Results.html) · [Q1 2026 results](https://www.globenewswire.com/news-release/2026/05/19/3297198/0/en/Hesai-Group-Reports-First-Quarter-2026-Unaudited-Financial-Results.html) · [Yole 33% global share](https://www.yolegroup.com/industry-news/lidar-industry-enters-mass-adoption-phase-hesai-remains-leader-in-global-market-share/) · [Toyota design win](https://www.prnewswire.com/news-releases/hesai-secures-new-lidar-design-win-from-toyota-302530251.html) · [Senators' delisting letter](https://www.rickscott.senate.gov/2025/9/sens-rick-scott-blackburn-and-moreno-write-to-treasury-sec-calling-for-immediate-delisting-of-communist-china-s-hesai) · [HK dual listing](https://www.hesaitech.com/hesai-successfully-listed-on-the-main-board-of-the-hong-kong-stock-exchange/) · [RoboSense ASP/price-war](https://www.benzinga.com/Opinion/26/04/51707033/lidar-firm-seyond-narrows-annual-loss-but-faces-intense-pricing-pressure) · [stockanalysis.com HSAI valuation](https://stockanalysis.com/stocks/hsai/)
+
+---
+
+**Unverified flags:** exact founder equity % (dual-class control confirmed, precise stake not located in a primary filing — check latest 20-F/proxy); FY2026 full-year *revenue* guidance not issued (only unit guidance 3–3.5M and Q1 revenue guidance); P/S of ~6.4x and P/E ~43x are from a data aggregator, not the filing.
+
+
+<<<<< EXPERT REPORT: Skeptic_RiskManager (agent ae477811f2195bb75) >>>>>
+
+I now have sufficient verified data on all six candidates plus the repo's own risk framework. I'll compile the red-team verdict.
+
+---
+
+# RED-TEAM VERDICT: Replacing the India ETF with an aggressive-growth single name
+
+*Informational research synthesis, not financial advice. Data as of 2026-05-31; figures flagged where unverified.*
+
+## VERDICT (decisive)
+
+**Do NOT swap the diversified India ETF for any single aggressive-growth name. The trade fails on three independent grounds — it breaks the book's character, it sacrifices the portfolio's only genuine diversifier, and the slot's job is wrong for the instrument.** If you insist on owning aggressive growth, do it as a *small carve-out (≤2-3%) funded partly from elsewhere, not by deleting the India sleeve* — and the only candidate that survives the risk-adjusted screen for that role is **Kaspi (KSPI)**, with **MakeMyTrip a distant "no" on valuation** and the rest disqualified for character/risk reasons.
+
+The cleanest action, consistent with your own repo's analysis: **keep India as beta, or upgrade it to a quality India single-name (Polycab) — that is the slot's true upgrade path. Aggressive-growth single names do not belong in this slot.**
+
+---
+
+## (1) Does a concentrated aggressive-growth single name belong in this book?
+
+**No — it actively worsens the book's two biggest structural problems.** Your own `concentration-correlation-stress-test.md` is unambiguous on this:
+
+- The book is already **~75% one stylistic wager** (quality-compounding, premium multiple, long-duration, long-Europe), with an **effective ~3-4 independent bets behind 15 tickers**, and **zero ballast** (no energy, no value, no cash, no negative-beta).
+- The **EM Asia sleeve (India 6% + Vietnam 4% = 10%) is explicitly identified as "the one place the portfolio actually buys uncorrelated risk."**
+
+An aggressive-growth single name does the opposite of what this book needs. It adds *idiosyncratic, high-volatility, single-point-of-failure risk* on top of an already-concentrated book, and most of the candidates (Tempus, AEHR, Hesai) load straight onto the **same long-duration growth/rate factor that already dominates ~75% of the portfolio** — so they raise drawdown *correlation*, not diversification. You'd be paying a higher beta and a wider drawdown to get *less* true diversification. That is a character break, not an upgrade.
+
+## (2) Diversified India ETF vs. quality anchor vs. single-name aggressive growth — for THIS slot
+
+Ranked by fitness for the 6% slot:
+
+1. **Keep the India ETF (broad EM growth).** It is the highest-Sharpe role the slot can play in *this* book: genuinely uncorrelated to the European-quality core, domestic-demand-driven (INR), no single-company blow-up risk. Its only sins (passive, no moat, no owner alignment) are *irrelevant for a diversifier slot* — you don't need owner alignment from your ballast.
+2. **Upgrade to a quality India/EM single name (e.g., Polycab — your repo's 4.5/5).** Keeps the uncorrelated EM-growth exposure AND adds moat/founder alignment. This is the *real* upgrade path the slot was designed for, and the one 14 of 16 of your lanes nominated. OTC Markets (your 5/5) is a fine quality anchor but it fills a US/financials blind spot and *abandons* the EM diversification — a different decision.
+3. **Aggressive-growth single name (last).** Highest drawdown, lowest risk-adjusted fit, and (for the China/AI names) destroys the diversification benefit while concentrating risk.
+
+**The slot is your only diversifier. Spending it on aggressive growth is selling your only insurance to buy more of the thing you already own too much of.**
+
+## (3) Ranking the six by RISK-ADJUSTED FIT for this slot
+
+| Rank | Name | Verdict | Key risk-adjusted reasoning (2026 data) |
+|---|---|---|---|
+| **1** | **Kaspi (KSPI)** | Least-bad / only viable carve-out | Q1-26 rev +31% to $2.3B but **net income −1% (flat)** — growth decelerating. **~7x P/E + ~9% dividend** = the *only* candidate that is cheap and self-funding (no dilution). Founders Kim+Lomtadze ~44% (real alignment). But carries a genuine **tail risk**: Culper short-report + **US securities class action over alleged Russia-sanctions exposure**, governance/disclosure overhang, Hepsiburada/Turkey margin drag. Cheapness compensates; tail risk is real. Frontier (Kazakhstan), uncorrelated to the book — at least preserves the diversification logic. |
+| **2** | **MakeMyTrip (MMYT)** | No — valuation absurd | Best *business fit* (India, structural travel growth, would keep EM diversification, $782M cash, 97% cash conversion). But **trailing P/E ~91x, forward ~96x, EV/EBITDA ~31x** on a ~1.8% operating margin and **+10% constant-currency bookings** — you'd pay a hyper-growth multiple for low-teens growth. Trip.com is the controlling holder (not a founder). Valuation alone disqualifies it for a prudent slot. |
+| **3** | **Vista Energy (VIST)** | No (but the *useful* "no") | Strong ops: Q1-26 rev +~76%, top Vaca Muerta exporter, +$712M Equinor acquisition (part ADS-funded = dilution). It's the one name that would add **genuine ballast** (energy/real-asset, anti-correlated to your quality-growth book). But it's a **single-asset, single-basin, Argentina-macro, Brent-price-levered E&P** — that is not a quality compounder, it's a commodity bet with sovereign (ARS/capital-controls) risk. Wrong instrument for *this* slot; right *theme* (energy ballast) for a different decision. Financial strength rated weak (4/10). |
+| **4** | **Hesai (HSAI)** | No | First profitable lidar co (2025 net income ~$62M; Q1-26 net income just ~$2.7M — wafer-thin), #1 long-range auto + robotics lidar. But: **China VIE/ADR delisting + geopolitical risk**, lidar commoditization/price-war, hyper-cyclical, single-customer robotaxi contracts, loads onto the **same AI/growth factor** you're already heavy in. High beta, low margin, China overhang — opposite of a diversifier. |
+| **5** | **AEHR Test Systems** | No | Micro-cap, **violently lumpy** — posted a Q2-FY26 loss, pulled then *reinstated* guidance, revenue swings on a handful of orders. **Customer concentration 11.7%–45.3%** of sales; thesis pivoting from collapsed SiC/EV to AI burn-in (hope, not proof). This is a trade, not a 3-10yr compounder. Pure semicap-cycle factor risk on top of your existing semicap/AI exposure. |
+| **6** | **Tempus AI (TEM)** | Hard no | Rev +36% but **GAAP net loss widening to −$126M/quarter**, $56M/qtr stock-comp (structural dilution), operating cash outflow ~$73M, liquidity "funds the plan for at least one year" (i.e., **will need to raise**). Adjusted-EBITDA-positive only on heavily-adjusted basis. **Cash-burning, diluting, unprofitable** — the textbook antithesis of a quality compounder and the worst possible fit for a concentrated, no-ballast book. |
+
+## (4) Prudent position size and funding
+
+- **Full 6% into any single aggressive-growth name: No.** Sizing an unprofitable/cyclical/tail-risk single name at your *third-largest* sleeve-equivalent is indefensible in a 15-stock book.
+- **If — and only if — you want aggressive-growth optionality: cap it at 2-3%,** and treat it as a satellite, not a core slot.
+- **Funding: do NOT fund it entirely by deleting India.** That would zero out 60% of your only uncorrelated sleeve. Instead: keep ~3-4% in India (preserve the diversifier) and fund a ≤2-3% aggressive carve-out by **trimming the over-concentrated, single-factor clusters** the stress test flagged (e.g., the ~36% VMS cluster or ~24% life-sci cluster) — i.e., take the risk *from* the over-weighted wager, not from your only hedge.
+- **Better still:** if the itch is "this book is too sleepy/too one-factor," the stress test says the missing piece is **ballast (energy/value/cash), not more growth.** Of the six, **Vista is the only one that would actually de-correlate the book** — but as a deliberate small energy-ballast position, not as the "India replacement."
+
+## Bottom line for action
+
+1. **Keep the India ETF, or upgrade it to Polycab** (your own 4.5/5 quality India name) — that preserves the slot's diversification job and adds moat/alignment. This is the recommended move.
+2. **Reject Tempus, AEHR, Hesai** outright (unprofitable/lumpy/China-AI-factor pile-on).
+3. **Reject MakeMyTrip on valuation** (~90x+) despite good fit.
+4. If you truly want an aggressive name, **Kaspi is the only risk-adjusted survivor** (cheap, self-funding, aligned) — but size it **2-3% max**, fund it from your over-weight quality clusters (not from India), and accept the live sanctions/governance tail risk with eyes open.
+5. **Vista** is the wrong answer to *this* question but the right answer to a *different* one — the book's total absence of energy/real-asset ballast.
+
+**The single most important point: your only genuine diversifier is the EM-Asia sleeve. Do not spend it to buy more of the high-multiple growth factor you already own three-quarters of.**
+
+Sources: [Kaspi Q1-26 (Motley Fool transcript)](https://www.fool.com/earnings/call-transcripts/2026/05/11/kaspikz-kspi-q1-2026-earnings-transcript/), [Kaspi Q1 results (GuruFocus)](https://www.gurufocus.com/news/8848140/kaspikz-kspi-reports-31-revenue-growth-in-q1), [Kaspi sanctions/short-seller (bne IntelliNews)](https://www.intellinews.com/kazakhstan-and-nasdaq-listed-fintech-kaspi-fight-back-against-short-seller-s-report-345039/), [Kaspi class action (Robbins LLP)](https://robbinsllp.com/joint-stock-company-kaspi-kz/), [AEHR Q2-FY26 (StockTitan)](https://www.stocktitan.net/news/AEHR/aehr-test-systems-reports-fiscal-2026-second-quarter-financial-bcp49uesaqwc.html), [Hesai Q1-26 & profitability (Automotive World)](https://www.automotiveworld.com/news/hesai-posts-first-ever-profit-as-lidar-shipments-pass-1-6m-units/), [Hesai SEC 6-K](https://www.sec.gov/Archives/edgar/data/0001861737/000110465926063803/tm2615071d1_ex99-1.htm), [Vista Q1-26 (GuruFocus)](https://www.gurufocus.com/news/8823773/vista-energy-vist-set-to-report-q1-earnings-with-strong-expectations), [Vista Equinor acquisition (StockTitan)](https://www.stocktitan.net/sec-filings/VIST/6-k-vista-energy-s-a-b-de-c-v-current-report-foreign-issuer-874633bfcfbf.html), [Tempus Q1-26 (StockTitan)](https://www.stocktitan.net/news/TEM/tempus-reports-first-quarter-2026-dl4cqd2mzr9x.html), [MakeMyTrip valuation (StockAnalysis)](https://stockanalysis.com/stocks/mmyt/statistics/), [MakeMyTrip Q4-FY26 (Yahoo)](https://finance.yahoo.com/markets/stocks/articles/makemytrip-ltd-mmyt-q4-2026-010341301.html).
+
+(I did not write any files, per the brief. Relevant repo context drawn from `/home/user/SamsChosen./research/concentration-correlation-stress-test.md`, `/home/user/SamsChosen./research/gems/18-india-single-name-compounders.md`, and `/home/user/SamsChosen./research/gems/00-gem-candidates-master.md`.)
