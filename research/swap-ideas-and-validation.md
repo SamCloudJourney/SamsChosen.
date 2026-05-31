@@ -49,3 +49,11 @@ The red-team materially re-ordered the swaps. Net verdicts:
 ---
 
 ## FULL VALIDATION REPORTS (bull then bear, per swap)
+
+
+## FINAL DECISIONS (2026-05-31)
+- CONFIRMED: iShares MSCI India ETF → **OTC Markets (OTCM)** (on Trading 212; retail-scale liquidity fine).
+- CONFIRMED: Sofina → **Eurofins (ERF)**.
+- REJECTED: Bioventix→LeMaitre (LMAT too high); Sartorius→DISCO (DISCO not on Trading 212); VinaCapital Vietnam→Topaz (owner pass).
+- HELD: Sartorius, Bioventix, VinaCapital Vietnam (validation agrees).
+- Resulting book: see `research/target-portfolio-v1.md`.
