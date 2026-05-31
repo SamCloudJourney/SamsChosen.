@@ -14525,3 +14525,230 @@ At ~16p the stock trades on a low single-digit EV/EBITDA and, per consensus, a ~
 - [MarketScreener — Arrow shareholders/insider holdings (G. Abbott ~1.9%)](https://www.marketscreener.com/quote/stock/ARROW-EXPLORATION-CORP-46475572/company/)
 
 *Informational research synthesis, not financial advice. Reserve/NPV/EBITDA figures are company-sourced and not independently verified.*
+
+
+=====================================================================
+# PART 10 — TWO DEFINITIVE HEAD-TO-HEAD DEEP-DIVES (slot adjudications)
+=====================================================================
+
+_2026-05-31. Two final deep-dive adjudications requested by the owner: (A) the small niche-monopoly slot — Bioventix vs CellaVision vs Tristel; (B) the EM/diversifier slot — iShares MSCI India UCITS ETF VS dLocal. Informational, not advice. Full reports follow._
+
+## A. NICHE-MONOPOLY SLOT — VERDICT: KEEP BIOVENTIX (conviction 4/5)
+- **1st KEEP Bioventix (BVXP)** — highest quality of the three (~78% operating margin, ~67% ROE), fully ISA-buyable, ~19x P/E + 5%+ yield so you're *paid to wait* while holding a free option on blood-based Alzheimer's/Tau antibodies (now in commercial-scale production). The 2032 troponin cliff is small (~11%), dated, 6+ yrs out.
+- **2nd Tristel (TSTL)** — good business (81% GM, ~98% recurring, net cash) and ISA-buyable, but a quality/alignment DOWNGRADE: founder just left, and after TWO FDA clearances the US is still only **£108k (~0.2% of revenue)** on a ~38p/procedure royalty — yet priced at ~25x with that optionality already in. Conv 2/5 as a replacement.
+- **3rd CellaVision (CEVI)** — best *business* (category monopoly, Sysmex-to-2038), but **NOT buyable in a T212 ISA**: it is CFD-only on T212 (Nordic shares aren't in T212's real-share universe), and CFDs are ISA-prohibited. Un-investable for this account. (Verify in-app, but all sources align.)
+- **Flip condition:** Bioventix loses the slot only if the Tau program stalls AND Tristel's US royalty finally inflects from £100k-scale to real millions.
+
+## B. EM/DIVERSIFIER SLOT — VERDICT: KEEP iShares MSCI India UCITS ETF (conviction 4/5)
+- **KEEP India; do NOT swap it for dLocal.** The decisive issue is portfolio role, not single-name merit. The book's own stress-test shows ~3–4 effective bets / ~75% one style factor, and names the India sleeve as the **only genuine diversifier**. Swapping a ~168-stock, multi-sector, INR-denominated index for one volatile, LatAm-concentrated, founder-led EM-fintech would **shrink N_eff, add a fat single-name tail, AND deepen the book's dominant "founder-led compounder" style** — while *not even* delivering India growth (dLocal's Asia&Africa segment is only ~7% of revenue; it's overwhelmingly LatAm/BRL-ARS).
+- **dLocal is genuinely good though** — FY25 net income $197m (+63%), adj FCF $191m (97% conversion), net cash, cheap (~17x EV/FCF), and the 2022 Muddy Waters scar is now largely closed (NY securities class action dismissed and upheld on appeal, Apr 2026). Its bear point — **structurally declining take-rate** (2026 guide: TPV +50-60% but gross profit only +22.5-27.5%) — is live and must be underwritten.
+- **The correct action if dLocal is wanted:** own it **~3-4% funded by trimming the over-correlated VMS cluster (the ~21% Constellation+Topicus complex), NOT by selling India.** That captures the asymmetry, fills the payments-rails blind spot, and *improves* N_eff instead of degrading it.
+- **Flip condition:** swap India→dLocal only if dLocal's take-rate stabilizes (2-3 quarters of gross-profit growth converging toward TPV growth — currently failing) AND the owner consciously abandons India-specific EM beta. Absent both, keep India. (Note: T212 has no clean route to an India single name — NSE/BSE not offered, ADRs view-only — which itself argues for keeping the ETF as the India expression.)
+
+## NET: both adjudications say KEEP what you hold.
+The book's validated improvements stand (Sofina→Eurofins). Bioventix and the India ETF both survive. The only genuinely additive future move is a small **dLocal** satellite funded from the VMS cluster — a later decision, not a swap against India.
+
+---
+
+## FULL DEEP-DIVE REPORTS
+
+
+
+<<<<< NicheMonopoly_HeadToHead_Bioventix_vs_CellaVision_vs_Tristel (agent acafa839b37714f55) >>>>>
+
+I have enough to be decisive. The evidence is consistent: CellaVision real shares are NOT available on Trading 212 (only as a CFD on the Nasdaq Stockholm CFD page, and brokerchooser explicitly states Swedish stocks can't be traded as shares on T212), and CFDs are categorically ineligible for a Stocks & Shares ISA. Both Bioventix (BVXP.GB) and Tristel (TSTL.GB) have dedicated T212 Invest pages and are AIM shares fully ISA-eligible. I have robust primary-source financials on all three. Here is the verdict.
+
+---
+
+# HEAD-TO-HEAD: Bioventix vs CellaVision vs Tristel — settling one ISA slot
+
+*Informational research synthesis, not financial advice. Figures cited from company results / reputable analysis; unverified items flagged.*
+
+## The single most important finding (read first)
+
+**CellaVision is effectively un-investable for this account.** On Trading 212, CellaVision appears only as a **CFD** on the Nasdaq Stockholm CFD page (trading212.com/trading-instruments/cfd/CEVI.SE), and independent broker mapping states plainly that **you cannot trade Swedish (Nasdaq Stockholm) stocks as real shares on Trading 212**. T212's real-share universe is UK (LSE), US (NYSE/Nasdaq) and selected European venues — **Nordic equities are not in it.** CFDs are leveraged derivatives and are **categorically prohibited inside a UK Stocks & Shares ISA.** So however good the business is, it **cannot hold this slot in this account.** That alone settles 3rd place. (I flag: the user should double-check the live T212 search bar, but every signal points to view-only/CFD-only.)
+
+Both **Bioventix (BVXP.GB)** and **Tristel (TSTL.GB)** have dedicated T212 *Invest* pages, are LSE-AIM ordinary shares, and are **fully ISA-eligible** (AIM shares can be held in an ISA). So the *real* contest is **Bioventix vs Tristel**, with CellaVision as the "best business, wrong wrapper" benchmark.
+
+---
+
+## 1. Moat durability & width
+
+- **Bioventix** — Narrowest but arguably deepest. Sheep monoclonal antibodies (SMATs) give affinity/specificity competitors using mouse antibodies can't match. Once an antibody is embedded in an FDA-cleared immunoassay (vitamin D, troponin), the diagnostics maker will **not re-validate** to switch — switching cost is the moat, and it's enormous. But it is a *single-antibody-per-test* moat: each franchise has its own lifecycle and contractual end.
+- **CellaVision** — Widest and best of the three: >80% global share of digital cell-morphology, razor-and-blade (analyzers + reagents + software), and a Sysmex alliance locked to **2038**. This is a genuine category monopoly. (Irrelevant to the decision given the ISA block, but worth stating: as a *business* it's the winner.)
+- **Tristel** — Chlorine-dioxide (ClO₂) chemistry patents + ~98% consumable revenue + regulatory registrations per device/geography. Real and sticky in UK/EU/Australia where it's entrenched. But the US — the entire growth thesis — runs through a **third party (Parker Laboratories)** on a **royalty**, so Tristel doesn't own the US customer relationship. That makes the US moat *rented*, not owned.
+
+**Moat rank (business only): CellaVision > Bioventix ≈ Tristel.** Bioventix's moat is narrower but its economics prove its depth; Tristel's US moat is partner-dependent.
+
+## 2. Economics (primary-source)
+
+| Metric (latest FY) | **Bioventix** FY24 (Jun-24) | **Tristel** FY25 (Jun-25) | **CellaVision** (TTM/Q2-25) |
+|---|---|---|---|
+| Revenue | £13.6m (+6%) | £46.5m (+11%) | ~SEK 730m TTM; Q2 +7.6% organic |
+| Gross margin | ~95%+ (royalty) | 81% (was 80%) | ~68% |
+| Operating/EBIT(DA) margin | **78% operating** | 27.8% adj EBITDA | 31% EBITDA (Q2) |
+| FCF / cash gen | Very high; ~£10.6m op profit | Op cash flow £10.3m | Strong; minimal debt |
+| Net cash | £6.0m | £12.8m (debt-free) | SEK ~155m, minimal debt |
+| ROIC/ROE | ROE ~67% (asset-light) | High, asset-light | High |
+| Dividend | 155p, **5%+ yield** | 13.52p (+29%), covered 1.13x | pays dividend |
+
+**On pure quality, Bioventix wins decisively** — 78% operating margins and ~67% ROE are in a different league from Tristel's ~28% EBITDA margin. Tristel grows faster (11% vs 6%) and is more diversified by product/geography. Both are pristine, debt-free, cash-generative. (Flag: Bioventix gross margin "~95%+" is my characterization of a royalty/supply model, not a line item; the disclosed *operating* margin of 78% is the hard number. Tristel dividend cover of 1.13x is thin and management commits to ≥5% dividend growth "regardless of earnings" — a yellow flag.)
+
+## 3. Growth runway & how much is in the price
+
+- **Bioventix:** Mature core (vitamin D £5.9m/43%, troponin £1.45m/11%). The *free option* is blood-based Alzheimer's — three Tau antibodies now in **"large-scale production for commercial supply,"** with £155k early R&D revenue and a Quanterix research-test route. If pTau/brain-derived-tau blood diagnostics scale, this is a multi-bagger optionality the market assigns ~£0 to. P/E ~19x (lowest since 2016) means **you are paid 5%+ to wait** with the Alzheimer's call option free.
+- **Tristel:** The entire bull case is the US (FDA De Novo 2023 ultrasound + May-2025 ophthalmic clearance; ~16m ophthalmic procedures/yr). But **US royalty income was just £108k in FY25 (vs £74k FY24)** — i.e. **~0.2% of revenue** after two years of FDA clearances. And the royalty math is brutal: Tristel earns **~38p sterling per procedure** via Parker. Even millions of procedures convert to single-digit-millions of royalty — the US is a slow, low-take-rate trickle, not a step-change. The reliable engine is actually **UK/international consumables compounding ~10-15%**, which is good but already priced at ~25x.
+- **CellaVision:** DC-1 into the ~100k small/mid-lab segment + bone-marrow app (CE mark expected early 2026). Best runway — but not ownable here.
+
+**In-the-price read:** Bioventix at 19x has the *cheapest* valuation and a *free* mega-option. Tristel at 25x has the US optionality **largely still priced in** despite near-zero delivery — the risk/reward is less attractive.
+
+## 4. The risk that breaks each thesis
+
+- **Bioventix:** The **June-2032 Siemens troponin contract cliff** (loses ~£1.45m, ~11% of revenue) plus eventual vitamin-D generic erosion. Known, dated, and only ~11% — survivable, and 6+ years away. The FY24 £327k historic royalty over-reporting correction was an embarrassment but immaterial.
+- **Tristel:** **The US never scales meaningfully** because (a) the Parker royalty take is tiny (38p/procedure), (b) US hospital purchasing bureaucracy is slow (the very issue that reportedly prompted the leadership change), and (c) **30-year founder-CEO Paul Swinney retired Sept-2024** right after FDA approval — read by at least one close observer as a signal the US sales execution was unprepared. New CEO Matt Sassone (ex-Masimo/LiDCO) is US-focused, which is the right hire, but it's an execution bet on a rented channel.
+- **CellaVision:** **Single-channel dependency on Sysmex** (alliance to 2038, but Sysmex controls distribution/pricing leverage). Moot for this decision.
+
+## 5. Valuation & realistic 3–10yr return math
+
+- **Bioventix** (~£30, ~£157m cap, P/E ~19x, 5%+ yield): Base case = mid-single-digit revenue growth + 5% yield → **~9-11%/yr total return** with the core alone, **before** any Alzheimer's value. If blood-based Tau diagnostics commercialize, plausibly a 2-3x on the equity over 5-10yr. **Asymmetric: paid to wait, free upside option.**
+- **Tristel** (~380p, ~£181m cap, P/E ~25x, ~3.5% yield): LTIP only requires **5.5% EPS CAGR** (management's own implied conservatism). Base case ~10-13% revenue growth, but at 25x with the US optionality already embedded, **multiple compression risk** caps returns to roughly **~8-12%/yr** unless the US genuinely inflects — which two years of data say it isn't yet.
+- **CellaVision** (~21-23x P/E): high-quality compounder, but **not investable in this ISA.**
+
+## 6. Founder/insider alignment
+
+- **Bioventix:** Director Peter Harrison ~6% (~£9m) — meaningful skin in the game; long-standing.
+- **Tristel:** Founder-CEO **just left** (Sept-2024). New CEO is a hired-gun professional, not an owner-operator. Insider % not cleanly disclosed in the FY24 note (flag: unverified). **Alignment weakened at the worst moment** — right as the US bet needs an owner's conviction.
+- **CellaVision:** Founder Christer Fåhraeus ~6.8% + Grenlunden + William Demant Invest (both ≥10%) — strong anchored ownership (~38% combined per the brief). Best alignment — again, not ownable here.
+
+## 7. ISA / T212 buyability (decisive)
+
+- **Bioventix (BVXP, AIM):** Dedicated T212 Invest page — **real shares, ISA-eligible. Buyable. ✅**
+- **Tristel (TSTL, AIM):** Dedicated T212 Invest page — **real shares, ISA-eligible. Buyable. ✅**
+- **CellaVision (CEVI, Nasdaq Stockholm):** Only a **CFD** on T212; Swedish shares not offered as real stock. **CFDs are ISA-prohibited. NOT buyable in this ISA. ❌**
+
+---
+
+# DECISIVE RANKED VERDICT
+
+### 🥇 1st — KEEP **Bioventix (BVXP)** · Conviction **4/5**
+**Single most important reason:** It is the *highest-quality* of the three (78% operating margin, ~67% ROE), it is *fully ISA-buyable*, and at ~19x with a 5%+ yield you are **paid to wait while holding a free option on blood-based Alzheimer's diagnostics** now entering large-scale commercial production. The headline risk — the 2032 troponin cliff — is small (~11%), dated, and 6+ years out. Best risk/reward *and* a legal fit for the slot.
+
+### 🥈 2nd — **Tristel (TSTL)** · Conviction **2/5** (as a *replacement*)
+Genuinely good business (81% GM, ~98% recurring, net cash, faster top-line), and fully ISA-buyable — but it **does not clear the bar to displace Bioventix**: lower-quality economics, founder just departed, and the entire US growth thesis is a **partner-dependent, tiny-take-rate (38p/procedure) royalty that has delivered only £108k after two FDA clearances**, while the stock at 25x already prices that optionality in. You'd be downgrading quality and alignment to chase growth that isn't showing up.
+
+### 🥉 3rd — **CellaVision (CEVI)** · Conviction **1/5** (for *this slot*)
+**Best business of the three** (category monopoly, Sysmex-to-2038, widest moat), but **un-investable in a T212 ISA** (CFD-only, Swedish shares unavailable, CFDs ISA-prohibited). Ranks last purely because it fails the hard account constraint — not on merit.
+
+---
+
+### The condition under which this flips
+- **Bioventix → out** if either (a) the **Alzheimer's Tau program stalls/fails** to convert into royalty-bearing commercial assays over the next 2-3 years (removing the free option, leaving a slow-growth 19x stock facing a 2032 cliff), **or** (b) **vitamin-D royalties show structural erosion** earlier than expected. In that case **Tristel takes the slot** — *provided* its US royalty line finally inflects from £100k-scale to genuine millions (proof the FDA clearances are monetizing).
+- **CellaVision → into contention only if** the user holds it in a **different wrapper** (e.g. a SIPP/GIA with a broker offering real Nasdaq Stockholm shares such as Interactive Investor/Hargreaves Lansdown). Outside the T212-ISA constraint, CellaVision would rank **1st on business quality.**
+
+**Bottom line: Keep Bioventix.** It wins on quality, valuation-with-free-optionality, and is the right fit for the account. Tristel is a fine business but a quality/alignment downgrade chasing an as-yet-undelivered US royalty. CellaVision is the best company but can't be held here.
+
+**Sources:** [Bioventix FY24 AR (PDF)](https://www.bioventix.com/wp-content/uploads/KS_BVX_AR24_Online.pdf) · [Maynard Paton – Bioventix FY24](https://maynardpaton.com/2025/03/04/bioventix-155k-rd-revenue-and-commencement-of-large-scale-production-signals-increasing-alzheimers-success-after-troponin-error-creates-below-expectations-fy-2024-and-leaves-dividend-yield/) · [Tristel FY25 final results RNS](https://www.investegate.co.uk/announcement/rns/tristel--tstl/final-results/9165875) · [Maynard Paton – Tristel FY24 (US royalty math, Swinney departure, LTIP)](https://maynardpaton.com/2024/12/23/tristel-record-fy-2024-discloses-impressive-32-uk-growth-as-sudden-us-purchasing-bureaucracy-explains-leadership-change-boilerplate-ltip-seeks-only-5-5-eps-cagr-and-p-e-drops-to-lowest-since-201/) · [CellaVision Q2-25 presentation](https://www.investing.com/news/company-news/cellavision-q2-2025-presentation-76-organic-growth-amid-mixed-regional-performance-93CH-4142146) · [CellaVision–Sysmex alliance to 2038](https://www.cellavision.com/investors/press-releases/cellavision-and-sysmex-sign-strategic-alliance-agreement) · [T212 Bioventix Invest page](https://www.trading212.com/trading-instruments/invest/BVXP.GB) · [T212 Tristel Invest page](https://www.trading212.com/trading-instruments/invest/TSTL.GB) · [T212 CellaVision CFD page](https://www.trading212.com/trading-instruments/cfd/CEVI.SE) · [BrokerChooser – Swedish stocks not available on T212](https://brokerchooser.com/invest-long-term/diversification/swedish-stocks-at-trading-212)
+
+**Key flags:** Tristel insider ownership % not cleanly disclosed (unverified); Bioventix "~95%+ gross margin" is my characterization (the hard disclosed figure is 78% operating margin); the T212 CellaVision-ISA block should be double-checked in the live app, though all sources align that Swedish shares are CFD-only on the platform.
+
+
+<<<<< India_ETF_VS_dLocal (agent ac8cadf47268cf4de) >>>>>
+
+I now have a comprehensive primary-source picture. Merchant concentration confirmed at 61% top-10 (and now TWO >10% customers — a concentration deterioration worth flagging). India single-name direct buyability on T212 is limited (NSE/BSE not directly offered; the India ETF/UCITS is the clean route). I have everything needed. Let me also quickly note the dLocal beta/volatility for the diversification argument — I have enough (52-week range $9.76-$16.77, a ~70% peak-to-trough band, vs India ETF's low-double-digit volatility). 
+
+I have sufficient grounding to write the decisive VS verdict.
+
+---
+
+# VS DEEP-DIVE: Keep iShares MSCI India UCITS ETF  vs  Replace with dLocal (DLO)
+
+*Informational research synthesis, not financial advice. Figures cited to primary sources where possible; unverified items flagged.*
+
+## Bottom line up front
+
+**VERDICT: KEEP the iShares MSCI India UCITS ETF. Conviction 4/5.**
+
+dLocal is a genuinely good business and the prior research correctly identified it as the best *buyable* EM-fintech-rails name. But this specific slot is not a "find the best EM single name" decision — it is **the only genuine diversifier in a book the stress-test already shows is ~75% one factor and ~3-4 effective bets.** Swapping a 168-stock, multi-sector, INR-denominated index for one volatile, founder-controlled, LatAm-concentrated EM-fintech with a structurally declining take-rate **destroys the one piece of real diversification the portfolio owns, while *not even* preserving the India/EM-growth thesis it was bought for.** dLocal belongs in this book — but funded from the over-stuffed European-quality-growth core, not from the diversifier slot.
+
+---
+
+## 1. The diversification / correlation role in THIS book (the decisive issue)
+
+Your own `concentration-correlation-stress-test.md` is unusually blunt and it settles most of this:
+
+- The book is **"~75% one bet on a single factor, dressed as five buckets,"** with **N_eff ≈ 3-4 effective bets** vs 15 line items.
+- It explicitly names the EM-Asia sleeve (India ETF + VinaCapital) as **"the only place the portfolio actually buys uncorrelated risk"** and **"the only genuine diversifier."**
+- ~55-65% of the book is EUR/CHF; ~80% loads onto the long-duration quality-growth style factor.
+
+What each candidate does to that:
+
+| | iShares MSCI India UCITS ETF | dLocal (DLO) |
+|---|---|---|
+| Underlying bets | ~168 stocks; financials, IT, energy, staples, industrials | **1 company** |
+| Currency | INR (genuinely uncorrelated to EUR/USD core) | USD-reporting, but earnings are EM-FX (BRL, ARS, EGP, NGN) — *also* uncorrelated, but undiversified |
+| Single-point-of-failure | Effectively none (index) | High — fraud-allegation history, 61% top-10 merchant concentration, founder key-man |
+| Effect on N_eff | Adds a near-full independent bet | Adds a fractional, idiosyncratic bet — and a far more fragile one |
+| Style/factor overlap with core | Low | **Low on macro, but it is the SAME "founder-led quality-compounder" style wager** as ~75% of the book — so it deepens the dominant style factor |
+
+The subtle trap: dLocal *feels* diversifying because it is EM and uncorrelated to European software *macro*. But thematically it is **exactly the founder-led, high-growth, premium-narrative compounder bet the book is already saturated with** (Constellation, ATOSS, Topicus, Vitec…). You'd be trading genuine *structural* diversification (a passive, multi-sector, foreign-currency index) for one more expression of your house style. The stress-test's whole point is that the book needs *fewer* correlated quality-growth bets and *more* genuinely orthogonal ballast. dLocal moves the wrong way on N_eff.
+
+**On this axis — the one the brief calls "the key issue" — India wins decisively.** Replacing the index with a single volatile EM name measurably *reduces* the portfolio's only diversification and *adds* a single-point-of-failure to a book that currently has none in this sleeve.
+
+## 2. Realistic 3-10yr return & asymmetric upside
+
+**iShares MSCI India (base/beta case).** MSCI India 10yr annualized return ~9.75% USD / ~11.7% local (to Jan 2026; *MSCI/Curvo*). India 2025 was weak (+2.62% USD) after a strong multi-year run, so you're not buying a euphoric top. Structural drivers (demographics, formalization, capex cycle, domestic consumption) are intact. Realistic 3-10yr: **~8-12% local-currency CAGR, less an INR depreciation drag of ~2-3%/yr historically and a 0.65% TER.** Call it **~6-9% USD/GBP** — a respectable, low-stress beta. Upside is *capped at "India compounds"* — no 5-10x asymmetry. This is ballast, not a moonshot.
+
+**dLocal (asymmetry case, honestly modelled).** This is where DLO is genuinely attractive *if you ignore the slot*:
+- FY25 (primary source, *dLocal 6-K / globenewswire 18-Mar-2026*): TPV $40.8bn (+60%), revenue $1.09bn (+65% Q4), gross profit $403m (+37%), **net income $197m (+63%)**, **adjusted FCF $190.7m (+110%, 97% conversion)**, net cash (total cash ~$604m, corporate cash ~$333m), $57.2m dividend, **$300m buyback** authorized.
+- **The take-rate decline is real and management-confirmed.** Q4'25 gross-profit/TPV fell to **0.88% from 1.09%** YoY. The 2026 guidance is the smoking gun: **TPV +50-60% but gross profit only +22.5-27.5%** — i.e., management is telling you the net take-rate keeps compressing as volume mixes to mega-merchants and low-spread geographies (Egypt FX, Argentina).
+- 10x math, de-romanticized: if TPV compounds ~40%/yr for 7yr (~10x TPV) but take-rate halves, gross profit/FCF roughly ~4-5x. Add a re-rate from today's depressed ~17x EV/FCF toward a quality-compounder multiple and a credible **bull is ~4-7x over 7-10yr.** That *is* materially more upside than India beta — the asymmetry is real.
+
+So on pure expected return/upside, **dLocal wins** — it has a genuine multi-bagger path India cannot offer. But that upside comes bundled with the section-3 tail and the section-1 diversification cost.
+
+## 3. Downside / tail risk
+
+- **India ETF:** shallow tail. Worst historical drawdowns are index-level EM selloffs (2022 −8% USD); INR depreciation is a slow grind, not a wipeout. **No fraud risk, no key-man, no customer concentration, no permanent-impairment path.** A bad decade is "mediocre return," not "−70%."
+- **dLocal:** fat left tail. 52-week range **$9.76-$16.77** (a ~70% intra-year band — *Yahoo/Nasdaq*). Risks: (a) take-rate compression overruns volume growth (the central bear — and 2026 guidance shows it's live); (b) **61% top-10 merchant concentration, now with TWO customers >10%** of revenue (up from one in 2024 — a *deterioration* worth flagging; *20-F FY25*); (c) EM-FX/capital-controls (Argentina, Nigeria −80% revenue episode, Egypt); (d) General Atlantic overhang — sold 17.25m shares at $12.75 in Sep 2025, more likely to come.
+
+  *De-risked items:* the **Muddy Waters fraud scar is now largely closed** — the Audit Committee's independent investigation (Feb 2025) found the allegations unsubstantiated, and the **NY securities class action was fully dismissed and upheld on appeal (April 2026)**, with the court specifically rejecting the take-rate-disclosure claims (*StockTitan/MercoPress*). That removes much of the 2022 overhang, though reputation/discount lingers.
+
+**On tail risk, India wins clearly** — a single EM fintech can go to a permanent ~−70%; a diversified index essentially cannot.
+
+## 4. Valuation
+
+- **India ETF:** MSCI India P/E ~23.8 (*MacroMicro, May 2026*) — full but not bubbly, and de-rated through 2025's flat year. You pay a quality-market premium for structural growth.
+- **dLocal:** ~$3.5bn cap at ~$11-12 (*Yahoo, May 2026*); ~3.2x EV/revenue, ~17x EV/FCF, ~18x P/E on $197m net income — **cheap for a 50-60% TPV grower with net cash and 97% FCF conversion.** Valuation genuinely favors dLocal; the market is pricing the take-rate fear. This is the strongest leg of the bull case.
+
+## 5. Does dLocal preserve the EM/India thesis? **No — this is the thesis-killer.**
+
+The India ETF is bought for **India structural growth.** dLocal has **essentially no India exposure that matters**: India sits inside the "**Asia & Africa**" segment, which is only **~$73.4m revenue (~7% of total), and gross profit ~$34m** (*fxcintel/launchbaseafrica, FY24-25*). dLocal is overwhelmingly a **LatAm** business (Brazil/Mexico/Argentina), with Africa second. India is a small, early, RBI-regulated piece. 
+
+So the validated bull-case claim that DLO "keeps EM exposure" is true only in the loosest sense — it swaps **diversified, India-specific, INR beta** for **concentrated LatAm-fintech, BRL/ARS beta.** If you value India growth specifically (the brief says you do), dLocal does not deliver it. It changes *which* emerging markets and *how* (one company's micro vs a country's macro). That is a different bet wearing the EM label.
+
+## 6. T212-ISA buyability (both confirmed)
+
+- **iShares MSCI India UCITS ETF** — UCITS, the version you already hold; cleanly ISA-buyable. (Note: avoid the US INDA/INDY lines — INDY shows as a *CFD* on T212, not for the ISA; stick to the UCITS NDIA/equivalent UK line.)
+- **dLocal (DLO)** — NASDAQ **Class A common stock, not an ADR** — confirmed commission-free on T212 Invest/ISA (*trading212.com*). Buyability is clean for both; not a differentiator.
+
+## Other India-preserving routes (brief aside)
+- **A different India UCITS ETF** if cost matters: the iShares line is 0.65% TER. Cheaper India UCITS exposure exists (e.g. broader-cap / lower-fee India UCITS products) — but switching ETFs is a fee tweak, not a thesis change, and your current line is the largest/most liquid.
+- **A T212-buyable India single name:** direct NSE/BSE names (HDFC Bank, ICICI, Infosys) are **not cleanly available** on T212 (Indian exchanges not offered; ADR/CFD routes only, which fail your filter). So if you want India *and* a single-name compounder, there is **no clean buyable route** — which is itself a strong argument to keep the ETF as the India expression.
+
+---
+
+## DECISIVE VERDICT
+
+**KEEP iShares MSCI India UCITS ETF. Do NOT swap it for dLocal. Conviction 4/5.**
+
+**Single most important reason:** The stress-test already proves this book is ~3-4 effective bets and ~75% one style factor, and it names the India ETF as the *only genuine diversifier*. dLocal would replace structural, multi-sector, INR diversification with a single, volatile, LatAm-concentrated name that is *also* your house "founder-led compounder" style — so it shrinks N_eff and adds a fat tail, **while not even delivering the India growth the slot exists to provide.** You'd be paying real diversification to chase asymmetry you can source elsewhere.
+
+**But dLocal is too good to ignore — so the right action is to OWN IT FROM THE CORE, NOT THE DIVERSIFIER SLOT.** If/when you act on it (a later decision), fund a **~3-4% dLocal position by trimming the over-correlated European quality-growth/VMS cluster** (the 21% Constellation+Topicus complex, or a lower-conviction VMS name), *not* by selling India. That captures dLocal's asymmetry, fills the genuine fintech/payments-rails blind spot, and *improves* N_eff by diluting the dominant factor — the opposite of what the swap-against-India does. Size: 3% start, 4% max, given the take-rate uncertainty and single-name tail.
+
+**The single condition that would FLIP me to swapping India for dLocal:**
+> If dLocal's **net take-rate stabilizes** — specifically, **2-3 consecutive quarters where gross-profit growth converges toward TPV growth** (the 2026 guide of TPV +50-60% vs GP +22.5-27.5% is the opposite, so this is currently *failing*) — **AND** you consciously decide you no longer want India-specific/structural EM beta and are willing to run the book as an even-more-concentrated single-factor portfolio. Absent *both*, keep India.
+
+Either way, the cleaner long-term fix the stress-test points to is to add genuinely *orthogonal* ballast (value/real-assets/USD-defensive), of which the India ETF is the closest thing you currently own — another reason not to sell it.
+
+**Sources:** dLocal FY25 results ([globenewswire 18-Mar-2026](https://www.globenewswire.com/news-release/2026/03/18/3258603/0/en/dLocal-Reports-2025-Fourth-Quarter-Financial-Results.html), [SEC 6-K](https://www.sec.gov/Archives/edgar/data/0001846832/000207097926000110/a991dlocal4q25_earningsres.htm), [StockTitan](https://www.stocktitan.net/news/DLO/d-local-reports-2025-fourth-quarter-financial-m11toka2fiil.html)); take-rate/segment ([fxcintel](https://www.fxcintel.com/research/reports/ct-dlocal-fy-2024-earnings), [launchbaseafrica](https://launchbaseafrica.com/2024/11/15/dlocal-devastated-by-over-80-revenue-loss-in-nigeria-as-egypt-remains-africas-profitability-hub/)); merchant concentration ([20-F via StockTitan](https://www.stocktitan.net/sec-filings/DLO/20-f-d-local-ltd-files-annual-report-foreign-issuer-e06996348032.html)); litigation dismissal ([MercoPress 21-Apr-2026](https://en.mercopress.com/2026/04/21/new-york-court-rules-in-favor-of-uruguayan-fintech-dlocal-dismisses-investor-class-action), [StockTitan](https://www.stocktitan.net/news/DLO/d-local-limited-announces-dismissal-of-new-york-state-securities-5u89sx8qfcs2.html)); GA selldown ([globenewswire](https://www.globenewswire.com/news-release/2025/09/03/3144086/0/en/dLocal-Announces-Launch-of-Secondary-Offering.html)); price/cap ([Yahoo](https://finance.yahoo.com/quote/DLO/), [Macrotrends](https://www.macrotrends.net/stocks/charts/DLO/dlocal/market-cap)); India ETF ([justETF](https://www.justetf.com/en/etf-profile.html?isin=IE00BZCQB185), [iShares UK NDIA](https://www.ishares.com/uk/individual/en/products/297617/ishares-msci-india-ucits-etf-usd-acc-fund)); MSCI India returns/PE ([Curvo](https://curvo.eu/backtest/en/market-index/msci-india), [MacroMicro](https://en.macromicro.me/series/20731/msci-india-index-pe-ratio)); T212 ([DLO line](https://www.trading212.com/trading-instruments/invest/DLO.US)).
+
+*Note: I did not write any files, per the brief. If you'd like, I can save this as `research/gems/21-VS-india-etf-vs-dlocal.md` and append a row to the master index.*

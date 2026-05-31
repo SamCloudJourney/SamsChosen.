@@ -246,3 +246,10 @@ _Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). 
 - **dLocal (DLO) → iShares MSCI India ETF** — bull 4/5, the buyable EM-fintech-rails "Kaspi proxy"; underwrite the falling take-rate. The aggressive satellite option.
 
 **UNTOUCHABLE CORE (no candidate beat any):** Constellation, ATOSS, Topicus, Vitec, Veralto, EXOR, Investor AB, Bachem, Sartorius.
+
+---
+
+## FINAL ADJUDICATIONS (PART 10) [2026-05-31]
+- **Niche-monopoly slot → KEEP Bioventix** (4/5). Tristel = quality/alignment downgrade (US still ~0.2% of revenue); CellaVision = best business but NOT buyable on T212 (CFD-only, ISA-prohibited).
+- **EM/diversifier slot → KEEP iShares MSCI India UCITS ETF** (4/5). dLocal is good but swapping it for India destroys the only diversifier AND doesn't deliver India (dLocal ~7% Asia/Africa, mostly LatAm). If wanted, own dLocal ~3-4% funded from the VMS cluster (Constellation/Topicus), NOT from India.
+- Net: both adjudications say KEEP. Only confirmed change to the book remains Sofina→Eurofins. dLocal = optional future satellite from the VMS cluster.
