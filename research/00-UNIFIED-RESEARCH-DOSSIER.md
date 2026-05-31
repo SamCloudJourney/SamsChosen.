@@ -1,13 +1,144 @@
-# SamsChosen — Unified Research Dossier
+# SAMSCHOSEN — MASTER RESEARCH DOSSIER
+### A unified, deep-research base for a concentrated, long-horizon "hidden-gem" quality-compounder portfolio
 
-_Single consolidated file of ALL research to date. Informational synthesis, not financial advice — decisions are the owner's. This is the living document we keep appending to. Generated 2026-05-31 by concatenating the repo's research files (preserved verbatim). Modular source files remain in `research/` and `research/gems/` as the archive._
+_Version 2026-05-31 · Single source of truth · Informational research synthesis, **not** financial advice — every allocation decision is the owner's. All company figures are sourced by the underlying research agents from filings/IR/reputable press and are flagged where unverified; valuations are point-in-time (late-May 2026) and must be re-verified before any action._
 
-## Table of contents
-- PART 0 — Portfolio (the 15)
-- PART 1 — Portfolio analysis (synthesis, honest read, disputed-figures verification, concentration stress-test, AI/VMS tripwires, per-holding data, best-15 keep/replace)
-- PART 2 — Gem-hunt master index (lanes 01–20, cross-lane signals, swap thesis)
-- PART 3 — Gem lanes 01–20 (full detailed reports)
-- PART 4 — Gem lanes 21–60 (wave-2 expansion; appends continue here)
+---
+
+## ABSTRACT
+
+This dossier consolidates the entirety of a single intensive research session into one document. It (i) records and diagnoses an existing 15-stock concentrated quality-compounder portfolio; (ii) stress-tests that book for hidden correlation, factor concentration, and structural blind spots; (iii) verifies the disputed figures underpinning the holdings against primary sources; (iv) establishes a live monitoring framework for the single largest swing factor in the book (the AI-versus-vertical-software-moat question, ~36% of capital); and (v) executes a **two-wave, sixty-lane hunt** for under-the-radar "behind-the-scenes, Micron/AMD-years-early" businesses with both durable decade-long quality **and** asymmetric (multi-bagger) upside. The hunt screened on the order of **200+ named candidates** across 60 non-overlapping finder-lanes, each researched by an independent long-running model agent under an adversarial-verification brief. The output is not a buy list; it is a research-accumulation base from which concentrated, deliberate decisions can later be made.
+
+**Central diagnostic finding:** the existing book is *diversified-looking, not diversified* — structurally ~3–4 independent bets behind 15 tickers, ~75% expressing a single stylistic wager (premium-multiple quality-compounding financed by benign real rates), with **zero** energy/real assets, **zero** direct financials, very little US/USD, and a heavy EUR tilt.
+
+**Central constructive finding:** the highest-conviction gems surfaced by the hunt disproportionately *also* fill those exact blind spots — so upgrading business quality and de-monolithing the portfolio are frequently the **same** move.
+
+---
+
+## PART A — SESSION LOG (what was done, in order)
+
+1. **Workspace reset.** The repository previously held an unrelated Python application (a UK tax/HMRC + TrueLayer banking integration, 24 files). On instruction, the working tree was cleared to a clean slate for this research mission. (The prior app remains recoverable from git history.)
+2. **Portfolio recorded** (`portfolio.md`) — the 15 holdings and weights.
+3. **Two independent third-party analyses ingested** and saved: a consolidated quantitative synthesis (`portfolio-synthesis.md`) and a qualitative "honest read" (`portfolio-the-honest-read.md`).
+4. **Adversarial verification wave (4 agents):** primary-source fact-check of disputed figures (`disputed-figures-verification.md`), the AI/VMS moat-tripwire framework (`ai-vs-vertical-software-moat-tripwires.md`), the concentration/correlation stress-test (`concentration-correlation-stress-test.md`), and a per-holding data refresh (`per-holding-data-refresh.md`).
+5. **Keep/replace synthesis** (`best-15-synthesis.md`) — a tiered, scenario-based menu (minimal-change → full de-monolith), explicitly framed as informational, not a verdict.
+6. **Gem-hunt Wave 1 (20 lanes):** the first finder-lanes (01–20), each a detailed standalone report, indexed in `gems/00-gem-candidates-master.md`.
+7. **Gem-hunt Wave 2 (40 lanes):** a second, larger fan-out (lanes 21–60) of long-running Opus agents on entirely new structural/future themes, briefed explicitly for **generational, asymmetric** upside.
+8. **Recovery & consolidation:** of the 40 Wave-2 agents, 8 returned via the normal notification path and 32 completed but never surfaced their results to the orchestrator; all 32 finished reports were **recovered directly from the agent transcripts** (extracted to file without context loss) so that nothing was lost. Everything was then unified into this single dossier.
+
+This file is the **living document**; future research waves append below.
+
+---
+
+## PART B — THE MISSION & THE "GEM" CRITERIA
+
+**Mission.** Build the deepest possible research base of under-the-radar businesses for a long-term (3–10yr+) concentrated portfolio. The target archetype is **"behind-the-scenes, indispensable, Micron/AMD-years-early"**: picks-and-shovels into structural or future waves, *before* the crowd prices them, with real moats and real economics. This is a research-accumulation mission — pick decisions come later.
+
+**The eight-point gem test applied in every lane:**
+1. *Indispensability* — is the business a genuine bottleneck / system-of-record / sole-or-oligopoly supplier?
+2. *Structural or future wave* — is it leveraged to a multi-year, non-discretionary demand driver?
+3. *Under-coverage* — is it genuinely off the radar (small, foreign-listed, mis-classified, mis-understood)?
+4. *Moat mechanism* — switching costs, certification/qualification barriers, network effects, route/cost-density, IP/royalty, brand.
+5. *Owner alignment* — founder/family/insider ownership preferred (the trait that defines the existing book).
+6. *Economics* — sourced growth, margins, FCF, ROIC, balance sheet; **unverified figures flagged, never fabricated.**
+7. *Asymmetry* — a credible path to a multi-bagger over a decade, not "shitty gains."
+8. *Replaceability* — which of the 15 it could displace, or which structural blind spot it fills.
+
+---
+
+## PART C — PORTFOLIO DIAGNOSIS (condensed; full detail in Parts 1)
+
+**The 15 (weights):** Constellation 12 · ATOSS 9 · Topicus 9 · Bachem 9 · Veralto 8 · EXOR 8 · Investor AB 7 · Vitec 6 · Sartorius Stedim 6 · iShares MSCI India 6 · Eckert & Ziegler 5 · Secunet 4 · Bioventix 4 · VinaCapital Vietnam 4 · Sofina 3.
+
+**Cluster map & hidden correlations:**
+- Vertical-market software / serial acquirers **36%** (Constellation, ATOSS, Topicus, Vitec) — but Constellation *controls* Topicus, so ~21% is **one capital-allocation ecosystem**.
+- Life-sciences supply chain **24%** — Bachem + Sartorius share **one bioprocessing/GLP-1 cycle** (~15% moves together).
+- Family holdcos **18%** (EXOR, Investor AB, Sofina) — overlapping European-healthcare + private-market exposure; Investor AB's EQT stake duplicates Sofina.
+- Defensive sovereignty/compliance **12%** (Veralto, Secunet).
+- Emerging Asia **10%** (India ETF, VinaCapital Vietnam) — the only genuinely uncorrelated sleeve, and the two passive positions.
+
+**Effective bets:** ~3–4 independent risk clusters behind the nominal 15 (a ~4× overstatement of diversification). ~75% of the book is one stylistic factor.
+
+**Verified-figure corrections that matter:** Bachem's 35–45% FY2026 LC-growth / >CHF 1bn ambition is *real* (confirmed); Sartorius did **not** issue a profit warning (the "+9.6% cc" figure was mislabeled — actual Q1-26 was +7.5% cc); Eckert & Ziegler net income **+46%** (not +22%); Bioventix yield is now **~9%** (not 6%) because the price fell.
+
+**The one decision that dominates:** the AI-vs-vertical-software-moat question governs ~36% of capital. Current tripwire reads are **green** (organic recurring +6%, ATOSS NRR ~111%, churn ~1–3%) — watch the metrics, not the headlines.
+
+**Blind spots (the constructive target list):** energy/real assets (0%), direct financials (0%), US/USD (minimal), non-software hard-tech (minimal), consumer/brands (0%), EUR over-concentration (~55–65%).
+
+---
+
+## PART D — CONSOLIDATED MASTER LEAGUE TABLE (all 60 lanes)
+
+> Scores are each lane agent's conviction (1–5) for *making the final 15*, under the asymmetric brief. This is a research ranking, not advice. "Replace/adds" is the lane's own framing of fit. Full per-name detail, economics, risks and sources are in Parts 3–4.
+
+### Tier 1 — Highest conviction (5/5 and 4.5/5)
+| Name | Ticker | Country | ~Mkt cap | Lane | Why it tops the table |
+|---|---|---|---|---|---|
+| OTC Markets Group | OTCM | US | ~$0.64B | 04 US small/mid | Monopoly OTC-market tollbooth, ~58% ROIC, Coulson ~30%+ owner, 20x P/E, zero debt |
+| santec Holdings | 6777.T | Japan | ~mid-cap | 32 photonics | 33%-margin optics compounder — ROADM switches + the lasers inside every OCT scanner; hiding in plain sight |
+| Intl. General Insurance | IGIC | UK/Bermuda | ~small-cap | 36 insurtech | Founder-owned, 82% combined ratio, compounding book ~15%, almost unknown to US investors |
+| Ellenbarrie Industrial Gases | India | India | ~small-cap | 44 industrial gases | Owner-operated Indian industrial-gas compounder, ~10 months public, uncovered by the West |
+| Polycab India | POLYCAB.NS | India | ~$15B | 18 India single-name | Founder-led (61.5%), 30% cable share, 34% ROCE, net cash — cleanest India compounder (4.5/5) |
+
+### Tier 2 — Strong conviction (4/5), grouped by the blind spot they fill
+**Energy / real assets (book = 0%):** Topaz Energy (TPZ.TO, royalty+infra, 91% FCF margin) · PrairieSky (PSK.TO, perpetual oil royalty) · Aurubis (NDA.DE, Europe's copper smelter/recycler at 10x).
+**Direct financials (book = 0%):** OTC Markets (above) · Kinsale (KNSL, E&S insurer, founder 9%) · CAMS (CAMS.NS, India MF tollbooth) · Quálitas (Q*.MX, Mexican auto insurer, 48% insider) · Kaspi (KSPI, Kazakhstan super-app, 7x + 9% yield) · the Egyptian-payments and EM-payment-rails picks (lane 35) · Helios Underwriting / Palomar / TWFG (lane 36) · the AMG-style and "Blackstone-of-LatAm" alt managers (lane 37).
+**US / USD (book = minimal):** OTC Markets · Vicor (VICR, AI power delivery) · InterDigital (IDCC, 5G/6G/AI-video royalties) · Installed Building Products (IBP, founder 14%, 41% ROIC) · Kinsale · LeMaitre (LMAT, open-vascular monopoly) · Badger Meter (BMI, water AMI, 33% ROIC) · Powell Industries (POWL, switchgear, $1.8B backlog) · Global Industrial (lane 50) · the US hospital-billing & molecular-dx picks (lanes 34, 41).
+**Hard-tech / future waves:** DISCO (6146.T, wafer dicing — ⭐ chosen by *two* lanes) · Lasertec (6920.T, EUV-mask-inspection monopoly) · Hamamatsu (6965.T, photonics — surfaced in *two* lanes) · Hansol Chemical (014680.KS, ALD precursors) · nVent (NVT, liquid cooling) · MARUWA (5344.T, Si3N4 substrate under every SiC inverter) · Neo Performance Materials (NEO.TO, only listed Western magnet pure-play shipping today) · santec (above) · Renishaw (RSW.L, metrology) · Nabtesco (6268.T, robot-joint reducers) · Gooch & Housego (GHH.L, AOM/Pockels-cell monopoly — surfaced in *two* lanes) · Filtronic (FTC.L, GaN E-band for SpaceX) · the logic-NVM monopoly + foundation-IP house + SoC-royalty picks (lanes 53/54) · Phison (8299, storage controllers).
+**Defense / nuclear / space (book = 0%):** RENK (R3NK.DE, NATO drivetrain) · Avio (AVIO.MI, solid-rocket + missile propulsion) · Assystem (ASY.PA, nuclear EPCM, founder-controlled) · Studsvik (SVIK.ST, reactor-physics software monopoly) · KSB (KSB.DE, reactor coolant pumps) · Astronics (ATRO, in-seat-power 90% share + FAA ODA).
+**Healthcare / life-science (differentiated from the book's bioprocessing):** Medpace (MEDP, founder CRO) · ChemoMetec (CHEMM.CO, every FDA CAR-T runs on it) · RaySearch (RAY-B.ST, radiotherapy TPS monopoly) · IBA (IBAB.BR, cyclotron leader) · the glass-vial "Constellation" + "West Pharma's Swiss cousin" drug-delivery picks (lane 42) · Stereotaxis / EDAP (lane 43) · Vimian + "animal-health Constellation" (lane 40) · the molecular-dx/TissueCypher pick (lane 41).
+**Consumer / brands (book = 0%):** Brunello Cucinelli (BC.MI) · Becle/Jose Cuervo (CUERVO.MX) · Interparfums (ITP.PA) · Edita Food (EFID, Egypt) · Jarir Marketing (Saudi) · PNJ (Vietnam jewelry) · Société des Boissons du Maroc · the India-consumption family compounder (lane 38).
+**Food-chain picks-and-shovels:** Privi Speciality / Fine Organic / SH Kelkar / Treatt (lane 39 flavors-fragrances) · Sakata Seed / Kaveri Seed / Genus / Lindsay (lane 26 agtech) · AKVA / Bakkafrost / Avanti Feeds (lane 27 aquaculture).
+**Infrastructure / industrial niches:** CAREL (HVAC controls) · Sensirion / Hirose / the parking-sensor monopolist (lane 49) · Acuren / Transcat (industrial TIC, lane 45) · Knorr-Bremse + the Indian-train-signaling pick + Stadler (rail, lane 46) · Chugoku Marine Paints / HAV / Kalmar (maritime, lane 47) · Converge ICT / Brisanet / Helios Towers (digital infra, lane 48) · Bossard / Richardson Electronics (distribution, lane 50) · Suprema (biometrics, lane 52).
+**EM / frontier compounders:** FPT (Vietnam IT) · Kaspi (Kazakhstan) · plus EM consumer & payments above.
+**Japan governance-reform value (4/5):** the "IT-sub cleanup with cash in the parent's account + two activists" and the "Veralto-quality measurement monopoly with $600m idle cash + Oasis" picks (lane 56).
+**Greater China (4/5, China-risk-flagged):** Hongfa (global relay king) · the "Sartorius of China" · Silergy / Sunny Optical / Mindray / Inovance (lane 57).
+**Royalties (capital-light, ex-energy):** DRI Healthcare Trust · Reservoir Media · the "mini-Royalty-Pharma" pick (lane 58).
+**Vertical-AI (data-moat winners, not wrappers):** the "$2-trillion-claims-data casualty toll-road" and the aging-Japan "recruitment + EMR" double-moat picks (lane 55).
+**Serial acquirers / VMS (extend the book's core):** Teqnion (TEQ.ST) · Addnode (ANOD-B.ST) · the DevOps-platform-with-takeover-floor (lane 33) · the 65%-owner govtech & 75%-owner fleet-SaaS (lane 34).
+
+### Tier 3 — Notable watch-list (3–3.5/5 or right-business-wrong-price)
+Lagercrantz, Röko, Sdiptech (priced for perfection); Cognex, Harmonic Drive (buy-on-dip); BESI, Arteche, Exail (post-run); Vicor/Aixtron/santec-peers at full multiples; Eurofins (4/5 but large); CDSL, MCX, Neuland (India quality at 47–60x); Chemring, Mersen, Lynas, ASP Isotopes (cyclical/early); Veracyte, Yubico, Vetoquinol, Vinh Hoan, Benchmark/INVE (binary or value-trap risk).
+
+---
+
+## PART E — CROSS-LANE CORROBORATION (a name surfaced by ≥2 independent lanes = strong signal)
+- **DISCO (6146.T)** — independently a top pick in **both** the Japan-niche-leaders lane and the semicap-equipment lane. The single most-validated gem of the entire hunt.
+- **Gooch & Housego (GHH.L)** — surfaced as the top hidden pick in **both** the quantum-hardware lane (acousto-optic modulators) and the fusion lane (large-aperture Pockels cells). One company, two future-wave choke-points.
+- **Hamamatsu Photonics (6965.T)** — surfaced in **both** the Japan-niche lane and the quantum lane (single-photon detection + NKT lasers).
+- **Chemring (CHG.L)** — surfaced in **both** the defense lane and the aerospace lane (NATO countermeasures sole-source).
+- **The iShares MSCI India ETF is the near-universal "replace-me" target** — nominated by the large majority of lanes as the weakest slot (passive, no moat, no owner alignment). VinaCapital Vietnam, Bioventix, Secunet, Sartorius and one holdco are the next most-cited replaceables.
+
+---
+
+## PART F — THE "PRIVATE GEMS / IPO-WATCHLIST" FINDING
+A recurring, honest result of the deep-tech lanes: the *very best* assets are frequently **not publicly investable**. The agents repeatedly found that the most indispensable supplier in a future-wave lane was private, and refused to substitute a low-quality listed proxy. Standing IPO-watch triggers worth monitoring:
+- **Quantum:** Bluefors (dilution refrigerators), TOPTICA (lasers), Quantum Machines / Zurich Instruments (control electronics).
+- **Fusion:** Faraday Factory/SuperOx (HTS tape), Kyoto Fusioneering (gyrotrons/tritium), Theva, Plansee.
+- **Space:** ICEYE (SAR), LeoLabs (space-domain awareness).
+- **Genomics/biomanufacturing:** New England Biolabs, Hamilton, Benchmark Genetics (now Novo-owned).
+- **Aquaculture genetics/vaccines:** AquaGen, GenoMar, PHARMAQ (inside Zoetis).
+
+---
+
+## PART G — HOW TO USE THIS DOSSIER (decision framework)
+1. **Treat it as a research base, not a buy list.** No position should be initiated off a single lane report; each Tier-1/Tier-2 name warrants its own primary-source deep-dive (full model, bear case, monitoring tripwires) before sizing.
+2. **Anchor on the blind-spot map (Part C/D).** The cleanest, lowest-regret upgrades retire the two passive sleeves (India ETF, VinaCapital Vietnam) into active compounders that *also* add a missing asset class (energy/real assets, financials, US/USD, hard-tech).
+3. **Respect the asymmetry brief honestly.** Several lanes (quantum, fusion, space) concluded "no clean listed 5–10x exists today" — those are watch-lists, not forced buys. Do not manufacture conviction where the agents found none.
+4. **Mind valuation discipline.** Many of the highest-quality names (DISCO, MARUWA, Renishaw, Indian compounders) are *recognized* quality at full multiples — the lanes flag explicit pullback levels.
+5. **Keep the 15-name constraint as the discipline.** Any addition must beat the weakest incumbent; the `best-15-synthesis.md` (Part 1) is the structured keep/replace menu.
+
+---
+
+## PART H — LIMITATIONS, DATA QUALITY & DISCLAIMER
+- **Not advice.** This is informational research synthesis. Position sizing, tax, and currency hedging depend entirely on the owner's circumstances; all decisions are the owner's.
+- **Point-in-time.** Prices, market caps and multiples are as of late-May 2026 and move daily.
+- **Source quality varies.** Figures originate from company filings/IR (high confidence), reputable press (medium), and third-party aggregators (directional). Items the agents could not confirm to filing-level precision are explicitly flagged "unverified" in the lane reports — those flags are load-bearing and must be cleared before acting.
+- **Survivorship & selection bias.** A "gem hunt" structurally favors compelling narratives; the rejected lists in each lane are part of the discipline and should be read alongside the picks.
+- **Recovered reports.** Lanes 26, 28, 30, 32–60 were recovered from agent transcripts after their completion notifications failed to deliver; their content is the agents' verbatim final reports.
+
+---
+---
 
 =====================================================================
 # PART 0 — PORTFOLIO
@@ -788,7 +919,7 @@ This is a menu, not a verdict. Pick an option (A/B/C or the EM-flavoured variant
 
 
 =====================================================================
-# PART 2 — GEM-HUNT MASTER INDEX
+# PART 2 — GEM-HUNT MASTER INDEX (WAVE 1)
 =====================================================================
 
 # GEM Hunt — Consolidated Candidate Master
@@ -1000,7 +1131,7 @@ The recurring theme: the gems that score highest *also* happen to fix the EUR-he
 =====================================================================
 
 
-<<<<< FILE: research/gems/01-nordic-eu-serial-acquirers.md >>>>>
+<<<<< 01-nordic-eu-serial-acquirers.md >>>>>
 
 # European & Nordic Serial Acquirers / Compounders — Hidden Gems Lane
 
@@ -1100,7 +1231,7 @@ Revenue FY2025/26 SEK 10.6bn (+13%); EBITA margin 18.1%→20%; ROE 29%; 8 acquis
 **Single most compelling action:** initiate **Teqnion** to replace the passive India ETF.
 
 
-<<<<< FILE: research/gems/02-japan-niche-leaders.md >>>>>
+<<<<< 02-japan-niche-leaders.md >>>>>
 
 # Japanese Hidden Global Niche Leaders
 
@@ -1172,7 +1303,7 @@ World-leading PEG/ionizable lipids for mRNA/LNP delivery (COATSOME SS), plus sur
 Add **Disco** (replace Sartorius) and **Hamamatsu** (replace Bioventix). Both Japan-based — adds a new geography with a governance-reform re-rating tailwind.
 
 
-<<<<< FILE: research/gems/03-korea-taiwan-supply-chain.md >>>>>
+<<<<< 03-korea-taiwan-supply-chain.md >>>>>
 
 # Korea & Taiwan Hidden Supply-Chain Gems
 
@@ -1232,7 +1363,7 @@ Add **Disco** (replace Sartorius) and **Hamamatsu** (replace Bioventix). Both Ja
 Leeno Q3 op margin ~49.8% (single source); FY2025 revenue ~$263M (companiesmarketcap); ROIC figures from aggregators not cross-verified vs DART filings. Hansol electronic-materials ~45% of profit from simplywall.st narrative (not primary). ROIC for both flagged unverified.
 
 
-<<<<< FILE: research/gems/04-us-small-mid-compounders.md >>>>>
+<<<<< 04-us-small-mid-compounders.md >>>>>
 
 # US Small/Mid-Cap Under-Covered Quality Compounders
 
@@ -1333,7 +1464,7 @@ Four names clear the bar to displace an incumbent. Comfort Systems (FIX) disqual
 Comfort Systems/FIX (~$35B, discovered); Cactus/WHD (oil-services cyclicality, 54x on depressed earnings, 1% insider); McGrath/MGRC (no founder, slow); Clearfield/CLFD (too small, GAAP loss, no moat vs Corning/CommScope); NV5/NVEE (roll-up, thin margins, goodwill); Haynes/HAYN (commodity inputs); Frontdoor/FTDR (no founder, churn challenges).
 
 
-<<<<< FILE: research/gems/05-ai-compute-picks-and-shovels.md >>>>>
+<<<<< 05-ai-compute-picks-and-shovels.md >>>>>
 
 # AI / Data-Center Compute Buildout — Picks & Shovels
 
@@ -1434,7 +1565,7 @@ Excluded: **Modine (MOD)** — great story but FCF currently negative (−$20M L
 NVT best protected ($2.6B backlog, embedded cooling) > VICR (backlog + non-capex licensing) > FN (sole-source re-qual cost, but 51% in two customers) > BESI most exposed (equipment orders deferred first; 2024 showed −2.7%).
 
 
-<<<<< FILE: research/gems/06-grid-electrification.md >>>>>
+<<<<< 06-grid-electrification.md >>>>>
 
 # Electrical Grid / Power Equipment / Electrification Picks-and-Shovels
 
@@ -1532,7 +1663,7 @@ Techno Electric (working-capital days 222→430, ROCE 14.8% — execution risk);
 Powell: confirm FY2026 H1 backlog quality/margins. Arteche: CNMV family %, wait for −20–30%. Voltamp: IR on promoter intent + Q1 FY2027 margins. NKT: Sep-2026 Investor Day before committing.
 
 
-<<<<< FILE: research/gems/07-energy-real-asset-royalties.md >>>>>
+<<<<< 07-energy-real-asset-royalties.md >>>>>
 
 # Energy & Real-Asset Compounders — Capital-Light Royalty & Infrastructure
 
@@ -1592,7 +1723,7 @@ Pure fee-based midstream, 95% MVC through 2026 (→80% by 2028), ~$1.25B EBITDA 
 Add **Topaz** (replace VOF) — purest capital-light Canadian royalty+infra compounder, LNG Canada tailwind, 16x vs 35x peers. If two slots, add **PrairieSky** (replace India ETF) for the oil/acreage pairing.
 
 
-<<<<< FILE: research/gems/08-critical-minerals-mining.md >>>>>
+<<<<< 08-critical-minerals-mining.md >>>>>
 
 # Critical Minerals & Mining Picks-and-Shovels
 
@@ -1672,7 +1803,7 @@ Yellow Cake (passive uranium fund, no moat); Iluka (cyclical trough, A$288m loss
 Add **Aurubis** (replace EXOR or Investor AB) — Europe's indispensable copper processor at 10x with a 2028/29 EBITDA catalyst. Second: **Lynas** (replace India ETF) — specific high-moat NdPr vs passive basket. 2 in, 2 out; book stays at 15 with real critical-minerals exposure.
 
 
-<<<<< FILE: research/gems/09-defense-sovereignty.md >>>>>
+<<<<< 09-defense-sovereignty.md >>>>>
 
 # Defense / Dual-Use / Sovereignty Picks-and-Shovels
 
@@ -1762,7 +1893,7 @@ HENSOLDT (€9.9B, 64x, consensus holding — not hidden); Cohort (good buy-and-
 One name: **RENK** (replace India ETF) — clearest blind spot, exceptional visibility, de-rated entry. Two: add **Exail** (replace VOF) — family-controlled "early Vitec/Bachem" of defense electronics. Chemring = watch-list unless a dedicated UK-defense slot opens.
 
 
-<<<<< FILE: research/gems/10-aerospace-space-supply-chain.md >>>>>
+<<<<< 10-aerospace-space-supply-chain.md >>>>>
 
 # Aerospace & Space Supply Chain — Hidden Gems
 
@@ -1848,7 +1979,7 @@ Ducommun (negative FCF, internal-control weakness, ROIC 5.3%); FACC (~4.3% EBIT,
 **Filtronic** — SpaceX warrant alignment + differentiated GaN E-band + contracted FY2027 ramp; the "earnings valley" is the entry. Second: **Astronics** — proven certification moat (EmPower + FAA ODA), record revenue, 19% ROIC, FCF re-rating as working capital normalizes.
 
 
-<<<<< FILE: research/gems/11-semicap-equipment-materials.md >>>>>
+<<<<< 11-semicap-equipment-materials.md >>>>>
 
 # Semiconductor Capital Equipment & Materials — Hidden Gems
 
@@ -1926,7 +2057,7 @@ Dicing saws, grinding wheels, laser saws — the final mechanical step cutting/t
 Replace **India ETF** with **DISCO** (deepest moat + consumables flywheel + SiC/advanced-packaging) and consider **Lasertec** for **Secunet** (sole EUV-inspection monopoly at a cyclical trough). **Photronics** = the value dark horse (10x, 12% OCF yield, CHIPS-Act optionality).
 
 
-<<<<< FILE: research/gems/12-radiopharma-isotopes.md >>>>>
+<<<<< 12-radiopharma-isotopes.md >>>>>
 
 # Radioligand / Radiopharma Therapy Supply Chain — Hidden Gems
 
@@ -1994,7 +2125,7 @@ SHINE (largest NA Lu-177 producer), ITM (Lu-177 + Ac-225, €188M QIA round, mos
 Add **IBA** (replace Secunet) — profitable, founder-aligned, trough multiples, At-211 + ORA signal a deliberate platform pivot. **Watch ASP Isotopes** until a tier-1 Yb-176 anchor signs + dilution decelerates. Monitor **ITM** for a European listing.
 
 
-<<<<< FILE: research/gems/13-lifescience-tools-cdmo.md >>>>>
+<<<<< 13-lifescience-tools-cdmo.md >>>>>
 
 # Life-Science Tools, Diagnostics & CDMO — Differentiated from Bioprocessing/Peptides
 
@@ -2087,7 +2218,7 @@ _Own: Bachem, Sartorius, Bioventix. Surface only genuinely differentiated names 
 If adding one today: **Medpace** (best-in-class CRO, founder-aligned, cyclical-trough entry — with a margin of safety given the Q1-26 0.88x book-to-bill + securities probe). **ChemoMetec** at the recent drawdown = highest razor-blade economics (54% EBITDA, FDA lock-in). **RaySearch** = highest "hidden" purity (founder-controlled, ~1 analyst).
 
 
-<<<<< FILE: research/gems/14-medtech-vet-dental.md >>>>>
+<<<<< 14-medtech-vet-dental.md >>>>>
 
 # Niche Medical Device / Medtech / Veterinary / Dental Hidden Compounders
 
@@ -2182,7 +2313,7 @@ Zero animal-health exposure in the current 15 — Virbac (or Vetoquinol) fills i
 One name today: **LeMaitre Vascular** — the clearest "Micron/AMD-early" pattern (dominant niche in an unsexy market the giants ignore). **CellaVision** = highest asymmetry if mid/small-lab penetration inflects. **Virbac** = highest quality but largest cap. **Vetoquinol** = deep-value contrarian with binary FY2026 growth.
 
 
-<<<<< FILE: research/gems/15-water-tic-environmental.md >>>>>
+<<<<< 15-water-tic-environmental.md >>>>>
 
 # Water Technology, Environmental & TIC Picks-and-Shovels
 
@@ -2258,7 +2389,7 @@ Japan's dominant water-treatment-chemicals + ultrapure-water (UPW) provider — 
 Deep global recession + aggressive hiking would hit infrastructure (BMI/MWA), stress Eurofins' debt, and cut semi-capex (Kurita) in a correlated hit — manageable given mostly mandated revenues, not zero. Lower confidence on: Kurita governance, Eurofins normalised ROIC (verify in 2027 results), BMI Q1-2026 −9% (confirm H2 rebound).
 
 
-<<<<< FILE: research/gems/16-cybersecurity-digital-identity.md >>>>>
+<<<<< 16-cybersecurity-digital-identity.md >>>>>
 
 # Cybersecurity, Digital Identity & Mission-Critical Infrastructure Software
 
@@ -2314,7 +2445,7 @@ Clavister (first-ever positive EBIT Q3 2025 after 27 yrs — not yet "profitable
 Add **Advenica** (replace Secunet, or alongside if sizing permits) — purest EU-sovereign high-assurance moat, profitability inflection, 24% insider, near-zero churn. **Keep Secunet** (36% backlog growth, debt-free, €87M cash, BSI quasi-monopoly). **Netcompany** = replacement for the passive India ETF if a government-platform slot is wanted. Do not add **Yubico** yet.
 
 
-<<<<< FILE: research/gems/17-financial-market-infrastructure.md >>>>>
+<<<<< 17-financial-market-infrastructure.md >>>>>
 
 # Financial Market Infrastructure & Capital-Light Financials
 
@@ -2377,7 +2508,7 @@ _Exchanges, clearing, data/index, payment rails, disciplined specialty insurance
 **CAMS** (replace India ETF) — picks-and-shovels of the India SIP boom; build a half-position, scale on regulatory-noise drawdowns to 35–40x. **Quálitas** fills a completely empty LatAm/insurance lane — owner-operated, 30-yr underwriting record, 48% insider, 80% of sector profits; small initial position, watch Q2/Q3 2026 combined ratio to confirm Q1 was VAT-driven. A well-reasoned "only 2 strong gems" beats padding.
 
 
-<<<<< FILE: research/gems/18-india-single-name-compounders.md >>>>>
+<<<<< 18-india-single-name-compounders.md >>>>>
 
 # India Single-Name Structural Compounders (to replace the passive India ETF)
 
@@ -2424,7 +2555,7 @@ _Indian quality often trades at very high multiples — valuation flagged honest
 Best single replacement for the **India ETF**: **Polycab** (POLYCAB.NS) — founder-family (Jaisinghani 61.5%), indispensable to India's economy, 34% ROCE, net cash, 25–27% compounding over 7 yrs. Caveat: 47x is fair-to-full, not a screaming buy; a 15–20% correction (~₹7,500–8,000) makes risk/reward compelling. Second (smaller): **Neuland** — the "early Bachem." All four trade 47–60x (the India quality premium — unavoidable, not fabricated); build in tranches, add on 20%+ corrections, hold 5–10 yrs.
 
 
-<<<<< FILE: research/gems/19-se-asia-frontier-latam.md >>>>>
+<<<<< 19-se-asia-frontier-latam.md >>>>>
 
 # Southeast Asia, Frontier & LatAm — Structural Compounders
 
@@ -2498,7 +2629,7 @@ The book is strong in European software/life-sciences/holdcos + EM passive (Indi
 **Kaspi** (replace India ETF; size ~4–5% for sanctions tail). **FPT** (replace VOF; check VOF double-counting). GAP = conditional LatAm-infra (3–4%). Do not add BBCA yet (IDR/Prabowo/deceleration).
 
 
-<<<<< FILE: research/gems/20-automation-robotics-industrial.md >>>>>
+<<<<< 20-automation-robotics-industrial.md >>>>>
 
 # Industrial Automation, Robotics Components & Niche Manufacturing
 
@@ -2572,158 +2703,504 @@ Machine-vision systems (industrial cameras, vision processors, deep-learning ins
 
 
 =====================================================================
-# PART 4 — GEM LANES 21-60 (WAVE-2 EXPANSION)
+# PART 4 — GEM LANES 21-60 (WAVE 2, FULL DETAIL, NUMERIC ORDER)
 =====================================================================
 
-# GEM Hunt — Wave 2 Expansion (Lanes 21–60)
 
-_Compiled 2026-05-31. Informational synthesis, not financial advice. Generational/asymmetric brief: durable enough to hold a decade AND a credible path to multi-bagger. Behind-the-scenes, before-the-crowd, future themes. All figures sourced by lane agents; flag unverified; re-verify before acting. This single file collects all 40 new lanes — appended as each Opus agent completes._
+=====================================================================
+## LANE 21 — Quantum Computing & Enabling Hardware
+=====================================================================
 
-**Status:** 40 lanes launched. Completed lanes are written below; the rest append as they finish.
+That completes my research. QD Laser is loss-making, tiny, and more of an AI-optical-interconnect/retina story than a quantum pick — reject/too-speculative. Oxford Instruments just SOLD its quantum NanoScience unit, so it's no longer a quantum play. The honest conclusion: this lane has very few quality, founder-aligned, profitable, listed pure-plays — the best direct exposure is private/VC. I'll present the credible listed arms-dealers with appropriate caveats and a candid speculative-bucket discussion.
 
----
----
-
-## LANE 21 — Quantum Computing & Enabling Hardware ("arms dealers to the qubit")
-
-**BLUF:** Hardest lane for quality + founder-aligned + profitable + listed pure-plays. The best suppliers are **private** (Bluefors, TOPTICA, Quantum Machines, Zurich Instruments). Treat as small satellites + an IPO watchlist.
-
-- **Gooch & Housego (GHH.L, UK, ~£250m/$320m, 3/5):** World #1 in acousto-optic modulators (~18% share) — non-negotiable in trapped-ion/neutral-atom qubit gate control. 75-yr knowledge moat. FY25 revenue £150.5m (+10.7%), adj op margin only 9.6% (target mid-teens), order book £142m (+36%); ~1.5x sales. No founder (weak alignment). Bull: margin recovery doubles EBIT + photonics re-rate + M&A target → 3–5x. Quantum is a small slice (rides A&D/industrial + self-help). _Cross-lane: also the top pick in the fusion lane (laser optics)._
-- **Hamamatsu Photonics (6965.T, Japan, ~$3.5B, 3.5/5):** World leader in single-photon detection (the "eyes" reading qubit states) + 2024 NKT Photonics acquisition (dominant trapped-ion lasers). Quality compounder, ~mid-20s% margins, net cash. 2–4x, not 10x. Founding families low-single-digit + foundations. Mild overlap with life-sci tools.
-- **Keysight (KEYS, US, ~$30B, 2/5):** Largest commercial quantum-control system, but too big, quantum immaterial — completeness flag.
-- **Private gems (watchlist + IPO triggers):** Bluefors (dilution fridges — best business in the lane), TOPTICA (founder-owned lasers), Quantum Machines/Zurich Instruments (control electronics), Maybell/Delft/Single Quantum/Photon Spot.
-- **Rejected:** FormFactor (+400%/yr, excluded lane); SAES Getters (delisting tender); Pfeiffer Vacuum (Busch domination); Oxford Instruments (sold its quantum unit); QD Laser (loss-making); IonQ/D-Wave/Rigetti/QUBT (pre-revenue pure-plays — against the picks-and-shovels mandate).
+I have enough to write the report.
 
 ---
 
+# LANE: Quantum Computing & Enabling Hardware — "Arms Dealers to the Qubit"
+
+**Bottom line up front (read this first):** This is the hardest lane in the entire mandate for finding *quality + founder-aligned + profitable + listed + pure-play* gems. The brutal honest truth, verified repeatedly below: **the most indispensable, concentrated quantum-hardware suppliers are nearly all private/VC-stage** (Bluefors, TOPTICA, Quantum Machines, Zurich Instruments/Rohde&Schwarz, Maybell, Delft Circuits, Single Quantum, Photon Spot, PsiQuantum). Every "clean" listed entry point is either (a) a diversified photonics/instrumentation company where quantum is a small option, not the thesis, or (b) getting taken private / has just sold its quantum unit. I have rejected several superficially attractive names for exactly these reasons (Pfeiffer Vacuum, SAES Getters, Oxford Instruments, FormFactor, QD Laser — see rejected list). I am giving you the few *credible* listed picks-and-shovels with honest conviction scores, and flagging that none is a clean 10x quantum pure-play. Treat this lane as "small satellite positions," not a core slug.
+
+Today: 2026-05-31. All figures flagged where unverified.
+
+---
+
+## GEM 1 — Gooch & Housego
+
+| | |
+|---|---|
+| **Ticker / country** | GHH.L / United Kingdom (AIM) |
+| **~Mkt cap** | ~£230–260m / ~$320m (verified ~$321m Apr 2026) |
+| **Stage** | Profitable, turnaround / re-rating |
+
+**The wave & why under-covered:** G&H is the world's #1 commercial supplier of **acousto-optic modulators (AOMs)** — ~18% global share (verified) — the device that switches/steers laser beams at MHz speeds. AOMs are *non-negotiable* in every trapped-ion and neutral-atom quantum computer (each qubit gate needs precise, fast beam control). It also makes electro-optic modulators, precision optics, and fiber components used across photonic quantum and cold-atom systems. The market doesn't price G&H as "quantum" at all — it's seen as a sleepy UK A&D/industrial optics microcap, which is precisely the under-covered angle.
+
+**Moat / indispensability:** Acousto-optics is a 75-year institutional knowledge moat (the company literally pioneered the field). Hard-to-replicate crystal growth + precision optical fabrication; designed into customer systems = high switching costs. AOM market growing ~8.5% CAGR to ~$520m by 2032 (verified, third-party estimate).
+
+**Founder/insider ownership:** *Weak — flag.* Founding families long exited; widely held institutional ownership; long-time CEO/Chairman Gareth Jones (joined 1978) is a steward, not an owner. This fails your founder-alignment preference.
+
+**Economics (verified, FY ended Sep 2025):** Revenue £150.5m (+10.7%); adj. operating profit £14.4m (+37%); **adj. operating margin only 9.6%** (up from 7.7%); order book £142m (+36%). Management targets *mid-teens* return on sales medium-term. ROIC unverified but historically mediocre (low-double-digit at best). Balance sheet modestly geared; bolt-on M&A (Phoenix Optical, Global Photonics).
+
+**Valuation:** ~1.5x sales, mid-teens EV/EBIT — cheap for a #1 niche optics franchise *if* the margin recovery to mid-teens lands.
+
+**10-yr bull case (path to 3–5x, not a clean 10x):** Margin recovery to 15%+ → EBIT doubles on flat revenue; quantum + co-packaged-optics + A&D growth re-rates it from "cyclical optics" to "photonics enabler." Re-rate from ~15x to ~22x EBIT on 2x EBIT = ~3x; M&A optionality (cheap enough to be acquired by Coherent/Hamamatsu) adds upside.
+
+**Top risks:** (1) Quantum is a *small* slice — thesis really rides on A&D/industrial cyclicality and self-help margins, not the quantum wave. (2) Sub-scale (~$320m) with a history of margin disappointment and execution wobbles. (3) No founder alignment.
+
+**Replace/add:** Adds the **quantum/photonics-enabler blind spot** with the lowest speculative content. Could sit alongside (not replace) existing names; closest in spirit to Bioventix (tiny UK niche monopoly) but lower-quality economics.
+
+**Conviction: 3/5** — "The only profitable, cheap, listed pure-ish AOM monopoly that quietly arms every trapped-ion lab — but a margin turnaround, not a moonshot, and no founder."
+
+---
+
+## GEM 2 — Hamamatsu Photonics
+
+| | |
+|---|---|
+| **Ticker / country** | 6965.T / Japan |
+| **~Mkt cap** | ~$3.5B (verified Apr 2026, ~¥ mid-cap) |
+| **Stage** | Profitable, established compounder |
+
+**The wave & why included:** Hamamatsu is the world leader in **single-photon detection** (SPAD, MPPC/SiPM, PMTs) and high-sensitivity cameras — the "eyes" that read out qubit states in trapped-ion and neutral-atom machines and detect photons in photonic quantum systems. Critically, in 2024 it **acquired NKT Photonics** (Koheras narrow-linewidth fiber lasers — the dominant trapped-ion laser source, used by IonQ; verified), bolting the leading quantum *laser* franchise onto the leading quantum *detector* franchise. That combination is genuinely strategic and underappreciated.
+
+**Moat:** Decades of in-house compound-semiconductor and photodetector know-how; reference-standard products in physics labs worldwide; vertical integration. NKT adds narrow-linewidth laser leadership.
+
+**Founder/insider ownership:** *Partial — flag.* Founding Horiuchi/Hiruma families retain influence via foundations and low-single-digit stakes; strong founder-legacy culture, but not voting control. Stewardship-quality, family-flavored — better than G&H, weaker than your Topicus/ATOSS standard.
+
+**Economics (largely verified):** Long-run mid-single-digit to low-double-digit organic grower with strong ~mid-20s% operating margins historically, net cash, high FCF conversion, conservative Japanese balance sheet. *Caveat:* recent semiconductor/bio cyclicality has pressured near-term numbers — verify latest quarter.
+
+**Valuation:** Typically a premium Japanese quality compounder (high-teens/low-20s P/E). Not cheap; not bubble.
+
+**10-yr bull case (2–4x, quality-compounder math):** Quantum is a *call option layered on a good business* — detectors + NKT lasers ride quantum scale-up, plus core LiDAR, medical, semiconductor, and AI co-packaged-optics. Steady high-teens EPS compounding + modest re-rate = ~2.5–3.5x over a decade with low blow-up risk. This is the "quality you can hold a decade" anchor of the lane.
+
+**Top risks:** (1) **Overlap with your blind spots** — it already touches life-science tools/detectors, a lane you said is covered (Sartorius/Bioventix-adjacent); quantum is small. (2) Japanese cyclicality + FX. (3) Not asymmetric — caps at ~3x, not 10x.
+
+**Replace/add:** Best as the *quality anchor* of a quantum sleeve. Mild overlap risk with life-science-tools theme means it adds less *new* diversification than Gem 1.
+
+**Conviction: 3.5/5** — "The Roche of quantum readout: owns both the eyes (detectors) and a key voice (NKT lasers) of the qubit — durable and ownable, but a compounder, not a 10-bagger."
+
+---
+
+## GEM 3 — Keysight Technologies (honest "best-of-the-listed-giants" mention)
+
+| | |
+|---|---|
+| **Ticker / country** | KEYS / United States |
+| **~Mkt cap** | ~$30B+ (verified, large-cap) |
+| **Stage** | Profitable, large, high-quality |
+
+**Why it's here despite being big:** Keysight installed the *world's largest commercial quantum control system* (verified) and is one of the few listed names with a real, growing quantum-control / signal-generation franchise (the room-temperature electronics that drive qubits). It's the closest listed analog to private Quantum Machines / Zurich Instruments.
+
+**Honest verdict:** Fails your "under-the-radar / small-cap asymmetric" test badly — $30B+, widely owned, quantum is a rounding error on the P&L. **No realistic 5–10x.** I include it only so you know the listed control-electronics lane *is* essentially closed to small-cap pure-plays. **Conviction for THIS mandate: 2/5** — high quality, wrong size, no asymmetry. Not a recommendation; a completeness flag.
+
+---
+
+## The candid "you wanted pure-plays, here's why you can't have them" section
+
+The genuinely indispensable, concentrated, founder-aligned quantum-hardware monopolies **are all private** (verified):
+
+- **Bluefors** (Finland) — dominant superconducting dilution refrigerators. *Private.* This is the single best business in the lane and you cannot buy it.
+- **TOPTICA Photonics** (Germany) — dominant trapped-ion/cold-atom narrow-linewidth lasers; founder-owned (Wilhelm Kaenders). *Private SE, not listed.*
+- **Quantum Machines / Zurich Instruments** — quantum control electronics. *Private / owned by Rohde & Schwarz (private).*
+- **Maybell Quantum, Delft Circuits, Single Quantum, Photon Spot, Sparrow Quantum** — next-gen cryo cabling / SNSPD single-photon detectors / deterministic photon sources. *All VC Series A–B.*
+
+If/when **Bluefors or TOPTICA IPOs, or Xanadu/Quantinuum lists** (Xanadu eyeing a SPAC early 2026; Quantinuum targeting an IPO — both unverified timing), those would be the real gems. **Recommendation: keep a watchlist trigger on these IPOs** rather than forcing a listed substitute today.
+
+---
+
+## Rejected / too-expensive / too-early / too-speculative
+
+- **FormFactor (FORM, ~$10B)** — Largest US dilution-refrigerator supplier (acquired JanisULT) + cryo wafer probes; genuinely indispensable. **But:** stock up ~400% in a year (verified), quantum is a small slice of an $785m-revenue probe-card business, now richly valued, and it sits squarely in your *excluded* US small/mid + semicap lanes. Already discovered — **too late / wrong lane.**
+- **SAES Getters (BIT)** — Family-controlled getter/NEG vacuum-pump maker (real trapped-ion vacuum exposure). **Reject:** S.G.G. Holding is running a tender offer at €28 to **delist it** (verified) — can't be a long-term public hold.
+- **Pfeiffer Vacuum (PFV)** — Ultra-high-vacuum for ion traps. **Reject:** already controlled by Busch/Pangea under a domination & profit-transfer agreement (verified) — a squeezed minority stub, not investable.
+- **Oxford Instruments (OXIG)** — Was a leading dilution-fridge maker (Proteox). **Reject as a quantum play:** **sold its NanoScience quantum unit to Quantum Design for £60m in 2025** (verified) — the quantum thesis literally walked out the door.
+- **QD Laser (6613.T, ~$430m)** — Quantum-dot lasers, Fujitsu spin-off. **Reject:** loss-making (~$9m revenue), wildly volatile (52-wk range 7x), and the real story is AI optical interconnects / retina-projection eyewear, not quantum computing. **Too speculative / mislabeled.**
+- **Coherent (COHR), Lumentum (LITE), IPG Photonics (IPGP)** — Supply optics/lasers into quantum but are giant, diversified, telecom/industrial-driven; quantum is immaterial. **Too big / not asymmetric.**
+- **Infineon (IFX)** — Fabs ion-trap chips for IonQ/Oxford Ionics (verified) — interesting, but a €45B diversified semi giant; quantum is a rounding error. **Not asymmetric.**
+- **IonQ / D-Wave / Rigetti / Quantum Computing Inc (QUBT)** — Pure-play qubit/system companies, not picks-and-shovels; pre-/early-revenue, valuations detached from fundamentals. **Explicitly against your "favor profitable picks-and-shovels over speculative qubit start-ups" instruction — reject.**
+
+---
+
+## Summary recommendation
+
+| Name | Ticker | Conviction | Role |
+|---|---|---|---|
+| Hamamatsu Photonics | 6965.T | 3.5/5 | Quality anchor (detectors + NKT lasers); mild life-sci overlap |
+| Gooch & Housego | GHH.L | 3/5 | Cheapest near-pure AOM arms-dealer; turnaround, no founder |
+| Keysight | KEYS | 2/5 | Completeness flag only — too big, no asymmetry |
+
+**My honest steer:** This lane does **not** currently offer a clean, founder-aligned, profitable, listed 5–10x quantum pick-and-shovel — and I'd rather tell you that than dress up a lottery ticket. The two defensible *listed* names (Hamamatsu, G&H) are 2–4x quality/turnaround stories with quantum as upside optionality, not the core. **The real generational quantum-hardware gems (Bluefors, TOPTICA, Quantum Machines) are private** — your highest-expected-value action is a **watchlist + IPO trigger** on those, plus possibly a small satellite in G&H for the asymmetric optionality. None of these should displace a core holding; at most, G&H or Hamamatsu *adds* the quantum-enabler blind spot as a small position.
+
+**Sources:** [FormFactor DR systems](https://www.formfactor.com/press-release/formfactor-adds-dilution-refrigeration-dr-systems-critical-for-quantum-computer-deployment/) · [Trapped-ion supply chain (PostQuantum)](https://postquantum.com/quantum-ecosystem/trapped-ion-quantum-ecosystem/) · [G&H FY25 results](https://www.investegate.co.uk/announcement/rns/gooch-housego--ghh/results-for-the-year-ended-30-september-2025/9269032) · [G&H market cap](https://www.morningstar.com/stocks/xlon/ghh/quote) · [Hamamatsu/NKT acquisition](https://www.prnewswire.com/news-releases/hamamatsu-photonics-completes-the-acquisition-of-nkt-photonics-as-302161040.html) · [Hamamatsu ownership/market cap](https://en.wikipedia.org/wiki/Hamamatsu_Photonics) · [SAES Getters tender/delisting](https://www.marketscreener.com/quote/stock/SAES-GETTERS-S-P-A-76205/news/SAES-Getters-S-p-A-Total-Voluntary-Tender-Offer-promoted-by-S-G-G-Holding-S-p-A-concerning-ordin-46449319/) · [Pfeiffer Vacuum/Busch domination agreement](https://www.webdisclosure.com/press-release/pfeiffer-vacuum-technology-ag-pfeiffer-vacuum-technology-ag-is-entering-into-a-domination-and-profit-and-loss-transfer-agreement-with-pangea-gmbh-r7yJ39J0211) · [Oxford Instruments sells NanoScience](https://thequantuminsider.com/2025/06/10/oxford-instruments-to-sell-its-nanoscience-business-to-quantum-design-international/) · [FormFactor 2025 financials/market cap](https://stockanalysis.com/stocks/form/) · [Maybell/Delft/Photon Spot private status](https://thequantuminsider.com/2025/09/03/maybell-quantum-secures-40-million-series-b-led-by-addition-to-accelerate-next-generation-quantum-infrastructure-to-market/) · [Photonic quantum companies list](https://thequantuminsider.com/2026/03/24/11-companies-lighting-up-the-quantum-photonics-sector/) · [QD Laser financials](https://photoncap.net/p/qd-laser-inc-6613-peak-market-cap) · [Keysight quantum control](https://www.hpcwire.com/off-the-wire/zurich-instruments-launches-zqcs-platform-for-large-scale-quantum-computer-control/)
+
+
+=====================================================================
 ## LANE 22 — Nuclear / SMR / Advanced-Fission Supply Chain
+=====================================================================
 
-| # | Name | Ticker | Country | Mkt cap | Conviction | Adds |
-|---|---|---|---|---|---|---|
-| 1 | Assystem | ASY.PA | France | ~€500–760m | **4/5** | Western nuclear engineering/EPCM (founder-controlled) |
-| 2 | Studsvik | SVIK.ST | Sweden | ~€180m | **4/5** | Reactor-physics software (CASMO/SIMULATE) + decommissioning annuity |
-| 3 | KSB | KSB.DE | Germany | ~€2.4B | 3.5/5 | Reactor coolant pumps / primary-circuit hardware (foundation ~84%) |
-| 4 | Mersen | MRN.PA | France | ~€1B | 3/5 | Advanced-reactor graphite (cyclical trough, no founder) |
+I have everything I need. Note Mersen has no founder/family — PE/institutional held (a knock on the "founder alignment" preference). Studsvik now has an activist anchor (Aegerter/Armada 29.9%) and is pushing into SMR. Let me compile the final report.
 
-- **Assystem:** only listed pure-play Western nuclear engineering/PMC/EPCM of scale; nuclear = 77% of revenue; in the EDF EPR Alliance (Hinkley/Sizewell); expanding to North America. FY25 revenue €656.6m (+7.4%), EBIT-A €45.0m (6.8%→~7%), low net debt; ~0.8x sales. Founder/CEO **Dominique Louis** controls via HDL. Bull: new-build pipeline compounds, margin to 8–10%, re-rate → 5x.
-- **Studsvik:** owns **CASMO5/SIMULATE5** — the global-standard LWR core-physics codes (regulators accept them = prohibitive switching), buried in a sleepy services microcap. 2025 earnings +289% to SEK 37m; Scandpower +16.6% Q1-26. Anchor **Aegerter/Armada ~29.9%** ("growth agenda"). Bull: software + decommissioning annuity + SMR licensing re-rate → 5x.
-- **KSB:** top-3 RCP/valve maker (one of few able to build a >100t main coolant pump); record order win (~€150m; "€1.5bn" headline likely a translation error — flag); SMR LOI w/ Blykalla. FY25 first-ever >€3bn revenue, EBIT €252m (8.3%/9.2% ex-SAP); ~0.8x sales / ~10x EV/EBIT — nuclear optionality nearly free. Foundation ~84% (Klein GmbH).
-- **Mersen:** Western #1 isostatic graphite; first nuclear-grade graphite order (Terra Innovatum SOLO micro-reactor); trades as a beaten-up semicap cyclical (net margin ~2% trough). No founder (Ardian ~10%) — watch-and-accumulate, smaller size.
-- **Rejected:** ASP Isotopes/QLE (HALEU pre-revenue), Centrus/Silex (consensus/binary), Japan Steel Works/Doosan/Toyo Tanso (excluded/consensus), Velan (acquired by Flowserve), NuScale/Rolls-Royce SMR/NANO/X-energy (pre-revenue), Holtec/Orano/Framatome (private/state).
+# Nuclear / SMR / Advanced-Fission Supply Chain — Hidden Gems
+
+**Methodology note:** All figures sourced from company releases, exchange data aggregators (stockanalysis, MarketScreener, Simply Wall St) and trade press (World Nuclear News, NucNet) as of late May 2026. Cross-checked where possible; I flag single-source or stale data. Markets move — treat all caps/prices as approximate. I deliberately avoided the already-covered lanes (uranium royalties, radiopharma via E&Z, Japan/Korea/Taiwan large-caps like JSW/Doosan/Toyo Tanso, US small/mid like Centrus/BWXT/Curtiss-Wright, pre-revenue SMR developers).
 
 ---
 
+## 1. Assystem S.A. | ASY.PA | France | ~€500–760m mkt cap | profitable, growing
+
+**Stage/economics (verified, 2025 FY):** Revenue €656.6m (+7.4%; +4.5% organic), **nuclear = 77% of revenue**. EBIT-A €45.0m (+11.7%), margin 6.8% → guided ~7% for 2026. Net debt €59.7m (low; previously net cash after selling its Framatome stake in 2024). Reported attributable profit thin (€7.4m) because it's distorted by associate accounting and finance costs — judge it on EBIT-A/cash, not headline EPS. Family-controlled by **Chairman & CEO Dominique Louis** (HDL holding) — strong founder/insider alignment.
+
+**Future wave & why under-covered:** The only **listed pure-play nuclear engineering/PMC/EPCM** house of scale in the West. It is embedded in the EDF EPR Engineering Alliance for Hinkley Point C and Sizewell C, and is expanding into North America (Mactech acquisition, PTAG MoU for new-build/refurb/decommissioning in US/Canada). Sell-side barely covers it because it screens as a "staffing/engineering" microcap, masking that ~3/4 of revenue is now nuclear knowledge-work riding a multi-decade new-build supercycle plus AI-data-center demand.
+
+**Moat:** Decades of EPR design know-how, nuclear safety-case credentials, security clearances, and an installed reference base that new entrants cannot replicate quickly. Engineering-hours on regulated nuclear projects are sticky and span 10–15-year project lives.
+
+**Valuation:** ~0.8x sales / low-double-digit EV/EBIT-A — cheap for a structurally growing, asset-light, founder-controlled nuclear pure-play.
+
+**10-yr bull case (path to 5x):** New-build pipeline (UK SMRs, EPR2 in France, Middle East, North America) compounds nuclear engineering revenue at high-single/double digits while margin drifts toward 8–10% as international scales. Re-rating from "engineering staffer" to "indispensable nuclear EPCM platform" does the rest. **Risks:** (1) project delay/cancellation risk in lumpy new-build; (2) it's a people business — margin is structurally lower than product suppliers; (3) French political/EDF dependency.
+
+**Replaces/adds:** Adds a Western **nuclear-engineering/EPC** vector the book lacks (closest analog Veralto/Secunet are different). **Conviction: 4/5** — *Founder-controlled, cheapest credible way to own the Western nuclear-new-build labor monopoly.*
+
+---
+
+## 2. Studsvik AB | SVIK.ST | Sweden | ~SEK 2.0–2.2bn (~€180m) | profitable, inflecting
+
+**Stage/economics (verified):** 2025 revenue SEK 883m; earnings jumped to SEK 37m (+289% YoY). Operating margin improved to ~7.6% (9M 2025) from 3.9%. **Scandpower software segment +16.6% in Q1 2026.** ~510 employees, 6 countries. Anchor shareholder **Daniel Aegerter / Armada Investment (~29.9%)** — a Swiss family office running an explicit "growth agenda" (quasi-founder alignment; not original founder).
+
+**Future wave & why under-covered:** Owns **CASMO5 / SIMULATE5 (Scandpower)** — described by the company and academia as the *global-standard light-water-reactor core-physics/lattice-code suite*, used by utilities, fuel vendors and regulators worldwide. This is a hidden software near-monopoly buried inside a sleepy nuclear-services microcap (decommissioning, waste, fuel/materials testing). The market prices it as a cyclical services company, not a recurring-revenue critical-software owner. Recently acquired a Swedish SMR project-development firm — optional SMR upside.
+
+**Moat:** CASMO/SIMULATE are validated, licensed-in code with 30+ years of benchmark data — regulators accept them, so switching costs are effectively prohibitive. Every new reactor (including SMRs/advanced reactors) needs core-physics validation, expanding the addressable base of code licenses.
+
+**Valuation:** ~2.3x sales / mid-teens EV/EBIT — undemanding if the software mix re-rates the group.
+
+**10-yr bull case (path to 5x):** Aegerter pushes a portfolio reshaping toward the high-margin Scandpower software + global decommissioning backlog (every reactor eventually retires = annuity demand) while SMR analysis licensing scales. Margin re-rate from ~7% to mid-teens at group level + software multiple = multi-bagger. **Risks:** (1) bulk of revenue is still lumpy project services, not software; (2) tiny/illiquid; (3) execution risk on the growth-agenda thesis.
+
+**Replaces/adds:** Adds **nuclear critical-software + decommissioning annuity** — a true picks-and-shovels annuity blind spot. **Conviction: 4/5** — *Industry-standard reactor-physics software hiding inside a microcap, with an aligned activist owner lighting a fire.*
+
+---
+
+## 3. KSB SE & Co. KGaA | KSB.DE | Germany | ~€2.4bn mkt cap | profitable, cash-generative
+
+**Stage/economics (verified, 2025 FY):** First-ever **>€3bn revenue** (€3,035m sales, €3,203m order intake). EBIT €252m, **margin 8.3% (9.2% ex SAP S/4HANA one-offs)** — best year ever. **Foundation/family controlled:** ~84% of ordinary shares held by Johannes & Jacob Klein GmbH (KSB Stiftung foundation + Kühborth-Stiftung) — exceptionally long-term aligned ownership; ordinary + preference share structure.
+
+**Future wave & why under-covered:** Top-3 global maker of **reactor coolant pumps (RCPs)** and primary/secondary-circuit valves — among the few firms in the world that can build a >100-tonne, 8MW nuclear main coolant pump. Just won the **largest single order in its 155-year history** (8 RCPs for an Eastern-European plant — reported at ~€150m; note: a widely-repeated "€1.5bn" headline appears to be a translation error, flag as unverified). Signed an SMR pump-development LOI with Sweden's lead-cooled Blykalla. The catch — and the reason it's under-covered as a nuclear play — is that **nuclear is only a slice of a diversified industrial pump/valve group** (water, energy, mining), so screens never surface it.
+
+**Moat:** Nuclear-qualified pump/valve manufacturing (ASME/regulatory codes, decades of installed reference reactors, 50+ year service relationships, multi-ton casting/machining capability). Aftermarket service on an installed fleet = recurring, high-margin annuity.
+
+**Valuation:** ~0.8x sales / ~10x EV/EBIT — cheap industrial compounder; nuclear optionality essentially free.
+
+**10-yr bull case (path to ~3–5x):** Global new-build + life-extension + SMR coolant-pump demand pushes nuclear from niche to a structural growth engine; group margin continues climbing post-SAP toward double digits; foundation ownership keeps capital disciplined. More a compounder than a moonshot, but durable. **Risks:** (1) nuclear is diluted by cyclical general-industrial pumps; (2) lumpy large-order timing; (3) German cost base / foundation control limits M&A optionality.
+
+**Replaces/adds:** Adds **physical nuclear primary-circuit hardware** (the "indispensable component" lane) with foundation alignment. **Conviction: 3.5/5** — *Foundation-owned, century-old monopolist on the one pump a reactor cannot run without — nuclear optionality bought at industrial-pump prices.*
+
+---
+
+## 4. Mersen S.A. | MRN.PA | France | ~€1bn mkt cap | profitable, cyclical trough
+
+**Stage/economics (verified, 2025 FY):** Revenue €1,186m; EBITDA margin ~15–16%; gross margin ~30%; net margin compressed to ~2% (net income −76% in a cyclical/semicap trough). 24.4m shares. **Weak on the founder test:** no family control — Ardian ~10%, Norges ~5%, Bpifrance on board, insiders <1%, ~37% public float. World #1 in **isostatic/isotropic graphite**.
+
+**Future wave & why under-covered:** Mersen is the Western isostatic-graphite leader — the exact material needed for **nuclear-grade graphite in advanced reactors** (HTGRs, molten-salt, micro-reactors). Just booked its **first nuclear-grade graphite procurement order (Terra Innovatum's SOLO micro-reactor)** and hit a graphite-prototype milestone — early evidence of a new SMR demand leg layered on its power-electronics, EV, solar and semiconductor businesses. The nuclear angle is essentially un-priced; the stock trades as a beaten-up semicap/industrial cyclical. (Note: Japan's Toyo Tanso and Germany's SGL are the other graphite names but Toyo Tanso is excluded-geography Japan and semiconductor-cyclical — Mersen is the differentiated European pick.)
+
+**Moat:** Few qualified Western producers of nuclear/aerospace-grade isostatic graphite; multi-year material qualification cycles create high switching costs once specified into a reactor design. Diversified power-electronics (busbars, fuses, cooling) gives a second secular EV/grid leg.
+
+**Valuation:** Depressed on trough earnings (~0.8x sales); a cyclical recovery + SMR graphite ramp offers operating leverage.
+
+**10-yr bull case (path to ~3–5x):** Semicap/EV cycle recovers (earnings normalize off the 2025 trough) *and* advanced-reactor graphite scales from first orders into a multi-design supply position — two independent growth legs re-rate a cheap stock. **Risks:** (1) deep cyclicality (semicap/EV swings dominate near-term P&L); (2) **no founder/family alignment** (PE/institutional ownership) — fails the book's preferred screen; (3) nuclear graphite is still a tiny, early revenue line tied to pre-revenue SMR developers.
+
+**Replaces/adds:** Adds **advanced-reactor graphite + power-electronics materials**. Given the alignment miss and heavy cyclicality, I'd size it smaller than the top three. **Conviction: 3/5** — *The Western isostatic-graphite leader with free SMR optionality on a cyclical-trough valuation — but no founder, so it's a watch-and-accumulate, not a core.*
+
+---
+
+## Rejected / Too-Early (flagged speculative or out-of-mandate)
+
+- **ASP Isotopes / Quantum Leap Energy (ASPI, US, ~$677m):** HALEU enrichment via aerodynamic/laser separation. **Pre-revenue on the nuclear leg, conditional financing (TerraPower loan), MoU-stage offtakes.** Genuinely interesting asymmetric tech but speculative and dilutive — fails "cash flow over pre-revenue." Watch only.
+- **Centrus Energy (LEU) / Silex Systems (SLX):** Already crowded, well-covered HALEU/enrichment names; not "under-the-radar." Centrus is the consensus pick; Silex is a single-asset (GLE) binary.
+- **Japan Steel Works (5631) / Doosan Enerbility / Toyo Tanso (5310):** Excluded-geography (Japan/Korea) and/or large-cap consensus; Toyo Tanso is also semiconductor-cyclical with shrinking 2025 earnings.
+- **Velan:** Won the GE Vernova BWRX-300 valve mandate but was acquired (Flowserve) — no longer independently investable; nuclear valve exposure now sits inside large-cap Flowserve/Trillium.
+- **Rolls-Royce SMR, NuScale, NANO Nuclear, X-energy:** Pre-revenue/large-cap reactor developers — explicitly outside the "real businesses with cash flow" mandate.
+- **Holtec / NAC / Orano / Framatome:** Best dry-cask/fuel-cycle assets are private or state-owned (EDF/Orano) — not directly investable.
+
+---
+
+### One-line portfolio fit summary
+The book holds zero direct nuclear supply-chain exposure beyond E&Z's radiopharma adjacency. **Assystem** (engineering labor monopoly) and **Studsvik** (reactor-physics software + decommissioning annuity) are the two highest-conviction, founder/anchor-aligned, genuinely under-covered gems; **KSB** adds foundation-owned physical-hardware durability; **Mersen** is a cheaper, more cyclical, alignment-light graphite call option. Top two are core-worthy; KSB a compounder; Mersen a sized-down watch.
+
+**Sources:** GlobeNewswire/Assystem 2025 results; stockanalysis.com & Cision/Studsvik year-end 2025; swissinfo/Bloomberg (Aegerter stake); World Nuclear News (Studsvik SMR, Mersen/Terra Innovatum, KSB-Blykalla); KSB 2025 results (EQS/Investing.com) & Wikipedia (KSB ownership); Mersen.com ownership + 2025 results; Seeking Alpha/citybiz (Mersen-Terra Innovatum); Nasdaq/StockTitan (ASP Isotopes/QLE); PowerMag/NucNet (Centrus); GE Vernova/NucNet (Velan). Caps and prices approximate as of late May 2026 and should be re-verified before sizing.
+
+
+=====================================================================
 ## LANE 23 — Fusion Energy Supply Chain & Enabling Tech
+=====================================================================
 
-**Lane reality:** best assets mostly **private** (Faraday Factory/SuperOx, Theva, Plansee, Kyoto Fusioneering). Hyped HTS-tape names (Fujikura +155%/yr, Furukawa) already re-rated, conglomerate-diluted — fail "Micron-early." Edge = non-HTS enablers invisible to the fusion crowd.
+I now have a comprehensive, verified picture. Comet supplies vacuum capacitors for ICRH/RF fusion heating (a genuine niche monopoly in vacuum capacitors), and is down 43% on the semicap cycle — interesting but heavily semicap-driven. Kyoto Fusioneering, Faraday Factory, Theva, Plansee all private. 
 
-- **Gooch & Housego (GHH.L, 4/5)** — the one true hidden pick. Dominant world supplier of large-aperture **Pockels cells** + optical isolators for high-fluence fusion lasers; primary supplier to NIF + Laser Mégajoule; ~300 large-aperture cells in service (>2x all others combined). Every laser-fusion line (NIF, LMJ, Marvel, Focused Energy, Xcimer) must buy. Sleepy UK photonics multiple → fusion optionality free. Bull: margin recovery + an inertial-fusion-energy capex super-cycle with recurring optic-replacement → 5x (10x needs IFE at pilot scale). _(NIF/CEA claims + "~300/2x" are G&H's own — partly UNVERIFIED.)_
-- **VAT Group (VACN.SW, ~$15B, 4/5 holding / fails "hidden"):** exclusive ITER vacuum-valve development partner, world leader; but ~70% semicap-valve share, premium multiple, well-followed; 2–4x compounder benchmark, not asymmetric.
-- **Comet Holding (COTN.SW, ~$2.9B, 3/5):** #1 vacuum capacitors / RF generators — the ICRH/ICRF plasma-heating hardware; down ~43%/yr at semicap trough. But ~90% a semicap stock + half-overlaps covered lanes.
-- **Private (the best, uninvestable):** Faraday Factory/SuperOx (HTS tape — most "Micron-early," can't buy), Theva, Plansee (ITER tungsten), Kyoto Fusioneering (gyrotrons/tritium — likely IPO candidate). **Watchlist + IPO triggers.**
+Let me compose the final report with my best 4 gems and a rejected list. My shortlist: G&H (best under-covered gem), VAT Group (quality but well-followed), Comet (cyclically depressed niche), and one HTS exposure. For HTS, the cleanest listed exposure is debatable — Furukawa/Fujikura too large/rallied, AMSC US small-cap covered lane. Let me position carefully and flag the unverified items.
 
----
+# Hidden Gems — Lane: Fusion Energy Supply Chain & Enabling Tech (picks-and-shovels)
 
-## LANE 24 — Broader Space Economy (launch/propulsion, in-space, ground/data, EO, SDA)
+*Date: 2026-05-31. All figures cross-checked across multiple web sources; "~" denotes approximate/single-source, and items I could not independently confirm are explicitly flagged **UNVERIFIED**. WebSearch is US-biased — non-US financials should be re-checked against primary filings before sizing.*
 
-**Honesty up front:** the exciting pure-plays (LeoLabs, Slingshot, Vyoma, ICEYE, ThrustMe, Exotrail, Dawn Aerospace) are **private**; most listed pure-plays are cash-burning SPACs, already-expensive (Planet ~$15B/28x sales), or being consolidated (OHB→KKR, Mynaric→Rocket Lab, Terran Orbital→Lockheed). Highest-conviction = toll-booth suppliers on a profitable base.
-
-| # | Name | Ticker | Country | Mkt cap | Conviction | Adds |
-|---|---|---|---|---|---|---|
-| 1 | Avio | AVIO.MI | Italy | ~€1.7–1.9B | **4/5** | European solid-rocket propulsion + missile/SRM |
-| 2 | Gilat Satellite | GILT | Israel | ~$1.2–1.3B | 3.5/5 | Ground-segment toll booth for LEO |
-| 3 | Kongsberg | KOG.OL | Norway | ~$20B+ | 2/5 (too big) | Owns 50% of KSAT (best GSaaS asset) |
-| 4 | Frequentis | FQT (Vienna) | Austria | ~€0.95–1.0B | 2.5/5 space / 3.5/5 quality | Founder 68%; safety-critical comms (space minor) |
-
-- **Avio:** Europe's only independent launch/solid-rocket-motor prime; supplies P120C boosters for BOTH Vega C and Ariane 6 (built regardless of who launches). Real story = **defense solid propulsion** (tactical missile motors) on Europe rearmament + a planned ~$500m Virginia plant (Lockheed term sheet). FY25 revenue ~€542m (+23%), backlog ~€1.86bn, ~€1bn new orders (incl. ~€250m defense). Leonardo ~19% anchor. Bull: launch margins normalize + defense SRM (structurally short — only Northrop/Aerojet domestically) → 5x; 10x if US missile thesis fully plays out. _(Aggregator EV/EBITDA reads distorted by ramp — GARP not value.)_
-- **Gilat:** ground-segment toll booth (VSAT modems, electronically-steered antennas tracking LEO, gateways) selling to SES/Telesat/Hughes/Eutelsat OneWeb + fast-growing In-Flight-Connectivity (Stellar Blu) + Defense. FY25 revenue ~$452m (+48%), adj EBITDA ~$53m; FY26 guide $500–520m. FIMI Opportunity Funds ~34% (disciplined PE anchor). Bull: neutral arms-dealer to all LEO ground segments → 3–5x.
-- **Rejected/private:** Planet (toll-booth thesis real but ~$15B/28x — no margin of safety, watch a drawdown); OHB (KKR squeeze-out risk); Redwire (in-space mfg, dilutive/unprofitable — revisit on FCF); AAC Clyde (revenue −17%); NorthStar/NSTR (SPAC, pre-scale); ICEYE/LeoLabs (private — top IPO watch).
+**Lane reality check:** The genuinely best fusion-supply assets are mostly *private* (Faraday Factory/SuperOx, Theva, Plansee, Kyoto Fusioneering, Bluefors, Cryomech) — these are not investable and appear in the reject list. Among *listed* names, the two most-hyped HTS-tape plays (Fujikura, Furukawa) have already re-rated violently on AI/datacenter demand (Fujikura +155% in 2025) and are multi-$10B diversified conglomerates where fusion is a rounding error — they fail the "Micron-years-early / under-covered" test today. The real edge here is in **non-HTS enabling tech that is invisible to the fusion-stock crowd**: laser/inertial-fusion optics and RF/vacuum hardware, where one or two listed specialists hold near-monopolies and trade on unrelated (and currently depressed) end-markets.
 
 ---
 
+## 1. Gooch & Housego — LON: GHH | UK | ~£250m / ~$320m mkt cap | profitable small-cap, restructuring
+**Future wave & why under-covered:** The *only* listed pure-ish play on **inertial/laser fusion optics**. G&H is the dominant world supplier of **large-aperture Pockels cells and optical isolators** for high-fluence fusion lasers — selected as primary supplier by the US National Ignition Facility (NIF) and France's CEA (Laser Mégajoule). Per G&H's own materials, ~300 of its large-aperture Pockels cells are in service worldwide — **more than 2x all other manufacturers combined** — including 400mm single-crystal parts for ICF. It also makes the Faraday isolators, AO/EO components and precision optics that every laser-fusion line (NIF, LMJ, and private players like Marvel Fusion / Focused Energy / Xcimer) must buy. It's screened as a sleepy UK photonics small-cap (defense/industrial/life-science segments), so the fusion optionality is essentially free. *(NIF/CEA supplier status and "~300 units / 2x competitors" are G&H's own claims — directionally credible but partly **UNVERIFIED** independently.)*
+**Moat:** Single-crystal growth + large-aperture EO/AO finishing is a decades-deep, low-volume, spec-locked craft (DKDP/KDP crystals, low-stress polishing); qualified supplier status on national-lab fusion programs is sticky and near-impossible to displace. 50+ years of laser-optics pedigree.
+**Founder/insider ownership:** No founder control — diffuse institutional (Schroders ~5%, Octopus ~11%, Aug-2025). Chairman's interest ~0.21%. **Blind spot: weak insider alignment** (fails your founder-alignment preference).
+**Economics (sourced):** TTM revenue ~$196m, mkt cap ~$321m (Apr 2026); ~975 employees. Margins have been depressed by a multi-year operational turnaround; bolt-ons (Phoenix Optical 2024, Global Photonics 2025) extending US A&D/optics. Fusion is a small but high-margin slice — **size of fusion revenue UNVERIFIED** (not disclosed separately).
+**Valuation:** ~1.6x sales; a turnaround/"broken small-cap" multiple, not a fusion multiple. Cheap if margins normalize.
+**Asymmetric 10-yr bull (5–10x):** Margin recovery to mid-teens EBIT on a re-rated ~3x sales = ~2–3x alone; *plus* an IFE capex super-cycle (post-NIF-ignition, multiple private laser-fusion plants + DOE IFE hubs each needing thousands of large optics/Pockels cells with finite lifetimes → recurring replacement) drives the optics franchise from niche to structural. Combined: credible path to 5x; 10x requires both margin re-rate AND IFE moving to pilot-plant scale. **Risks:** lumpy program timing; magnetic-confinement (not laser) could win, shrinking the laser-optics TAM; no founder alignment; turnaround execution risk; takeover (could cap upside or crystallize value).
+**Replace-which / blind-spot:** Fills a true blind spot — you own zero laser/optics-for-fusion and zero UK photonics. Closest book analogue: Bioventix (tiny UK specialist monopoly) — same "boring listed micro-monopoly into a future wave" shape.
+**Conviction: 4/5** — "The picks-and-shovels of laser fusion: a sleepy UK optics turnaround that quietly owns the Pockels-cell monopoly NIF and every laser-fusion startup must buy from."
+
+---
+
+## 2. Comet Holding — SWX: COTN | Switzerland | ~CHF 2.4bn / ~$2.9bn | profitable mid-cap, cyclically depressed
+**Future wave & why under-covered:** Comet's Plasma Control Technologies division is the **#1 maker of vacuum capacitors, RF generators and impedance-matching networks** — the exact hardware used in **ICRH/ICRF (ion-cyclotron RF plasma heating)** systems on tokamaks (its tuneable vacuum capacitors have been upgraded for the CW operation fusion antennas require). The market sees Comet only as a semiconductor-cycle RF play; the fusion-heating angle is essentially uncovered. It's down ~43% over the past year on the semicap downcycle — you'd be buying a niche monopoly at a cyclical trough.
+**Moat:** Claims top global share in vacuum capacitors + matchboxes; this is mission-critical, spec-locked RF plasma hardware with the same "qualified-supplier-into-fabs-and-tokamaks" stickiness as VAT's valves. Dual-use (semicap + fusion RF) means the fusion ramp is incremental margin on an installed engineering base.
+**Founder/insider ownership:** Old (1948) Swiss company, **no founder control** — institutional/widely held. Alignment is a blind spot.
+**Economics (sourced):** TTM revenue ~$557m (Jun-2025); mkt cap ~$2.87bn; price ~CHF 370 (Feb 2026); UBS upgraded to Buy on semicap recovery. **Fusion revenue is immaterial today and UNVERIFIED in size** — this is mostly a semicap stock with a free fusion-RF call option.
+**Valuation:** ~5x trough sales — not cheap on absolutes, but earnings are cyclically suppressed; a semicap upcycle + fusion-RF optionality is the combination.
+**Asymmetric bull:** Primarily a semicap recovery story (2–3x off-trough), with fusion ICRH/ICRF heating systems (every magnetic-confinement plant needs MW-scale RF) as the long-tail second leg. **Honest caveat:** this leans toward your *already-covered* semicap/automation lane — fusion is the differentiator but not the dominant driver. Lower conviction as a *fusion-specific* gem.
+**Replace-which:** Marginal vs. VAT-type quality compounders; only include if you want depressed-cyclical optionality.
+**Conviction: 3/5** — "Trough-cycle Swiss RF-monopoly with a free fusion-plasma-heating option — but it's 90% a semicap stock, so it half-overlaps your covered lanes."
+
+---
+
+## 3. VAT Group — SWX: VACN | Switzerland | ~CHF 12–15bn / ~$14–17bn | high-quality compounder (NOT a hidden gem; sizing/quality anchor)
+**Future wave & why (under-)covered:** VAT is the **exclusive ITER development partner** for high-performance all-metal vacuum valves and the named world leader; private US fusion ventures are an explicit, growing demand source per VAT. Every tokamak/stellarator vacuum vessel and most ICF chambers need its valves. **But this is well-followed** (70% semicap vacuum-valve share, premium multiple) — included as the *quality/conviction anchor and benchmark*, not as an undiscovered idea.
+**Moat:** ~70% share of semiconductor vacuum valves; 40%+ service margins; CHF ~61m R&D; dominant in 2nm/GAA/ALD-critical valves — a textbook hidden monopoly with fusion as free optionality.
+**Founder/insider:** No founder control; institutional. Quality, not alignment, is the thesis.
+**Economics/valuation:** Premium (~well above-market sales multiple); fusion is immaterial to revenue today.
+**Asymmetric bull:** Compounder, not a 5–10x asymmetric bet from here — semicap cycle + fusion/vacuum-vessel long tail. Realistic 2–4x over 10yr, lower variance.
+**Conviction: 4/5 as a holding, but it does NOT meet the "Micron-years-early / under-the-radar" bar** — list it as a watch/quality benchmark. "The cleanest quality fusion-vacuum exposure, but the market already knows."
+
+---
+
+## Honourable mention / borderline
+- **Linde (NYSE: LIN) / Air Liquide (PAR: AI):** the only entities that build turnkey 4K helium cryoplants at ITER scale; but mega-caps where fusion is invisible — pure long-tail optionality, no asymmetry. Reject for this lane (size).
+- **Sumitomo Heavy Industries (TSE:6302):** SHI Cryogenics is a real cryocooler (GM/pulse-tube, 4K) leader for superconducting magnets — but a sprawling industrial conglomerate; fusion immaterial. Watch, not buy.
+
+---
+
+## Rejected / too-early / not-listed
+- **Faraday Factory Japan (ex-SuperOx)** — best-positioned independent HTS-tape merchant (>5,000 km delivered to fusion across tokamak/stellarator/mirror/dipole), **privately held** (Faraday 1867 Holdings, US). Not investable. *The single most "Micron-early" asset in the lane — and you can't buy it.*
+- **Theva GmbH** — German 2G-HTS RCE-process innovator (SuperEMFL 40T magnet). **Private.**
+- **Plansee SE / Plansee Group** — primary ITER-grade tungsten / plasma-facing supplier. **Private** (Flatlake Foundation). Only listed touchpoint is its ~20% stake in Molymet (Chile) — too indirect.
+- **Kyoto Fusioneering** — gyrotrons, tritium fuel cycle, breeding blankets; Tier-1 UKAEA STEP supplier. **Private/pre-IPO** — watch for an IPO; would be a top buy if listed.
+- **Fujikura (TSE:5803)** — REBCO leader to CFS, but **+155% in 2025 on AI/grid**, multi-$10bn diversified, fusion buried, no longer under-covered.
+- **Furukawa Electric (TSE:5801, owns SuperPower)** — REBCO leader to Tokamak Energy; ~$10bn, already re-rated, conglomerate dilution. Fusion is a rounding error.
+- **American Superconductor / AMSC (NASDAQ)** — ~$1.4bn REBCO + grid + naval pure-play; but (a) revenue is grid/defense-dominated, REBCO/fusion small, and (b) **US small-cap = your explicitly-covered lane**. Excluded by mandate.
+- **Atlas Copco / Edwards (STO: ATCO), Pfeiffer Vacuum (ETR: PFV)** — real ITER/JET vacuum suppliers but mega/large-cap diversified; fusion immaterial.
+- **Jenoptik (ETR: JEN), TRUMPF (private), Coherent (NYSE: COHR)** — laser-fusion-adjacent optics, but diversified/large; Coherent is a US large-cap AI-optics story (covered-lane adjacency). Jenoptik fusion exposure thin.
+- **Cryomech, Bluefors, Stirling Cryogenics, Cryomagnetics, American Magnetics, HTS-110** — relevant cryo/magnet specialists, all **private**.
+
+---
+
+### Bottom line
+The lane's structural problem: the purest fusion-supply assets are private. Among listed names, **Gooch & Housego is the one genuine under-the-radar gem** — a near-monopoly in large-aperture laser-fusion optics, trading on a depressed turnaround multiple with the fusion optionality free (conviction 4/5, the only true "hidden" pick). **VAT and Comet** are higher-quality / well-followed Swiss vacuum-RF monopolies with fusion as a long-tail call option, but they lean into your already-covered semicap/automation lanes and lack founder alignment. The HTS-tape "obvious" names (Fujikura/Furukawa) have already run and are too diversified to be asymmetric from here.
+
+**Key unverified flags to diligence before sizing:** G&H's exact fusion revenue and the "~300 Pockels cells / 2x competitors" claim (self-reported); Comet's fusion-ICRH revenue (immaterial/undisclosed); all non-US financials vs. primary filings. I did not find any listed pure-play I could confirm derives a *majority* of revenue from fusion — consistent with the lane being early; treat every name here as "adjacent core business + fusion optionality."
+
+
+=====================================================================
+## LANE 24 — Broader Space Economy
+=====================================================================
+
+I have enough verified data to write a strong, focused report. Frequentis is more of an ATC/safety-critical comms play (space is a small slice) — I'll note it but not lead with it. My strongest distinct space-economy gems are Avio (propulsion), and I need 2-3 more genuinely under-covered ones. Let me finalize with what I have — Avio (propulsion toll-booth), Gilat (ground infrastructure), Kongsberg (KSAT GSaaS, but huge), and I'll flag the SDA/EO private names and speculative SPACs. Let me write the report now.
+
+# Lane: The Broader Space Economy — Launch & Propulsion, In-Space Manufacturing/Servicing, Ground-Station & Space-Data Infrastructure, EO/Geospatial Analytics, Space-Domain Awareness, and Indispensable Space Supply-Chain Suppliers
+
+**Scope note / honesty up front.** This is the hardest lane in the book for "quality + asymmetric + under-covered" because the genuinely exciting pure-plays (LeoLabs, Slingshot, Vyoma, ICEYE, ThrustMe, Exotrail, Dawn Aerospace) are all **still private**, and most listed pure-plays are either (a) cash-burning SPAC wrecks, (b) already large/expensive (Planet Labs ~$15bn at ~28x EV/sales; Rocket Lab), or (c) being taken private / consolidated (OHB → KKR squeeze; Mynaric → Rocket Lab; Terran Orbital → Lockheed). So my highest-conviction names are **toll-booth / picks-and-shovels suppliers** where the space leverage rides on an already-profitable base business. I am being deliberately conservative and flagging every speculative element. Several "valuation" datapoints below come from aggregators (stockanalysis, Simply Wall St, MarketScreener) and should be treated as **directional, not audited** — I flag the shakiest ones.
+
+---
+
+## Gem 1 — Avio S.p.A. | BIT: AVIO | Italy | ~€1.7–1.9bn mkt cap | Profitable, scaling
+
+**Future wave & why under-covered.** Europe's only independent launch/solid-rocket-motor (SRM) prime, and — critically — the indispensable **solid propulsion** supplier for *both* Vega C (first stage) and Ariane 6 (the P120C boosters; Avio builds them regardless of who "wins" launches). Under-covered because it's Milan-listed, Italian-language reporting, ex-Leonardo, and most US space investors never see it. The market still thinks "small European rocket" and misses that the real story is now **defense solid propulsion** — tactical missile motors — riding Europe's rearmament and a new US plant.
+
+**Moat.** P120C is the world's largest monolithic carbon-fiber SRM (142t propellant). Solid propulsion is a capital-, IP-, and certification-heavy oligopoly — you cannot stand one up quickly. Avio is structurally embedded in the *entire* European launch stack and is now being pulled into the US missile supply chain (Lockheed Martin term sheet for preferred capacity at the planned ~$500m Virginia plant; defense already ~⅓ of backlog).
+
+**Founder/insider ownership.** Not founder-led, but **manager-aligned**: management's "InOrbit" vehicle holds ~1%; Leonardo ~19% (strategic anchor); free float ~60%; US investors ~20% post the Nov-2025 €400m raise. *(Verified via Avio IR / Leonardo PRs.)*
+
+**Sourced economics (flagged).** FY2025: revenue ~€542m (+23%), reported EBITDA ~€32m (+~25%), 9M-2025 backlog ~€1.86bn; new orders ~€1bn in 2025 incl. ~€250m defense. *(Avio press releases — credible.)* The capital raise funds the US plant.
+
+**Valuation.** Aggregator EV/EBITDA reads are alarmingly high (one source 77x, another ~43x) — **flag as unreliable**: trailing EBITDA is depressed by ramp/investment, so the multiple is distorted. Analyst consensus PT ~€40–44 vs ~€37; this is a "growth-into-margins" story, not a cheap one today. Treat as **GARP, not deep value.**
+
+**Asymmetric 10-yr bull case (path to 5–10x).** Vega C/Ariane 6 reach cadence → launch margins normalize; **defense SRM becomes the bigger, higher-margin engine** as Europe rebuilds munitions stocks and the US plant ramps (2028+) into a structurally short SRM market (only Northrop/Aerojet domestically). If defense propulsion compounds at 15–20%+ with margin expansion to mid-teens EBITDA on a multi-billion revenue base, a re-rate to a defense-prime multiple delivers a multi-bagger. **5x is plausible over 10yr; 10x requires the US missile thesis to fully play out.**
+**Risks.** Vega/Ariane launch failures (binary reputational hits); execution risk on the US build-out; lumpy launch economics; not a true "founder" compounder; EBITDA margins still thin today.
+
+**Replaces / blind-spot.** Fills the **launch & propulsion** blind spot the existing book entirely lacks (Eckert & Ziegler/Bachem are bio, not aerospace). Closest in spirit to a "Micron-years-early" toll on Europe's launch + missile rearmament.
+
+**Conviction: 4/5** — "The only listed pure way to own European solid-rocket propulsion just as it pivots from a cyclical launch business into a structurally-short defense-missile supplier."
+
+---
+
+## Gem 2 — Gilat Satellite Networks | NASDAQ/TASE: GILT | Israel | ~€1.2–1.3bn mkt cap | Profitable
+
+**Future wave & why under-covered.** The **ground-segment toll booth** for the multi-orbit/LEO build-out. As thousands of LEO satellites launch, the bottleneck shifts to ground infrastructure — VSAT modems, electronically-steered antennas (ESAs) that track moving LEO birds, and gateways. Gilat sells "picks and shovels" to operators (SES, Telesat, Hughes, Eutelsat OneWeb) plus a fast-growing **In-Flight Connectivity (Stellar Blu)** and **Defense** business. Under-covered as a sleepy, decades-old Israeli SATCOM name — the market is only now waking up (stock +130%+ in a year).
+
+**Moat.** Deep IP in ground modems/waveforms and ESAs, multi-orbit interoperability (GEO/MEO/LEO), and entrenched operator relationships; defense-grade certifications create switching costs. Stellar Blu gave it a dominant position in next-gen aero terminals.
+
+**Founder/insider ownership.** Not founder-led, but **concentrated value-investor control**: FIMI Opportunity Funds (top-tier Israeli PE) ~34%, Mivtach-Shamir ~9.7%. FIMI is a disciplined, long-horizon owner — alignment proxy. *(Verified via Globes/MarketScreener.)*
+
+**Sourced economics (flagged).** FY2025 revenue ~$452m (+48%, boosted by Stellar Blu ~$127m), adj. EBITDA ~$53m (+26%). FY2026 guide: revenue $500–520m, adj. EBITDA $61–66m (~+19%). *(Gilat PRs / SEC 6-K — credible.)* P/E ~36x (aggregator) — not cheap, reflects the re-rate.
+
+**Asymmetric 10-yr bull case.** LEO constellations need ground hardware to monetize; Gilat is a neutral arms-dealer to *all* of them. If multi-orbit ground + ESA + defense IFC compounds at mid-teens with EBITDA scaling toward $150m+, and it re-rates as a "LEO-infrastructure" not "legacy VSAT" name, a 3–5x is achievable; 10x needs ESAs to become the default LEO terminal and big defense share gains.
+**Risks.** Customer concentration / operator capex cyclicality; pricing pressure as ESAs commoditize; Israel geopolitical/macro overhang; M&A-driven (not purely organic) growth; multiple already elevated.
+
+**Replaces / blind-spot.** Fills the **ground-station / ground-segment data infrastructure** blind spot — the unglamorous, indispensable layer between space and Earth.
+
+**Conviction: 3.5/5** — "A profitable, FIMI-backed arms-dealer to every LEO constellation's ground segment, finally being re-rated off its legacy-VSAT discount."
+
+---
+
+## Gem 3 (watch / partial) — Kongsberg Gruppen | OSE: KOG | Norway | large-cap (~$20bn+) | Profitable
+
+**Why it's here despite the size.** Kongsberg owns **50% of KSAT** — the dominant global ground-station-as-a-service network (200+ antennas, 23 sites, including the irreplaceable polar/Svalbard locations every EO and weather operator must use). GSaaS is forecast to grow ~19% CAGR to ~$2.5bn by 2033, and KSAT is the toll-booth incumbent. This is the **single best ground-station asset on the planet**, but it's buried inside a large, defense-driven conglomerate (also a missile/maritime juggernaut).
+
+**Honest verdict — does NOT meet the gem bar.** Too large for "hidden/asymmetric" (5–10x is implausible at ~$20bn+), KSAT is a small fraction of the group, and you can't isolate the space exposure. **Flagging it as the cleanest *listed* way to touch premium GSaaS, but it fails the under-the-radar test.** Conviction as a "space gem": **2/5.** Worth watching only if KSAT is ever carved out/IPO'd (Space Norway owns the other 50%).
+
+---
+
+## Gem 4 (adjacent quality, space-optional) — Frequentis AG | XETRA/Vienna: FQT | Austria | ~€0.95–1.0bn mkt cap | Profitable
+
+**Why included (with a caveat).** Founder-controlled, world-leading safety-critical comms business with a *growing* space angle (space/ground data-link control systems, satellite ground comms, drone/counter-drone). It's a genuine quality compounder — but **space is a minor slice**; it's primarily an **air-traffic-management / public-safety** play (30% global share in ATC voice comms; ~90% of orders from repeat customers).
+
+**Founder alignment (the standout).** Hannes Bardach owns **~68%** — bought the company in a 1986 MBO at 45 employees / €2.9m revenue and built it to €580m. This is exactly the founder-skin-in-the-game profile the book prizes.
+
+**Economics (flagged).** FY2025 revenue €580m (+20.8%), EBIT €47m; shifting toward SaaS/managed-services recurring revenue. *(Frequentis IR — credible.)*
+
+**Verdict.** A high-quality, founder-led, under-followed compounder — but as a **"space" pick it's a stretch** (mislabeled if bought for space). Better thought of as a critical-infrastructure-software gem with optional space upside. **Conviction as a space gem: 2.5/5; as a quality compounder: 3.5/5.** One-liner: "Founder-owned (68%) safety-critical comms compounder with a side of space — buy it for ATM/defense, not for orbit."
+
+---
+
+## Rejected / too-early / disqualified (with reasons)
+
+- **Planet Labs (NYSE: PL)** — the EO-data toll-booth thesis is real (98% recurring, first FCF-positive year, $300m+ rev, $900m backlog, defense >50% growth, founder Will Marshall ~3.7%) **but ~$15bn cap at ~28x EV/sales = no margin of safety and already heavily covered.** Asymmetry is gone. The cleanest "space-data toll booth," just too expensive/too-discovered to be a *hidden* gem. Watch for a drawdown.
+- **OHB SE (XETRA: OHB)** — Fuchs family ~65% + KKR ~29%; Europe's only listed pure-play space prime. **Disqualified: KKR is exiting/placing ~20% and minorities face a hard squeeze-out; ~$9bn cap.** Take-private risk caps upside.
+- **Redwire (NYSE: RDW)** — in-space manufacturing + Edge Autonomy drones; FY2025 rev ~$335m, $411m backlog, ~$7bn pipeline. Genuinely interesting **in-space manufacturing/servicing** exposure, but **dilutive, acquisitive, not consistently profitable, and volatile** — speculative, not a quality compounder. The best *idea* on this list to revisit if it proves out FCF.
+- **AAC Clyde Space (STO: AAC)** — "space-data-as-a-service" pivot, but FY2025 revenue **-17%**, net loss widening, program delays; ~$90m micro-cap. Too unproven/financially fragile.
+- **NorthStar Earth & Space (→ NYSE: NSTR via Viking SPAC)** — space-domain-awareness pure-play, but **SPAC + only ~$30m projected revenue + pre-scale = speculative.** Avoid until execution shown.
+- **Dawn Aerospace, Exotrail, ThrustMe, ICEYE, LeoLabs, Slingshot, Vyoma, Kayhan, Leaf Space, Atlas Space** — all the *most* attractive propulsion / SDA / GSaaS / SAR pure-plays are **private**. Watch for IPOs; ICEYE (SAR, profitable ~€200m rev, €1.7bn Rheinmetall deal) and LeoLabs (SDA) are the two I'd most want to own if/when they list.
+- **Avio caveat repeated:** trailing EV/EBITDA looks extreme on aggregators because EBITDA is ramp-depressed — do your own normalized-earnings work before sizing.
+
+---
+
+### Bottom line
+The honest, deliverable gem here is **Avio** (Gem 1) — a distinct, listed, profitable launch-and-defense-propulsion toll booth that fills a real blind spot in your book, with the missile/SRM angle as the asymmetric kicker. **Gilat** is a credible second (ground-segment arms-dealer, FIMI-backed, profitable). Beyond those, the lane's best risk/reward is largely **private** today — the watch-list (ICEYE, LeoLabs, Redwire-if-it-FCFs, Planet-on-a-drawdown) is where the next entries will come from. Every financial figure above is from company filings/PRs or third-party aggregators as noted; **the aggregator multiples (esp. Avio EV/EBITDA) are unverified and likely distorted — confirm before acting.**
+
+
+=====================================================================
 ## LANE 25 — Synthetic Biology, Genomics Tools, Enzymes & Biomanufacturing
+=====================================================================
 
-_Differentiated from bioprocessing (Bachem/Sartorius) and the life-sci-tools lane (ChemoMetec/RaySearch/Medpace/Veracyte)._
+I now have a complete, well-sourced picture. Stratec is actually adjusted-EBIT profitable (~10% margin, GAAP EPS dented by amortization/D&A) with 40% founder-family ownership — a legitimate recovery gem. I have my 4-5 names plus rejects. Compiling the final report.
 
-| # | Name | Ticker | Country | Mkt cap | Conviction | Note |
-|---|---|---|---|---|---|---|
-| 1 | GenScript | 1548.HK | China/US | ~$4B | 3.5/5 | Gene-synthesis arms dealer + Legend Biotech stake; founder ~49%; BIOSECURE-discounted |
-| 2 | STRATEC | SBS.DE | Germany | ~$0.6–0.9B EV | 3.5/5 | Founder-family ~40%; OEM diagnostics-automation + smart consumables, destocking trough |
-| 3 | Codexis | CDXS | US | ~$265M | 3/5 | Enzymatic oligo/RNA manufacturing (ECO Synthesis); just turned profitable; non-founder |
-| 4 | Nanjing Vazyme | 688105.SS | China | ~$1.1B | 2.5/5 | "NEB of China" molecular reagents; fragile profitability |
+# Synthetic Biology, Genomics Tools, Enzymes & Biomanufacturing Picks-and-Shovels — Hidden Gems
 
-- **GenScript:** indispensable global arms dealer of gene synthesis / peptides / custom antibodies / plasmids; ProBio CDMO; hidden ~30.5% stake in **Legend Biotech** (CARVYKTI). FY25 continuing revenue ~$0.96B (+61%), adj net ~$0.23B (+285%); Life Science arm profitable. Founder **Frank Zhang ~49%** (flag: dilution + reported detention — governance/key-man risk). BIOSECURE Act suppresses the multiple while the franchise compounds. Bull: synbio/protein-design TAM + multiple re-rate + ProBio + Legend → 5–10x; severe China/BIOSECURE binary risk.
-- **STRATEC:** invisible OEM behind diagnostics automation — builds analyzers + proprietary smart-polymer consumables for blue-chip IVD partners (razor-blade by construction; multi-year co-design lock-in). FY25 sales €250.9m (~flat), adj EBIT ~10% (target ≥13% by 2028, ≥15% by 2030); GAAP EPS negative on amortization (misleading — adj-EBIT profitable, cash-generative). Founder **Leistner family ~40.4%**. Bull: demand normalizes + new OEM platforms + margin recovery off a destocking trough → 5x.
-- **Codexis:** CodeEvolver enzyme-engineering platform re-platforming into **ECO Synthesis** (enzymatic oligonucleotide manufacturing) — the structural bottleneck of the RNAi/siRNA era (oligo market ~$7.2B→$17.7B by 2030; chemical synthesis caps ~5kg/run vs ECO double-digit kg). FY25 revenue $70.4m (+19%), Q4 first profit; ~3.5x sales. Non-founder (insiders ~4.6%; smart-money Opaleye/Casdin). Bull: ECO becomes the route for 2–3 blockbuster siRNA drugs → $1–2B revenue vs ~$70M = 10x; binary platform risk.
-- **Vazyme:** "NEB of China" — molecular-biology enzymes, NGS prep, mRNA raw materials; import-substitution wave. Founder-controlled (~40% via vehicle + chairman 7.3%). But profitability fragile/choppy (FY25 reportedly a net loss; Q1-26 small profit). 2.5/5 — watchlist.
-- **Rejected/private:** Twist Bioscience (DNA writing, not yet profitable — watch); Maravai (impaired, PE-controlled); Tecan (too large/covered); Bionano (value-destroyed); Biotage (KKR take-private); NEB/Hamilton/Sino Biological/DNA Script (private — top IPO watch).
+*All figures sourced inline; flagged where unverified or estimated. Date: 2026-05-31. None of these overlap the covered life-science-tools lane (ChemoMetec/RaySearch/Medpace/Veracyte) or bioprocessing (Bachem/Sartorius). I deliberately hunted differentiated "arms dealers" — enzyme engineering, gene synthesis, molecular reagents, OEM diagnostics consumables.*
 
 ---
 
-## LANE 27 — Aquaculture & the Blue Economy
+## GEM 1 — Codexis | NASDAQ: CDXS | USA | ~$265M mkt cap | profitable inflection (just turned Q4 profitable)
 
-**Blind spot:** the best moats — genetics (Benchmark Genetics→Novo, AquaGen, GenoMar) and the dominant fish-vaccine (PHARMAQ→Zoetis) — are now **private/locked**. Listed set = equipment/RAS, the Artemia monopoly, cost-curve farmers, and feed toll-collectors. Structurally cyclical — respect it.
+**Future wave & why under-covered:** The next decade's biggest small-molecule-adjacent drug wave is **RNAi/siRNA and oligonucleotide therapeutics** (oligo therapeutics market ~$7.2B in 2025 → ~$17.7B by 2030, ~20% CAGR). The dirty secret: chemical solid-phase synthesis (SPOS) caps at ~5 kg/run and is hitting a wall as cardiovascular siRNA drugs (e.g., Leqvio-class) demand metric *tons*. Codexis's enzyme-engineering platform (CodeEvolver) — long the quiet workhorse behind Merck's sitagliptin and dozens of pharma APIs — is being repurposed into **ECO Synthesis** (Enzyme-Catalyzed Oligonucleotide synthesis), an enzymatic route that has scaled to double-digit kg/run. The market sees a tiny ex-COVID enzyme company; what's actually happening is a re-platforming into the structural bottleneck of the RNA-drug era. Wildly under-covered after a multi-year de-rating.
 
-| # | Name | Ticker | Country | Mkt cap | Conviction | Note |
-|---|---|---|---|---|---|---|
-| 1 | AKVA Group | AKVA.OL | Norway | ~$370M | **4/5** | Only listed full-stack aquaculture arms-dealer (cages/feed/RAS/software); live takeover review |
-| 2 | Bakkafrost | BAKKA.OL | Faroe Is. | ~$2.9B | **4/5** | Lowest-cost salmon geography; founder-family ~16%; quality, not 10x |
-| 3 | Avanti Feeds | AVANTIFEED.NS | India | ~$2.0B | **4/5** | ~50% India shrimp-feed share; promoter 43% + Thai Union 24% |
-| 4 | Benchmark Holdings | BMK.L | UK | ~$250M | 3/5 | Near-net-cash stub hiding the world Artemia choke-point (INVE) |
-| 5 | Vinh Hoan | VHC (HOSE) | Vietnam | ~$530M | 3/5 | Founder-chairwoman 42.3%; pangasius + hidden collagen optionality |
+**Moat:** 20+ years of proprietary directed-evolution enzyme IP (CodeEvolver), a deep machine-learning-guided protein-engineering dataset, and entrenched GMP supply relationships (Merck, Novartis, Roche historically). Switching costs are high once an enzyme is written into a drug's regulatory filing/DMF.
 
-- **AKVA:** world #1 arms-dealer to fish farming (cages, feed barges, sensors, software, land-based RAS); sells to every farmer regardless of who wins. Revenue NOK 3.4bn→4.4bn (2023–25); Land-Based Q4-25 +94% YoY; FY25 EBIT NOK 280m (6.4%); guide 20%+ EBIT growth 2026. Egersund Group 51% + Israel Corp 18%. **Apr-2026 strategic review — board exploring outright sale, "high-quality interest"; conclusion ~autumn 2026** = near-term re-rating catalyst on a structural RAS adoption story.
-- **Bakkafrost:** owns the Faroe Islands (pristine, cold, low-lice — decade-high survival); most vertically integrated salmon co (owns Havsbrún feed); op-EBIT/kg DKK 33–47 even in a soft cycle. CEO **Regin Jacobsen ~7.8%** + mother ~7.8% (rare founder-family alignment). Bought at multi-year-low EV/kg. 2–4x quality anchor, not a 10x.
-- **Avanti Feeds:** India shrimp-feed toll-collector (~50% share); Thai Union 24% (formulation know-how); promoters 43.2%. FY-Mar25 net profit ₹529cr (from ₹357cr). Bull: India/global shrimp consumption + share + multiple re-rate → 5x; brutal shrimp disease/cycle + US tariff risk.
-- **Benchmark/INVE:** post-genetics-sale stub trading near net cash (£131.6m liquidity vs ~$250m cap) hiding **INVE/Artemia** — the irreplaceable live first-feed (Great Salt Lake = 35–50% of world supply; Benchmark has a 10-yr distribution agreement). Bioventix-style indispensable-input bet; **but the lake itself (drought) is the existential risk.**
-- **Rejected/private:** Benchmark Genetics/AquaGen/GenoMar/Hendrix (private — best moats, can't buy); PHARMAQ (inside Zoetis); Innovasea/AquaMaof (private — AKVA the only listed proxy); BioMar/Schouw (conglomerate, lower asymmetry); DSM-Firmenich/Corbion (own algae-omega-3 but €15B+ diversified); Mowi/SalMar/Minh Phu (commodity farmers, thinner moats); AquaBounty (cash-burner).
+**Founder/insider ownership:** *Flag — NOT founder-led.* Insiders ~4.6%; CEO Stephen Dilly ~0.56%. Concentrated specialist holders (Opaleye ~11%, Casdin ~10%) provide smart-money alignment but this is the weakest "founder" fit in the list.
 
----
+**Sourced economics:** FY2025 revenue $70.4M (+19% YoY); Q4 2025 net income $9.6M (first profitable quarter, boosted by a $37.8M Merck supply-assurance/tech-transfer deal). 2026 guidance $72–76M; Q1 2026 revenue $15.2M (doubled YoY). Cash ~$78M, runway into 2027. Multiple ECO evaluation agreements signed (Axolabs, Alphazyme license, undisclosed siRNA 50g contract).
 
-## LANE 29 — Permanent Magnets & Magnetics Supply Chain (ex-China supply security)
+**Valuation:** ~$265M mkt cap, ~3.5x sales — cheap if ECO Synthesis converts pilots to commercial GMP supply contracts; expensive if it's just a flat enzyme business.
 
-China controls ~90% of NdFeB; April-2025 export controls turned "ex-China magnets" into a procurement emergency. The Micron-early window — but littered with pre-revenue SPAC promotes (ruthlessly separated below).
+**Asymmetric 10-yr bull (path to 5–10x):** If ECO Synthesis becomes a standard manufacturing route for even 2–3 blockbuster siRNA drugs, Codexis collects high-margin, regulatory-locked, royalty-and-supply economics on tonnage volumes — a $1–2B+ revenue trajectory vs. ~$70M today. That's the 10x. **Risks:** binary platform risk (ECO may not win vs. improved chemical synthesis); cash burn if commercialization slips; lumpy pharma milestone revenue; not founder-aligned.
 
-| # | Name | Ticker | Country | Mkt cap | Conviction | Note |
-|---|---|---|---|---|---|---|
-| 1 | Neo Performance Materials | NEO.TO | Canada | ~C$1.0–1.1B | **4/5** | Only listed Western magnet pure-play that ships product today; ~5x EV/EBITDA |
-| 2 | Mkango Resources | MKA.L | UK/Canada | ~£180–210M | 3/5 | Magnet-recycling IP (HyProMag/HPMS); venture-grade |
-| 3 | Carpenter Technology | CRS | US | ~$10–12B | 3/5 | Soft-magnetics (Hiperco) inside an aerospace compounder; low asymmetry |
+**Replaces/blind-spot:** Fills the **enzyme-engineering + RNA-manufacturing arms-dealer** slot absent from the book. Closest book analog: a higher-risk, earlier-stage Bachem-adjacent (oligo/peptide CDMO) exposure.
 
-- **Neo:** opened **Europe's first/largest sintered rare-earth magnet plant** (Narva, Estonia, Sept 2025; 2,000→5,000+ t/yr by 2027). Only listed pure-play already shipping bonded magnet powders (Magnequench #1 global) AND Western sintered magnets; Tier-1 EV traction design wins (mass production H2 2026). Q1-26 revenue $155m, adj EBITDA $36.2m (record); FY26 EBITDA guide raised to $100–110m; net debt ~$112.5m. **Wyloo (Twiggy Forrest) ~19.9%** + Oaktree ~19.87% (shrinking overhang). ~4.9x EV/EBITDA (below its own ~6.0x avg) — Estonia magnet optionality nearly free. Bull: Phase 2 + EU OEM ex-China premiums + Magnequench humanoid/EV boom → EBITDA $250–400m at 10–12x = multi-bagger. Risks: NdPr price swings, Estonia ramp, Oaktree overhang, not vertically integrated to mine.
-- **Mkango:** listed proxy for **HyProMag/HPMS** patented hydrogen magnet-recycling (Birmingham); Germany (Pforzheim, permitted 750 t/yr), UK, US Texas Hub. HyProMag USA feasibility NPV ~$780M (company figure — treat as promotional). Thin balance sheet (~$1.21m cash) = financing/dilution risk; potential separate US listing late-2026/early-2027 = catalyst. Venture-grade, optionality-grade upside.
-- **Carpenter:** soft-magnetics (Hiperco/Hypocore cobalt-iron) for traction/aero motors + Western specialty-alloy champion. FY26 op income guide $660–700m (~30% growth). Quality, but $10B+ = 2–3x compounder, not a gem.
-- **Rejected:** USA Rare Earth (USAR, ~$6B pre-revenue — no asymmetry left); MP Materials (covered miner lane); VAC/Vacuumschmelze, Noveon, Electron Energy, Vulcan (private — best assets, watch for IPO); Arnold Magnetics (inside Compass Diversified — wrong wrapper); Proterial/Shin-Etsu/TDK (private or diversified mega-caps).
+**Conviction: 3/5** — *The purest enzymatic-RNA-manufacturing optionality you can buy; speculative but real inflection, flagged for platform binary and non-founder ownership.*
 
 ---
 
-## LANE 31 — Power Electronics & Wide-Bandgap (SiC/GaN) for EV/Industrial/Grid
+## GEM 2 — GenScript Biotech | HKEX: 1548 | China/US | ~$4B mkt cap | profitable & scaling
 
-**Central thesis & what to avoid:** 2019–24 capex boom → severe SiC overcapacity (utilization ~50% upstream), Chinese substrate players (SICC ~23% share, ~$7bn state money) collapsed prices; downturn persists to 2027–2028. **Avoid commodity substrate + cash-burning device entrants.** The defensible money is one layer back — consumables, enabling equipment, highest-reliability ceramic substrates, and IP-rich device niches insulated from the China price war.
+**Future wave & why under-covered:** GenScript is **the global arms dealer of gene synthesis and molecular biology** — the indispensable supplier of synthetic genes, peptides, custom antibodies, plasmids and cloning to virtually every biotech and synbio lab on earth. As synthetic biology, cell/gene therapy and AI-designed-protein discovery accelerate, every new molecule starts with someone ordering DNA — and GenScript is the default. Under-covered by Western investors because of the HK listing, China-tech discount, and **BIOSECURE Act overhang** (which has actually suppressed the multiple while the underlying franchise compounds).
 
-| # | Name | Ticker | Country | Mkt cap | Conviction | Note |
-|---|---|---|---|---|---|---|
-| 1 | MARUWA | 5344.T | Japan | ~$4.4B | **4/5** | Si3N4 AMB ceramic substrate (mandatory under SiC inverters); founder-family ~30%; rich (~33–47x) |
-| 2 | Toyo Tanso | 5310.T | Japan | ~$590–700M | 3.5/5 | SiC/graphite consumables (susceptors/crucibles) at a cyclical trough; family-led |
-| 3 | Aixtron | AIXA.DE | Germany | ~€6B | 3/5 | MOCVD epi near-monopoly (GaN/SiC); no founder; rich/cyclical |
-| 4 | ROHM | 6963.T | Japan | mid-cap | 2.5/5 | Vertically-integrated SiC turnaround; contrarian, cyclically exposed |
+**Moat:** Scale and speed in custom gene/peptide synthesis (turnaround + price the key competitive axes — GenScript leads both), a razor-and-blade CDMO arm (ProBio), and a hidden crown jewel: a large stake in **Legend Biotech** (CARVYKTI, a leading BCMA CAR-T). The life-science core is a genuine recurring-revenue tools moat; Legend is embedded optionality.
 
-- **MARUWA:** global leader in **silicon-nitride (Si3N4) AMB substrates** — the insulating "circuit board" inside every high-reliability SiC traction-inverter module (Si3N4's CTE ~closest to SiC, mandatory as EVs go 400V→800V). ~15% share in an oligopoly (Kyocera ~18%, Toshiba/Proterial, Denka) with multi-year automotive qualification. **Kanbe family vehicle ~30%.** FY26 sales ¥74.5bn, net income ¥18.2bn (~24% net margin); FY27 guide ¥84.1bn / ~35% OP margin; +112%/yr. Rich (~33–47x; DCF flags overvaluation) — accumulate on drawdowns.
-- **Toyo Tanso:** world pioneer in isotropic graphite + SiC-coated graphite (PERMA KOTE) — the **consumable** susceptors/crucibles every SiC boule-growth + SiC/GaN epi reactor consumes and replaces (recurring, sells to all makers). TTM revenue ~$330m; raised payout to 40%; cyclical-trough value entry. Family-led (Kondo, 3rd gen). Bull: 2027–28 SiC recovery + 8-inch ramp re-accelerate consumable volumes off a trough → 5–10x via trough-to-secular. Narrower moat than MARUWA; Chinese TaC-coating competition.
-- **Aixtron:** near-monopoly MOCVD/epitaxy deposition equipment (~70–90% in parts), leading GaN power-epi tool. TTM revenue ~€503m, FCF ~€200m; roadmap >€1.4bn by ~2029. **No founder anchor**; rich (~31x EV/EBITDA, ~49–58x P/E); partly an AI-opto story; overlaps the covered semicap lane.
-- **Rejected:** Wolfspeed (distress), Navitas (op margin ~−234%, dilution), Power Integrations (AI-DC story, insider selling), Infineon/ST/onsemi (too large/covered), SICC/Tankeblue (China commodity), SGL Carbon (low quality vs Toyo Tanso).
+**Founder/insider ownership:** *Strong.* Co-founder **Frank Zhang owned ~49%** (per Aug-2020 disclosure; *flag — may have diluted, verify current*). Founder-controlled, deeply aligned. *Caveat: Zhang was reportedly detained in China over a smuggling probe — a real governance/key-man risk worth diligence.*
+
+**Sourced economics:** FY2025 continuing-ops revenue ~$0.96B (+61%), gross profit ~$0.55B (+103%), adjusted net profit ~$0.23B (+285%). Life Science Group ~$0.52B external revenue (+15%), ~52% adjusted gross margin, ~19–20% operating margin guided for 2026. A profitable, cash-generative tools franchise — *not* a cash-burning platform.
+
+**Valuation:** ~$4B mkt cap / ~$3B EV. A sum-of-parts (Legend stake ~30.5% of LEGN + profitable Life-Science arm + ProBio CDMO) plausibly underpins much of the cap, leaving the core tools business cheap. *Flag — SOTP not independently modeled here.*
+
+**Asymmetric 10-yr bull (path to 5–10x):** Synbio/protein-design TAM compounds at mid-teens; GenScript's gene-synthesis volume rides AI-driven protein discovery (every AlphaFold-designed sequence needs physical DNA). Multiple re-rates as BIOSECURE fear fades or GenScript ring-fences its US operations; ProBio scales to a major CGT CDMO; Legend value crystallizes. **Risks:** BIOSECURE/geopolitical (could be severe — potential US revenue loss); China governance and founder legal overhang; HK-listing discount may persist.
+
+**Replaces/blind-spot:** Adds **gene synthesis + China bio-economy** exposure entirely absent from the book. A higher-octane EXOR/Investor-style "founder holdco with hidden assets" but in synbio tools.
+
+**Conviction: 3.5/5** — *The single most indispensable arms dealer in synbio, at a geopolitically-discounted price — own it if you can stomach China/BIOSECURE binary risk.*
 
 ---
 
-_(Lanes 26, 28, 30, 32–60 append below as agents complete.)_
+## GEM 3 — Nanjing Vazyme Biotech | SSE STAR: 688105 | China | ~$1.1B mkt cap | recovering profitability
+
+**Future wave & why under-covered:** Vazyme is the **"NEB of China"** — a domestic champion in molecular-biology enzymes, NGS library-prep reagents, mRNA-vaccine raw materials (capping/poly-A enzymes, NTPs), and IVD raw-material enzymes. The wave: **China's bio-economy import-substitution** drive to localize the enzyme/reagent supply chain currently dominated by Thermo, NEB and Roche, *plus* mRNA/cell-therapy reagent demand. Essentially invisible to Western investors (STAR Market, CNY listing, no English coverage).
+
+**Moat:** Proprietary enzyme library + protein-engineering capability for hard-to-make polymerases/reverse transcriptases/ligases; cost and localization advantage as a domestic supplier; razor-and-blade reagent recurring revenue across research, IVD and biomanufacturing.
+
+**Founder/insider ownership:** Chairman **Lin Cao ~7.3%** directly; founding-entity Nanjing Vazyme Investment Management ~40% (founder-controlled vehicle). Founder-aligned.
+
+**Sourced economics:** FY2024 revenue ~RMB1.38B (+7%). Profitability is *recovering but thin* post-COVID: H1 2024 net income ~RMB16M (return to profit), 9M-2024 net income ~RMB18M (+124% YoY). *Flag — FY2025 reportedly showed a full-year net loss with Q1-2026 back to small profit (~RMB4M); profitability is fragile and choppy.* Forecast revenue growth ~19%/yr.
+
+**Valuation:** ~$1.1B mkt cap on ~$190M TTM revenue (~6x sales) — not cheap on current depressed earnings, a bet on margin normalization as COVID comps wash out and operating leverage returns.
+
+**Asymmetric 10-yr bull (path to 5–10x):** If Vazyme becomes the entrenched domestic standard for molecular reagents in the world's #2 biopharma market and operating margins normalize back toward 20%+ (achievable for a reagent razor-blade model at scale), revenue 4–5x with re-rated margins delivers the multiple. **Risks:** thin/volatile current profitability (flagged — weakest economics in the list); China/STAR liquidity and accessibility for foreign investors; competition from both global majors and other domestic upstarts; FX.
+
+**Replaces/blind-spot:** Adds **China molecular-reagent import-substitution** exposure. Complements the iShares MSCI India / VinaCapital Asia sleeve with a single-name China synbio-tools bet.
+
+**Conviction: 2.5/5** — *A genuine "China-NEB" hidden gem on the right structural wave, but profitability is too fragile today to size up — watchlist/starter.*
+
+---
+
+## GEM 4 — STRATEC SE | XETRA: SBS | Germany | ~$0.6–0.9B EV (mkt cap depressed) | profitable recovery play
+
+**Future wave & why under-covered:** STRATEC is the **invisible OEM behind the diagnostics-automation wave** — it designs and builds fully-automated analyzer instruments *and* the proprietary smart polymer **consumables** for blue-chip IVD partners (immunoassay, molecular dx, immunohematology) who sell them under their own brands. Razor-and-blade by construction: every instrument STRATEC ships locks in years of consumable pull-through. Deeply under-covered after a brutal post-COVID destocking de-rate that hammered the stock and GAAP earnings.
+
+**Moat:** Sticky multi-year OEM development partnerships (platforms get co-designed into a customer's product roadmap and regulatory filings — extremely high switching costs), rare combined competency in automation hardware + injection-molded smart consumables.
+
+**Founder/insider ownership:** *Strong.* Founder **Hermann Leistner and family ~40.4%** — multi-decade founder-family control, classic German Mittelstand alignment.
+
+**Sourced economics:** FY2025 sales €250.9M (roughly flat, -1.1% cc) with Systems +6.3% cc and order intake stabilizing; adjusted EBIT margin ~10% in 2025. Management guides EBIT margin to ≥13% by 2028 and ≥15% by 2030, with mid-to-high-single-digit 2026 sales growth. *Note: GAAP EPS was negative (~-$0.32) due to amortization/one-offs, but the business is adjusted-EBIT profitable and cash-generative — the headline "unprofitable" screen is misleading.*
+
+**Valuation:** ~$246M reported mkt cap is depressed; trades far below historic multiples on trough margins — a classic operating-leverage recovery. *Flag — recovery is guided, not yet delivered.*
+
+**Asymmetric 10-yr bull (path to 5–10x):** Demand normalizes, new OEM platforms ramp, margins recover to 15%+ and consumable mix compounds — earnings could multiply several-fold off a trough base, and the multiple re-rates from distressed to quality-compounder. Trough-cyclical + structural-grower + founder control is the setup for a 5x over a cycle. **Risks:** customer concentration (a handful of large OEM partners); destocking could persist longer; execution on margin recovery unproven; smaller absolute upside ceiling than the platform names.
+
+**Replaces/blind-spot:** Adds a **founder-family German diagnostics-consumables compounder** at a cyclical trough — closest in spirit to ATOSS/Vitec (founder-led, recurring, under-followed) but in IVD hardware+consumables.
+
+**Conviction: 3.5/5** — *The cleanest founder-aligned razor-and-blade in the list, bought at a destocking trough; lower-ceiling but higher-quality than the speculative platforms.*
+
+---
+
+## REJECTED / TOO-EARLY / WATCHLIST
+
+- **Twist Bioscience (NASDAQ: TWST)** — *Too early / not yet profitable.* The marquee DNA-synthesis "writing" arms dealer (silicon-based oligo synthesis, NGS, DNA data storage). Only guiding to adj-EBITDA breakeven by end-FY2026; gross margin ~52% improving. Genuinely indispensable and a future re-visit, but fails the "favor profitable consumables over cash-burning platforms" filter today. **Watchlist — buy on confirmed profitability.**
+- **Maravai LifeSciences (NASDAQ: MRVI)** — *Reject (impaired + PE-controlled).* Owns the genuinely moaty CleanCap mRNA-capping reagent (in billions of vaccine doses) + Cygnus impurity-detection. But revenue -28% YoY post-COVID, controlled by GTCR private equity (not founder-aligned), and demand visibility poor. Real asset, wrong structure/owner — a turnaround, not a hidden gem.
+- **Tecan Group (SWX: TECN)** — *Reject (too large / well-covered).* ~$2.5B cap, mature ~7% grower, no founder control, fully discovered. Quality but no asymmetry.
+- **Bionano Genomics (NASDAQ: BNGO)** — *Reject (micro-cap, value-destroyed).* ~$16M cap, optical genome mapping, chronic cash burn — speculative, not quality.
+- **Biotage (Stockholm)** — *Reject (being acquired).* Excellent sample-prep/purification consumables franchise, but under a KKR take-private offer — opportunity to own it publicly is closing.
+- **Hamilton, NEB, Sino Biological, DNA Script, Watchmaker Genomics, Paragon Genomics** — *Private/not investable.* All world-class arms dealers in liquid handling / molecular reagents / enzymatic synthesis, but privately held. Watch for any IPO (NEB or Hamilton going public would be a top-tier gem).
+
+---
+
+### Net read
+The two **highest-quality founder-aligned** picks are **STRATEC** (clean razor-and-blade IVD consumables at a destocking trough, 40% founder family) and **GenScript** (indispensable gene-synthesis arms dealer + Legend optionality, ~49% founder, geopolitically discounted). The purest **future-wave optionality** is **Codexis** (enzymatic RNA-manufacturing, speculative, non-founder — flagged). **Vazyme** is the right structural "China-NEB" idea but too fragile on current profitability to size up. I flagged every economic claim's source and explicitly noted unverified items (GenScript current founder %, Vazyme FY25 loss, STRATEC adj. vs GAAP profitability, GenScript SOTP). I did **not** write any files.
 
 
 =====================================================================
-# PART 4b — GEM LANES 26-60 (RECOVERED FROM AGENT TRANSCRIPTS)
+## LANE 26 — Agtech / Precision Agriculture / Ag Inputs
 =====================================================================
-
-
-<<<<< LANE 26-agtech-ag-inputs (recovered; 13827 chars) >>>>>
 
 I now have a strong, verified finalist set. Let me write the final report. My top gems: Kaveri Seeds, Sakata Seed, Genus, and Lindsay (irrigation moat) as a quality anchor. I'll structure with full detail per the brief.
 
@@ -2859,7 +3336,115 @@ The painful truth of this lane: the very best moats (Allflex/Antelliq livestock 
 - **Lane gaps still open:** Micro-irrigation pure-plays (Netafim/Rivulis are private; Jain Irrigation is over-levered — not researched in depth here), CEA/vertical-farming inputs, and ag-biologicals pure-plays remain largely private — the public quality set is thin, which is itself the edge for anyone who can access these names early.
 
 
-<<<<< LANE 28-advanced-specialty-materials (recovered; 13787 chars) >>>>>
+=====================================================================
+## LANE 27 — Aquaculture & the Blue Economy
+=====================================================================
+
+I have thoroughly verified material across the lane. The founder-led collagen angle on Vinh Hoan (42.3% founder-chairwoman ownership) is a nice fit. I now have my 4-5 gems plus a robust rejected list. Compiling the final report.
+
+# Aquaculture & the Blue Economy — Hidden-Gem Hunt (2026-05-31)
+
+**Lane framing & honest blind-spot up front:** The single best moats in this lane — proprietary salmon/shrimp/tilapia **genetics** (Benchmark Genetics, AquaGen, GenoMar, Hendrix, SyAqua, Kona Bay) and the dominant **fish-vaccine** platform (PHARMAQ) — are now almost entirely **NOT publicly investable**. Benchmark Genetics was sold to Novo Holdings (closed Mar-2025, ~£260m); AquaGen sits inside private EW Group; PHARMAQ is inside Zoetis. So the "genetics picks-and-shovels" you'd most want are locked behind private capital. The listed opportunity set is therefore concentrated in (a) **equipment/RAS technology**, (b) the **Artemia/live-feed monopoly**, (c) **cost-curve farmers**, and (d) **feed toll-collectors** in Asia. I've biased toward moat over commodity and flagged cyclicality bluntly. All figures verified via company filings/market data where stated; estimates flagged.
+
+---
+
+## GEM 1 — AKVA Group ASA
+
+**Ticker** OSE: AKVA | **Norway** | **~NOK 3.9bn (~$370m) mkt cap** | profitable small-cap, inflection stage
+
+- **Structural wave & why under-covered:** The world's #1 arms-dealer to fish farming (cages, feed barges, sensors, software, and — critically — **land-based RAS systems**). It's a pure picks-and-shovels play: it sells to every farmer regardless of who wins. Under-covered because it's a sub-$400m Oslo micro-cap with a lumpy project-revenue history that burned investors during the 2022–24 land-based slowdown. That history masks a real 2025–26 inflection: revenue NOK 3.4bn (2023) → 4.4bn (2025), 13.7% CAGR; Land-Based Q4-2025 revenue +94% YoY (record NOK 422m); FY25 EBIT NOK 280m (6.4% margin), guidance for **20%+ EBIT growth in 2026** and 9% margin / NOK 5bn revenue by 2027 (NOK 7bn ambition by 2030). *(Source: AKVA Q4-2025 report.)*
+- **Moat:** Largest installed base globally (65+ countries), full-stack integration (hardware + Fishtalk/AKVA Connect/Observe software → recurring/switching costs), and one of very few proven large-scale RAS integrators alongside private peers. Software/digital is the embedded-razor-blade layer.
+- **Founder/insider alignment:** **Egersund Group owns 51%** (controlling industrial owner, also sold AKVA its Egersund Net business); **Israel Corp 18%**. Strong concentrated ownership; not founder-CEO but committed strategic anchors.
+- **Valuation:** ~NOK 3.9bn mkt cap, leverage 2.37x, order backlog NOK 2.5bn (50% land-based). On 2027 targets (NOK 5bn rev × 9% = ~NOK 450m EBIT) the stock trades at a modest forward EV/EBIT — cheap if execution holds. *(Exact EV/EBITDA unverified — analyst consensus not surfaced.)*
+- **CATALYST / asymmetry:** **Strategic review launched Apr-2026 — board explicitly exploring outright sale; "high-quality interest" reported around a full-platform takeover; conclusion expected autumn 2026** (advisors DNB Carnegie/Wiersholm). This is a near-term re-rating catalyst layered on a structural 10-yr land-based RAS adoption story. **5–10x path:** RAS goes mainstream (wild-catch plateau forces farmed growth onshore/closer to market), AKVA compounds revenue to NOK 7bn at 9–10% margins and re-rates from micro-cap "lumpy capital-goods" multiple to "aquatech platform" multiple — OR gets acquired at a premium sooner (caps the upside but de-risks).
+- **Risks:** Project lumpiness/cyclicality tied to farmer capex and salmon price; land-based has a graveyard of failed RAS projects (counterparty risk); takeover could cap long-term upside at a modest premium.
+- **Replace-which / blind-spot fit:** Your purest **aquaculture-equivalent of a "picks-and-shovels" compounder** — closest in spirit to a small Veralto/Secunet-style indispensable supplier, but you own none in the blue economy. Replaces nothing; fills the empty aquatech slot.
+- **Conviction 4/5** — *"The only listed full-stack arms-dealer to fish farming, with a live takeover catalyst and a structural RAS tailwind — cyclical but cheap."*
+
+---
+
+## GEM 2 — Benchmark Holdings plc
+
+**Ticker** LSE/AIM: BMK (also Oslo) | **UK** | **~$250m mkt cap** | post-restructuring turnaround
+
+- **Structural wave & why under-covered:** After selling Genetics to Novo Holdings (Mar-2025), Benchmark is now a focused **Advanced Nutrition + Health** company sitting on a fortress balance sheet (£131.6m liquidity, Jun-2025) and a market cap of only ~$250m — i.e. it's trading near net cash with a real operating business attached. Deeply under-covered/orphaned: post-divestiture "stub," AIM micro-cap, declining headline revenue masking a hidden monopoly asset.
+- **Moat — the real gem:** **INVE/Artemia.** Artemia ("brine shrimp") is the irreplaceable live first-feed for shrimp, prawn and marine-fish larvae — **species literally cannot be commercially hatched without it**. The **Great Salt Lake supplies 35–50% of world artemia**, and Benchmark's INVE holds a **long-term (10-yr) distribution agreement** for a substantial share of the GSL cooperative's harvest (~60% of INVE artemia historically; >£30m revenue from that line). This is a genuine choke-point/monopoly-adjacent resource moat — closest analog in your book to **Bioventix** (tiny, indispensable, embedded in customers' processes). Artemia = 46% of Advanced Nutrition, Diets 45%, Health 9%.
+- **Founder/insider alignment:** Mixed — founder influence diluted; activist/institutional shareholder pressure drove the genetics sale. Flag as **weaker on alignment** vs. your preference.
+- **Valuation:** ~$250m cap vs. >£130m liquidity → enterprise value heavily backed by cash; Advanced Nutrition H1-FY25 rev £37.7m (–7%). Optionality on capital return to shareholders (announced intent). *(Cheap on EV/sales, but earnings quality currently depressed.)*
+- **Asymmetry (5–10x path):** This is a special-situation re-rating bet, not a clean compounder. If management (a) returns cash, (b) restores Advanced Nutrition margins as shrimp cycle recovers, and (c) the market re-prices the Artemia monopoly properly, the stub could multiply off a washed-out base. Lower-probability, high-payoff.
+- **Risks:** **Climate/resource risk to Great Salt Lake** (drought has genuinely threatened the brine-shrimp fishery — existential to the moat); shrimp-industry cyclicality; weak organic growth; alignment/governance question marks; AIM liquidity.
+- **Replace-which / blind-spot:** A **Bioventix-style "indispensable tiny input" bet** for the blue economy — speculative, but the resource monopoly is real.
+- **Conviction 3/5** — *"A near-net-cash stub hiding the world's artemia choke-point — cigar-butt with a monopoly kicker, but the lake itself is the risk."*
+
+---
+
+## GEM 3 — Bakkafrost P/F
+
+**Ticker** OSE: BAKKA | **Faroe Islands** | **~$2.9bn mkt cap** | quality compounder (cyclical)
+
+- **Structural wave & why under-covered:** The structural shift from wild-catch to farmed protein needs *someone* to own the best biological geography. Bakkafrost owns the **Faroe Islands** — pristine, cold, fast-flowing water, low lice pressure, decade-high survival rates. Not "hidden" by size, but **mispriced** at a multi-year-low EV/kg because the market over-weights its loss-making Scottish operation and the current low salmon-price part of the cycle.
+- **Moat:** The **most vertically integrated salmon company in the world** — owns Havsbrún (feed/fishmeal from local pelagic catch), full broodstock-to-plate control, traceability, and a quality premium ("big-fish" premium). Faroese farming generated **operational EBIT/kg of DKK 33–47** even in a soft 2024–25 (24–40% segment margins). Farming costs fell 12% in Q2-2025 on biological gains. This cost-curve + quality position is structurally hard to replicate — it's tied to the geography itself.
+- **Founder/insider alignment — strong:** CEO **Regin Jacobsen (~7.8%)** and his mother **Oddvør Jacobsen (~7.8%)** are the main owners — genuine founder-family skin-in-the-game, rare among large salmon farmers.
+- **Sourced economics:** FY25 revenue DKK 7.0bn, op-EBIT DKK 888m, harvest 106,823t (+18% YoY). 2026 guidance 112,000–117,000t (Faroes 92k, Scotland 20k); Q1-2026 +11% revenue / +8% EBIT, record Faroese Q1 harvest. Kepler Cheuvreux upgraded to Buy, NOK 525 target, citing multi-year-low EV/kg.
+- **Asymmetry (5–10x is a stretch — be honest):** This is **2–4x over 10 yrs**, not a true 10-bagger — quality compounding via volume growth (Faroes + Scotland turnaround) + cyclical salmon-price recovery + multiple re-rating off a depressed base. Best treated as the lower-volatility "quality anchor" of an aquaculture sleeve, not the moonshot.
+- **Risks:** Salmon price cyclicality (the dominant driver — flagged honestly); biological/disease shock (single-geography concentration); Scotland still loss-making; Norwegian regulatory/tax overhang affects the whole sector.
+- **Replace-which:** The **Investor AB / quality-anchor role** within aquaculture — owner-operator compounding, lower asymmetry but lower risk.
+- **Conviction 4/5** — *"Founder-family-owned, lowest-biological-cost geography in salmon, bought at a cyclical low — quality, not a 10x."*
+
+---
+
+## GEM 4 — Avanti Feeds Ltd
+
+**Ticker** NSE/BSE: AVANTIFEED | **India** | **~₹16,900 cr (~$2.0bn) mkt cap** | dominant toll-collector
+
+- **Structural wave & why under-covered:** India is the world's largest shrimp exporter and SE-Asian/Indian aquaculture is the fastest-growing protein frontier (ties to your VinaCapital Vietnam / iShares India theses). Avanti is the **toll-collector**: it sells feed to farmers regardless of who wins, capturing **~50% of India's shrimp-feed market**. Under-covered by Western investors due to India listing + perception as a "commodity feed" name.
+- **Moat:** Scale + #1 distribution + a **technical/JV partnership with Thai Union** (24% shareholder) giving formulation know-how. ~50% share is a structural network/scale advantage in a fragmented farmer base. Feed is the consumable razor-blade of shrimp farming.
+- **Founder/insider alignment — strong:** **Promoters 43.2%**, plus Thai Union 24.2% strategic — concentrated, aligned ownership.
+- **Sourced economics:** FY-Mar2025 net profit ₹529 cr (up from ₹357 cr FY24), TTM PAT ~₹675 cr; strong cash generation, historically net-cash/debt-light. *(Note: one cited revenue/PAT figure looked garbled in source — treat exact FY25 revenue as unverified; PAT trajectory is the reliable signal.)*
+- **Asymmetry (5–10x path):** Volume-led compounding as Indian/global shrimp consumption rises + margin expansion + processed-shrimp export integration + multiple re-rating if it's re-cast as a "structural feed compounder" rather than commodity. India's domestic shrimp-consumption ramp is the optionality. **5x is plausible over 10 yrs; 10x needs both share gains and margin/multiple lift.**
+- **Risks:** **Shrimp-cycle and disease cyclicality** (white-spot/EHP outbreaks crater farmer demand — the single biggest swing factor, flag hard); raw-material (fishmeal/soy) cost volatility; **US tariff/anti-dumping risk on Indian shrimp exports**; Indian small-cap valuation swings.
+- **Replace-which / blind-spot:** Your **SE-Asia/India aquaculture picks-and-shovels** slot — a feed toll-collector instead of a commodity farmer; complements (doesn't replace) iShares India.
+- **Conviction 4/5** — *"The Indian shrimp boom's toll-collector — 50% feed share, founder + Thai Union aligned — but ride the brutal shrimp cycle with eyes open."*
+
+---
+
+## GEM 5 (speculative tilt) — Vinh Hoan Corporation
+
+**Ticker** HOSE: VHC | **Vietnam** | **~VND 13.5tn (~$530m) mkt cap** | founder-led integrator
+
+- **Wave & why under-covered:** Vietnam's #1 pangasius (catfish) exporter (~14% of national export value), fully vertically integrated hatchery→processing→exports. Western-investor-orphaned (HOSE listing, frontier market). The **hidden upside is collagen/gelatin** — using fish-skin by-product, capacity expanded to 4,000t in 2024 — a higher-margin nutraceutical/beauty stream bolted onto a commodity fish base.
+- **Moat:** Scale + full integration + the rare **fish-collagen value-add** (premium, branded, sticky end-markets). Moderate moat — the core fish business is commodity, the collagen layer is the differentiator.
+- **Founder alignment — excellent:** Founder-Chairwoman **Truong Thi Le Khanh owns 42.3%** — textbook founder skin-in-the-game.
+- **Economics/valuation:** ~$530m cap; cyclical earnings tied to pangasius export prices and US/EU demand. *(Detailed current margins unverified here.)*
+- **Asymmetry:** 5x+ if collagen scales into a meaningful branded-ingredients business + Vietnamese frontier-market re-rating + pangasius cycle recovery. Lower conviction — more commodity exposure than the others.
+- **Risks:** Commodity pangasius price cycle; US anti-dumping duties; frontier-market/FX/liquidity; collagen still small.
+- **Replace-which:** Direct **VinaCapital Vietnam** thesis expression with a founder-led operating company.
+- **Conviction 3/5** — *"Founder-owned Vietnamese fish integrator with a hidden collagen optionality — frontier-market asymmetry, commodity-cycle risk."*
+
+---
+
+## REJECTED / PASSED (with reasons)
+
+- **Benchmark Genetics, AquaGen, GenoMar, Hendrix Genetics, SyAqua, Kona Bay, Xelect** — the *best* genetics moats, but **all private/unlisted** (Benchmark Genetics now Novo Holdings-owned). The lane's biggest blind spot: you cannot buy the best asset.
+- **PHARMAQ** — dominant fish-vaccine platform, but **inside Zoetis** (no pure-play access).
+- **Innovasea, AquaMaof, Pure Salmon, ScaleAQ, Aquabyte** — strong RAS/precision-tech, all **private** (AKVA is the only listed proxy).
+- **BioMar (now Nasdaq Copenhagen) / Schouw & Co** — #3 global aquafeed, but Schouw retains control and BioMar IPO'd at ~$1.7bn into a slow market; quality but lower asymmetry — watchlist, not a gem. (Schouw also a conglomerate, diluting the aqua thesis.)
+- **DSM-Firmenich / Corbion** — own the algae-omega-3 fish-oil replacement (Veramaris, AlgaPrime) which is a genuine structural wave, but both are **€15bn+ diversified large-caps** — aqua is a rounding error; no asymmetry.
+- **Zoetis / Merck Animal Health / Phibro / Adisseo** — aqua-health/feed-additive exposure buried inside large diversified animal-health names; no concentrated bet.
+- **Mowi / SalMar / Grieg / NRS / Minh Phu** — large/commodity salmon & shrimp farmers; pure salmon-price cyclicality with thinner moats than Bakkafrost; Minh Phu (UPCoM) shrimp pure-play carries heavy disease/cycle risk. Passed in favor of Bakkafrost (cost curve) and feed/equipment toll-collectors.
+- **AquaBounty** — GM-salmon RAS story; serial cash-burner, repeated dilution/distress — speculative, fails the "quality business" bar.
+
+---
+
+### Portfolio note
+This lane is **structurally cyclical** — salmon and especially shrimp prices/disease cycles drive 1–3yr earnings violently. The cleanest expressions of your "indispensable picks-and-shovels riding the wild-to-farmed shift" are **AKVA (equipment/RAS), Avanti (feed), and Benchmark/INVE (artemia choke-point)** — these collect a toll regardless of which farmer wins. **Bakkafrost** is the quality cost-curve anchor. Sizing should respect that genuine 10x asymmetry here is lower than in your software/genetics holdings, and that the very best moats (genetics, vaccines) are off-limits in public markets — a real, honest constraint on this lane.
+
+*Key sourcing: AKVA Q4-2025 report & Apr-2026 strategic-review RNS (GlobeNewswire); Bakkafrost Q1-2026 & FY2025 reports; Benchmark H1-FY25 + Novo Holdings/INVE-GSL agreement disclosures; Avanti Feeds (Screener.in/exchange data); Vinh Hoan IR/Shinhan reports. Market caps as of late May 2026. Items flagged "unverified" were not independently confirmed to filing-level precision.*
+
+
+=====================================================================
+## LANE 28 — Advanced & Specialty Materials
+=====================================================================
 
 I now have well-verified economics on all four core names, including the important nuance that both Toyo Tanso and Mersen are in a 2025 SiC/cyclical trough — which is actually attractive entry timing for a long-term investor. I have enough to deliver. Writing the final report.
 
@@ -2949,7 +3534,100 @@ The classic "indispensable spec'd-in materials champions" (CeramTec, CoorsTek, S
 Sources: TradingView, Morningstar, stockanalysis.com, Simply Wall St (TSE:5310); MarketScreener, PitchBook, Yahoo Finance, Bloomberg, japanir.jp (TSE:6490); Mersen IR / webdisclosure / Investing.com (EPA:MRN); PitchBook, Mordor Intelligence (SIX:GUR); Wikipedia/company sites for CeramTec, CoorsTek, Morgan, SGL, Hardide.
 
 
-<<<<< LANE 30-battery-materials-recycling (recovered; 13505 chars) >>>>>
+=====================================================================
+## LANE 29 — Permanent Magnets & Magnetics Supply Chain
+=====================================================================
+
+I now have enough verified data to write the report. Neo at 4.9x EV/EBITDA with record EBITDA, Estonia plant, Tier-1 EV traction wins, supportive shareholders (Wyloo/Forrest). Mkango/HyProMag as the recycling pick-and-shovel. Carpenter as soft-magnetics (but large/known). USA Rare Earth too richly valued. Let me compile the final report.
+
+# Lane Report: Permanent Magnets & Magnetics Supply Chain (ex-China supply security)
+
+*Analyst hunt, 2026-05-31. All figures sourced from web search; flagged where unverified or approximate. China still controls ~90% of global NdFeB output, and April 2025 Chinese export controls turned "ex-China magnet supply" from a slogan into a procurement emergency for every Western automaker, wind OEM, defense prime, and humanoid-robot startup. This is the Micron/AMD-years-early window — but the lane is littered with pre-revenue SPAC promotes, so I've ruthlessly separated real producers from story stocks.*
+
+---
+
+## TOP CONVICTION GEMS
+
+### 1. Neo Performance Materials | TSX: NEO (OTC: NOPMF) | Canada | ~C$1.0–1.1B mkt cap | **Real producer, scaling**
+
+**Structural wave & why under-covered:** Neo just opened **Europe's first and largest sintered rare-earth magnet plant** in Narva, Estonia (Sept 2025, €100M, 2,000 t/yr initial → 5,000+ t/yr Phase 2 by 2027 — enough magnets for ~1.5M then ~4.5M EVs). It is the only listed pure-play that *already ships* both bonded magnet powders (via Magnequench, #1 global share in bonded/hot-deformed Neo powders with "more proven capacity than the rest of the industry combined") AND now Western sintered magnets. Under-covered because it's buried on the TSX, mislabeled by screens as a "rare earth miner" (it's not — it's the downstream processor/magnet maker you wanted), and the Estonia ramp is brand new.
+
+**Moat:** Three legs — (1) Magnequench's proprietary bonded-powder process and dominant share; (2) first-mover Western sintered magnet capacity with a multi-year head start over USA Rare Earth/VAC-US; (3) Tier-1 EV traction motor design wins already in hand (shipped PPAP samples; one award ~$50M cumulative revenue; mass production H2 2026). Qualification cycles for traction magnets are multi-year and sticky — once designed in, hard to displace. Also runs rare-metals (gallium, hafnium, rhenium) and rare-earth separation (Sillamäe, Estonia) businesses providing real cash flow today.
+
+**Founder/insider ownership:** Not founder-led (Constantine Karayannopoulos retired 2023). But cornerstone backing is strong: **Wyloo (Andrew "Twiggy" Forrest's vehicle) ~19.9%**, Oaktree ~19.87% (down from 69%, an overhang but shrinking), insiders net buyers over trailing 12 months (~C$286k). The Wyloo stake is a quasi-strategic anchor.
+
+**Sourced economics:** Q1 2026 revenue $155.0M (vs $121.6M), Adj. EBITDA **$36.2M (vs $17.1M — record)**; FY2026 Adj. EBITDA guidance *raised* to **$100–110M** (from $75–80M). Net debt ~$112.5M; cash $41.7M, gross debt $154.3M. EU Just Transition Fund covered ~15–20% of Phase 1 capex (~$18.7M).
+
+**Valuation:** ~**4.9x EV/EBITDA**, below its own 5-yr ~6.0x average — and that's on rare-metals-driven EBITDA *before* the magnet plant contributes meaningfully. You're effectively getting the Estonia magnet optionality near-free.
+
+**Asymmetric 10-yr bull (path to 5–10x):** Phase 2 to 5,000+ t/yr lands, European OEMs (and possibly US via reshoring) pay structural premiums for guaranteed ex-China magnets, and Magnequench rides the humanoid-robot/EV bonded-magnet boom. EBITDA to $250–400M at a re-rated 10–12x (justified by strategic scarcity) = multi-bagger. Western magnet pricing carries a sustained "supply-security premium" vs Chinese spot.
+**Risks:** Rare-earth price swings (NdPr can move 300%/yr) whipsaw reported EBITDA; Estonia execution/ramp risk; Oaktree overhang; needs sourced NdPr feedstock (relies on partners — not vertically integrated to mine).
+
+**Replace-which / blind-spot:** Fills your hard "Western magnet producer" hole — none of your book touches the magnet supply chain. Closest analog to Bachem/Eckert (picks-and-shovels into a structural medical/energy wave) but in magnetics.
+
+**Conviction: 4/5** — *The only listed Western magnet pure-play that actually ships product today, trading like a sleepy materials name while owning Europe's flagship magnet plant.*
+
+---
+
+### 2. Mkango Resources | AIM/TSX-V: MKA | UK/Canada | ~£180–210M mkt cap | **Recycling, commissioning stage (higher risk)**
+
+**Structural wave & why under-covered:** The **magnet *recycling*** angle — "urban mining" of NdFeB scrap, the most capital-light, ESG-friendly, fastest-permitting route to ex-China magnet supply. Mkango (via 79.4%-owned Maginito → HyProMag) is the listed proxy for the **patented HPMS (Hydrogen Processing of Magnet Scrap)** technology out of the University of Birmingham. Multi-jurisdiction roll-out: Germany (Pforzheim plant inaugurated/commissioning, permitted to 750 t/yr NdFeB), UK (Tyseley, Birmingham), and a US "hub-and-spoke" (Texas Hub). Deeply under-covered nano/micro-cap.
+
+**Moat:** Exclusive license to HPMS — ~$100M of cumulative R&D behind it, core patent + IP, and Prof. Rex Harris's hydrogen decrepitation is now industry-standard for magnet processing. Recycling avoids mine permitting and Chinese ore dependence entirely — feedstock is end-of-life magnets/swarf in the West. Siemens collaboration (UK) and GM-adjacent Western OEM interest validate demand.
+
+**Founder/insider ownership:** Founder/CEO **William Dawes** has led since inception (founder-aligned). Smaller insider stake than ideal — verify exact %; flag as **unverified**.
+
+**Sourced economics:** HyProMag USA (Texas Hub) feasibility: **post-tax NPV ~$780M at forecast prices ($409M at current spot)** — *company/feasibility-study figures, treat as promotional until independently confirmed*. German plant targeting phased scale to 750 t/yr over ~3 years (initial ~100 t/yr). Mkango parent balance sheet is *thin*: ~$1.21M cash, ~$13.24M total assets (30 Jun 2025) — **financing risk is real**. Recently acquired Remloy (~€8M) to consolidate recycling. **HyProMag USA strategic review for a separate US listing late-2026/early-2027** is a potential value-crystallization catalyst.
+
+**Valuation:** Sub-£210M mkt cap against a single US-hub NPV claim multiples larger — classic asymmetric small-cap *if* execution lands. But it's an option, not a cash machine.
+
+**Asymmetric 10-yr bull (path to 5–10x):** All three geographies ramp to permitted capacity, HyProMag USA lists separately (re-rating the stub) or is acquired, recycled magnets command green premiums and qualify into EV/defense supply chains. A 5–10x is plausible *from this base* given the tiny cap — but predicated on dilutive capital raises landing well.
+**Risks:** Pre-meaningful-revenue, recurrent dilution, feedstock collection logistics, NPVs are forecast-price-dependent, micro-cap liquidity. Higher-risk than Neo by an order of magnitude.
+
+**Replace-which / blind-spot:** A Bioventix-style "tiny IP-licensing moat" lottery ticket, but pre-profit (unlike Bioventix's cash gusher). Size it small.
+
+**Conviction: 3/5** — *The purest listed bet on Western magnet recycling IP; venture-grade risk, optionality-grade upside — own a starter position.*
+
+---
+
+### 3. Carpenter Technology | NYSE: CRS | USA | ~$10–12B mkt cap | **Established, larger-cap (lower asymmetry, higher quality)**
+
+**Structural wave & why included:** The **soft-magnetics** leg of your lane — the indispensable, overlooked *other half* of every electric motor (the magnetic alloys/laminations the rotor's permanent magnets spin against). Carpenter's electrification unit makes **Hiperco / Hypocore** cobalt-iron soft-magnetic alloys for torque-dense traction and aerospace/defense motors ("~25% higher induction, ~30% lower losses than conventional electrical steel"). It's also the Western specialty-alloy champion for aerospace/defense (~50% of revenue).
+
+**Moat:** Decades-deep metallurgy, qualified-supplier lock-in on aerospace/defense platforms, scarce US melt capacity. Soft-magnetics is a small but fast-growing, high-margin slice management is explicitly leaning into.
+
+**Sourced economics:** FY2026 Q1 operating income $153.3M, EPS $2.43; Specialty Alloys op income $170.7M (+27% YoY); FY2026 op income guidance **$660–700M (~30% growth)**. A genuine cash-compounding quality business.
+
+**Valuation:** Not cheap and not under-radar — it's a well-followed aerospace cyclical that's already re-rated hard. Soft-magnetics is upside optionality, not the core thesis.
+
+**Asymmetric bull / why it's a 3, not a 5:** At $10B+ this is a *2–3x-over-a-decade quality compounder*, not a 5–10x gem. Included for completeness as the best **listed soft-magnetics** exposure; doesn't meet your asymmetry bar as a standalone.
+
+**Replace-which:** Veralto-like quality/cash-generation profile, but lower upside. **Conviction: 3/5** — *Highest-quality, lowest-asymmetry name in the lane; the soft-magnetics call option inside an aerospace compounder.*
+
+---
+
+## REJECTED / TOO-EARLY / WRONG-LANE
+
+- **USA Rare Earth (NASDAQ: USAR)** — ~**$5.5–6.25B mkt cap on essentially pre-revenue** Stillwater OK magnet plant + Round Top deposit. Acquired Less Common Metals (real asset). But the valuation already prices in flawless execution; this is the *hyped, expensive* version of the Neo thesis. **Too richly valued — no asymmetry left.** Also drifts into the miner lane (Round Top).
+- **MP Materials (NYSE: MP)** — Real Fort Worth magnet plant, but a mine-to-magnet *miner* (Mountain Pass) and already a large, heavily-covered name. **Covered miner lane / over-covered.**
+- **VAC / Vacuumschmelze (Germany)** — The Western magnet/soft-magnetic gold standard (Sumter SC plant), but **private** (owned by group/strategics). Not investable directly. Watch for IPO.
+- **Noveon Magnetics** — Real US sintered producer (GM supply deal, Korea JV MOU w/ Kangwon) — **private, not listed.**
+- **Vulcan Elements (US)** — Rapidly-hyped US magnet startup — **private/pre-revenue.**
+- **Arnold Magnetic Technologies** — Excellent ITAR/DFARS SmCo + NdFeB defense magnet maker, *but* owned inside **Compass Diversified (NYSE: CODI)** — a diversified holdco that just missed badly (Q4 2025 EPS -1.2, revenue $468.6M vs $677.9M est.). You can't get clean magnet exposure through CODI's noise. **Wrong wrapper.**
+- **Electron Energy Corp** — Only remaining US SmCo producer, defense-critical — **private.**
+- **Proterial (ex-Hitachi Metals), Shin-Etsu, TDK (Japan)** — Real ex-China scale (TDK ~8–12k t NdFeB; TDK–Siemens Gamesa wind deal). But Shin-Etsu/TDK are **diversified mega-caps** where magnets are a rounding error — no pure-play asymmetry. Proterial is **privately held** (Bain-led consortium) post-buyout — not cleanly listed.
+
+---
+
+### Bottom line
+**Neo Performance Materials (4/5)** is the standout — a *producing* Western magnet pure-play trading at ~5x EV/EBITDA with record earnings, Europe's flagship plant, Tier-1 EV design wins, and Twiggy Forrest anchoring the register. **Mkango (3/5)** is the venture-grade recycling-IP lottery ticket. **Carpenter (3/5)** is the quality soft-magnetics compounder with capped upside. The hottest names (USA Rare Earth) are already too expensive, and the best assets (VAC, Noveon, Electron Energy, Vulcan) are frustratingly private — a sign this lane's listed opportunity set is genuinely scarce and early.
+
+*Caveats: All financials from web sources as of late-May 2026; market caps move daily. Mkango NPV figures are company/feasibility-study sourced — independently unverified. Neo is not founder-led. Confirm exact insider %s before sizing.*
+
+
+=====================================================================
+## LANE 30 — Battery Materials & Recycling
+=====================================================================
 
 I have enough to synthesize a rigorous, honest report. Novonix has fallen to ~$150M penny-stock territory with founder departed — I'll position it as speculative/borderline-reject given dilution and cash burn. W-Scope is founder-led (Choi since 2005) but loss-making with European separator capex risk. Nippon Carbon is the cleanest quality "hidden gem." Orion is a moat-y value name. EcoPro Materials is differentiated non-China precursor but cyclical. Let me write the final report.
 
@@ -3028,7 +3706,121 @@ The cleanest *quality* hidden gem here is **Nippon Carbon** (net-cash, dividend,
 *Key unverified items to confirm before acting: (1) Nippon Carbon net-cash/NGS figures vs Japanese filings; (2) Orion net debt/EV and true battery-additive revenue; (3) W-Scope's actual market cap (sources conflict) and dilution from European capex; (4) EcoPro group governance status.*
 
 
-<<<<< LANE 32-photonics-optical-networking (recovered; 10715 chars) >>>>>
+=====================================================================
+## LANE 31 — Power Electronics & Wide-Bandgap (SiC/GaN)
+=====================================================================
+
+I have solid verified data on my top picks. MARUWA: 30% held by Kanbe Art Co (founder family vehicle) — strong founder alignment, dominant Si3N4 AMB, but rich (47x). Toyo Tanso: Kondo family-led, $590M cap, cheap, SiC consumables. Aixtron: SiC/GaN epi near-monopoly, but widely held (no founder anchor) and cyclically soft.
+
+I have enough verified, sourced material across the lane to write the report with high confidence. Let me compile.
+
+# Power Electronics & Wide-Bandgap Semiconductors (SiC/GaN) for EV, Industrial, Solar/Grid — Hidden-Gem Hunt
+
+*Lane scope: SiC substrate/device makers, GaN power, power modules/inverters, gate drivers, and the niche equipment/materials enabling wide-bandgap — distinct from the data-center AI-power lane (Vicor/BESI/Disco already covered). Date: 2026-05-31. All figures flagged where unverified; market data is point-in-time and approximate.*
+
+## The lane's central thesis (and what to AVOID)
+
+The 2019–2024 capex boom created **severe SiC overcapacity**: utilization fell to ~50% upstream and ~70% at device lines, and the downturn is expected to persist into **2027–2028** before the device market grows toward ~$10bn by 2030 (Yole). Chinese substrate players (SICC ~23% share, Tankeblue, now scaling 8-inch at 600k wafers/yr backed by ~$7bn state money) have **collapsed substrate prices** and captured ~40% of wafer/epiwafer capacity. **Conclusion: avoid commodity SiC substrate and avoid cash-burning device entrants.** The asymmetric, defensible money in this lane is in the *picks-and-shovels one layer back* — the consumables, the enabling equipment, and the highest-reliability ceramic substrates that every SiC/GaN module needs but almost nobody can make — plus differentiated IP-rich device niches insulated from the China price war.
+
+---
+
+## GEM 1 — MARUWA CO. (TSE: 5344) | Japan | ~¥920bn / ~$4.4–4.5bn | Profitable mid-cap, scaling
+
+**Structural wave & why under-covered:** MARUWA is the global leader in **silicon-nitride (Si3N4) AMB ceramic substrates** — the insulating "circuit board" inside every high-reliability SiC traction-inverter module. Si3N4 has ~3–4x the fracture toughness of alumina and a CTE (~3.2 ppm/K) closest to SiC chips (~4 ppm/K), making it the *mandatory* substrate as EVs move 400V→800V. Power modules are a ~30% growth driver of this market. It's under-covered because it's a Japanese ceramics company classified as "electronic components," not a semiconductor — investors miss that it's the indispensable bottleneck *under* the chip.
+
+**Moat:** Decades of fine-ceramics process know-how (family ceramic lineage to the Edo period); MARUWA holds ~15% of Si3N4 substrate share alongside Kyocera (~18%), Toshiba/Proterial, Denka — an oligopoly with brutal qualification cycles (automotive AMB requires multi-year OEM/Tier-1 sign-off). Vertically integrated from powder to finished substrate.
+
+**Founder/insider ownership:** Strong. **Kanbe Art Co., Ltd. (founder-family vehicle) owns ~30%**; treasury holds ~10%; President is Toshiro Kanbe (Kanbe family). Genuine multi-generational founder alignment. *(Verified via ownership data.)*
+
+**Sourced economics (verified):** FY2026 (to Mar-2026): sales ¥74.5bn, net income ¥18.2bn, EPS ¥1,472 → **~24% net margin**. FY2027 company guide: sales ¥84.1bn, operating profit ¥29.7bn (~35% OP margin). Stock +112% over 1yr.
+
+**Valuation:** **Rich — ~33x trailing / ~47x on some measures vs. JP electronics ~15x.** A SimplyWallSt DCF flags ~¥27,500 fair value vs. ~¥69,800 price (i.e., the market prices in years of compounding). This is the gem's main flaw: quality is recognized, entry is expensive.
+
+**10-yr bull case (path to 5–10x):** Si3N4 substrate demand inflects as 800V SiC inverters become standard and as grid/solid-state-transformer and industrial drives adopt SiC; MARUWA's capacity expansions + pricing power + margin mix-shift drive a multi-year ~20%+ earnings CAGR. A 5x requires sustained ~20–25% earnings growth *and* multiple persistence — plausible only if it remains the quality compounder it has been. **Risks:** valuation (limited margin of safety today), SiC overcapacity dampening near-term module volumes, Kyocera/Toshiba/Proterial/Chinese ceramic entrants, JPY.
+
+**Replace-which / blind-spot:** A natural companion/upgrade to the book's **Bachem / Bioventix "indispensable niche input" archetype** and **ATOSS-style founder-controlled compounder** — but in physical electrification hardware rather than software/bio. Fills a wide-bandgap blind spot without touching data-center power.
+
+**Conviction: 4/5** — *The indispensable ceramic substrate under every SiC inverter; A+ business and owner, but you're paying full freight — accumulate on drawdowns.*
+
+---
+
+## GEM 2 — TOYO TANSO (TSE: 5310) | Japan | ~¥110bn / ~$590–700m | Profitable small-cap, cyclical trough
+
+**Structural wave & why under-covered:** Toyo Tanso is the **world pioneer/leader in isotropic graphite** and **SiC-coated graphite (PERMA KOTE)** — the *consumable* susceptors, crucibles and wafer carriers that every SiC boule-growth furnace and every SiC/GaN epitaxy reactor consumes and replaces. This is the purest "shovels" play in the lane: it sells to *all* SiC/GaN makers regardless of which device company wins, and it's a **recurring-consumption** (not one-time-capex) revenue stream. Deeply under-covered — a ~$600m small-cap carbon-materials company that screens as "old-economy."
+
+**Moat:** Pioneer-grade isotropic graphite metallurgy + high-purity SiC/TaC coating process; long-qualified into semiconductor and SiC supply chains; building capacity specifically for high-performance semiconductor graphite. Competes with SGL Carbon (graphite) and a swarm of Chinese TaC/SiC-coating suppliers — so moat is real but narrower than MARUWA's.
+
+**Founder/insider ownership:** Family-led — founded 1941 by Teruhisa Kondo (as Kondo Carbon); **Naotaka Kondo is Chairman/President/CEO** (third-gen family leadership). *(Specific family stake % unverified — flag.)*
+
+**Sourced economics:** TTM revenue ~$330m; raised target **dividend payout ratio to 40%** (Feb-2026); described as "excellent balance sheet, good value, pays a dividend." Recent quarter was a cyclical miss (SiC digestion). *(Margins/P/E not precisely verified here — flag; needs primary-filing confirmation.)*
+
+**Valuation:** Trades like a cyclical-trough value name — modest cap, dividend support, depressed earnings on the SiC overcapacity pause. **This is the asymmetric-entry candidate** of my list: cheap *because* the SiC cycle is mid-downturn.
+
+**10-yr bull case (path to 5–10x):** As the 2027–2028 SiC/GaN capacity recovery arrives and 8-inch SiC ramps (more graphite/coating consumed per wafer), Toyo Tanso's consumable volumes re-accelerate off a trough base; operating leverage + buyer power normalization re-rates a forgotten small-cap. The 5–10x path = trough earnings recovery × margin recovery × multiple re-rating × secular WBG growth — a classic small-cap cyclical-to-secular compounder. **Risks:** Chinese TaC/SiC-coating commoditization, prolonged SiC winter, also exposed to solar/nuclear graphite cyclicality, small-cap liquidity.
+
+**Replace-which / blind-spot:** The **"Eckert & Ziegler / Disco-style niche consumable supplier"** slot — sells the recurring shovels to the whole industry. Fills the SiC *materials-consumable* blind spot with a value (not growth) entry profile.
+
+**Conviction: 3.5/5** — *Forgotten consumable picks-and-shovels for the entire SiC/GaN industry, bought in the middle of the cycle's worst pessimism — best risk/reward entry but lower-quality moat than MARUWA.*
+
+---
+
+## GEM 3 — AIXTRON SE (FSE: AIXA) | Germany | ~€6bn / ~$6.2bn | Profitable, cyclically soft
+
+**Structural wave & why under-covered:** Aixtron is the **near-monopoly maker of MOCVD/epitaxy deposition equipment** — ~70–90% share across most of its portfolio — and the leading tool supplier for **GaN power epitaxy** (and a player in SiC epi). Every GaN-on-Si power-device ramp (650V EV OBC/DC-DC, industrial, the coming 200mm GaN wave at onsemi/GF, ST, Infineon, Power Integrations) flows through Aixtron's installed base. It's "covered" as a name but the *power-electronics-specific* thesis is under-appreciated because today the stock trades on AI-optoelectronics demand while the GaN/SiC power cycle is still digesting overcapacity — i.e., the power upside is *not yet in the numbers*.
+
+**Moat:** Deposition-equipment near-monopoly; top-3 (Aixtron/Veeco/Taiyo Nippon Sanso) ~60% of MOCVD; deep process IP, switching costs, and qualification lock-in. Genuine tollbooth on WBG capacity.
+
+**Founder/insider ownership:** **Weak — Aixtron is a widely-held German Mittelstand-turned-institutional float with no founder anchor.** This is the pick's main deviation from your "founder-aligned" preference. *(Flag.)*
+
+**Sourced economics (verified):** TTM revenue ~€503m; EBITDA ~€82m; FCF ~€200m; FY2026 guide raised to revenue ~€560m ±€30m, gross margin ~42%, EBIT margin 17–20%; Q3 orders €124m, book-to-bill 1.04, backlog €287m. Management roadmap: **>€1.4bn revenue by ~2029** as SiC+GaN penetrate power electronics from <10% to >25% of a ~$35bn market.
+
+**Valuation:** **Rich/cyclical — ~31x EV/EBITDA, ~49x trailing / ~58x fwd P/E**, above the €45 consensus target. Priced for recovery; near-term power demand is soft.
+
+**10-yr bull case (path to 5x):** If GaN/SiC penetration triples by 2029 as guided and Aixtron holds tool share, revenue ~3x and margins expand on operating leverage → earnings multiple-x growth; a 5x over 10yr requires the power cycle to turn *and* AI-opto to persist. **Risks:** rich entry, deep semicap cyclicality, no founder/insider anchor, China localization (NAURA/AMEC) eroding share over time, lumpy orders.
+
+**Replace-which / blind-spot:** A **Disco/BESI-adjacent semicap monopoly** — but I'd flag it as the *weakest* fit (no founder alignment, expensive, partly an AI-opto story). Include only as the equipment-tollbooth on WBG; otherwise it overlaps the "semicap equipment" lane already covered.
+
+**Conviction: 3/5** — *The deposition tollbooth on every GaN/SiC capacity build — real monopoly, but no founder anchor and you pay a peak-ish multiple for a cyclical recovery.*
+
+---
+
+## GEM 4 (speculative/watchlist) — ROHM CO. (TSE: 6963) | Japan | mid-cap | Profitable, restructuring
+
+**Structural wave & why under-covered:** ROHM is one of very few **fully vertically integrated SiC players** (substrate → epi → device → module), now shipping **5th-gen EcoSiC MOSFETs** (~30% lower on-resistance at high temp; samples from Jul-2026) and running domestic **8-inch SiC substrate** capacity in Miyazaki. Under-covered/contrarian: the stock has been beaten down on the SiC demand air-pocket and heavy capex, so it's a *deep-value, out-of-favor* vertically-integrated WBG bet vs. consensus-darling Infineon/ST.
+
+**Moat:** True boule-to-module integration (rare outside Infineon/onsemi/ST); design wins in xEV traction inverters, OBC, DC-DC; SiC tech leadership in trench MOSFETs.
+
+**Founder/insider ownership:** *Unverified — flag; ROHM is a large, mostly institutionally-held Japanese major, limited founder control.*
+
+**Sourced economics:** S&P sees FY2026 sales +3.1% YoY to ~¥462bn as auto/industrial demand revitalizes. Currently depressed margins on SiC ramp + capex.
+
+**Valuation/why watchlist not core:** Larger-cap, lower founder alignment, and SiC overcapacity directly hits its core — but it's the cleanest *vertically-integrated SiC turnaround* if you want device exposure. **Conviction: 2.5/5** — *Contrarian integrated-SiC turnaround; cheaper but more cyclically exposed and less owner-aligned — a watchlist value option, not a gem.*
+
+---
+
+## Rejected (and why)
+
+- **Wolfspeed** — pure SiC substrate/device, balance-sheet distress, epicenter of overcapacity. Avoid.
+- **Navitas (NVTS)** — GaN/SiC pure-play but **operating margin ~ –234%, pre-profitable through forecast, dilution risk, AI-momentum-priced.** Fails the "profitable leader, not cash-burner" screen.
+- **Power Integrations (POWI)** — quality GaN-switcher/gate-driver IP moat (2,000+ patents), but increasingly an **AI-data-center power story** (overlaps the covered lane), zero insider buying / heavy insider selling, fully valued. Out of lane.
+- **Infineon / STMicro / onsemi** — the right WBG winners but **too large and fully covered**; no asymmetric 5–10x.
+- **SICC / Tankeblue / Chinese substrate makers** — China-careful + epicenter of the price war/overcapacity; commodity substrate. Avoid.
+- **Aixtron alternatives Veeco / Taiyo Nippon Sanso** — Veeco less GaN/SiC-power-levered; Taiyo is a gas conglomerate (diluted exposure).
+- **SGL Carbon** — graphite/SiC-coating exposure but diversified, turnaround-y, low quality vs. Toyo Tanso. Watchlist only.
+- **Semikron Danfoss / Transphorm / EpiGaN** — not cleanly investable (private / merged / acquired by Renesas).
+- **Kyocera** — Si3N4 share leader but a sprawling conglomerate; WBG signal swamped by unrelated businesses.
+
+---
+
+### Bottom line
+The asymmetric, defensible money in EV/industrial/grid wide-bandgap is **not** in commodity substrates or cash-burning device startups (overcapacity through 2027–2028) — it's in the **indispensable enabling layer**: MARUWA's Si3N4 substrates (best business, richest price, best owner alignment), Toyo Tanso's SiC/graphite consumables (best *entry* — trough value, family-led), and Aixtron's epi-tool tollbooth (real monopoly, weakest on founder alignment/valuation). ROHM is a contrarian watchlist option. **Flags:** several margin/P/E and family-stake figures are point-in-time or unverified and should be confirmed against primary filings before sizing; market caps move daily.
+
+*Primary sources used: semiconductor-today.com (Yole overcapacity, Aixtron, onsemi), Yolegroup, SimplyWallSt (MARUWA valuation & ownership), MarketScreener/Stockanalysis (caps), ROHM/Toyo Tanso IR & news. WebSearch results, May 2026.*
+
+
+=====================================================================
+## LANE 32 — Photonics & Optical Networking
+=====================================================================
 
 I now have everything needed to write a well-grounded report. Fujikura is a strong "boring giant transforming" pick with genuine AI-fiber re-rating — though at 57x forward PE it's no longer cheap and is now well-covered; I'll note it as a frenzy-adjacent watch rather than a hidden gem. 
 
@@ -3134,7 +3926,9 @@ The one genuine **hidden gem** matching your quality + alignment + asymmetry bar
 **Verification flags:** Santec's ~55% OCT share and the "Tei family" ownership detail came from low-quality aggregators (Grokipedia/MatrixBCG) — confirm via primary IR filings before sizing. Browave/Fujikura precise current mkt caps and insider ownership likewise need a primary-source check given the violent 2025–26 price moves.
 
 
-<<<<< LANE 33-cloud-devtools-observability (recovered; 11874 chars) >>>>>
+=====================================================================
+## LANE 33 — Cloud / DevOps / Observability / Developer Tools
+=====================================================================
 
 I now have everything I need. Dynatrace is Thoma Bravo-controlled (~49%), not founder-controlled (Greifeneder is CTO, minor stake) — but it's a high-quality, FCF-rich, somewhat-cheaper-than-Datadog observability play that's under-covered relative to DDOG. GitLab is cheap now (2.4x EV/sales, $4.5B), founder-controlled via supervoting, profitable, and has takeover optionality. These are my best-fitting names. Let me compile the final report.
 
@@ -3219,7 +4013,9 @@ The cleanest lane-fit + asymmetry combo is **GitLab** (cheap, profitable, founde
 **Honest caveat to flag:** this is the *hardest* lane in which to find a true under-the-radar 10x right now — M&A has harvested the best small-cap infra-software targets, and the survivors are mid-caps where the market already knows the story. If you can relax "pure infra," **Klaviyo** (data/engagement infra, founder-supervoting, Rule-of-75) is the highest-quality name I surfaced and arguably belongs in your book despite sitting one layer up the stack. None of the headline figures above should be position-sized without pulling the latest 10-K/10-Q yourself.
 
 
-<<<<< LANE 34-vertical-saas-niches (recovered; 12642 chars) >>>>>
+=====================================================================
+## LANE 34 — Vertical SaaS Niches
+=====================================================================
 
 I have five strong, verified gems plus a rejected list. Let me compile the final report.
 
@@ -3316,7 +4112,9 @@ I have five strong, verified gems plus a rejected list. Let me compile the final
 *Caveats: I did not independently audit financial statements — figures are from press releases/results coverage and should be confirmed in primary filings before sizing. Ownership %s for Nordhealth and INIT, and precise current valuation multiples, are flagged UNVERIFIED and need a filings check.*
 
 
-<<<<< LANE 35-payments-fintech-infrastructure (recovered; 15071 chars) >>>>>
+=====================================================================
+## LANE 35 — Payments & Fintech Infrastructure
+=====================================================================
 
 I now have enough to write a high-conviction report. i3 Verticals EV/EBITDA ~42 is rich but it's transitioning to pure-play gov software; market cap ~$372M, founder 22%. CAB Payments confirms concentration/regulatory fragility — I'll put it as a flagged speculative pick or rejected. 
 
@@ -3434,7 +4232,9 @@ Your book has no operating payments-rail exposure. The cleanest *quality + asymm
 **Key unverified items to confirm before sizing:** Fawry current promoter %; Infibeam net-take-rate (vs pass-through revenue) and governance history; i3 Verticals current market cap/share count post-divestiture. I did not fabricate any figure — sources are Fawry/EGX disclosures, Boku FY2025 results, Infibeam/Screener filings, i3 Verticals SEC 8-Ks, CAB Payments RNS, and Simply Wall St ownership data.
 
 
-<<<<< LANE 36-insurtech-specialty-insurance (recovered; 16671 chars) >>>>>
+=====================================================================
+## LANE 36 — Insurtech & Specialty Insurance/Reinsurance
+=====================================================================
 
 I have everything needed. Note: TWFG market cap of ~$244M appears to reflect only the public Class A float (Up-C structure); total enterprise value is larger. I'll flag this. Let me compile the final report.
 
@@ -3594,7 +4394,9 @@ I have everything needed. Note: TWFG market cap of ~$244M appears to reflect onl
 **My single highest-conviction idea in this lane is IGIC** — the cleanest combination of deep under-coverage, founder ownership, sustained underwriting discipline, book-value compounding, and active capital return.
 
 
-<<<<< LANE 37-alt-asset-managers-gp-stakes (recovered; 13204 chars) >>>>>
+=====================================================================
+## LANE 37 — Alternative Asset Managers / GP-Stakes / Wealth
+=====================================================================
 
 I now have a robust, verified set. Antin (founder owns 31%, infrastructure-focused, capital-light, ~€1.6bn cap) is a strong fifth name and fits the "durable fee + alignment" preference better than performance-fee cyclicals. I have my 5. Let me compile the final report.
 
@@ -3684,7 +4486,9 @@ European mid-market PE + private credit (€14bn, doubled in 4 yrs) + infrastruc
 - All AUM/FRE/margin/ownership figures are from secondary web sources (company PRs, SEC/ASX filings summaries, market-data sites); **none independently re-derived** — verify against primary filings before sizing a concentrated position.
 
 
-<<<<< LANE 38-premium-consumer-luxury (recovered; 14612 chars) >>>>>
+=====================================================================
+## LANE 38 — Premium Consumer & Luxury
+=====================================================================
 
 I have enough verified data to build a high-conviction report. I have five strong candidates plus a rejected list. Let me compile the final markdown report.
 
@@ -3829,7 +4633,9 @@ The book is heavy on European/B2B quality compounders (Constellation, ATOSS, Top
 **Caveats / unverified flags:** Market caps move daily and several are at month-end 2026-05-31 approximations. ROIC figures vary materially by source (lease/agave/retail accounting), so ranges are given rather than point estimates. PNJ and Interparfums exact family-ownership percentages and current P/Es were not fully pinned down — flagged accordingly. Becle's and PNJ's gold/agave-linked cyclicality is real and is the primary reason their convictions are capped. None of these figures should be traded on without pulling the latest filings.
 
 
-<<<<< LANE 39-food-ingredients-flavors (recovered; 13227 chars) >>>>>
+=====================================================================
+## LANE 39 — Branded Food Ingredients / Flavors / Fragrances
+=====================================================================
 
 I have strong verified data on all candidates. Fine Organic: 75% promoter (Shah family), ~₹14,000 Cr (~$1.7B) cap, 35% ROCE, zero debt — but only ~7-8% growth forecast (a constraint on the 10x bull case). I have enough to write the report with four high-conviction picks plus rejects.
 
@@ -3917,7 +4723,9 @@ I have strong verified data on all candidates. Fine Organic: 75% promoter (Shah 
 **Caveats:** All financials are web-sourced (Screener.in, company RNS/filings, sell-side notes, Morningstar) and should be re-pulled from primary filings before sizing — several margin/ROCE/growth figures and especially the *forward* estimates are analyst projections [unverified as outcomes]. Promoter-holding and stake-building data (Privi trim, Döhler 27.9%) are point-in-time and move quarterly.
 
 
-<<<<< LANE 40-pet-economy-ex-pharma (recovered; 14475 chars) >>>>>
+=====================================================================
+## LANE 40 — Pet Economy (ex-pharma)
+=====================================================================
 
 I now have everything I need. Swedencare has decent economics (single-digit organic growth, ~19-22% EBITDA margin) but the Symrise 41% overhang + €150M impairment signals a stalled story — I'll include it as a watch/half-rejected name rather than a top gem. My core gems are Bionote, Anicom, Vimian. CVS Group and Swedencare round out as lower-conviction. Let me write the final report.
 
@@ -4030,7 +4838,9 @@ I now have everything I need. Swedencare has decent economics (single-digit orga
 **Bottom line:** The single most differentiated, on-thesis gem is **Bionote** — a founder-controlled, off-radar, razor-blade companion-animal diagnostics franchise that is the structural analog to the Western POC-diagnostics winners, available only because it's Korean-listed and tarred by a COVID sibling. **Anicom** is the cheaper, lower-beta founder-led network-moat compounder, and **Vimian** is the animal-health Constellation. Do primary-filing diligence on Bionote's related-party transactions and Anicom's combined ratio before sizing — those are the two figures the web sources could not pin down reliably.
 
 
-<<<<< LANE 41-diagnostics-liquid-biopsy (recovered; 15633 chars) >>>>>
+=====================================================================
+## LANE 41 — Diagnostics / Liquid Biopsy / Point-of-Care
+=====================================================================
 
 I have enough verified data to write a high-conviction report with four core gems plus a reject pile. I have distinct sub-lanes covered: picks-and-shovels OEM (Stratec), profitable molecular dx with razor/blade test economics (Castle), founder-led PCR consumables with deep net cash (Seegene), and an inflecting lung dx (Biodesix). Let me compile the final report.
 
@@ -4128,7 +4938,9 @@ A note on the lane's hard truth: pure-play diagnostics is brutally bifurcated. T
 *Caveats: market caps and KRW/USD figures came from multiple dated secondary sources and conflict in places — re-verify live caps, net-cash, and current reimbursement/LCD status (the dominant risk for Castle, Lucid, CareDx, Natera) before acting. I did not obtain clean live EV/EBITDA for Stratec or a current cap-table for Biodesix — both flagged.*
 
 
-<<<<< LANE 42-drug-delivery-pharma-cdmo (recovered; 15313 chars) >>>>>
+=====================================================================
+## LANE 42 — Drug Delivery & Pharma CDMO/Services
+=====================================================================
 
 I now have comprehensive data on the key names. I have my 4 picks: Stevanato, Datwyler, SCHOTT Pharma, and Ypsomed, plus a rejected list. Let me compile the final report. These are differentiated from the covered lanes (peptides/bioprocessing/CRO) and represent the spec-in primary-packaging + delivery-device picks-and-shovels.
 
@@ -4266,7 +5078,9 @@ GLP-1 obesity/diabetes drugs + the broader biologics shift have created a multi-
 My highest-conviction differentiated pair is **Stevanato + Dätwyler** — both founder/family-controlled, both spec-in regulatory moats, both bought near a post-destocking inflection, and neither overlaps the book's covered lanes.
 
 
-<<<<< LANE 43-surgical-medical-robotics (recovered; 15363 chars) >>>>>
+=====================================================================
+## LANE 43 — Surgical & Medical Robotics / Advanced Imaging
+=====================================================================
 
 I have comprehensive data. PROCEPT at $1.6B with strong razor-blade economics is a quality name but more "discovered" — I'll feature it as a fifth with lower upside multiple, or place in rejected. Given the mandate favors installed-base + path-to-profit razor-blade names and asymmetric upside, I'll feature the four strongest and discuss PROCEPT in rejected/borderline. Let me compile the final report.
 
@@ -4390,7 +5204,9 @@ A note up front on lane reality: the *cleanest* razor-blade compounder in surgic
 - All market caps, ownership %, and financials are from web sources dated through May 2026; per-procedure consumable dollar figures for STXS and EDAP were **not cleanly disclosed** and are described qualitatively — treat as unverified at the unit-economics level.
 
 
-<<<<< LANE 44-industrial-gases-cryogenics (recovered; 13839 chars) >>>>>
+=====================================================================
+## LANE 44 — Industrial Gases / Cryogenics / Specialty-Gas Distribution
+=====================================================================
 
 I now have a solid, verified picture. Ellenbarrie (high-conviction India pure-play), Jinhong (China specialty-gas compounder with on-site/take-or-pay model), and Air Water (Japan deep-value SOTP) form a strong core. INOX India is quality but expensive. Let me finalize the report. The data is sufficient — I'll flag the items I couldn't fully verify (Jinhong margins, exact insider %).
 
@@ -4527,7 +5343,9 @@ I now have a solid, verified picture. Ellenbarrie (high-conviction India pure-pl
 **Bottom line:** The single best fit for your mandate is **Ellenbarrie (conviction 5)** — a founder-owned, 77%-insider, freshly-public Indian industrial-gas density compounder that the West cannot yet see. **Jinhong** is the higher-risk/higher-data-burden China specialty-gas optionality. **INOX India** is the quality cryo pick to buy on weakness. **Air Water** is the value-with-a-catalyst ballast.
 
 
-<<<<< LANE 45-industrial-tic-ndt-metrology (recovered; 12365 chars) >>>>>
+=====================================================================
+## LANE 45 — Industrial TIC / NDT / Metrology Services
+=====================================================================
 
 I have enough verified material to write the report. The TIC Solutions market cap figures conflict ($1.1B–$2.05B) — I'll flag as unverified/approximate. Let me compose the final report.
 
@@ -4651,7 +5469,9 @@ I have enough verified material to write the report. The TIC Solutions market ca
 - This lane is structurally thin on listed founder-aligned pure-plays; only **Acuren/TIC** cleanly satisfies both "mandated-TIC moat" AND "founder/operator alignment." If founder alignment is non-negotiable, the lane realistically yields **one** high-conviction name (TIC), with Transcat as a quality-but-unaligned add and Mistras as a speculative option.
 
 
-<<<<< LANE 46-rail-logistics-coldchain (recovered; 13396 chars) >>>>>
+=====================================================================
+## LANE 46 — Rail & Transport Infra + Logistics/Cold-Chain
+=====================================================================
 
 I have enough verified material to synthesize a high-conviction report. I'll write up the five best gems with appropriate verification flags. The strongest, most distinct picks: Vossloh (rail picks-and-shovels near-monopoly), Schweizer Electronic AG (German listed — wait, that's PCB; the Swiss rail one is PRIVATE, so I must reject it), HBL Engineering (India Kavach monopoly), Tracsis (UK rail software), Stadler Rail (founder-led rolling stock). Quadrant is loss-making/early. Let me finalize.
 
@@ -4735,7 +5555,9 @@ A structural note up front: the most attractive *pure* picks-and-shovels in this
 Add **Vossloh** (highest-conviction, fills the hard rail-infra picks-and-shovels gap) and **HBL Engineering** (best India-rail moat) as core lane positions; hold **Tracsis** and **Stadler** as smaller, higher-variance optionality; keep **Schweizer Electronic (CH)** and **SeaCube** on a private/re-listing watch-list. Biggest caveat: I flagged several conflicting revenue/market-share figures (especially Vossloh consolidation basis and fastening share) — **verify against primary filings before sizing.**
 
 
-<<<<< LANE 47-maritime-shipping-ports (recovered; 17159 chars) >>>>>
+=====================================================================
+## LANE 47 — Maritime / Shipping / Shipbuilding / Ports
+=====================================================================
 
 Most marine-safety names are private/PE-owned (reject lane). I have four solid, verified gems plus a fifth candidate (Vow ASA, Scanship cruise wastewater). I have enough to write the report. Let me note the data confusion: 6023 IS Daihatsu Infinearth (formerly Daihatsu Diesel), a separately-listed marine engine maker — the search engine kept confusing it with Daihatsu Motor (delisted auto co). The 6023 financials I confirmed are real (¥88.8B sales, ¥7.6B OP). I'll flag the ownership detail as not fully verified.
 
@@ -4850,7 +5672,9 @@ A note on the macro tailwind that underpins every pick: the global shipbuilding 
 **Verification flags:** Daihatsu Infinearth and Vow ownership/insider stakes are NOT verified; Vow market cap/balance sheet NOT verified; CMP exact current multiples NOT verified. Daihatsu Infinearth FY2025 financials, HAV FY2025 financials/backlog/ownership, and Kalmar 2025 margins/orders ARE verified from primary/secondary sources. Do confirm live market caps and shareholder registers before sizing.
 
 
-<<<<< LANE 48-digital-infrastructure (recovered; 14818 chars) >>>>>
+=====================================================================
+## LANE 48 — Digital Infrastructure (data centers/towers/fiber)
+=====================================================================
 
 I have enough verified material for a high-conviction report. Let me compose the final markdown report.
 
@@ -4970,7 +5794,9 @@ Converge (CNVRG) is the highest-conviction core hidden gem — owner-operated, c
 Sources: [E2E Networks/Screener](https://www.screener.in/company/E2E/), [Helios Towers FY2025/TechAfrica](https://techafricanews.com/2025/11/06/helios-towers-delivers-double-digit-profit-growth-tightens-2025-guidance-and-launches-75m-buyback/), [Helios ownership/Wikipedia](https://en.wikipedia.org/wiki/Helios_Towers), [Mitratel multiples](https://multiples.vc/public-comps/mitratel-valuation-multiples), [Brisanet FY2025/O Povo](https://www.opovo.com.br/noticias/economia/2026/03/19/brisanet-fecha-2025-com-lucro-liquido-de-rs-409-milhoes.html), [Brisanet founder stake/Bloomberg Línea](https://www.bloomberglinea.com/english/the-market-made-these-brazilians-billionaires-now-the-crash-leaves-them-with-millions/), [Converge FY2025/Accuretti](https://accuretti.com/2025/11/12/292/), [Converge revenue growth/MegaBites](https://www.megabites.com.ph/converge-ict-solutions-reports-robust-double-digit-revenue-growth-for-fy2025/), [Converge ownership & cap/StockAnalysis](https://stockanalysis.com/quote/pse/CNVRG/market-cap/), [Gigas FY2025/Yahoo](https://finance.yahoo.com/quote/GIGA.MC/financials/), [Anant Raj/Screener](https://www.screener.in/company/ANANTRAJ/consolidated/), [edotco/PLDT/DCD](https://www.datacenterdynamics.com/en/news/axiatas-tower-unit-edotco-finalizes-pldt-tower-acquisitions/).
 
 
-<<<<< LANE 49-connectors-passives-sensors (recovered; 12628 chars) >>>>>
+=====================================================================
+## LANE 49 — Connectors / Passives / Sensors / Components
+=====================================================================
 
 I now have enough verified data to write the report with four high-conviction picks plus a rejected list. Note Nippon Ceramic's "analyst consensus: Sell" and the founder/family ownership specifics are unverified — I'll flag those. Let me compile the final report.
 
@@ -5084,7 +5910,9 @@ Methodology note: All figures verified via stockanalysis.com, company IR, and pr
 Key UNVERIFIED items to confirm before sizing: (a) Nippon Ceramic & Iriso founder-family stake %; (b) Nippon Ceramic's net-cash figure and the quality/recurrence of its 66% net-income jump; (c) Susumu's current listing status.
 
 
-<<<<< LANE 50-niche-industrial-distribution (recovered; 14377 chars) >>>>>
+=====================================================================
+## LANE 50 — Niche Industrial Distribution / MRO
+=====================================================================
 
 I now have a well-triangulated, verified set. Let me compile the final report. My picks balance the brief: genuinely under-covered, founder/family-aligned, niche distribution with density/relationship moats and high return-on-working-capital, with asymmetric paths. I'll be honest about which are clean compounders vs. turnaround/optionality flavored, and flag unverified items.
 
@@ -5225,7 +6053,9 @@ Sharpest *true* asymmetry: **GIC** (quality + neglect) and **RELL** (fortress + 
 *Flagged [UNVERIFIED]: GIC multiples; RELL EV/EBITDA; SOLI founder ownership. All ownership %s and operating figures cited from financial aggregators/filings as of late-2025/mid-2026 and should be confirmed against primary filings before capital deployment.*
 
 
-<<<<< LANE 51-hvac-building-efficiency (recovered; 13030 chars) >>>>>
+=====================================================================
+## LANE 51 — HVAC / Building Climate / Energy-Efficiency
+=====================================================================
 
 I have a robust, well-verified slate of 5 names plus a rejected list. Volution's "founder" is really a management-buyout CEO with only 1.35% (modest alignment, flag). I have enough verified data to write the report. Let me compile the final markdown report.
 
@@ -5358,7 +6188,9 @@ Heat-pump-integrated heat-exchanger specialists (AKG's ThermoCore ECO for ground
 **Caveats:** Exact 2026 market caps, forward P/Es and several margin figures are approximate web-sourced numbers gathered today and should be re-verified against primary filings before position sizing. The entire lane carries building-construction and subsidy-policy cyclicality — CAREL and NIBE both demonstrably got whipsawed by the 2023–24 heat-pump destock, so size for volatility.
 
 
-<<<<< LANE 52-physical-security-biometrics (recovered; 10629 chars) >>>>>
+=====================================================================
+## LANE 52 — Physical Security / Access Control / Biometrics
+=====================================================================
 
 I have enough verified data to compile the report. Founder ownership for Suprema (operating co) and exact insider stakes for Intellicheck couldn't be pinned precisely via search — I'll flag those as unverified. Let me finalize.
 
@@ -5440,7 +6272,9 @@ I have enough verified data to compile the report. Founder ownership for Suprema
 Highest single conviction: **Suprema (4/5)** — the rare listed, founder-led, profitable, non-China biometric access-control leader that best fits your "behind-the-scenes, quality, sovereignty-tailwind" thesis.
 
 
-<<<<< LANE 53-semiconductor-ip-eda (recovered; 13017 chars) >>>>>
+=====================================================================
+## LANE 53 — Semiconductor IP / EDA / Chip-Design Enablers
+=====================================================================
 
 I now have enough for a high-quality report. Empyrean is interesting (China EDA self-sufficiency) but very expensive (~70B CNY / ~$10B at ~30x sales) and China-careful per the brief — I'll note it in the rejected list. I have my 5 gems. Let me compile the final report.
 
@@ -5541,7 +6375,9 @@ The "toll-booth" of chip design is the IP/EDA layer: revenue that scales with *e
 Sources: stocktitan.net (Arteris), sec.gov (Arteris/CEVA/Silvaco filings), simplywall.st (eMemory/Andes), ememory.com.tw, m31tech.com, biggo.com (M31), andestech.com, design-reuse.com, eetimes.com (RISC-V royalty crossover), ceva-ip.com, companiesmarketcap.com, digitimes.com (ASIC houses), en.wikipedia.org (Empyrean), investing.com.
 
 
-<<<<< LANE 54-memory-storage-hbm (recovered; 12805 chars) >>>>>
+=====================================================================
+## LANE 54 — Memory / Storage / HBM Ecosystem
+=====================================================================
 
 I have a strong, verified dataset across the memory test/interface ecosystem. JEM has already moved a lot (52-wk 2,035→10,270 JPY, +104% sector) so the cycle is partly priced. I have enough to write a rigorous report with honest cyclicality flags. Let me compose the final report.
 
@@ -5616,7 +6452,9 @@ For *generational asymmetry within an honestly cyclical lane*, the two genuine h
 **Sources:** [JEM Substack](https://variantperceptions.substack.com/p/japan-electronic-materials-hidden), [JEM/6855 Yahoo](https://finance.yahoo.com/quote/6855.T/), [Simply Wall St 6855](https://simplywall.st/stocks/jp/semiconductors/tse-6855/japan-electronic-materials-shares), [TSE financials](https://stockanalysis.com/quote/kosdaq/131290/financials/), [TSE Investing.com](https://www.investing.com/equities/tse-co-ltd), [TheElec TSE HBM probe](https://www.thelec.net/news/articleView.html?idxno=5553), [Phison 8299 stockanalysis](https://stockanalysis.com/quote/tpex/8299/), [Phison CEO shortage/CW](https://english.cw.com.tw/article/article.action?id=4379), [Phison aiDAPTIV+](https://www.phison.com/en/aidaptiv-plus-ai-data-storage-solution), [Montage 688008 stockanalysis](https://stockanalysis.com/quote/sha/688008/market-cap/), [Montage CXL 3.1](https://www.businesswire.com/news/home/20250829199407/en/), [FormFactor market cap](https://stockanalysis.com/stocks/form/market-cap/), [Aehr Q3 FY26](https://www.stocktitan.net/news/AEHR/), [Netlist litigation](https://www.stocktitan.net/news/NLST/), [Exicon stockanalysis](https://stockanalysis.com/quote/kosdaq/092870/market-cap/), [ISC Investing.com](https://www.investing.com/equities/isc-co-ltd), [Silicon Motion](https://stockanalysis.com/stocks/simo/), [TechWing PitchBook](https://pitchbook.com/profiles/company/111582-19).
 
 
-<<<<< LANE 55-vertical-ai-application-layer (recovered; 11487 chars) >>>>>
+=====================================================================
+## LANE 55 — AI Application Layer / Vertical-AI Software
+=====================================================================
 
 I have sufficient verified material to compile the report. Let me write up my findings with appropriate flags on unverified data points.
 
@@ -5718,7 +6556,9 @@ I have sufficient verified material to compile the report. Let me write up my fi
 - I did **not** fabricate any figure; every number above is from a cited search result, and JPY/USD conversions are approximate. Before sizing any position, confirm against primary filings (TSE securities reports, SEC 10-K/10-Q, Karnov annual report).
 
 
-<<<<< LANE 56-japan-deep-value-governance (recovered; 16069 chars) >>>>>
+=====================================================================
+## LANE 56 — Japan Deep-Value / Governance-Reform / Activist
+=====================================================================
 
 I have enough to write a high-quality, differentiated report. Let me compose it.
 
@@ -5826,7 +6666,9 @@ A note on this lane vs. your book's DNA: these are **re-rating / catalyst** play
 **Sources:** [J.P. Morgan AM – Japan governance 2025](https://am.jpmorgan.com/fi/en/asset-management/adv/insights/etf-perspectives/japan-corporate-governance-shareholder-value/) · [AVI – NS Solutions campaign](https://www.businesswire.com/news/home/20220523005780/en/Asset-Value-Investors-AVI-Submits-Shareholder-Proposals-to-NS-Solutions-a-Subsidiary-of-Nippon-Steel) · [3D Investment – NS Solutions](https://www.businesswire.com/news/home/20250328623776/en/) · [Simply Wall St – NSSOL governance](https://simplywall.st/stocks/jp/software/tse-2327/ns-solutions-shares) · [Chambers – TSE MBO/parent-sub rules 2025](https://chambers.com/articles/tokyo-stock-exchange-tightens-rules-on-mbos-and-controlling-shareholder-buyouts-enhanced-disclosure) · [Chambers – Corporate M&A Japan 2025 (SCSK/NTT Data/NESIC)](https://practiceguides.chambers.com/practice-guides/corporate-ma-2025/japan/trends-and-developments) · [Oasis – Horiba 9.9% / Fujitec](https://www.businesswire.com/news/home/20230223006062/en/) · [8percentpa – Japan activist names](https://8percentpa.substack.com/p/japans-activist-stock-names-large) · [CNBC – Nihon Global / Toyo Suisan](https://www.cnbc.com/2024/05/04/activist-nihon-global-puts-forth-ideas-to-build-shareholder-value-at-toyo-suisan.html) · [KKR – Taiyo Holdings privatization](https://www.businesswire.com/news/home/20260330364697/en/) · [CNBC – Sapporo/KKR-PAG real estate](https://www.cnbc.com/2025/12/24/sapporo-holdings-sell-real-estate-business-kkr-nhk.html) · [Hedgeweek – Elliott/Sumitomo Realty](https://www.hedgeweek.com/elliott-pressures-sumitomo-realty-in-rare-japan-activist-push/)
 
 
-<<<<< LANE 57-greater-china-hidden-champions (recovered; 23626 chars) >>>>>
+=====================================================================
+## LANE 57 — Greater China Hidden Champions
+=====================================================================
 
 I have enough verified data across five strong candidates plus rejects. Note Sunny Optical's PE figures were conflicting (17x TTM vs 12.2x forward), so I'll flag that. Let me compile the report.
 
@@ -5998,7 +6840,9 @@ The two names I'd weight highest on a **risk-adjusted** basis are **Hongfa** (ge
 **Sources:** [Seeking Alpha — China discount](https://seekingalpha.com/article/4833524-the-great-china-discount-what-is-beneath-hang-seng-index) · [Mindray Wikipedia](https://en.wikipedia.org/wiki/Mindray) · [Mindray overseas revenue / valuation (CMBI, stockanalysis)](https://stockanalysis.com/quote/she/300760/statistics/) · [Silergy Wikipedia](https://en.wikipedia.org/wiki/Silergy) · [Silergy 2024 Annual Report](https://www.silergy.com/data/upload/1/202505/131409240919210d.pdf) · [Silergy valuation (Simply Wall St)](https://simplywall.st/stocks/tw/semiconductors/twse-6415/silergy-shares/valuation) · [Sunny Optical 2024 results](https://www.sunnyoptical.com/webfile/temps/2025087835089422.pdf) · [Sunny Optical governance (Simply Wall St)](https://simplywall.st/stocks/hk/tech/hkg-2382/sunny-optical-technology-group-shares) · [Inovance ownership (DCFmodeling)](https://dcfmodeling.com/blogs/history/300124sz-history-mission-ownership) · [Inovance overseas revenue (Futu)](https://news.futunn.com/en/post/64662294/inovance-technology-300124-sz-in-the-first-half-of-2025) · [Hongfa 2024 results (Webull/Futu)](https://www.webull.com/news/12546451973268480) · [WuXi AppTec / BIOSECURE (STAT News)](https://www.statnews.com/2025/11/17/wuxi-apptec-dodges-sanctions-sales-soar/) · [Largan valuation (Simply Wall St)](https://simplywall.st/stocks/tw/tech/twse-3008/largan-precisionltd-shares/valuation)
 
 
-<<<<< LANE 58-royalty-streaming-businesses (recovered; 15100 chars) >>>>>
+=====================================================================
+## LANE 58 — Royalty & Streaming Businesses (ex-energy)
+=====================================================================
 
 I now have a comprehensive picture across multiple differentiated royalty models. I have enough verified data to write the report. Let me compile the final markdown report.
 
@@ -6089,7 +6933,9 @@ The cleanest *investable* differentiated royalty compounders right now are **Lig
 Sources: [Ligand 8-K FY2026 / IR](https://www.sec.gov/Archives/edgar/data/0000886163/000088616326000003/q42025earningsrelease_ex991.htm), [Ligand 2026 guidance](https://www.quiverquant.com/news/Ligand+Pharmaceuticals+Provides+2026+Revenue+Guidance+of+$245+Million+to+$285+Million+with+Increased+Royalty+Revenue+Outlook), [stockanalysis LGND](https://stockanalysis.com/stocks/lgnd/market-cap/), [StockTitan XOMA](https://www.stocktitan.net/overview/XOMA/), [DRI Q4/FY2025](https://drihealthcare.com/dri-healthcare-reports-third-quarter-2025-results/), [DRI synthetic royalty/KalVista](https://drihealthcare.com/dri-healthcare-trust-announces-acquisition-of-a-synthetic-royalty-interest-in-the-worldwide-sales-of-sebetralstat-for-the-treatment-of-hereditary-angioedema-plus-an-equity-investment-in-kalvista-pharm/), [Morningstar DHT.U](https://www.morningstar.com/stocks/xtse/dht.u/quote), [Reservoir/Irenic MBW](https://www.musicbusinessworldwide.com/reservoir-media-confirms-receipt-of-takeover-bid-from-activist-investor-irenic-capital/), [Reservoir bids Billboard](https://www.billboard.com/pro/reservoir-media-takeover-buyout-bids-hedge-funds-review/), [stockanalysis RSVR](https://stockanalysis.com/stocks/rsvr/market-cap/), [Golnar Khosrowshahi/Wesbild Wikipedia](https://en.wikipedia.org/wiki/Golnar_Khosrowshahi), [Innoviva 10-Q FY2025](https://www.sec.gov/Archives/edgar/data/0001080014/000119312525267040/inva-20250930.htm), [Innoviva market cap Macrotrends](https://www.macrotrends.net/stocks/charts/INVA/innoviva/market-cap), [Sarissa/INVA Fintel](https://fintel.io/so/us/inva/sarissa-capital-management-lp), [FAT Brands ownership](https://dcfmodeling.com/blogs/history/fatbb-history-mission-ownership), [Brand-licensing gone-private (Licensing Intl)](https://licensinginternational.org/news/brand-management-firms-get-a-license-to-buy/).
 
 
-<<<<< LANE 59-education-workforce-platforms (recovered; 12784 chars) >>>>>
+=====================================================================
+## LANE 59 — Education / Certification / Workforce Platforms
+=====================================================================
 
 China East Education is a large founder-led vocational play but carries China regulatory overhang (post-2021 tutoring crackdown) — a flag, not a fit for the "quality + low-regulatory-risk" lens, though vocational was spared. I have enough to write the report. Let me compile the final analysis.
 
@@ -6168,7 +7014,9 @@ China East Education is a large founder-led vocational play but carries China re
 **Key honest flags:** (1) The truly elite certification toll-booths (NCLEX, CFA, PMI, AWS) are **non-profit and uninvestable** — no perfect pure-play exists in public markets at small-cap size. (2) **Wilmington** is the best *moat* but **fails the founder-alignment test** (insiders <1%). (3) **NIIT** needs the working-capital/margin slippage verified before sizing. (4) **China East** economics and current market cap are **unverified** in this pass and carry the lane's highest regulatory risk. STADIO is the single best fit to the book's "founder-aligned + quality + EM demographic + asymmetric" mandate.
 
 
-<<<<< LANE 60-em-consumer-franchises (recovered; 13140 chars) >>>>>
+=====================================================================
+## LANE 60 — Emerging-Market Consumer Franchises
+=====================================================================
 
 I have enough verified data across five strong candidates. Let me compile the final report.
 
