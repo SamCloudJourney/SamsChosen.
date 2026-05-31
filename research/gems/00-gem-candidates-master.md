@@ -226,3 +226,23 @@ _Full reports: PART 8 of `research/00-UNIFIED-RESEARCH-DOSSIER.md`. Filter: real
 | Defense | Cohort | CHRT (AIM) | ~£0.58B | 4/5 | UK defense-electronics roll-up; record backlog; founder-chaired |
 
 **View-only / rejected by the ISA filter (record):** Kaspi (KSPI), ICICI/HDFC ADRs, DroneShield (ASX/OTC), Neo Performance (TSX), Hammond Power (TSX), the Tokyo precision-reducer complex (Harmonic Drive/Nabtesco/Keyence/THK), Helsing/Tekever/Quantum-Systems (private).
+
+---
+
+## WAVE 4 VALIDATION — adversarial bull+bear on the 19 candidates (lanes per PART 9) [2026-05-31]
+_Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). Net verdicts:_
+
+**STRUCK — not buyable / dead on T212 ISA:**
+- **Avance Gas (AGAS)** — ☠️ LIQUIDATED & DELISTED Aug 2025. Not a security. Do not re-surface.
+- **Larvotto (LRV)** — ASX-only; no T212 ASX access; no ADR. Un-buyable.
+- **Panoro (PEN)** — Oslo-only; T212 doesn't support Oslo Børs. Good asset, un-buyable here.
+
+**REJECTED as core (quality-compounder test failed; bears 4.5-5/5):** Almonty (tungsten spike priced in, +600%), Centrus (re-rated +300%, policy-gated), Energy Fuels (dilution-as-model, ~70x sales — E&Z is the better-held version), StealthGas (captive-manager conflict, no moat), Navigator (melting ice cube, peak cycle), Lion Finance/BGEO (single Russia-border bank vs diversified India). Arrow = good *trade*, satellite-only.
+
+**WATCHLIST — great businesses, entry already re-rated (wait for pullback):** Frequentis (FQT), Cohort (CHRT), Volex (VLX), Friedrich Vorwerk (VH2), Basler (BSL), Camtek (CAMT).
+
+**LIVE DECISIONS (survived adversarial testing as genuine swaps):**
+- **Tristel (TSTL) → Bioventix** OR **CellaVision (CEVI) → Bioventix** — bull 4/5 each, bear 4/5 keep-Bioventix. The cleanest quality-for-quality niche-monopoly swap; or keep Bioventix (yield + Tau optionality). Owner's call.
+- **dLocal (DLO) → iShares MSCI India ETF** — bull 4/5, the buyable EM-fintech-rails "Kaspi proxy"; underwrite the falling take-rate. The aggressive satellite option.
+
+**UNTOUCHABLE CORE (no candidate beat any):** Constellation, ATOSS, Topicus, Vitec, Veralto, EXOR, Investor AB, Bachem, Sartorius.
