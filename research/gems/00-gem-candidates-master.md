@@ -4,6 +4,11 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 
 **Mandate recap:** Keep exactly **15 holdings**. Any new name must be good enough to *replace* a current pick. Hunt = "behind-the-scenes, indispensable, Micron/AMD-years-early" + fill the book's blind spots (US/non-EUR, energy/real assets, hard-tech, financials). No geographic limits.
 
+> This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
+
+**Detailed per-lane reports:**
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics
+
 ---
 
 ## ⭐ Cross-lane signal: candidates surfaced by MORE THAN ONE independent lane
