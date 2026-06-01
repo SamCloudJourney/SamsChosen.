@@ -30,7 +30,9 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 - **DISCO Corp (6146.T)** — independently chosen as a top pick by BOTH the *Japan niche* and *semicap equipment* lanes. ~70–80% monopoly in wafer dicing/grinding, 45–54% ROIC, Sekiya family ~14%, net cash. Strongest cross-corroborated gem in the entire hunt. **Conviction 4/5.**
 - **Ypsomed (YPSN, SIX Swiss Exchange)** — surfaced independently as top pick in both Lane 21 (GLP-1/obesity supply chain) AND Lane 25-pkg (specialty pharma packaging/dispensing). Double cross-lane corroboration for the auto-injector pure-play. **Conviction upgraded to 4.5/5.** Strongest new pick in the pharma/life-sciences cluster.
 - **Stevanato Group (STVN, NYSE)** — surfaced in Lane 13 (life-science tools/CDMO) as a comp name and as a top pick in Lane 25-pkg (specialty pharma packaging). Family 80-82% owner, unique vertical integration moat (glass+device+equipment), depressed by capex trough = entry opportunity. Conviction 4/5.
-- **The iShares MSCI India ETF is the near-universal "replace me" target** — ~14 of 16 lanes nominated it as the weakest slot (passive, no moat, no owner alignment). Strong consensus that a single high-quality name should replace the passive India sleeve.
+- **Arteris (AIP, Nasdaq)** — independently surfaced by Lane 21 (Edge-AI Inference Silicon IP) AND Lane 26 (Semiconductor IP/EDA). Double cross-lane corroboration = strongest semiconductor IP signal. Founder-CEO Karel Janac ~22% stake; NoC interconnect IP monopolist; AMD AI chiplet win; Samsung foundry platform-wide deployment; royalty inflection underway; non-GAAP profitability path Q4 2026; ~.5B market cap. Conviction 4/5 confirmed. Strongest IP-royalty pick for India ETF replacement.
+- **CEVA (CEVA, Nasdaq)** — independently surfaced by Lane 21 (Edge-AI Inference Silicon IP) AND Lane 26 (Semiconductor IP/EDA). 68% wireless connectivity IP monopoly (>10x nearest peer, IPnest 2024); NeuPro NPU royalty engine; CEO/CFO cluster insider buying post-record Q4 2025. No founder alignment. Conviction 3.5/5 cross-confirmed.
+- **The iShares MSCI India ETF is the near-universal "replace me" target" — ~14 of 16 lanes nominated it as the weakest slot (passive, no moat, no owner alignment). Strong consensus that a single high-quality name should replace the passive India sleeve.
 - **VinaCapital Vietnam, Bioventix, Secunet, Sartorius** are the next most-nominated "replaceable" holdings.
 
 ---
@@ -518,3 +520,38 @@ _Archetype: franchisors, master-franchise licensees, royalty-per-location scaler
 _Rejected: Restaurant Brands International (too large), MTY Food Group (TSX, not T212-accessible), Property Franchise Group (TPFG, 101% payout ratio, no insider alignment), Propel Holdings (TSX, balance-sheet lender not franchise royalty), Shake Shack (company-operated), Dutch Bros (company-operated), Cintas (company-operated, $85B cap), Sportradar (antitrust litigation, loss-making Q1-26), Fevertree Drinks (no founder alignment, growth stalled)._
 
 _Cross-lane: ARCO mildly corroborated by Lane 19 (SE Asia/LatAm slot). Goosehead has mild overlap with Lane 17 (financial infrastructure). Dino Polska new to the master list._
+
+
+---
+
+### Rail / Transport Infrastructure & Signalling / Rolling-Stock Components (Lane 21-rail) [2026-06-01]
+_Full report: `research/gems/21-rail-transport-infrastructure-signalling.md`_
+_Structural waves: EU Green Deal (doubling rail freight by 2050), TEN-T ETCS/ERTMS digital signalling mandate (150,000 km, EUR500bn+ through 2040), rolling-stock fleet replacement (25+ yr average age), transit electrification (hydrogen/battery). Under-covered because the rail supply chain reads as "boring" -- but the aftermarket/lifecycle layer is structurally recurring and largely invisible to generalist investors._
+
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| **Vossloh AG** | VOS.DE (Xetra) | ~EUR1.36bn | **4/5** | India ETF | Global rail fastening monopoly; Sateba concrete-sleeper acquisition (Oct 2025) creates "full track system" player; EUR1.14bn record backlog +23% YoY; 6.8% FCF yield; 20% 2026 revenue growth guided; ~9x fwd EV/EBITDA. Knauf family >25%. ISA: YES |
+| **Stadler Rail AG** | SRAIL.SW (SIX) | CHF2.1bn | **4/5** | India ETF | 47% crash in March 2026 = working-capital misread NOT business failure; CHF32.3bn backlog (largest ever, +11%); +36% 2026 revenue guided; Spuhler (founder) 31%; ~7x fwd EV/EBIT; "Vista at $10" asymmetric setup. ISA: YES |
+| Knorr-Bremse AG | KBX.DE (Xetra) | EUR16.4bn | 3.5/5 | India ETF | Global rail braking monopoly (est. 85-90% share); Thiele family 59%; RVS EBIT margin 16.5-17%; EUR5.6bn backlog record; EUR790m record FCF; CVS (truck) drag masks quality; KB Signaling ETCS optionality. ISA: YES |
+| CAF (Construcciones y Auxiliar) | CAF.MC (Madrid) | EUR2.08bn | 3.5/5 | India ETF / Vietnam | 4th-largest rolling stock OEM + Solaris #1 EU electric bus; EUR15.6bn record backlog (3.7x revenue); EBIT margin expanding (5.5% vs 5.1%); 24% employee-owned (Cartera Social); 14x P/E, 0.15x EV/backlog. ISA: YES |
+
+_Cross-lane: Vossloh (VOS) has minor overlap with Lane 06 (rail electrification infrastructure). Knorr-Bremse (KBX) overlaps with Lane 09 (defense -- ETCS/ATO sovereignty). Stadler Rail overlaps Lane 20 (automation/robotics -- NOVA Pro autonomous train control). CAF/Solaris overlaps Lane 06 (electric bus as grid-connected transport infrastructure)._
+
+_Rejected: Talgo (loss-making, governance chaos), Wabtec (fully priced, widely covered), L.B. Foster (no moat, declining), Secheron Hasler (private), Schweizer Electronic (EUR25m cap, too small), Hollysys (Chinese VIE, likely view-only), Frauscher (acquired by Wabtec Dec 2025, no longer listed), Talgo (EUR64m net loss FY2025), Stadler signalling only (captured in SRAIL)._
+
+
+---
+
+### Swiss SIX Niche Leaders (Lane 24) — _own: Bachem, Eckert & Ziegler (both Swiss already)_
+
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|------|--------|------|------|----------|------|
+| Ems-Chemie | EMSN.SW (SIX) | CHF 17B | 3.5/5 | India ETF (quality) | Martullo-Blocher family 61%; specialty polymers #1 global in most niches; 29.1% EBIT margin (best-in-class chemicals); ROIC ~27%; net cash CHF 603M; EV electrification + lightweighting structural wave. At 28x EV/EBIT too expensive today — upgrade to 4.5/5 at CHF 500-520. ISA: assessed buyable (SIX common; verify in T212). |
+| Huber+Suhner | HUBN.SW (SIX) | CHF ~2.5B | 3.5/5 | Secunet / Vietnam | Founding-family ~10%; owns POLATIS all-optical circuit switches for AI hyperscale data centers (up to 384x384 ports) + defense connectivity; stock CHF 58->195 in 2025 re-rating; EBIT margin 10.5%, ROIC 16%; order intake record CHF 1,032M in 2025; 2026 guidance >=10% organic growth. At 27x EV/EBIT — conviction 4.5/5 at CHF 80-100. ISA: assessed buyable (SIX common). |
+| **Inficon** | **IFCN.SW (SIX)** | **CHF ~4B** | **3/5 (4.5/5 on dip)** | **Secunet** | Corisol family office 20%; near-monopoly in refrigerant leak detection (~70-80%), semiconductor vacuum measurement, toxic gas detection; EBIT margin 20.3%, ROIC 31.5%, net cash; semicap upcycle tailwind. At 44x EV/EBIT too expensive — patience required. ISA: SIX common stock (verify new ISIN CH1431598916; do NOT use US ADR in ISA). |
+| **Cicor** | **CICN.SW (SIX)** | **CHF ~375M** | **4/5** | **Vietnam / Secunet** | OEP PE 38% aligned; safety-critical EMS for defense (~30%), medical (~35%), industrial; UBS #1 Swiss defense play; revenue CHF 617M (+28% 2025); EBIT margin 7.7% (inflecting from Eolane integration); FCF pre-M&A CHF 49M; 8x EV/EBITDA (cheap); CHF 1B by 2028 target. Base case 3x in 6yr; bull 8x. ISA: assessed buyable (SIX common). |
+| Montana Aerospace | AERO.SW (SIX) | CHF ~1.8B | 3.5/5 | Vietnam | Tojner/MTC 50% founder control; precision aerostructures (Airbus/Boeing) + EV energy components; first profitable year 2024 (EUR 35.8M net income); revenue +17.6% 2024, >EUR 1.6B guided 2025; FCF TTM ~EUR 110M; 10x EV/EBITDA. Governance risk: VARTA conglomerate exposure — verify VARTA resolution before investing. ISA: assessed buyable (SIX common). |
+
+**Rejected this lane**: LEM Holding (LEHN) — moat cracking vs. Chinese EV sensor competition, EBIT margin 24%->9% in one year; Feintool (FTI) — auto-stamping structural challenge, EBIT barely positive; Komax (KOMN) — watchlist; Sensirion (SENSI) — watchlist; Vetropack (VETN) — pass.
+
+**Cross-lane signals**: Cicor is the SIX-listed version of the European defense supply chain theme identified by Lane 09 (defense/sovereignty) and Lane 10 (aerospace). Huber+Suhner POLATIS corroborates Lane 05 (AI/compute picks-and-shovels). Montana Aerospace corroborates Lane 10 (aerospace/space supply chain).
