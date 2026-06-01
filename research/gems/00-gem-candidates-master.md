@@ -7,7 +7,7 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 > This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
 
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Grid/electrification supplement (PLPC, Nexans, MYR Group, Littelfuse) · `21` Datacenter physical infrastructure (liquid cooling/thermal/power)
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Grid/electrification supplement (PLPC, Nexans, MYR Group, Littelfuse) · `21` Datacenter physical infrastructure (liquid cooling/thermal/power) · `22` ATE/test-measurement/burn-in (Mycronic, Aehr Test Systems, Cohu)
 
 ---
 
@@ -194,7 +194,18 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 
 ---
 
-## Lanes complete: 20 / 20 ✅
+
+### Silicon photonics / optical I/O / co-packaged optics (AI datacenter light-based interconnect) -- Lane 21
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Soitec | SOI.PA | ~EUR6.3B | 4/5 | VinaCapital Vietnam | >95% Photonics-SOI wafer monopoly; 4,300 patents; Smart Cut; trough recovery (mobile down 41%, photonics >00M new high); EUR6.35B EV on depressed earnings |
+| Aixtron | AIXA.DE | ~EUR5.6B | 3.5/5 | Secunet | ~90% share G10-AsP InP MOCVD tools; Lumentum placed live orders May-2026; GaN data center dual-moat; trough recovery |
+| Tower Semiconductor | TSEM | ~9B | 3.5/5 | India ETF (watchlist) | Dominant independent SiPho foundry; .3B SiPho contracted for 2027; 50+ customers; Nvidia co-dev; valuation already pricing upside |
+| MACOM Technology Solutions | MTSI | ~9B | 3/5 | India ETF (watchlist) | US DoD Trusted Foundry + InP TIA/photodetector; DC revenue +60% FY2026; stretched valuation 13.6x sales |
+
+_Rejected: Lumentum (LITE) -- 7B, up 1,000%, fully discovered; Coherent (COHR) -- complex conglomerate; Credo (CRDO) -- discovered; POET -- pre-revenue; IQE -- near-breakeven; AXT -- too small/dilutive_
+
+## Lanes complete: 21 (Lane 21 added) ✅
 
 ---
 
