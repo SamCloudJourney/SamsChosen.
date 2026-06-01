@@ -8,6 +8,8 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 
 > **Lane 21 added 2026-06-01:** GLP-1 / obesity drug supply chain (ex-API) — auto-injectors, fill-finish, elastomers, packaging. Top gems: Ypsomed (YPSN, SIX) conv 4/5; PolyPeptide Group (PPGN, SIX) 3.5/5; Stevanato Group (STVN, NYSE) 3.5/5; Datwyler (DAE, SIX) 3/5. Gerresheimer HARD REJECTED (active BaFin accounting fraud probe). Cross-lane signal: PolyPeptide corroborated by Lane 13. Best swap: Sartorius Stedim or India ETF.
 
+> **Lane 22 added 2026-06-01:** German/DACH Mittelstand hidden champions (Xetra-native). Top gems: RATIONAL AG (RAA.DE) conv 4.5/5 — world #1 combi-steamer, 26.4% EBIT margin, 45%+ ROIC, 63% Meister family, 18 consecutive dividend hikes, at 28x P/E vs 35-50x historical, EM penetration story early; Nemetschek SE (NEM.DE) conv 4/5 — top-3 global AEC/BIM software, 95% recurring, 51% Nemetschek family, down 55% from peak to ~22-25x EV/EBITDA, AI risk overpriced; Mensch und Maschine (MUM.DE) conv 3.5/5 — hyperMILL 5-axis CAM software niche, founder Drotleff 45.7%, 10.3x EV/EBITDA, T212 CONFIRMED buyable; Hermle AG (MBH3 preferred) conv 3/5 — precision 5-axis CNC, 100% family voting, 7.1% yield at trough, preferred-share structure risk. Rejected: Pfeiffer Vacuum (domination agreement), Sixt (capital-heavy), Krones, ElringKlinger, Dermapharm, Bechtle, Datagroup.
+
 **Detailed per-lane reports:**
 `01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` GLP-1/obesity supply chain ex-API (Ypsomed YPSN, PolyPeptide PPGN, Stevanato STVN, Datwyler DAE)
 
@@ -216,7 +218,20 @@ _Rejected: Lumentum (LITE) -- 7B, up 1,000%, fully discovered; Coherent (COHR) -
 
 _Cross-lane note: Mycronic (MYCR) is a genuine lane-gap discovery — the mask-writing step is upstream of Lasertec (Lane 11 EUV inspection) and Photronics (Lane 11 photomask merchant). Cross-corroboration signal with Lane 11 and Lane 05 (AI chip complexity = more mask layers). Aehr rejected for entry at current prices; FormFactor (FORM, $9.7B) rejected as fully discovered (+398%/yr, 77x P/E, insider selling)._
 
-## Lanes complete: 23 (Lane 23 added 2026-06-01) ✅
+## Lanes complete: 24 (Lane 21-ophthalmo added 2026-06-01) ✅
+
+---
+
+### Ophthalmology, neuro-diagnostics & specialty-care platforms -- Lane 21-ophthalmo
+_Full report: `research/gems/21-ophthalmology-neuro-diagnostics-specialty-care.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Revenio Group | REG1V (Nasdaq Helsinki) | ~EUR430M | 4/5 | VinaCapital Vietnam | iCare tonometer niche monopoly + Visionix OCT acquisition; 27% EBITDA margin; William Demant ~24%; 8-14x upside over 10yr; integration risk = entry window |
+| Quanterix | QTRX (Nasdaq) | ~$165-185M | 4/5 | Bioventix | Simoa platform 1000x ELISA sensitivity; FDA 510(k) filed multi-analyte AD blood test; CMS $897/test reimbursement set; David Walt buying aggressively; 35-90x asymmetry with real cash floor -- highest asymmetry this lane |
+| Carl Zeiss Meditec | AFX (Xetra) | ~EUR2.3B | 3.5/5 | VinaCapital Vietnam (watchlist) | OCT + refractive laser monopoly; Stiftung 59% (un-acquirable); China trough = entry; 4-5x on margin recovery to 16-20% EBITA; buy below EUR22-23 |
+| Glaukos | GKOS (NYSE) | ~$6.3B | 3.5/5 | Watchlist only | iDose TR first sustained-release intracameral glaucoma implant; $507M 2025 rev +32%; 2026 guide $620-635M; great business, not yet hidden; buy at $70-80 not $110+ |
+
+_Rejected: Harrow (HROW, 8x net debt/EBITDA, no durable moat), Nicox (binary pre-revenue pharma bet), Santen (Tokyo-only), Iridex (sub-scale), Hoya (Tokyo-only). Cross-lane note: Quanterix was previously rejected by Lane 23 (IVD lane) citing collapsed market cap and -73% op margin -- this lane's later research shows Q1-2026 +20% revenue, FY guidance $169-174M, FCF breakeven H2-2026, and FDA 510(k) filed. Position: monitor for FDA clearance event; micro-cap requires position-sizing discipline._
 
 ---
 
