@@ -1,13 +1,13 @@
 # GEM Hunt — Consolidated Candidate Master
 
-_Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, not financial advice. All figures sourced by the lane agents; treat valuations as as-of late-May-2026 and re-verify before acting._
+_Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with Lane 21. Informational synthesis, not financial advice. All figures sourced by the lane agents; treat valuations as as-of late-May/early-June-2026 and re-verify before acting._
 
 **Mandate recap:** Keep exactly **15 holdings**. Any new name must be good enough to *replace* a current pick. Hunt = "behind-the-scenes, indispensable, Micron/AMD-years-early" + fill the book's blind spots (US/non-EUR, energy/real assets, hard-tech, financials). No geographic limits.
 
 > This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
 
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Grid/electrification supplement (PLPC, Nexans, MYR Group, Littelfuse) · `21` Datacenter physical infrastructure (liquid cooling/thermal/power) · `22` ATE/test-measurement/burn-in (Mycronic, Aehr Test Systems, Cohu)
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Water filtration/desalination/PFAS (ERII, CWCO, GF, WTS, PRV)
 
 ---
 
@@ -205,7 +205,16 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 
 _Rejected: Lumentum (LITE) -- 7B, up 1,000%, fully discovered; Coherent (COHR) -- complex conglomerate; Credo (CRDO) -- discovered; POET -- pre-revenue; IQE -- near-breakeven; AXT -- too small/dilutive_
 
-## Lanes complete: 21 (Lane 21 added) ✅
+### ATE / Test measurement / burn-in (the QA layer of advanced chips) -- Lane 22
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Mycronic | MYCR.ST | ~$5.4B | 3.5/5 | India ETF or Secunet | Display mask-writer 100% monopoly + SLX semi ramp; 31x P/E; Bure Equity 23% anchor; verify T212 ISA |
+| Aehr Test Systems | AEHR | ~$2.9B | Watchlist | Bioventix (at $20-30) | Only AI WLBI+PPBI; WaferPak patent; 33x P/S at $82 = wrong entry; revisit on 60-70% pullback |
+| Cohu | COHU | ~$2.5B | 2.5/5 | Watchlist only | Handler leader + 60% recurring; cyclical recovery not compounder; wrong price at $52 |
+
+_Cross-lane note: Mycronic (MYCR) is a genuine lane-gap discovery — the mask-writing step is upstream of Lasertec (Lane 11 EUV inspection) and Photronics (Lane 11 photomask merchant). Cross-corroboration signal with Lane 11 and Lane 05 (AI chip complexity = more mask layers). Aehr rejected for entry at current prices; FormFactor (FORM, $9.7B) rejected as fully discovered (+398%/yr, 77x P/E, insider selling)._
+
+## Lanes complete: 22 (Lane 22 added 2026-06-01) ✅
 
 ---
 
