@@ -11,7 +11,7 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 > **Lane 22 added 2026-06-01:** German/DACH Mittelstand hidden champions (Xetra-native). Top gems: RATIONAL AG (RAA.DE) conv 4.5/5 — world #1 combi-steamer, 26.4% EBIT margin, 45%+ ROIC, 63% Meister family, 18 consecutive dividend hikes, at 28x P/E vs 35-50x historical, EM penetration story early; Nemetschek SE (NEM.DE) conv 4/5 — top-3 global AEC/BIM software, 95% recurring, 51% Nemetschek family, down 55% from peak to ~22-25x EV/EBITDA, AI risk overpriced; Mensch und Maschine (MUM.DE) conv 3.5/5 — hyperMILL 5-axis CAM software niche, founder Drotleff 45.7%, 10.3x EV/EBITDA, T212 CONFIRMED buyable; Hermle AG (MBH3 preferred) conv 3/5 — precision 5-axis CNC, 100% family voting, 7.1% yield at trough, preferred-share structure risk. Rejected: Pfeiffer Vacuum (domination agreement), Sixt (capital-heavy), Krones, ElringKlinger, Dermapharm, Bechtle, Datagroup.
 
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` GLP-1/obesity supply chain ex-API (Ypsomed YPSN, PolyPeptide PPGN, Stevanato STVN, Datwyler DAE)
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` GLP-1/obesity supply chain ex-API (Ypsomed YPSN, PolyPeptide PPGN, Stevanato STVN, Datwyler DAE) · `22` German/DACH Mittelstand hidden champions (RATIONAL RAA.DE, Nemetschek NEM.DE, MuM MUM.DE, Hermle MBH3)
 
 ---
 
@@ -115,13 +115,18 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 | IBA | IBAB.BR | ~€458M | 4/5 | Secunet | Dominant cyclotron maker, 0.82x EV/rev, founder-aligned, At-211 network; (best names SHINE/ITM/Curium are private) |
 | _ASP Isotopes_ | ASPI | ~$980M | 2.5/5 | India ETF | Only ex-Russia Yb-176 enrichment; pre-profit, heavy dilution |
 
-### Medtech / vet / dental
+### Medtech / vet / dental / hearing / ophthalmic (Lane 14 + Lane 23)
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
 |---|---|---|---|---|---|
 | LeMaitre Vascular | LMAT | ~$2.15B | 4/5 | Bioventix | Open-vascular niche monopoly, 71% GM, founder-CEO, net cash |
-| CellaVision | CEVI.ST | ~$270M | 3.5/5 | Bioventix/Vitec | 80% digital-cell-morphology share, data flywheel; growth vs 15% target gap |
+| CellaVision | CEVI.ST | ~$270M | 3.5/5 | Bioventix/Vitec | 80% digital-cell-morphology share, data flywheel; growth vs 15% target gap. **BLOCKED: CFD-only on T212 (UK ISA blocked)** |
 | Virbac | VIRP.PA | ~€3.2B | 3.5/5 | India ETF/Sofina | Animal-health pure play, Dick family 66% votes; fills animal-health blind spot |
 | Vetoquinol | VETO.PA | ~€843M | 3/5 | Sofina | 8.5% FCF yield, net cash, family 73% votes; growth stagnant |
+| **Demant** | WDH.CO | ~DKK 64B (~$9.3B) | **4/5** | Bioventix or Vietnam | Hearing-aid oligopolist, ~3,600 clinics, Diagnostics equipment lock-in, Philips OTC brand, ~30% discount to Sonova at 11x EV/EBITDA; William Demant Foundation ~60% (stable, not founder). Fresh name fills hearing blind spot |
+| Coltene Holding | CLTN.SW | ~CHF 285M | 3.5/5 | Bioventix or Secunet | Dental consumables (endodontic files, impression materials), Obrist family ~25%, ~9% FCF yield, cyclical trough entry; CHF FX drag structural |
+| Vimian Group | VIMIAN.ST | ~SEK 10B | 3.5/5 | India ETF | Vet-specialty roll-up (pharma/diagnostics/devices), acquiree-premium optionality; ~2x EBITDA leverage, not strongly founder-aligned |
+| Rayner Surgical | RNR.L | ~L145M | 3/5 | watchlist | Premium IOL, world oldest IOL maker (1949), AIM-listed, hydrophilic platform niche; too small/early for core 15 |
+| Phibro Animal Health | PAHC | ~$650M | 2.5/5 | watchlist | Livestock vet pharma, Jack Bendheim ~52%, avian flu vaccine optionality; thin margins (~9% EBITDA), revenue flat 3 years |
 
 ### Water / TIC / environmental (own: Veralto)
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
@@ -154,12 +159,17 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 | Kinsale Capital | KNSL | ~$7.0B | 4/5 | Secunet | E&S insurer, founder 9%, 76% combined ratio, 14% FCF yield |
 
 ### India single-name (to replace the passive ETF)
+
+**CRITICAL BUYABILITY UPDATE (2026-06-01): Lane 18 picks (Polycab, CDSL, Neuland, MCX) are ALL NSE-listed — NOT buyable in a UK ISA. ADRs (INFY/Infosys, HDB/HDFC Bank, IBN/ICICI, WIT/Wipro, RDY/Dr Reddys) confirmed NOT ISA-eligible by HL/TISA. LSE GDRs trade on ISM — not a recognised exchange for ISA purposes. The ONLY ISA-buyable India exposure is via LSE Main Market investment trusts. Full research: 21-india-isa-buyable-single-name.md**
+
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
 |---|---|---|---|---|---|
-| **Polycab** | POLYCAB.NS | ~$15B | 4.5/5 | India ETF | (see shortlist) |
-| CDSL | CDSL.NS | ~$3.1B | 4/5 | India ETF | Demat duopoly tollbooth on financialization |
-| Neuland Labs | NEULANDLAB.NS | ~$2.6B | 4/5 | India ETF | "Early Bachem" peptide/GLP-1 CDMO; lumpy |
-| MCX | MCX.NS | ~$9B | 3.5/5 | India ETF | 99% commodity-derivatives monopoly; wait for pullback |
+| **Ashoka India Equity** | AIE.L (LSE Main Market) | GBP384M mktcap | **4.5/5** | India ETF | White Oak Capital; no base management fee; 30% perf fee on alpha paid in shares (3yr lock); +82.6ppt alpha vs MSCI India IMI since Jul 2018; 0.20% OCF; SMID tilt; FTSE 250. **ISA: CONFIRMED.** Clear upgrade over IIND ETF. -3.8% discount. |
+| India Capital Growth | IGC.L (LSE Main Market) | GBP83M mktcap | 3/5 | India ETF | River Global/Gaurav Narain; small/mid cap India basket; -12% discount; 1.62% OCF (high); lagged BSE Midcap 9.6ppt in 2024; 5yr NAV +51.8% vs sector +27.3%. ISA eligible via LSE Main listing (Guernsey-incorporated; verify T212). |
+| abrdn New India | ANII.L (LSE Main Market) | GBP294M mktcap | 3/5 | India ETF | abrdn team; large-cap quality; -11% discount; 10yr +121%; 0.95% OCF; inconsistent. Marginal upgrade at current price. **ISA: CONFIRMED.** |
+| JPMorgan India G+I | JIGI.L (LSE Main Market) | GBP363M mktcap | 2/5 | — | 5.3% dividend yield; only India trust paying dividends. 10yr returns BELOW passive index. Not suitable for growth mandate. **ISA: CONFIRMED.** |
+| _Polycab, CDSL, Neuland, MCX_ | .NS tickers | — | BLOCKED | — | Best India businesses; NSE-only; NOT ISA-buyable |
+| _INFY, HDB, IBN, WIT, RDY ADRs_ | NYSE ADRs | — | BLOCKED | — | Confirmed NOT ISA-eligible by HL/TISA — ADR wrapper disqualifies |
 
 ---
 
@@ -218,7 +228,23 @@ _Rejected: Lumentum (LITE) -- 7B, up 1,000%, fully discovered; Coherent (COHR) -
 
 _Cross-lane note: Mycronic (MYCR) is a genuine lane-gap discovery — the mask-writing step is upstream of Lasertec (Lane 11 EUV inspection) and Photronics (Lane 11 photomask merchant). Cross-corroboration signal with Lane 11 and Lane 05 (AI chip complexity = more mask layers). Aehr rejected for entry at current prices; FormFactor (FORM, $9.7B) rejected as fully discovered (+398%/yr, 77x P/E, insider selling)._
 
-## Lanes complete: 24 (Lane 21-ophthalmo added 2026-06-01) ✅
+## Lanes complete: 26 (Lane 22 German/DACH Mittelstand + Lane 24-benelux added 2026-06-01) ✅
+
+---
+
+### Benelux niche compounders & holdcos (Netherlands/Belgium family-controlled) -- Lane 24-benelux
+_Full report: `research/gems/23-benelux-niche-compounders.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Aalberts Industries | AALB.AS (Euronext Amsterdam) | ~EUR3.1B | 4/5 | India ETF or Sartorius | Trough multiple (10x fwd P/E) on structural compounder; Building + Industry + Semicon; Jan Aalberts family 13.27%; EBITA recovery inflecting Q1-2026; 3-4x bull case in 10yr; CONFIRMED T212 ISA buyable |
+| Melexis | MELE.BR (Euronext Brussels) | ~EUR2.4-3.2B | 4/5 | India ETF or Eckert & Ziegler | Automotive IC sensor; 18 chips/car rising to 25-30 in EVs; Xtrion family 50%; trough earnings (revenue -10% in 2025); hist avg P/E 26.55x vs current ~22x on trough; CONFIRMED T212 ISA buyable |
+| Jensen Group | JEN.BR (Euronext Brussels) | ~EUR600-740M | 4/5 | VinaCapital Vietnam or Bioventix | Vista-pattern: global #1 laundry automation; Jensen family 99% voting control; zero debt; FY2025 revenue +19% record; EPS +45%; 10-13x P/E; AI/robotics (Inwatec) wave; VERIFY T212 ISA |
+| Lotus Bakeries | LOTB.BR (Euronext Brussels) | ~EUR7-8B | 3.5/5 | Sartorius/Bioventix (on dip) | Biscoff brand compounder; Boone/Stevens families 50%+ equity / 65%+ votes; ROIC ~15.7%; 16% hist brand CAGR; currently 41x P/E -- watchlist until ~28-32x fwd; CONFIRMED T212 ISA buyable |
+| Ackermans & Van Haaren | ACKB.BR (Euronext Brussels) | ~EUR8.9B | 3.5/5 | EXOR (watchlist) | Belgium's premier holdco (founded 1876); van Haaren family 33.34%; DEME offshore wind oligopoly; Delen EUR60B+ AUM; FY2025 net profit +29% to EUR592M; redundant with EXOR+Investor AB in current book |
+
+_Rejected: IMCD Group (ROIC ~8.5% below WACC ~9.3%, no founder alignment), BESI (already in Lane 05), WDP/Warehouses De Pauw (REIT), Sofina (already replaced in portfolio), D'Ieteren (glass-repair regulatory headwinds), Colruyt (retailer no moat), UCB (pharma binary risk)_
+
+_Cross-lane corroboration: Aalberts (AALB) overlaps Lane 06 grid/electrification (hydronic flow control for heat pumps) and Lane 11 semicap (ultra-pure fluid systems for ASML) -- two-lane corroboration elevates conviction. Melexis (MELE) overlaps Lane 03 Korea/Taiwan supply chain (both automotive semiconductor trough plays). Jensen Group overlaps Lane 20 automation/robotics._
 
 ---
 
