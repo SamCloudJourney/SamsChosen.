@@ -7,7 +7,7 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 > This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
 
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Datacenter physical infrastructure (liquid cooling/thermal/power)
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Grid/electrification supplement (PLPC, Nexans, MYR Group, Littelfuse) · `21` Datacenter physical infrastructure (liquid cooling/thermal/power)
 
 ---
 
@@ -70,13 +70,18 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 | BESI | BESI | ~€22B | 3/5 | Bachem | Hybrid-bonding monopoly; buy-on-dips, 75x fwd |
 | Fabrinet | FN | ~$23B | 3/5 | India ETF | Optical-interconnect precision mfg; Nvidia/Cisco concentration |
 
-### Grid / electrification (blind spot)
+### Grid / electrification (blind spot) — lanes 06 + 21
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
 |---|---|---|---|---|---|
 | Powell Industries | POWL | ~$3.2B | 4/5 | India ETF | Custom switchgear, $1.8B backlog, 33% ROIC, net cash, only 8 analysts |
-| Arteche | ART.MC | ~€1.8B | 3.5/5 | Secunet | Top-3 instrument transformers, 70-country cert moat; +339% run, watch entry |
-| Voltamp | VOLTAMP.NS | ~$1.15B | 3.5/5 | India ETF | 40% India dry-type share; promoter stake fell 50→30% (investigate) |
-| NKT | NKT.CO | ~€7.9B | 3/5 | Vietnam (part) | HVDC cable, €10.2B backlog; large, capex-heavy |
+| Arteche | ART.MC | ~EU2.3B | 3.5/5 | Secunet | Top-3 instrument transformers, 70-country cert moat; +339% run, watch entry. Confirmed T212 buyable (ART.ES). |
+| Voltamp | VOLTAMP.NS | ~$1.15B | 3.5/5 | India ETF | 40% India dry-type share; promoter stake fell 50->30% (investigate). NSE-only, NOT T212 buyable. |
+| NKT | NKT.CO / NKT.DE | ~EU7.5B | 3/5 | Vietnam (part) | HVDC cable, EU10.2B backlog, 2030 targets EBITDA >EU900M, ROCE >22%; confirmed T212 buyable via Xetra NKT.DE |
+| Preformed Line Products | PLPC | ~$1.8B | 3/5 | India ETF / watchlist | Invisible grid hardware, 47% Ruhlman family, $232M backlog +22%, Q1 2026 +19%; 36x fwd PE stretched. Full report: lane 21 |
+| Nexans SA | NEX.PA | ~EU3.5B | 3/5 | VinaCapital / watchlist | HVDC cable #2; EU7.7B backlog; 12x EV/EBITDA vs Prysmian 18x; no founder alignment. Euronext Paris T212 buyable. Full report: lane 21 |
+| MYR Group | MYRG | ~$2.7B | 3/5 | India ETF / watchlist | Top-3 US specialty electrical contractor; MSA model; $2.82B backlog; record 2025 rev $3.66B. Thin margins, low insider. NASDAQ T212 buyable. Full report: lane 21 |
+| _Littelfuse_ | LFUS | ~$4.5B | 2/5 | — | Circuit protection evolving to utility relays; 55x PE — watch-only |
+| _Atkore / Korean transformer trio_ | REJECT | — | — | — | Atkore: moat-free commodity. Korean names KRX-only, not T212 buyable |
 
 ### Energy / real-asset royalties (blind spot — zero owned)
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
