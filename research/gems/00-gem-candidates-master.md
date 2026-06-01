@@ -232,6 +232,15 @@ _Cross-lane note: Mycronic (MYCR) is a genuine lane-gap discovery — the mask-w
 
 ---
 
+### German / DACH Mittelstand hidden champions (Xetra-native) -- Lane 22
+_Full report: `research/gems/22-german-dach-mittelstand-hidden-champions.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| **RATIONAL AG** | RAA.DE | ~EUR 7.8B | 4.5/5 | India ETF or VinaCapital | World #1 combi-steamer, 26.4% EBIT, 45%+ ROIC, 63% Meister family, 28x P/E vs 35-50x history; EM wave early |
+| Nemetschek SE | NEM.DE | ~EUR 8.0B | 4/5 | VinaCapital or Secunet | Top-3 global AEC/BIM software, 95% recurring, 51% family, -55% from peak, ~22-25x EV/EBITDA |
+| Mensch und Maschine | MUM.DE | ~EUR 0.63B | 3.5/5 | Bioventix or watchlist | hyperMILL CAM monopoly, founder 45.7%, 10.3x EV/EBITDA, T212 CONFIRMED buyable |
+| _Hermle AG (preferred)_ | MBH3.DE | ~EUR 0.76B | 3/5 | Watchlist | 100% family voting, 7.1% yield, precision CNC trough; verify T212 |
+
 ### Benelux niche compounders & holdcos (Netherlands/Belgium family-controlled) -- Lane 24-benelux
 _Full report: `research/gems/23-benelux-niche-compounders.md`_
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
