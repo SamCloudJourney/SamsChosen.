@@ -6,8 +6,10 @@ _Compiled 2026-05-31 from 20 parallel research lanes; updated 2026-06-01 with La
 
 > This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
 
+> **Lane 21 added 2026-06-01:** GLP-1 / obesity drug supply chain (ex-API) — auto-injectors, fill-finish, elastomers, packaging. Top gems: Ypsomed (YPSN, SIX) conv 4/5; PolyPeptide Group (PPGN, SIX) 3.5/5; Stevanato Group (STVN, NYSE) 3.5/5; Datwyler (DAE, SIX) 3/5. Gerresheimer HARD REJECTED (active BaFin accounting fraud probe). Cross-lane signal: PolyPeptide corroborated by Lane 13. Best swap: Sartorius Stedim or India ETF.
+
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Water filtration/desalination/PFAS (ERII, CWCO, GF, WTS, PRV)
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` GLP-1/obesity supply chain ex-API (Ypsomed YPSN, PolyPeptide PPGN, Stevanato STVN, Datwyler DAE)
 
 ---
 
@@ -214,7 +216,20 @@ _Rejected: Lumentum (LITE) -- 7B, up 1,000%, fully discovered; Coherent (COHR) -
 
 _Cross-lane note: Mycronic (MYCR) is a genuine lane-gap discovery — the mask-writing step is upstream of Lasertec (Lane 11 EUV inspection) and Photronics (Lane 11 photomask merchant). Cross-corroboration signal with Lane 11 and Lane 05 (AI chip complexity = more mask layers). Aehr rejected for entry at current prices; FormFactor (FORM, $9.7B) rejected as fully discovered (+398%/yr, 77x P/E, insider selling)._
 
-## Lanes complete: 22 (Lane 22 added 2026-06-01) ✅
+## Lanes complete: 23 (Lane 23 added 2026-06-01) ✅
+
+---
+
+### Molecular & in-vitro diagnostics (razor-and-blade installed base) -- Lane 23
+_Full report: `research/gems/21-molecular-invitro-diagnostics.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| DiaSorin | DIA.MI (Borsa Italiana) | ~EUR3.4B | 3.5/5 | India ETF / watchlist | 45,000+ LIAISON instruments, 140+ proprietary assays, Denegri family ~46%/60% votes, 10x EBITDA trough; Luminex margin recovery catalyst H2 2026 |
+| bioMerieux | BIM.PA (Euronext Paris) | ~EUR8.6-9.9B | 3.5/5 | India ETF | BIOFIRE FilmArray (AMR/syndromic PCR leader), VITEK/BACT-ALERT, Merieux family >50%/65% votes, 10x EBITDA trough; GO•28 500bps margin expansion plan |
+| Veracyte | VCYT (Nasdaq common) | ~$2.7B | 3.5/5 | VinaCapital Vietnam | NCCN-ONLY Decipher Prostate test (clinical mandate), Afirma thyroid, GRID 800k-profile data moat, 70% GM, FCF positive, MRD expansion; no founder alignment |
+| Rapid Micro Biosystems | RPID (Nasdaq common) | ~$30-40M est | 2.5/5 watchlist | -- | "Next Vista": pharma sterility testing automation; Growth Direct razor-blade; 190 placements, +30% recurring Q1-26; pre-EBITDA, revisit at 400+ placements |
+
+_Rejected: Sysmex (6869.T, Tokyo-only), Meridian Bioscience (delisted-private), Diagnostica Stago (private Apr-2026), Neogen (negative ROIC), Quanterix (market cap collapsed to ~$130M, -73% op margin), Genetic Signatures (ASX-only), IDEXX ($28B fully discovered), Hologic ($16B fully covered). Cross-lane: bioMerieux and DiaSorin both corroborate the "European family-controlled niche-monopoly at trough valuation" theme seen in Lanes 13/14/15._
 
 ---
 
@@ -299,6 +314,19 @@ _Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). 
 - **Net: marginal capital → the ballast sleeve (gold/Brookfield), not a 4th software clone.**
 
 
+### UK LSE/AIM hidden-champion compounders (Lane 21 — 2026-06-01)
+_Full report: `research/gems/21-uk-lse-aim-hidden-champions.md`_
+| Name | Ticker | Venue | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|---|
+| Cerillion | CER | AIM | ~£500M | 4/5 | Bioventix | ROCE 42%, CEO Louis Hall 20.1% stake, 50.9% EBITDA margin, deep BSS/OSS switching costs, 5-yr CAGR 17%, backorder +21% |
+| Ashtead Technology | AT. | LSE Main | ~£285M | 4/5 | Sartorius Stedim | ROIC >24%, 12x P/E (vs 17x peers), £203M revenue +21%, 85% fleet dual-use O&G/renewables, offshore wind supercycle |
+| Beeks Financial Cloud | BKS | AIM | ~£156M | 3.5/5 | Secunet | Founder McArthur 30.7%, proximity-cloud-inside-exchanges moat, £32.8M ARR +15%, 3 authorised global providers; verify EBIT margins |
+| Tristel | TSTL | AIM | ~£183M | 3.5/5 | Bioventix | FDA OPH clearance received Nov-2025 (US step-change), 12% 13yr CAGR, ClO2 regulatory moat 40+ countries, net cash, ≥25% EBITDA target |
+| Spectra Systems | SPSY | AIM | ~£75M | 3/5 | Watchlist | Founder Lawandy CEO 30yr (~8% stake), banknote central-bank lock-in, 4M revenue +31%, adj. EBITDA +83%, forward PE ~7x but binary sensor-contract renewal risk |
+
+_Cross-lane: Cerillion corroborated by Lane 17 (financial infra); Ashtead Technology new find corroborating Lanes 06+07; Tristel new find corroborating Lanes 14+15._
+_Rejected: Trifast (commodity margins ~6.8% EBIT), discoverIE (ROE 8%), Luceco (hardware commodity), Alpha FMC (people-dependent consulting), Solid State (thin PBT margins ~4%), SRT Marine (government-contract lumpy)._
+
 ### Datacenter physical infrastructure (liquid cooling / thermal / power) — _new lane 21_
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
 |---|---|---|---|---|---|
@@ -324,3 +352,15 @@ _Full report: `research/gems/22-advanced-semiconductor-packaging.md`_
 
 _Rejected from lane 21: Asetek (subscale, loss-making, T212 availability uncertain), AEIS (WFE-cycle primary), Comfort Systems (large-cap construction services), EnerSys (growth too slow), Belden (indirect exposure), Legrand (large-cap, no founder)._
 
+
+### CDMO / CRO / pharma services — Lane 23 [2026-06-01]
+Full report: research/gems/23-cdmo-cro-pharma-services.md. Non-overlapping with Bachem. Medpace cross-confirmed from Lane 13.
+
+| Name | Ticker | Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Siegfried Holding | SFZN.SW (SIX) | CHF 3.15bn | 3.5/5 | India ETF/Vietnam | Top-3 small-mol CDMO; BIOSECURE reshoring; Noramco closed May-26; GMP lock-in moat; physical-asset floor; FCF depressed (capex cycle, normalise 2027). ISA: Yes |
+| PolyPeptide Group | PPGN.SW (SIX) | CHF 1.26bn | 4/5 tactical | India ETF | GLP-1 second-source CDMO + oligo emerging; Paulsen 56%; PE review live (EQT/KKR Apr-26); bid scenario +28-85%. ISA: Yes |
+| Simulations Plus | SLP (Nasdaq) | ~$314M | 3.5/5 | India ETF satellite | FDA-embedded PBPK/ADMET software; GastroPlus in NDA filings; Woltosz ~10%; zero debt; P/FCF ~13x; Lilly partnership. ISA: Yes |
+| Medpace (cross-ref) | MEDP (Nasdaq) | ~$12.9bn | 4/5 | India ETF/Vietnam | Founder 21%; small-biotech CRO; $682M FCF; trough entry. DOUBLE-LANE: Lane 13 + Lane 23 |
+
+Key rejections: EUROAPI (-91% mkt cap, 0 buy analysts, revenues declining); Emergent BioSolutions ($1.4bn debt, CDMO subscale); Evotec (flat revenue, restructuring); Fortrea (spinoff debt); Samsung Biologics/WuXi/Syngene (ISA-blocked).
