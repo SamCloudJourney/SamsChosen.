@@ -293,6 +293,24 @@ _Rejected: Sysmex (6869.T, Tokyo-only), Meridian Bioscience (delisted-private), 
 
 ---
 
+### Canadian high-quality compounders — UK ISA buyable (NYSE/Nasdaq/LSE only) — Lane 23
+_Full report: `research/gems/23-canadian-compounders-isa-buyable.md` | Date: 2026-06-01_
+_Buyability pre-screen: NYSE/Nasdaq common = GREEN; TSX-only = RED (view-only); OTC = AMBER (verify). Topaz/PrairieSky/Intact/CSU/Topicus all TSX-only — EXCLUDED. Kinaxis (KXSCF OTC) amber._
+
+| Name | Ticker | ~Cap | Conv | ISA | Replaces | Note |
+|---|---|---|---|---|---|---|
+| **Brookfield Corporation** | BN, NYSE | ~$112B | 4/5 | Green | VinaCapital Vietnam or EXOR | "EXOR for real assets + AI-infra fee machine"; $1T+ AUM, >$600B fee-bearing capital; intrinsic value $66 vs price $46 (~30% discount); mgmt 2030 target $140/share; Flatt ~4.4% stake ($4.9B); three-engine model (asset mgmt + wealth solutions + principal investing); 25% CAGR DE/share target 2026-2030; CONFIRMED T212 buyable |
+| Wheaton Precious Metals | WPM, NYSE+LSE | ~$66B | 3.5/5 | Green | VinaCapital Vietnam | World's premier streaming company; 43 PMPAs, 18 countries; Q1 2026 revenue $901M record (+92%), OCF $766M; no debt; BHP Antamina $4.3B deal; forward P/E 22.9x; enter sub-$110 for better risk/reward; CONFIRMED T212 buyable both lines |
+| Fairfax Financial | FRFHF, OTC | ~$37B | 3.5/5 | AMBER — verify ISA | EXOR | "Canadian Berkshire"; Prem Watsa CEO since 1985, ~40%+ economic interest; 15% BV/share CAGR target; $70.7B investment portfolio; Q1 2026 adj. op. income $1.21B (+77%); book value $1,250/share; P/B 1.35x vs Berkshire 1.7x; OTC ISA wrap UNCONFIRMED — verify T212 ISA tab before buying |
+| **Boyd Group Services** | BGSI, NYSE | ~$3-5B | 3.5/5 | Green | VinaCapital Vietnam | Largest non-franchised collision repair N. America; 1,301 locations post-Joe Hudson's; DRP national network flywheel; OEM certification moat; NYSE-listed ONLY since Oct 2025 (18 analysts); Q1 2026 revenue $997M record (+28%), Adj. EBITDA +51.9%; Terry Smith (founder) executive chairman; down 25% from $183 peak = entry; "Vista pattern" candidate; CONFIRMED T212 buyable |
+| Franco-Nevada | FNV, NYSE | ~$44B | 3/5 | Green | WPM alternative | 573+ royalties/streams, 44 countries; zero debt ($3.1B cash); FY2025 revenue $1.82B (+64%); 44x P/E — expensive; Harquail stepping down (transition risk); prefer WPM if choosing one royalty name; watchlist |
+
+**TSX-only REJECTED (record):** Topaz (TPZ.TO), PrairieSky (PSK.TO), Intact Financial (IFC.TO), Goeasy (GSY.TO — credit blowup Q1 2026 net loss), Tourmaline (TOU.TO), Kinaxis (KXSCF — OTC, verify ISA).
+**NYSE/Nasdaq rejected (quality failure):** OpenText (OTEX — $5.1B debt, insider selling), RB Global (RBA — 6.1% ROIC), Brookfield sub-vehicles BIP/BEPC/BBUC (utility leverage / PE cyclical), Barrick Gold (operator risk).
+**Cross-lane corroboration:** BN and WPM independently flagged in Part 11 (Ballast Hunt) — two-wave confirmation. Boyd Group (BGSI) is a NEW name first-surfaced here.
+
+---
+
 ## Emerging swap thesis (preliminary — pending final 4 lanes + your input)
 
 The data points to a clean way to **upgrade the book to "best-15" while fixing the blind spots the stress-test flagged**, mostly by retiring the two passive/weakest sleeves:
