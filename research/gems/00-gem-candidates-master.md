@@ -253,3 +253,20 @@ _Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). 
 - **Niche-monopoly slot → KEEP Bioventix** (4/5). Tristel = quality/alignment downgrade (US still ~0.2% of revenue); CellaVision = best business but NOT buyable on T212 (CFD-only, ISA-prohibited).
 - **EM/diversifier slot → KEEP iShares MSCI India UCITS ETF** (4/5). dLocal is good but swapping it for India destroys the only diversifier AND doesn't deliver India (dLocal ~7% Asia/Africa, mostly LatAm). If wanted, own dLocal ~3-4% funded from the VMS cluster (Constellation/Topicus), NOT from India.
 - Net: both adjudications say KEEP. Only confirmed change to the book remains Sofina→Eurofins. dLocal = optional future satellite from the VMS cluster.
+
+---
+
+## WAVE 5 — BALLAST HUNT (PART 11) + dLOCAL/VITEC ADJUDICATION (PART 12) [2026-05-31]
+
+**Ballast (the missing regime-hedge) — category ranking:** Trend-following > Physical gold > Real-asset royalty/allocator > Miners/infra/midstream > ag/uranium/REITs. (REITs & inflation-linked bonds FAIL — they fall WITH the growth book in a rate shock.)
+- **Purest hedge:** physical gold **SGLN/GLDA (LSE, ~0.12%)** + optional trend **DBMG (LSE UCITS — verify on T212)**.
+- **DNA-fit real-asset + yield:** **Brookfield BN (NYSE)** ("EXOR for real assets") or **Wheaton WPM (LSE GBP line)**.
+- **Inflation/industrial alternatives:** Rio Tinto (LSE), Vinci (Paris), Williams (NYSE), Nutrien (NYSE).
+- **Strongest construction:** gold core + a BN/Wheaton real-asset leg, ~4-6% total, funded by trimming dLocal (→4%) + the VMS cluster — NOT from India.
+
+**dLocal vs Vitec — VERDICT: keep JUST dLocal, trim to ~4%; do NOT re-add Vitec.** (4 angles + adjudicator agree on diversification; only the pure-quality lens favours Vitec.)
+- Vitec = redundant 4th VMS clone (smaller/more-saturated than CSU); re-adding LOWERS effective-bets. Great business, wrong fit.
+- dLocal: keep but right-size 6%→4% (take-rate halved 2.0%→0.84%; 61% top-10 concentration; permanent-impairment EM-FX tail; founder-alignment was overstated — GA ~21% selling). BUT Q1'26 trending favourably (GP +40% > guide; Muddy Waters dismissed-on-appeal Apr-2026).
+- Buyability: Vitec IS real-share buyable on T212 (you hold Investor AB on same Stockholm exchange — two agents' "CFD-only" claim is wrong). Reason to skip = redundancy, not access.
+- Honest dissent: a deliberate ~36%-software book could keep both (Vitec 5/dLocal 4, fund CSU−1/Topicus−1/Bioventix−1) — but that's a philosophy choice against the diversification mandate.
+- **Net: marginal capital → the ballast sleeve (gold/Brookfield), not a 4th software clone.**
