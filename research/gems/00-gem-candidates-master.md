@@ -59,8 +59,8 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 |---|---|---|---|---|---|
 | **DISCO** | 6146.T | ~$52B | 4/5 | India ETF | (cross-confirmed) |
 | Lasertec | 6920.T | ~$22B | 4/5 | Secunet | 100% EUV actinic mask-inspection monopoly; order trough = entry; lumpy |
-| Photronics | PLAB | ~$2.2B | 3/5 | India ETF | Only US-capable merchant photomask maker, 10x P/E, ~12% OCF yield |
-| _Camtek, BESI(here), UCT, Ichor_ | — | — | pass | — | Priced for perfection or commoditized |
+| Photronics | PLAB | ~$2.2B | 3.5/5 | India ETF | Only US-capable merchant photomask maker, ~10x P/E, ~12% OCF yield, 26% cash/mcap; upgraded — see Lane 22 |
+| _Camtek, BESI(here), UCT, Ichor_ | — | — | pass/watch | — | Priced for perfection or commoditized (Lane 11 view); BESI/Camtek revisited in Lane 22 with updated conviction |
 
 ### AI / compute picks-and-shovels (blind spot)
 | Name | Ticker | ~Cap | Conv | Replaces | Note |
@@ -286,6 +286,21 @@ _Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). 
 | Carel Industries | CRL.MIL | ~€2.6–3.1B | 4/5 | India ETF / Bioventix | Precision HVAC/R controls — "nervous system" of liquid cooling. Founder family 34% share / 46% votes. 19.8% EBITDA margin, re-accelerating. Almost zero English coverage. **ISA: Likely yes (Borsa Italiana — verify T212)** |
 | AAON Inc | AAON.Nasdaq | ~$8–11B | 3.5/5 | India ETF / Bioventix | Custom HVAC + BASX Labs liquid cooling. Founder Norman Asbjornson ~16%, total insiders ~17%. BASX Q4 +139% YoY. Backlog $1.32B. Expensive (47x EV/EBITDA) — wait for pullback. **ISA: Yes (Nasdaq)** |
 | nVent Electric | NVT.NYSE | ~$17.8B | 3/5 | Watchlist | Enclosures → liquid cooling pivot. Q3 2025 organic orders +65%; $2.3B backlog 3x YoY. NVIDIA DGX SuperPOD PDU spec. No founder. 24.5x EV/EBITDA. **ISA: Yes (NYSE)** |
+
+
+### Advanced semiconductor packaging — chiplets · hybrid bonding · 2.5D/3D · HBM substrates · materials/equipment (Lane 22)
+_Full report: `research/gems/22-advanced-semiconductor-packaging.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Photronics | PLAB (Nasdaq) | ~$2.2B | 3.5/5 | India ETF | Only US high-end merchant photomask maker; ~10x P/E, 26% cash/mcap, zero debt, $97M buybacks FY2025; CHIPS Act beneficiary; ISA: Yes |
+| SUSS MicroTec | SMHN (Xetra) | ~€1.76B | 3.5/5 | India ETF / Secunet | Sole TSMC CoWoS-L lithography supplier, up to 85% share in niche sub-segments; 2030 targets imply 3-4x earnings growth; trough-entry; ISA: Yes |
+| Camtek | CAMT (Nasdaq) | ~$5-6B | 3.5/5 | India ETF / Vietnam | HBM4 "reference tool" for 3D metrology; $845M net cash (>14% of mcap); double-digit growth 2026; ISA: Likely yes — verify |
+| Kulicke & Soffa | KLIC (Nasdaq) | ~$5.3B | 3/5 | India ETF | Wire bond leader + TCB pivot; >$100M TCB revenue in FY2026E; $448M net cash; CEO transition overhang; ISA: Yes |
+| BESI | BESI (Euronext Amsterdam) | ~€22.5B | 3/5 | Bachem (dips only) | Hybrid bonding monopolist; founder Blickman in seat; AMAT 9% stake; 45% ROIC; 63x fwd P/E = fully priced; ISA: Confirmed Yes |
+| _Ajinomoto_ | 2802.T | — | 5/5 BLOCKED | — | ~95% ABF monopoly, 50%+ margins on AI boom — Tokyo-only, ISA-blocked. Would be top-3 gem globally if accessible. |
+| _Ibiden/Unimicron_ | Tokyo/Taiwan | — | BLOCKED | — | ABF substrate duopoly; ISA-inaccessible |
+
+**Cross-corroboration:** BESI (3x lanes: 05 + 11 + 22); Photronics (2x lanes: 11 + 22); Camtek (2x lanes: 20 + 22). Strongest double-confirmed buyable name = PLAB (cheap oligopoly at trough valuation).
 
 _Rejected from lane 21: Asetek (subscale, loss-making, T212 availability uncertain), AEIS (WFE-cycle primary), Comfort Systems (large-cap construction services), EnerSys (growth too slow), Belden (indirect exposure), Legrand (large-cap, no founder)._
 
