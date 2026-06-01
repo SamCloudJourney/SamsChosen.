@@ -454,3 +454,22 @@ _Full report: `research/gems/21-glp1-obesity-supply-chain-ex-api.md`_
 **HARD REJECT: Gerresheimer (GXI.DE, Xetra)** - active BaFin accounting fraud probe Aug 2025; APAS investigating KPMG; annual report postponed to June 2026; EUR 240M impairments; CFO resigned; stock -80% from 2023 peak. Do not invest.
 
 **Cross-lane:** PolyPeptide corroborated by Lane 13 (Life-science tools/CDMO). Biosecure Act moat for Western peptide CDMOs confirmed by both Lane 13 and Lane 21. Fill-finish undersupply confirmed by Lane 13 + industry data.
+
+
+---
+
+### TIC / Compliance / Assurance Niches (Lane 25 -- non-overlapping with Eurofins) [2026-06-01]
+_Full report: research/gems/25-tic-compliance-assurance.md_
+_Sub-themes: product-safety certification, accredited calibration, NDT/asset-integrity, multi-technical maintenance assurance, precision measurement instruments. Structural waves: regulatory cascade (CSRD/DORA/Cyber Resilience Act/FDA/FAA), grid-hardening for AI data centers, calibration-as-mandatory-infrastructure, NDT for aging assets, Europe energy-transition multi-tech services._
+
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| UL Solutions | ULS (NYSE) | ~$18-20B | 4/5 | Eurofins | UL Mark embedded in US building codes, OSHA, retailer specs; 131yr brand moat; 40,000+ active certs; cybersecurity/IoT cert surging; EUR575M Eurofins E&E acquisition; adj EBITDA $792M +20.7%; FCF $403M; margin 25.9%+expanding. Non-profit owner 94% votes = governance risk but mission-stable. ISA: CONFIRMED T212 (NYSE common) |
+| Transcat | TRNS (Nasdaq) | ~$720M | 3.5/5 | VinaCapital Vietnam | US #1 accredited calibration roll-up; 68 consecutive quarters YoY service revenue growth; CalTrak lock-in; ISO 17025 accreditation barrier; $332M revenue FY2026 (+19%); CEO transition March 2026 (flag); post-Essco leverage watch. ISA: CONFIRMED T212 |
+| Mistras Group | MG (NYSE) | ~$480M | 3/5 | VinaCapital Vietnam | US NDT leader; legally mandated asset integrity (LNG, nuclear, pipelines, bridges); $724M revenue; $91M record adj. EBITDA +10.5%; 6.8x EV/EBITDA (50-60% discount to peers); founder passed Feb 2025 = orphan discount; FCF only $3.8M (flag). ISA: CONFIRMED T212 |
+| SPIE SA | SPIE.PA (Euronext) | ~EUR9.5B | 3.5/5 | VinaCapital Vietnam | Europe leading multi-technical services (electrical, HVAC, ICT, maintenance); EUR10.4B revenue +4.8%; EUR524M FCF, 108% conversion; 1.3x leverage; 9-10x EV/EBITDA (deeply cheap); 50% EU Taxonomy-aligned; employee-owned 7.8% (largest holder group); data-center/grid electrification wave. ISA: CONFIRMED T212 |
+| Ralliant Corp | RAL (NYSE) | ~$6.9B | 3.5/5 | VinaCapital Vietnam / Sartorius | June 2025 spinoff from Fortive; owns Tektronix (every engineering lab on earth), Qualitrol (utility transformer monitoring), Gems Sensors; 2,200+ patents; $303M trailing FCF; orphan-sold to $37 Feb 2026, now $62; 20.8% adj. EBITDA margin; 9% organic growth Q1 2026. ISA: LIKELY T212 (verify new listing) |
+
+_Cross-lane corroboration: Ralliant (RAL) corroborated by Lane 11 (Semicap Equipment) and Lane 20 (Automation/Robotics). SPIE (SPIE.PA) corroborated by Lane 06 (Grid/Electrification). UL Solutions (ULS) corroborated by Lane 16 (Cybersecurity/Identity) and Lane 05 (AI/Compute)._
+
+_Rejected: Applus (delisted 2024), Kiwa/RINA/Nemko/Normec/Cotecna/TUV/DEKRA (all private), ALS Limited (ASX-only), Element Materials Technology (private), Coda Octopus (microcap $138M), TIC Solutions (levered post-NV5 rollup, JPM Underweight), Bureau Veritas/SGS/Intertek (large-cap, widely covered)._
