@@ -7,12 +7,14 @@ _Compiled 2026-05-31 from 20 parallel research lanes. Informational synthesis, n
 > This file is the **index**. Each lane has a full detailed report (moats, sourced economics, risks, valuation, sources) in its own file — this is a living research base we keep adding to.
 
 **Detailed per-lane reports:**
-`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics
+`01` Nordic/EU serial acquirers · `02` Japan niche leaders · `03` Korea/Taiwan supply chain · `04` US small/mid compounders · `05` AI/compute picks-and-shovels · `06` Grid/electrification · `07` Energy/real-asset royalties · `08` Critical minerals/mining · `09` Defense/sovereignty · `10` Aerospace/space · `11` Semicap equipment/materials · `12` Radiopharma/isotopes · `13` Life-science tools/CDMO · `14` Medtech/vet/dental · `15` Water/TIC/environmental · `16` Cybersecurity/identity · `17` Financial infrastructure · `18` India single-name · `19` SE Asia/frontier/LatAm · `20` Automation/robotics · `21` Datacenter physical infrastructure (liquid cooling/thermal/power)
 
 ---
 
 ## ⭐ Cross-lane signal: candidates surfaced by MORE THAN ONE independent lane
 
+- **Modine Manufacturing (MOD)** — independently touched by Lane 06 (grid/electrification), Lane 20 (automation/robotics), AND Lane 21 (datacenter physical infrastructure). Triple-lane corroboration for a datacenter thermal pure-play with a $4B confirmed LTA. **Conviction 4/5.**
+- **nVent Electric (NVT)** — surfaced in Lane 06 (grid/electrification) and Lane 21 (datacenter physical infrastructure). Cross-corroborated liquid cooling / datacenter power play.
 - **DISCO Corp (6146.T)** — independently chosen as a top pick by BOTH the *Japan niche* and *semicap equipment* lanes. ~70–80% monopoly in wafer dicing/grinding, 45–54% ROIC, Sekiya family ~14%, net cash. Strongest cross-corroborated gem in the entire hunt. **Conviction 4/5.**
 - **The iShares MSCI India ETF is the near-universal "replace me" target** — ~14 of 16 lanes nominated it as the weakest slot (passive, no moat, no owner alignment). Strong consensus that a single high-quality name should replace the passive India sleeve.
 - **VinaCapital Vietnam, Bioventix, Secunet, Sartorius** are the next most-nominated "replaceable" holdings.
@@ -270,3 +272,15 @@ _Full reports: PART 9 of `research/00-UNIFIED-RESEARCH-DOSSIER.md` (38 agents). 
 - Buyability: Vitec IS real-share buyable on T212 (you hold Investor AB on same Stockholm exchange — two agents' "CFD-only" claim is wrong). Reason to skip = redundancy, not access.
 - Honest dissent: a deliberate ~36%-software book could keep both (Vitec 5/dLocal 4, fund CSU−1/Topicus−1/Bioventix−1) — but that's a philosophy choice against the diversification mandate.
 - **Net: marginal capital → the ballast sleeve (gold/Brookfield), not a 4th software clone.**
+
+
+### Datacenter physical infrastructure (liquid cooling / thermal / power) — _new lane 21_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Modine Manufacturing | MOD.NYSE | ~$14.7B | 4/5 | India ETF / Eurofins | Airedale by Modine — $1.1B DC revenue (+73%), $4B LTA 2027–29. Forward P/E ~36x, EV/EBITDA ~23x. CEO-led (not founder). Triple cross-lane. **ISA: Yes (NYSE)** |
+| Carel Industries | CRL.MIL | ~€2.6–3.1B | 4/5 | India ETF / Bioventix | Precision HVAC/R controls — "nervous system" of liquid cooling. Founder family 34% share / 46% votes. 19.8% EBITDA margin, re-accelerating. Almost zero English coverage. **ISA: Likely yes (Borsa Italiana — verify T212)** |
+| AAON Inc | AAON.Nasdaq | ~$8–11B | 3.5/5 | India ETF / Bioventix | Custom HVAC + BASX Labs liquid cooling. Founder Norman Asbjornson ~16%, total insiders ~17%. BASX Q4 +139% YoY. Backlog $1.32B. Expensive (47x EV/EBITDA) — wait for pullback. **ISA: Yes (Nasdaq)** |
+| nVent Electric | NVT.NYSE | ~$17.8B | 3/5 | Watchlist | Enclosures → liquid cooling pivot. Q3 2025 organic orders +65%; $2.3B backlog 3x YoY. NVIDIA DGX SuperPOD PDU spec. No founder. 24.5x EV/EBITDA. **ISA: Yes (NYSE)** |
+
+_Rejected from lane 21: Asetek (subscale, loss-making, T212 availability uncertain), AEIS (WFE-cycle primary), Comfort Systems (large-cap construction services), EnerSys (growth too slow), Belden (indirect exposure), Legrand (large-cap, no founder)._
+
