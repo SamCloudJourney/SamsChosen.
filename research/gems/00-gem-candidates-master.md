@@ -364,3 +364,41 @@ Full report: research/gems/23-cdmo-cro-pharma-services.md. Non-overlapping with 
 | Medpace (cross-ref) | MEDP (Nasdaq) | ~$12.9bn | 4/5 | India ETF/Vietnam | Founder 21%; small-biotech CRO; $682M FCF; trough entry. DOUBLE-LANE: Lane 13 + Lane 23 |
 
 Key rejections: EUROAPI (-91% mkt cap, 0 buy analysts, revenues declining); Emergent BioSolutions ($1.4bn debt, CDMO subscale); Evotec (flat revenue, restructuring); Fortrea (spinoff debt); Samsung Biologics/WuXi/Syngene (ISA-blocked).
+
+---
+
+## LANE 21-SPECIALTY — Specialty Insurance / Reinsurance / E&S Niche Underwriters [2026-06-01]
+Full report: research/gems/21-specialty-insurance-reinsurance.md
+The current 15 has ZERO insurance/reinsurance exposure. This lane fills that blind spot with genuinely uncorrelated, owner-operated financial compounders.
+
+| Name | Ticker | Venue | ~Cap | 2025 CR | 2025 ROE | BVPS Growth | Insider% | P/BV | ISA | Replaces | Conv |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Intl General Insurance | IGIC | Nasdaq | ~.1B | 85.9% | 18.6% | +13.9% | 41% Jabsheh fam | ~1.5x | Likely VERIFY T212 | Eurofins or add | 4/5 |
+| Lancashire Holdings | LRE | LSE | ~.75B | 93.1% | 20.9% | Flat (returned) | Low | ~1.26x DBVS | CONFIRMED LSE buyable | Eurofins 3% | 4/5 |
+| Hamilton Insurance Grp | HG | NYSE | ~.5B | 92.9% | 22.4% | +24.2% | Unconfirmed | ~1.15x | Likely VERIFY T212 | Eurofins or add | 4/5 |
+| Bowhead Specialty | BOW | NYSE | ~13M | 96.5% | 13.6% | +22.0% | ~4% Sills | ~2.1x | Likely VERIFY T212 | Watchlist | 3.5/5 |
+| Palomar Holdings | PLMR | Nasdaq | ~.4B | Q1 73.1% | 23.6% | High | ~3% CEO | ~2.4x | FLAG CFD? | Watchlist | 3.5/5 |
+
+Key IGIC signal: 41% Jabsheh-family insider ownership (highest of any gem in the entire hunt); 85.9% combined ratio; 18.6% ROE; only 2-3 analyst coverage; independently flagged by Value Investors Club and multiple Substack research pieces.
+
+Hamilton differentiator: Two Sigma quant fund manages ~37% of invested assets, returned 16.0% in 2025, generating 00.9M of 11.8M total investment income. 22.4% ROE at ~1.15x book.
+
+Lancashire note: Confirmed ISA-buyable on LSE (GBP DI). P/E ~6.4x on 20%+ ROE. Special dividend engine (>.7B returned since 2005 inception). Cheapest of the top-3 on P/E basis.
+
+Portfolio rec: Lancashire + IGIC as paired 3%+3% financial sleeve (funded from Eurofins 3% + 3% from elsewhere) gives first insurance exposure with two differentiated moats. Bowhead = best Kinsale-2016 setup but verify T212 and prefer entry at 1.5x book or lower.
+
+Rejected: Skyward SKWD (post-Apollo acquisition); Fidelis FIHL (confirmed T212-buyable but only 8.5% ROE); Conduit CRE-LSE (101.5% undiscounted CR in 2025); Kinsale KNSL (B cap, no longer hidden); Beazley BEZ-LSE (Zurich bid removes LT thesis); Tiptree TIPT (Fortegra being sold to DB Insurance).
+
+
+### GLP-1 / obesity drug supply chain ex-API (Lane 21)
+_Full report: `research/gems/21-glp1-obesity-supply-chain-ex-api.md`_
+| Name | Ticker | ~Cap | Conv | Replaces | Note |
+|---|---|---|---|---|---|
+| Ypsomed | YPSN.CH (SIX) | CHF 4.5B | 4/5 | Sartorius Stedim or India ETF | World leading independent auto-injector maker; FDA regulatory lock-in via NDA combination-product filing; 71.5% Michel family; 32.4% EBIT margin (Delivery Systems); CMD target CHF 900M-1.1B revenue + >=30% EBIT by 2029/30; ~31x EV/EBITDA. ISA: Buyable SIX (verify YPSN.CH on T212) |
+| PolyPeptide Group | PPGN.CH (SIX) | CHF 1.26B | 3.5/5 | India ETF or Sartorius | Western peptide CDMO oligopoly No.2 to Bachem; 56% foundation-controlled (Cryosphere); Braine Belgium SPPS facility reached target utilization end-2025; 2025 revenue EUR 389M +15.6%; EBITDA margin 11-12% targeting 25% by 2028; 90-140% price target upside. ISA: Buyable SIX (verify PPGN.CH on T212) |
+| Stevanato Group | STVN (NYSE) | $5.1B | 3.5/5 | Sartorius or India ETF | Glass vials and prefilled syringes for injectable GLP-1 (ordinary Italian shares on NYSE, NOT an ADR); 80%+ Stevanato family; GLP-1 was 19-20% of 2025 revenue growing 50%+ YoY; 13-14x 2026E EV/EBITDA vs West Pharma at 28-35x. ISA: Buyable NYSE (verify STVN on T212) |
+| Datwyler | DAE.CH (SIX) | CHF 2.74B | 3/5 | Watchlist or Sartorius | Elastomeric closures for injectable vials; unique dual fluoropolymer coating moat (both film AND spray globally); Pema Holding family control; 2025 EBIT margin 12.4% rising to >17% group / 22% healthcare medium-term; 27% automotive segment is drag. ISA: Likely buyable SIX (verify DAE.CH on T212) |
+
+**HARD REJECT: Gerresheimer (GXI.DE, Xetra)** - active BaFin accounting fraud probe Aug 2025; APAS investigating KPMG; annual report postponed to June 2026; EUR 240M impairments; CFO resigned; stock -80% from 2023 peak. Do not invest.
+
+**Cross-lane:** PolyPeptide corroborated by Lane 13 (Life-science tools/CDMO). Biosecure Act moat for Western peptide CDMOs confirmed by both Lane 13 and Lane 21. Fill-finish undersupply confirmed by Lane 13 + industry data.
