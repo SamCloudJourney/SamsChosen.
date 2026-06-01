@@ -293,7 +293,7 @@ _Rejected: Sysmex (6869.T, Tokyo-only), Meridian Bioscience (delisted-private), 
 
 ---
 
-### Canadian high-quality compounders — UK ISA buyable (NYSE/Nasdaq/LSE only) — Lane 23
+### Canadian high-quality compounders — UK ISA buyable (NYSE/Nasdaq/LSE only) — Lane 23-CA
 _Full report: `research/gems/23-canadian-compounders-isa-buyable.md` | Date: 2026-06-01_
 _Buyability pre-screen: NYSE/Nasdaq common = GREEN; TSX-only = RED (view-only); OTC = AMBER (verify). Topaz/PrairieSky/Intact/CSU/Topicus all TSX-only — EXCLUDED. Kinaxis (KXSCF OTC) amber._
 
