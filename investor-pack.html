@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Off-Market Acquisition Pack — Freehold Blocks & Distressed Property</title>
+<style>
+  :root{
+    --ink:#1a2332; --muted:#5b6b82; --line:#e2e8f0; --bg:#ffffff;
+    --navy:#0f2a4a; --gold:#b8893a; --green:#1f7a4d; --red:#b3402f;
+    --soft:#f6f8fb; --soft2:#eef3f9;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  body{font-family:"Georgia","Times New Roman",serif; color:var(--ink); margin:0; line-height:1.55; background:#dfe4ea;}
+  .page{max-width:980px; margin:0 auto; background:var(--bg); padding:0 0 60px;}
+  h1,h2,h3,h4{font-family:"Helvetica Neue",Arial,sans-serif; line-height:1.2; color:var(--navy);}
+  a{color:#1b5fa8; text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .small{font-size:12.5px;}
+  .muted{color:var(--muted);}
+
+  /* Cover */
+  .cover{background:linear-gradient(135deg,#0f2a4a 0%,#1b4068 60%,#27567f 100%); color:#fff; padding:80px 60px 70px; position:relative;}
+  .cover .kicker{font-family:"Helvetica Neue",Arial,sans-serif; letter-spacing:.32em; text-transform:uppercase; font-size:12px; color:#cdb98e;}
+  .cover h1{color:#fff; font-size:40px; margin:18px 0 10px; letter-spacing:-.5px;}
+  .cover .sub{font-size:18px; color:#dbe6f2; max-width:680px;}
+  .cover .meta{margin-top:34px; font-family:"Helvetica Neue",Arial,sans-serif; font-size:13px; color:#aec3dc; border-top:1px solid rgba(255,255,255,.18); padding-top:18px;}
+  .gold-rule{height:4px;width:70px;background:var(--gold);margin:0 0 4px;}
+
+  .wrap{padding:0 60px;}
+  section{padding-top:34px;}
+  h2.section{font-size:25px; border-bottom:3px solid var(--navy); padding-bottom:8px; margin-bottom:6px; display:flex; align-items:baseline; gap:12px;}
+  h2.section .n{font-size:14px; color:var(--gold); font-weight:700; letter-spacing:.1em;}
+  h3{font-size:18px; margin:26px 0 8px;}
+  h4{font-size:15px; margin:18px 0 4px; color:#27374d; font-family:"Helvetica Neue",Arial,sans-serif;}
+  p{margin:8px 0;}
+
+  .lead{font-size:16.5px; color:#2b3a50;}
+  .callout{background:var(--soft); border-left:4px solid var(--gold); padding:14px 18px; margin:16px 0; border-radius:0 6px 6px 0;}
+  .warn{background:#fbf3f1; border-left:4px solid var(--red); padding:12px 16px; margin:14px 0; border-radius:0 6px 6px 0; font-size:13.5px;}
+  .note{background:var(--soft2); border-radius:8px; padding:14px 18px; margin:14px 0; font-size:13.5px;}
+
+  table{border-collapse:collapse; width:100%; margin:14px 0; font-family:"Helvetica Neue",Arial,sans-serif; font-size:12.5px;}
+  th,td{text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top;}
+  th{background:var(--navy); color:#fff; font-weight:600; font-size:11.5px; letter-spacing:.02em; text-transform:uppercase;}
+  tr:nth-child(even) td{background:#fafcfe;}
+  td.num{font-variant-numeric:tabular-nums; white-space:nowrap;}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:16px 0;}
+  .card{border:1px solid var(--line); border-radius:10px; padding:0; overflow:hidden; background:#fff; box-shadow:0 1px 2px rgba(15,42,74,.05);}
+  .card .hd{background:var(--soft); padding:12px 16px; border-bottom:1px solid var(--line);}
+  .card .hd .addr{font-family:"Helvetica Neue",Arial,sans-serif; font-weight:700; font-size:14px; color:var(--navy);}
+  .card .hd .loc{font-size:12px; color:var(--muted);}
+  .card .bd{padding:12px 16px; font-size:13px;}
+  .card .stat{display:flex; justify-content:space-between; padding:3px 0; border-bottom:1px dotted #e6ecf3;}
+  .card .stat b{font-family:"Helvetica Neue",Arial,sans-serif;}
+  .badge{display:inline-block; font-family:"Helvetica Neue",Arial,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 8px; border-radius:20px; margin:2px 4px 2px 0;}
+  .b-green{background:#e3f3ea; color:var(--green);}
+  .b-gold{background:#f6ecd8; color:#8a6520;}
+  .b-blue{background:#e2edf8; color:#1b5fa8;}
+  .b-red{background:#fbe6e2; color:var(--red);}
+  .b-grey{background:#eef1f5; color:#516079;}
+
+  .feature{border:2px solid var(--gold); border-radius:12px; overflow:hidden; margin:18px 0;}
+  .feature .hd{background:linear-gradient(90deg,#b8893a,#d8a94e); color:#fff; padding:12px 18px; font-family:"Helvetica Neue",Arial,sans-serif; font-weight:700;}
+  .feature .bd{padding:16px 18px;}
+
+  .toc{columns:2; column-gap:40px; font-family:"Helvetica Neue",Arial,sans-serif; font-size:13.5px;}
+  .toc a{display:block; padding:5px 0; border-bottom:1px solid var(--line); color:var(--ink);}
+  .toc .nn{color:var(--gold); font-weight:700; margin-right:8px;}
+
+  ul.tick{list-style:none; padding-left:0;}
+  ul.tick li{padding:4px 0 4px 26px; position:relative; font-size:13.5px;}
+  ul.tick li:before{content:"\2713"; position:absolute; left:0; color:var(--green); font-weight:700;}
+  ol.steps{padding-left:20px;} ol.steps li{margin:6px 0; font-size:13.5px;}
+
+  .kpis{display:flex; gap:14px; flex-wrap:wrap; margin:18px 0;}
+  .kpi{flex:1; min-width:150px; background:var(--soft); border:1px solid var(--line); border-radius:10px; padding:14px 16px;}
+  .kpi .v{font-family:"Helvetica Neue",Arial,sans-serif; font-size:26px; font-weight:700; color:var(--navy);}
+  .kpi .l{font-size:12px; color:var(--muted);}
+
+  .timeline{border-left:3px solid var(--navy); margin:18px 0 18px 8px; padding-left:22px;}
+  .timeline .t{position:relative; margin-bottom:18px;}
+  .timeline .t:before{content:""; position:absolute; left:-30px; top:4px; width:13px; height:13px; border-radius:50%; background:var(--gold); border:3px solid #fff; box-shadow:0 0 0 2px var(--navy);}
+  .timeline .t h4{margin:0 0 4px;}
+
+  footer{margin-top:40px; padding:24px 60px; background:var(--navy); color:#bcd0e6; font-size:11.5px; font-family:"Helvetica Neue",Arial,sans-serif;}
+  @media print{
+    body{background:#fff;}
+    .page{max-width:none;}
+    section{page-break-inside:auto;}
+    .card,.feature,table{page-break-inside:avoid;}
+    h2.section{page-break-before:auto;}
+  }
+  @media (max-width:760px){.grid,.toc{grid-template-columns:1fr; columns:1;} .wrap,.cover,footer{padding-left:24px;padding-right:24px;}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="gold-rule"></div>
+    <div class="kicker">Off-Market Acquisition Pack &nbsp;&middot;&nbsp; Prepared for a Cash Buyer</div>
+    <h1>Freehold Blocks &amp; Distressed Property</h1>
+    <div class="sub">A sourcing and acquisition pack covering two live mandates: high-yield freehold blocks of flats across Bristol &amp; South Wales, and fire-damaged / distressed stock UK-wide for rapid cash completion.</div>
+    <div class="meta">
+      Compiled 29 June 2026 &nbsp;|&nbsp; UK market &amp; law only &nbsp;|&nbsp; All listings, prices and yields are sourced and dated &mdash; treat every lot as a <b>starting point to verify</b>, not a confirmed deal.
+    </div>
+  </div>
+
+  <div class="wrap">
+
+  <!-- MANDATES + CONTENTS -->
+  <section>
+    <h2 class="section"><span class="n">00</span> The Mandates</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="hd"><div class="addr">Mandate 1 &mdash; Freehold Blocks of Flats</div><div class="loc">Income / yield play</div></div>
+        <div class="bd">
+          <div class="stat"><span>Asset</span><b>Freehold blocks, 6+ units</b></div>
+          <div class="stat"><span>Budget</span><b>No ceiling</b></div>
+          <div class="stat"><span>Location</span><b>Bristol &amp; South Wales (UK for the right deal)</b></div>
+          <div class="stat"><span>Target</span><b>Above 8% yield</b></div>
+          <div class="stat"><span>Basis</span><b>Off-market, cash, fast</b></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="hd"><div class="addr">Mandate 2 &mdash; Fire-Damaged / Distressed</div><div class="loc">Value-add / trade play</div></div>
+        <div class="bd">
+          <div class="stat"><span>Asset</span><b>Fire-damaged &amp; problem property</b></div>
+          <div class="stat"><span>Budget</span><b>Up to &pound;200,000 / property</b></div>
+          <div class="stat"><span>Location</span><b>Anywhere in the UK</b></div>
+          <div class="stat"><span>Completion</span><b>Within 15 days</b></div>
+          <div class="stat"><span>Basis</span><b>Off-market, cash</b></div>
+        </div>
+      </div>
+    </div>
+
+    <h4>Contents</h4>
+    <div class="toc">
+      <a href="#summary"><span class="nn">01</span> Executive summary</a>
+      <a href="#blocks"><span class="nn">02</span> Mandate 1 &mdash; live blocks</a>
+      <a href="#yield"><span class="nn">03</span> Yield model &amp; worked deal</a>
+      <a href="#blocks-dd"><span class="nn">04</span> Blocks &mdash; due diligence</a>
+      <a href="#distressed"><span class="nn">05</span> Mandate 2 &mdash; distressed stock</a>
+      <a href="#completion"><span class="nn">06</span> 15-day cash completion</a>
+      <a href="#fire-dd"><span class="nn">07</span> Fire-damage due diligence</a>
+      <a href="#sourcing"><span class="nn">08</span> Where to source more</a>
+      <a href="#compliance"><span class="nn">09</span> Compliance &amp; setup</a>
+      <a href="#plan"><span class="nn">10</span> 30 / 60 / 90-day plan</a>
+    </div>
+  </section>
+
+  <!-- 01 EXEC SUMMARY -->
+  <section id="summary">
+    <h2 class="section"><span class="n">01</span> Executive Summary</h2>
+    <p class="lead">There is real, currently-findable stock against both mandates. The fastest wins this month: register as a cash buyer with the South Wales auction houses ahead of the <b>7 July (Seel &amp; Co)</b> and <b>22&ndash;30 July</b> sales, and open direct lines to the named investment agents below.</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="v">12+</div><div class="l">live / recent block lots identified (Bristol &amp; S. Wales)</div></div>
+      <div class="kpi"><div class="v">8&ndash;11%</div><div class="l">gross yields quoted on S. Wales blocks at guide</div></div>
+      <div class="kpi"><div class="v">&pound;5k&ndash;&pound;180k</div><div class="l">distressed lots inside the &pound;200k cap</div></div>
+      <div class="kpi"><div class="v">15 days</div><div class="l">achievable with cash + auction conveyancer + search indemnity</div></div>
+    </div>
+
+    <h4>The five moves for the next 30 days</h4>
+    <ol class="steps">
+      <li><b>Get on the catalogues.</b> Register to bid + alerts with Seel &amp; Co, Paul Fosh, Auction House Wales, Hollis Morgan and Maggs &amp; Allen, and subscribe to <b>EIG</b> (the one aggregator that lets you keyword-search "block of flats" and "fire damaged" across every UK auctioneer).</li>
+      <li><b>Open agent lines for blocks.</b> Burston Cook (Bristol &mdash; explicitly trades residential investment), LSH Living Capital Markets, Knight Frank Residential Capital Markets, Cooke &amp; Arkwright and Fletcher Morgan (Cardiff). Register your buying criteria directly with the named people in &sect;08.</li>
+      <li><b>Pursue the two strongest live blocks</b> &mdash; Cardiff <b>Whitchurch Road</b> (9 units, freehold, 7.4% net) and the Seel &amp; Co <b>Bute Street</b> lot (9 units, 11.2% stated gross) &mdash; confirming tenure in each legal pack first.</li>
+      <li><b>Build the fast-completion stack</b> for Mandate 2: pre-instruct an auction-specialist conveyancer, line up search-indemnity cover, and have proof of funds + AML ready so you can move in days.</li>
+      <li><b>Set the distressed funnel running</b> &mdash; EIG / PropertyAuctions.io fire-damaged feeds, plus referral introductions to public loss assessors and council empty-homes officers (the people who see this stock first).</li>
+    </ol>
+
+    <div class="warn"><b>Important &mdash; verify everything.</b> Auction guide prices are deliberately low marketing figures and routinely exceeded at the hammer. "Informed freehold/leasehold" notes in catalogues must be confirmed in the legal pack. Several leads below are flagged as past/uncertain on purpose. Nothing here is investment advice; confirm condition, tenure, tenancies and numbers independently before offering.</div>
+  </section>
+
+  <!-- 02 LIVE BLOCKS -->
+  <section id="blocks">
+    <h2 class="section"><span class="n">02</span> Mandate 1 &mdash; Live Freehold Block Opportunities</h2>
+    <p>Real listings retrieved 29 June 2026. These are public auction/sale lots &mdash; the value is both the lot itself <em>and</em> the conversations around it (vendor, auctioneer, underbidders). Yields are <b>as stated by the source</b>; net yields will be lower once block running costs are loaded (see &sect;03).</p>
+
+    <div class="feature">
+      <div class="hd">&#9733; Featured &mdash; strongest current 6+ unit freehold leads</div>
+      <div class="bd">
+        <div class="grid" style="margin:0;">
+          <div class="card">
+            <div class="hd"><div class="addr">170&ndash;172 Whitchurch Road</div><div class="loc">Cardiff CF14</div></div>
+            <div class="bd">
+              <span class="badge b-green">Freehold</span><span class="badge b-blue">9 resi + 1 commercial</span>
+              <div class="stat"><span>Guide</span><b>&pound;1,750,000</b></div>
+              <div class="stat"><span>Income (2025)</span><b>&pound;230,000+ gross</b></div>
+              <div class="stat"><span>Net</span><b>&pound;163,321 &rarr; 7.4% net (stated)</b></div>
+              <div class="stat"><span>Note</span><b>Resi units vacant &mdash; reversion play</b></div>
+              <div class="small muted" style="margin-top:6px;">eXp UK Wales via OnTheMarket &mdash; listing 18722273</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="hd"><div class="addr">23&ndash;25 &amp; 28&ndash;33 Dixie, Bute Street</div><div class="loc">Cardiff CF10 5EA</div></div>
+            <div class="bd">
+              <span class="badge b-gold">Tenure: verify</span><span class="badge b-blue">9 &times; 1-bed (built 2016)</span>
+              <div class="stat"><span>Guide</span><b>&pound;800,000+</b></div>
+              <div class="stat"><span>Income</span><b>&pound;75,900 &rarr; &pound;89,700 let up</b></div>
+              <div class="stat"><span>Yield</span><b>11.2% gross (stated, at guide)</b></div>
+              <div class="stat"><span>Auction</span><b>Seel &amp; Co, Lot 6 &mdash; 7 Jul 2026</b></div>
+              <div class="small muted" style="margin-top:6px;">Catalogue lists "informed leasehold" &mdash; <b>confirm in legal pack</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>South Wales &mdash; all identified block lots</h3>
+    <table>
+      <thead><tr><th>Address</th><th>Units / tenure</th><th>Guide / asking</th><th>Income &amp; yield (stated)</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td><b>170&ndash;172 Whitchurch Rd</b>, Cardiff CF14</td><td>9 resi + 1 comm &middot; Freehold</td><td class="num">&pound;1,750,000</td><td>&pound;230k+ gross; <b>7.4% net</b></td><td>eXp / OnTheMarket</td></tr>
+        <tr><td><b>Bute Street</b> (Dixie), Cardiff CF10 5EA</td><td>9 &times; 1-bed &middot; verify tenure</td><td class="num">&pound;800,000+</td><td>&pound;75.9k&ndash;&pound;89.7k; <b>11.2% gross</b></td><td>Seel &amp; Co &mdash; 7 Jul</td></tr>
+        <tr><td><b>91 Stacey Rd</b>, Adamsdown CF24 1DT</td><td>7 flats &middot; "informed freehold" (50% share &mdash; verify)</td><td class="num">&pound;575,000+</td><td>Needs upgrading</td><td>Seel &amp; Co Lot 7 &mdash; 7 Jul</td></tr>
+        <tr><td><b>Bon Marche House</b>, 9 Commercial St, Abertillery NP13 1DQ</td><td>10 flats + retail + offices &middot; Freehold (mixed-use)</td><td class="num">&pound;210,000+</td><td>Some water damage</td><td>Seel &amp; Co Lot 48 &mdash; 7 Jul</td></tr>
+        <tr><td><b>11 Bridge St / Chepstow Rd</b>, Newport NP20 4AL</td><td>9 units &middot; Freehold &middot; HMO licence, mostly let</td><td class="num">OIRO &pound;475,000</td><td>~&pound;50k pa; <b>~10.5% gross</b></td><td>haart / OnTheMarket</td></tr>
+        <tr><td><b>Dynevor Terrace</b>, Pontardawe, Swansea SA8</td><td>8 flats (6 let) &middot; verify tenure</td><td class="num">&pound;790,000</td><td>~&pound;67,440 pa full</td><td>Eisken / OnTheMarket</td></tr>
+        <tr><td><b>Dyffryn Rd</b>, Rhydyfelin, Pontypridd CF37</td><td>5 flats &middot; Freehold</td><td class="num">&pound;400k&ndash;&pound;420k</td><td>&gt;&pound;37k pa; ~9.2% gross</td><td>Darlows / OnTheMarket</td></tr>
+        <tr><td><b>Bedford St</b>, Cathays, Cardiff CF24</td><td>4 flats &middot; Freehold</td><td class="num">&pound;487,500</td><td>&pound;42,600 pa; 8.5&ndash;8.7% gross</td><td>Harry Harper / OnTheMarket</td></tr>
+        <tr><td>103 Alexandra Rd, Newport NP20 2JG</td><td>10 units &middot; Freehold</td><td class="num">&pound;375,000</td><td>Tenanted &mdash; <span class="badge b-red">likely past</span></td><td>Paul Fosh (Oct 2025)</td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">Tenure and unit counts marked "verify" must be confirmed in the legal pack. Rightmove pages for several of these now return "410 Gone"; details verified via OnTheMarket / agent / auction pages.</p>
+
+    <h3>Bristol &amp; South West</h3>
+    <table>
+      <thead><tr><th>Address</th><th>Units / tenure</th><th>Guide / asking</th><th>Income &amp; yield (stated)</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td><b>High Street</b>, Bristol BS11</td><td>6 &times; 2-bed &middot; Freehold</td><td class="num">OIRO &pound;1,150,000</td><td>~&pound;75k pa; ~6.5% gross</td><td>haart / OnTheMarket</td></tr>
+        <tr><td><b>Melrose Place</b>, Clifton, Bristol BS8</td><td>7 flats &middot; Freehold</td><td class="num">&pound;1,200,000</td><td>Request rent roll</td><td>Purplebricks / OnTheMarket</td></tr>
+        <tr><td><b>High Street</b>, Melksham SN12 6JS</td><td>7 flats + scope for more &middot; Freehold (former bank)</td><td class="num">&pound;500,000+</td><td>&mdash;</td><td>Hollis Morgan Lot 31 &mdash; 22 Jul</td></tr>
+        <tr><td>84&ndash;86 Stapleton Rd, St Judes, Bristol BS5</td><td>12 flats &middot; Freehold</td><td class="num">Sold &pound;1,450,000</td><td>&pound;120.9k&rarr;&pound;160.8k pa <span class="badge b-grey">comparable</span></td><td>Hollis Morgan, Nov 2025</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Wider UK (larger lots, for reference)</h3>
+    <table>
+      <thead><tr><th>Address</th><th>Units / tenure</th><th>Guide</th><th>Note</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td><b>Maryvale Court</b>, Glebe St, Walsall</td><td>52 self-contained flats &middot; Freehold &middot; vacant (~0.9 acre)</td><td class="num">&pound;1,250,000+</td><td>Redevelopment angle</td><td>Bond Wolfe &mdash; 11 Jul</td></tr>
+        <tr><td>Yr Aelwyd, New Road, Ynysybwl, Pontypridd CF37 3HA</td><td>6 flats &middot; Freehold</td><td class="num">&mdash;</td><td><span class="badge b-red">Likely past (2021 ref)</span> &mdash; verify w/ Allsop</td><td>Allsop</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 03 YIELD -->
+  <section id="yield">
+    <h2 class="section"><span class="n">03</span> Yield Model &amp; Worked Deal</h2>
+    <div class="callout"><b>The headline:</b> 8%+ is realistically a <b>South Wales</b> story &mdash; Cardiff (Cathays/Roath, CF24) and Swansea (SA1) &mdash; not Bristol, where flat yields sit around 4.5&ndash;6%. And remember <b>gross &ne; net</b>: on a fully-owned freehold block you bear all the communal costs a single-flat landlord never sees, so net typically lands at <b>55&ndash;70% of gross</b>.</p></div>
+
+    <h4>How to read a block's yield</h4>
+    <p><b>Gross yield</b> = annual rent &divide; (price + acquisition costs). <b>Net yield</b> = (annual rent &minus; annual running costs) &divide; (price + acquisition costs). Costs to load on a block: management (8&ndash;15%), maintenance (10&ndash;15%), sinking/reserve fund (5&ndash;10%), voids (~8%), buildings insurance, communal utilities/cleaning/grounds, and statutory compliance (gas, EICR, fire-risk assessment, EPCs).</p>
+
+    <h4>Realistic gross yields by area (2025&ndash;26 data)</h4>
+    <table>
+      <thead><tr><th>Area</th><th>Avg values / rents</th><th>Realistic gross yield</th><th>8%+ plausible?</th></tr></thead>
+      <tbody>
+        <tr><td>Bristol (flats)</td><td>Flat ~&pound;244k; rent ~&pound;1,883/mo</td><td>4.5&ndash;6.0%</td><td><span class="badge b-red">Hard</span></td></tr>
+        <tr><td>Cardiff CF24 (Cathays/Roath)</td><td>1-bed flats ~&pound;151k</td><td>8&ndash;9.1% (student/HMO-driven)</td><td><span class="badge b-green">Yes</span></td></tr>
+        <tr><td>Newport</td><td>Avg ~&pound;231k; rent ~&pound;953/mo</td><td>5.1&ndash;6.4%</td><td><span class="badge b-gold">Sometimes</span></td></tr>
+        <tr><td>Swansea SA1</td><td>~&pound;158k / &pound;1,168 pcm</td><td>up to 8.8%</td><td><span class="badge b-green">Yes</span></td></tr>
+      </tbody>
+    </table>
+    <p class="small muted">Sources: ONS local housing data, PropertyData, PropertyInvestmentsUK, Belvoir (Mar&ndash;May 2026). Some single-postcode rents are skewed by listing mix &mdash; corroborate any target against live comparables.</p>
+
+    <h4>Worked example &mdash; illustrative 6-unit Swansea SA1 / Cardiff CF24 block</h4>
+    <table>
+      <thead><tr><th>Item</th><th>Figure</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Purchase price (6 &times; 1-bed)</td><td class="num">&pound;540,000</td><td>~&pound;90k/unit, block discount</td></tr>
+        <tr><td>Acquisition costs</td><td class="num">&pound;45,000</td><td>~8% (LTT higher-rate, legal, survey)</td></tr>
+        <tr><td><b>Total in</b></td><td class="num"><b>&pound;585,000</b></td><td></td></tr>
+        <tr><td>Gross rent (6 &times; &pound;775/mo)</td><td class="num">&pound;55,800/yr</td><td><b>9.5% gross</b></td></tr>
+        <tr><td>Operating costs</td><td class="num">&minus;&pound;25,704</td><td>mgmt, maint+reserve, voids, insurance, communal, compliance (~46%)</td></tr>
+        <tr><td><b>Net income</b></td><td class="num"><b>&pound;30,096</b></td><td><b>5.1% net</b> on total-in</td></tr>
+      </tbody>
+    </table>
+    <div class="warn"><b>Read-through:</b> even a 9.5% <em>gross</em> block nets ~5% once block costs are honest. To reach <b>8% net</b> you need either a materially lower entry (~&pound;375k total-in for the same rent) or higher rents via HMO/refurb. This is exactly why South Wales &mdash; and below-market entry &mdash; is the hunting ground, and why <b>net, not gross, drives the decision.</b></div>
+  </section>
+
+  <!-- 04 BLOCK DD -->
+  <section id="blocks-dd">
+    <h2 class="section"><span class="n">04</span> Blocks &mdash; Due-Diligence Checklist</h2>
+    <div class="grid">
+      <div>
+        <h4>Title &amp; tenancies</h4>
+        <ul class="tick">
+          <li>Confirm freehold at Land Registry &mdash; title plan, class, restrictions, covenants, rights of way</li>
+          <li>Full tenancy schedule: ASTs (you keep all rent) vs units sold off on long leases (you collect ground rent/service charge but fund communal works)</li>
+          <li>Rent roll, arrears, deposit-protection status</li>
+        </ul>
+        <h4>Building &amp; fire safety</h4>
+        <ul class="tick">
+          <li>Building Safety Act: "relevant building" &ge;11m or &ge;5 storeys; "higher-risk" &ge;18m / &ge;7 storeys. Most 6&ndash;8 unit blocks are &lt;11m &mdash; <b>confirm height</b></li>
+          <li>EWS1 only where combustible cladding/balconies &mdash; as freeholder you may own the remediation liability</li>
+          <li>Fire Safety Act 2021: you become the <b>Responsible Person</b> for common parts &mdash; current Fire Risk Assessment required (breach = unlimited fine)</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Licensing &amp; energy</h4>
+        <ul class="tick">
+          <li>Purpose-built self-contained flats aren't HMOs; converted blocks may be &mdash; check council additional/selective licensing (Bristol citywide additional HMO; Cardiff Cathays + Article 4)</li>
+          <li>Wales: mandatory <b>Rent Smart Wales</b> registration/licensing</li>
+          <li>EPC/MEES: minimum E now; <b>EPC C confirmed for PRS by 1 Oct 2030</b> &mdash; price cost-to-C across every unit (could be &pound;60k+ on a block)</li>
+        </ul>
+        <h4>Financial &amp; physical</h4>
+        <ul class="tick">
+          <li>3 years' service-charge accounts &amp; reserve-fund balance</li>
+          <li>Insurance schedule + claims history; managing-agent contract</li>
+          <li>Asbestos survey (pre-2000), structural survey of roof/communal systems, gas &amp; electrical certs for all units</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 DISTRESSED -->
+  <section id="distressed">
+    <h2 class="section"><span class="n">05</span> Mandate 2 &mdash; Fire-Damaged / Distressed Stock</h2>
+    <p>Within the &pound;200k cap, distressed and "cash-buyers-only" lots are abundant; genuinely fire-damaged lots are rarer and move fast, so a standing funnel matters more than any single listing.</p>
+
+    <h3>Live distressed lots within budget</h3>
+    <table>
+      <thead><tr><th>Address</th><th>Detail</th><th>Guide</th><th>Auction / source</th></tr></thead>
+      <tbody>
+        <tr><td><b>Alfred St</b>, Redfield, Bristol BS5 9EG</td><td>2-bed terrace, freehold &middot; <b>cash buyers only, structural issues</b></td><td class="num">&pound;75,000+</td><td>Hollis Morgan Lot 2 &mdash; 22 Jul</td></tr>
+        <tr><td><b>Somerset Terrace</b>, Victoria Park, Bristol BS3 4LL</td><td>3-bed period house, requires modernisation</td><td class="num">&pound;180,000</td><td>Hollis Morgan Lot 1 &mdash; 22 Jul</td></tr>
+        <tr><td><b>Norfolk Buildings</b>, Walcot, Bath BA1 2BP</td><td>3-bed garden flat, requires modernisation</td><td class="num">&pound;150,000</td><td>Hollis Morgan Lot 12 &mdash; 22 Jul</td></tr>
+        <tr><td><b>45 York Place</b>, Newport NP20 4GD</td><td>3 apartments, "informed freehold", vacant</td><td class="num">&pound;125,000+</td><td>Seel &amp; Co Lot 1 &mdash; 7 Jul</td></tr>
+        <tr><td><b>5 Fernhill Terrace</b>, New Tredegar NP24 6BQ</td><td>3-bed residential</td><td class="num">&pound;50,000+</td><td>Town &amp; Country S. Wales &mdash; 30 Jul</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Fire-damaged lots &mdash; recent pattern (verify live status on EIG)</h3>
+    <table>
+      <thead><tr><th>Location</th><th>Guide</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Burnham-on-Sea TA8 &mdash; fire-damaged</td><td class="num">&pound;95,000</td><td>Most recent; best live lead to chase</td></tr>
+        <tr><td>Portsmouth PO6 &mdash; semi for updating</td><td class="num">&pound;65,000</td><td>Distressed</td></tr>
+        <tr><td>Doncaster DN5 &mdash; fire-damaged</td><td class="num">&pound;28,000</td><td>Likely sold &mdash; verify</td></tr>
+        <tr><td>Olton Rd, Mickleover, Derby &mdash; fire-damaged bungalow</td><td class="num">&pound;95k &rarr; sold &pound;166k</td><td><span class="badge b-grey">Channel proof</span> (Pugh, May 2026)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The channels that surface this stock first</h3>
+    <div class="grid">
+      <div class="card"><div class="hd"><div class="addr">Public loss assessors</div><div class="loc">act for the owner &mdash; best referral fit</div></div><div class="bd">Aspray, Morgan Clark, Harris Balcombe, Oakleafe (directory: IPLA). Once an owner takes a cash settlement they often want a fast buyer for the shell. <span class="badge b-red">Referral only</span> &mdash; they can't hand over owner data.</div></div>
+      <div class="card"><div class="hd"><div class="addr">Restoration firms</div><div class="loc">inside the building within hours</div></div><div class="bd">Rainbow Restoration, BELFOR UK, Polygon UK. Site teams know which jobs are write-offs vs reinstatement. Build a referral arrangement.</div></div>
+      <div class="card"><div class="hd"><div class="addr">Council empty-homes officers</div><div class="loc">303k+ long-term empties in England</div></div><div class="bd">Search "[council] empty homes officer"; most have a dedicated email. Also Action on Empty Homes; EDMOs flag owners under pressure.</div></div>
+      <div class="card"><div class="hd"><div class="addr">Incident &amp; auction monitoring</div><div class="loc">earliest + broadest signal</div></div><div class="bd">Fire &amp; rescue incident feeds (Cheshire FRS has RSS) + local press for street names; <b>EIG</b> + PropertyAuctions.io / UK Auction List fire-damaged feeds.</div></div>
+    </div>
+    <div class="warn"><b>LPA receivers:</b> repossessed stock is controlled by a receiver before it hits the market &mdash; but receivers owe a duty to obtain proper market value, so treat "deep discount direct from receiver" claims sceptically. Route in: auction + EIG alerts (lots flagged "by order of LPA Receivers"). "Anthony Cohen / LPA Receivers Ltd" could not be verified &mdash; do not rely on them.</div>
+  </section>
+
+  <!-- 06 COMPLETION -->
+  <section id="completion">
+    <h2 class="section"><span class="n">06</span> The 15-Day Cash Completion</h2>
+    <p>Standard auction completion is 20 working days / 28 days. <b>15 days is achievable only with cash, a pre-instructed auction-specialist conveyancer, and reliance on search-indemnity insurance instead of fresh local searches</b> (the local-authority search is the usual bottleneck).</p>
+    <div class="grid">
+      <div>
+        <h4>The stack</h4>
+        <ul class="tick">
+          <li><b>Search indemnity</b> (No-Search / Local Authority Search Indemnity) &mdash; ~&pound;20&ndash;&pound;300. Providers: First Title, Stewart Title, CLS</li>
+          <li><b>Auction-specialist conveyancers:</b> SAM Conveyancing, JMW, Stephensons, Cunningtons, My Home Move</li>
+          <li><b>Cash or pre-arranged bridging</b> &mdash; no mortgage valuation delay (the usual long pole)</li>
+          <li><b>AML / source-of-funds done early</b> so funds are ready to send</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fire-specific title traps</h4>
+        <ul class="tick">
+          <li><b>Live insurance claim:</b> has it settled? Did the insurer pay the previous owner? Any subrogation/retained interest? Don't buy a shell whose payout has already gone</li>
+          <li><b>Existing charge/mortgagee</b> must be redeemed at completion; if an LPA receiver is selling, confirm their authority</li>
+          <li>Indemnity protects you financially &mdash; it does <em>not</em> tell you about planning, road schemes or practical defects</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note"><b>Trade-off to accept:</b> a 15-day, search-indemnity completion means proceeding on less information. Price that risk in, and review the legal pack in advance with your conveyancer before you bid.</div>
+  </section>
+
+  <!-- 07 FIRE DD -->
+  <section id="fire-dd">
+    <h2 class="section"><span class="n">07</span> Fire-Damage Due-Diligence Checklist</h2>
+    <div class="grid">
+      <div>
+        <ul class="tick">
+          <li><b>Structural integrity</b> &mdash; independent structural survey; fire can compromise joists, lintels, roof structure</li>
+          <li><b>Scope of damage</b> &mdash; map fire vs smoke vs water (firefighting) damage; the last two spread far beyond the burn</li>
+          <li><b>Asbestos</b> &mdash; survey on any pre-2000 building before works</li>
+          <li><b>Reinstatement vs purchase</b> &mdash; reinstatement = rebuild cost (not market value) and on modest/older stock often <em>exceeds</em> market value. Commission a RICS Reinstatement Cost Assessment</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="tick">
+          <li><b>Mortgageability/insurability</b> &mdash; fire-damaged shells are usually unmortgageable; you'll need unoccupied/renovation insurance from day one</li>
+          <li><b>Planning &amp; building control</b> &mdash; confirm what's needed to reinstate; check for unauthorised prior works</li>
+          <li><b>Exit decision up front</b> &mdash; flip (sell on, refurbished) vs refurb-to-rent. Purchase + full rebuild must leave margin under end value (GDV)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 SOURCING -->
+  <section id="sourcing">
+    <h2 class="section"><span class="n">08</span> Where to Source More &mdash; Contacts</h2>
+    <p>None of the regional firms run a true "off-market list" &mdash; off-market means a <b>direct relationship</b> with a named person. Register your buying criteria with the people below and get on every auction catalogue/alert.</p>
+
+    <h3>Auction houses</h3>
+    <table>
+      <thead><tr><th>House</th><th>Patch</th><th>Contact</th><th>Cadence / next</th></tr></thead>
+      <tbody>
+        <tr><td><b>Seel &amp; Co</b></td><td>Cardiff / S. Wales</td><td>029 2037 0117 &middot; info@seelauctions.co.uk</td><td>Next sale 7 Jul 2026</td></tr>
+        <tr><td><b>Paul Fosh Auctions</b></td><td>Newport / S. Wales (+ Bristol)</td><td>01633 254044 &middot; info@paulfoshauctions.com</td><td>Monthly</td></tr>
+        <tr><td><b>Auction House Wales</b></td><td>South Wales</td><td>01633 212 555 &middot; southwales@auctionhouse.co.uk</td><td>~9/yr</td></tr>
+        <tr><td><b>Hollis Morgan</b></td><td>Bristol</td><td>0117 973 6565 &middot; post@hollismorgan.co.uk</td><td>~Monthly; next 22 Jul</td></tr>
+        <tr><td><b>Maggs &amp; Allen</b></td><td>Bristol</td><td>0117 973 4940</td><td>~Monthly; next 23 Jul</td></tr>
+        <tr><td><b>Auction House South West</b></td><td>Bristol / SW</td><td>0117 299 9889 &middot; southwest@auctionhouse.co.uk</td><td>Weekly online + quarterly live</td></tr>
+        <tr><td><b>Allsop / Savills</b></td><td>National (larger blocks)</td><td>resiauction@allsop.co.uk &middot; auctions@savills.com</td><td>~Monthly</td></tr>
+        <tr><td><b>EIG (aggregator)</b></td><td>All UK auctioneers</td><td>eigpropertyauctions.co.uk</td><td>Keyword search "block of flats" / "fire damaged"</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Investment / commercial agents for blocks</h3>
+    <table>
+      <thead><tr><th>Firm</th><th>Best contact</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><b>Burston Cook</b> (Bristol)</td><td>0117 934 9977</td><td>Explicitly markets "Residential Investment &amp; HMO's" &mdash; best Bristol fit</td></tr>
+        <tr><td><b>Lambert Smith Hampton</b></td><td>Living Capital Markets &mdash; Jeremy Green 07831 195371; Bristol 0117 926 6666; Cardiff 029 2049 0499</td><td>Dedicated Living team; "Register for updates" feeds on+off-market</td></tr>
+        <tr><td><b>Knight Frank</b></td><td>Residential Capital Markets 020 8187 8694; Bristol 0117 911 4649</td><td>Transacts apartment blocks &amp; portfolios</td></tr>
+        <tr><td><b>Cooke &amp; Arkwright</b> (Cardiff)</td><td>Graham Davies 02920 346371 &middot; graham.davies@coark.com</td><td>Largest commercial advisor in Wales</td></tr>
+        <tr><td><b>Fletcher Morgan</b> (Cardiff)</td><td>David Mullins 07967 099125 &middot; david.mullins@fletchermorgan.co.uk</td><td>40 yrs Cardiff investment; resi-within-mixed-use</td></tr>
+        <tr><td><b>Savills / Avison Young / JLL / CBRE</b></td><td>Bristol &amp; Cardiff offices &rarr; Residential / Living Capital Markets desks</td><td>Off-market block trades go through these desks</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Finding the owner directly (for off-market approaches)</h3>
+    <ul class="tick">
+      <li><b>Land Registry:</b> property summary (free) &rarr; title register <b>&pound;7</b> (owner name, price paid, charges). Search-of-index-map &pound;8; proprietor-name search (PN1) &pound;15</li>
+      <li><b>CCOD / OCOD</b> (free, account-gated): bulk data of every UK / overseas <em>company</em>-owned title &mdash; filter BS / CF / NP / SA postcodes for company-owned blocks</li>
+      <li><b>Companies House</b> (free): from the SPV &rarr; directors + Persons with Significant Control + registered office; officer search reveals the owner's whole portfolio</li>
+      <li><b>Compliant outreach:</b> addressed post is the route (legitimate interests; screen against MPS). Avoid cold call/text/email to individuals without consent (PECR)</li>
+    </ul>
+  </section>
+
+  <!-- 09 COMPLIANCE -->
+  <section id="compliance">
+    <h2 class="section"><span class="n">09</span> Compliance &amp; Setup (to source &amp; get paid legally)</h2>
+    <table>
+      <thead><tr><th>Requirement</th><th>What / who</th><th>Cost (2026, verify at signup)</th></tr></thead>
+      <tbody>
+        <tr><td><b>Redress scheme</b> (mandatory)</td><td>TPO Full <em>or</em> Property Redress Scheme</td><td>TPO &pound;269.86+VAT/yr (+&pound;72.10 join); PRS Enhanced &pound;265+VAT/yr</td></tr>
+        <tr><td><b>HMRC AML</b> supervision (mandatory)</td><td>Money Laundering Regs &mdash; most commonly missed</td><td>&pound;300 one-off + &pound;400/premises/yr + &pound;40/person</td></tr>
+        <tr><td><b>ICO</b> data protection fee</td><td>Tier 1 (micro)</td><td>&pound;52/yr (&pound;47 by DD)</td></tr>
+        <tr><td><b>Professional indemnity</b></td><td>Must name "property sourcing"</td><td>&pound;100k cover from ~&pound;300/yr</td></tr>
+        <tr><td><b>Consumer protection</b></td><td>DMCC Act 2024 (replaced CPRs)</td><td>Disclose all material info; CMA fines up to 10% turnover</td></tr>
+        <tr><td><b>Contracts</b></td><td>Written sourcing/deal-packaging agreement before taking money or marketing a deal</td><td>Single deal ~&pound;2k&ndash;&pound;6k or ~2%; blocks via retainer/%</td></tr>
+      </tbody>
+    </table>
+    <div class="warn"><b>Highest-risk mistakes:</b> no redress membership (criminal offence) &middot; skipping HMRC AML (publicly verifiable) &middot; taking buyer money without a ring-fenced client account &middot; marketing a deal before a signed agreement &middot; no AML checks on buyer <em>and</em> seller &middot; unsubstantiated yield/BMV claims. This is a checklist, not legal advice &mdash; confirm current figures with each regulator.</div>
+  </section>
+
+  <!-- 10 PLAN -->
+  <section id="plan">
+    <h2 class="section"><span class="n">10</span> 30 / 60 / 90-Day Action Plan</h2>
+    <div class="timeline">
+      <div class="t"><h4>Days 0&ndash;30 &mdash; Get in the flow</h4>
+        <ul class="tick">
+          <li>Register to bid + alerts with all auction houses in &sect;08; subscribe to EIG</li>
+          <li>Confirm compliance stack live (redress, AML, ICO, PI) and proof of funds + AML pack ready</li>
+          <li>Pre-instruct an auction-specialist conveyancer and agree the search-indemnity approach</li>
+          <li>Pull legal packs for the 7 Jul Seel &amp; Co block lots; request rent rolls on the Cardiff/Newport/Swansea blocks</li>
+          <li>Open direct lines with Burston Cook, LSH, Knight Frank, Cooke &amp; Arkwright, Fletcher Morgan</li>
+        </ul>
+      </div>
+      <div class="t"><h4>Days 30&ndash;60 &mdash; Pipeline &amp; relationships</h4>
+        <ul class="tick">
+          <li>Build the distressed funnel: EIG fire-damaged saved search + referral intros to 3&ndash;4 public loss assessors and target councils' empty-homes officers</li>
+          <li>Run Land Registry / CCOD ownership analysis on target blocks; begin compliant direct-mail to owners</li>
+          <li>Bid on / negotiate the strongest live blocks where DD stacks; underbid the lots that sell to capture the next deal</li>
+        </ul>
+      </div>
+      <div class="t"><h4>Days 60&ndash;90 &mdash; Convert</h4>
+        <ul class="tick">
+          <li>Execute first acquisition(s); run a 15-day completion drill on a Mandate-2 lot to prove the process</li>
+          <li>Systematise: standing alerts, monthly agent check-ins, a tracked deal pipeline</li>
+          <li>Review yield outcomes vs model; refine target sub-areas (lean CF24 / SA1 for 8%+)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /wrap -->
+
+  <footer>
+    <b>Off-Market Acquisition Pack</b> &mdash; compiled 29 June 2026 from live UK sources. &nbsp; All listings, guide prices and yields are as stated by their source on that date and must be independently verified (legal pack, tenure, tenancy schedule, condition and numbers) before any offer. Auction guide prices are marketing figures and are routinely exceeded. Statutory fees and regulatory requirements should be confirmed with the relevant regulator/scheme at the point of action. This pack is research and information only &mdash; it is not investment, legal, tax or financial advice.
+  </footer>
+
+</div>
+</body>
+</html>
